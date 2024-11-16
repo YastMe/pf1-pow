@@ -17,8 +17,6 @@ The module also includes the following changes to the character sheet:
  - Added Path of War row to Combat tab.
  - Added Martial Disciplines row to Features tab.
 
-<h1>Installation</h1>
-To install the module, you can simply download it from FoundryVTT's Module Installation menu. Alternatively, paste the <a href="https://raw.githubusercontent.com/YastMe/pf1-pow/main/module.json">Manifest</a> link in FoundryVTT's module installation menu and enable it in your game world.
 <h1>License</h1>
 For the full license, see the <a href="https://github.com/YastMe/pf1-pow/blob/main/LICENSE">LICENSE</a> file
 <hr>
