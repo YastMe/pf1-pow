@@ -1,0 +1,100 @@
+{
+    "TYPES": {
+        "Item": {
+            "pf1-pow": {
+                "maneuver": "Maniobra",
+                "stance": "Postura",
+                "discipline": "Disciplina"
+            }
+        }
+    },
+    "PF1-PathOfWar": {
+        "System": "Path of War",
+        "Actions": {
+            "InitiateManeuver": "Iniciar maniobra"
+        },
+        "Disciplines": {
+            "Single": "Disciplina",
+            "Plural": "Disciplinas",
+            "blackSeraph": "Black Seraph",
+            "brokenBlade": "Broken Blade",
+            "brutalCrocodile": "Brutal Crocodile",
+            "cursedRazor": "Cursed Razor",
+            "elementalFlux": "Elemental Flux",
+            "eternalGuardian": "Eternal Guardian",
+            "foolsErrand": "Fool's Errand",
+            "goldenLion": "Golden Lion",
+            "ironTortoise": "Iron Tortoise",
+            "leadenHyena": "Leaden Hyena",
+            "mangledGear": "Mangled Gear",
+            "mithralCurrent": "Mithral Current",
+            "piercingThunder": "Piercing Thunder",
+            "primalFury": "Primal Fury",
+            "radiantDawn": "Radiant Dawn",
+            "rivenHourglass": "Riven Hourglass",
+            "roaringMouse": "Roaring Mouse",
+            "sagittaStellaris": "Sagitta Stellaris",
+            "scarletThrone": "Scarlet Throne",
+            "shatteredMirror": "Shattered Mirror",
+            "silverCrane": "Silver Crane",
+            "sleepingGoddess": "Sleeping Goddess",
+            "solarWind": "Solar Wind",
+            "sparkOfBattle": "Spark of Battle",
+            "steelSerpent": "Steel Serpent",
+            "surgingShark": "Surging Shark",
+            "tempestGale": "Tempest Gale",
+            "thrashingDragon": "Thrashing Dragon",
+            "unquietGrave": "Unquiet Grave",
+            "veiledMoon": "Veiled Moon"
+        },
+        "Maneuvers": {
+            "Single": "Maniobra",
+            "Plural": "Maniobras",
+            "Level": "Nivel de maniobra",
+            "Type": "Tipo de maniobra",
+            "Types": {
+                "boost": "Impulso",
+                "counter": "Contraataque",
+                "strike": "Ataque",
+                "stance": "Postura",
+                "text": "Ver texto"
+            },
+            "SaveType": "Tirada de salvación",
+            "SaveTypes": {
+                "none": "Ninguna",
+                "reflex": "Reflejos",
+                "fortitude": "Fortaleza",
+                "will": "Voluntad",
+                "special": "Especial"
+            },
+            "SaveEffects": {
+                "partial": "Parcial",
+                "half": "Mitad",
+                "negate": "Niega",
+                "text": "Ver texto"
+            }
+        },
+        "Stances": {
+            "Single": "Postura",
+            "Plural": "Posturas"
+        },
+        "Skills": {
+            "kmt": "Saber (Marcial)",
+            "ahp": "Autohipnosis"
+        },
+        "initTime": "Acción de iniciación",
+        "Charges": {
+            "Single": "Uso",
+            "Plural": "Usos",
+            "Max": "Usos máximos",
+            "Current": "Usos restantes"
+        },
+        "HasUses": "Tiene límite de usos",
+        "FeatTypes": {
+            "martialDiscipline": {
+                "Plural": "Disciplinas marciales",
+                "Single": "Disciplina marcial"
+            }
+        }
+    }
+}

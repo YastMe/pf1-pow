@@ -1,0 +1,133 @@
+<form class="{{cssClass}} flexcol" autocomplete="off" data-tooltip-class="pf1">
+
+  {{!-- Item Sheet Header --}}
+  <header class="sheet-header flexrow">
+    <img class="profile" src="{{item.img}}" data-tooltip="{{item.name}}" data-edit="img">
+
+    <div class="flexrow header-details">
+      <h1 class="item-name">
+        <input name="name" type="text" value="{{item.name}}" placeholder="{{localize " PF1.ItemName"}}">
+      </h1>
+
+      {{! Content Source }}
+      {{~> "systems/pf1/templates/internal/content-source-view.hbs"}}
+
+      <ul class="summary">
+      </ul>
+    </div>
+  </header>
+
+  {{!-- Sidebar --}}
+  <section class="sidebar">
+    <header>
+      <h3 class="item-type">{{itemType}}</h3>
+    </header>
+
+    <h5>{{localize "PF1-PathOfWar.Disciplines.Single"}}</h5>
+    <label class="discipline">
+      <span class="value">{{system.discipline}} ({{system.maneuverType}})</span>
+    </label>
+
+    <h5>{{ localize "PF1-PathOfWar.Maneuvers.Level" }}</h5>
+    <label class="level">
+      <span class="value">{{system.level}}</span>
+    </label>
+
+    <h5>{{localize "PF1-PathOfWar.initTime"}}</h5>
+    <label class="init-time">
+      <span class="value">{{system.initTime.value}} {{localize system.initTime.units}}</span>
+    </label>
+
+    <h5 class="chargesHeader">{{localize "PF1-PathOfWar.Charges.Plural"}}</h5>
+    <label class="chargesHeader">
+      <span class="value">{{localize "PF1-PathOfWar.Charges.Current"}}: {{system.uses.value}}</span>
+    </label>
+
+    <h5 class="saveHeader">{{localize "PF1-PathOfWar.Maneuvers.SaveType"}}</h5>
+    <label class="save-type saveHeader">
+      <span class="saveHeader" class="value">{{system.saveType}} ({{system.saveEffect}})</span>
+    </label>
+    <h5 class="saveHeaderSpecial">{{localize "PF1-PathOfWar.Maneuvers.SaveType"}}</h5>
+    <label class="save-type saveHeaderSpecial">
+      <span class="saveHeaderSpecial" class="value">{{system.saveType}}</span>
+    </label>
+  </section>
+
+  {{!-- Item Sheet Navigation --}}
+  <nav class="sheet-navigation tabs" data-group="primary">
+    <a class="item" data-tab="description">{{localize "PF1.Description"}}</a>
+    <a class="item" data-tab="details">{{localize "PF1.Details"}}</a>
+  </nav>
+
+  {{!-- Item Sheet Body --}}
+  <section class="primary-body">
+    {{!-- Description Tab --}}
+    {{> "systems/pf1/templates/items/parts/item-description.hbs"}}
+
+    {{!-- Details Tab --}}
+    <div class="tab details" data-group="primary" data-tab="details">
+
+      {{!-- Discipline --}}
+      <div class="form-group">
+        <label>{{localize "PF1-PathOfWar.Disciplines.Single"}}</label>
+        <div class="form-fields">
+          <input type="text" name="system.discipline" value="{{system.discipline}}" placeholder="Discipline">
+          <div class="form-fields">
+            <input type="number" name="system.level" value="{{system.level}}" data-dtype="Number" placeholder="1"
+              min="0" , max="9">
+          </div>
+        </div>
+      </div>
+
+      {{!-- Maneuver Type --}}
+      <div class="form-group">
+        <label>{{localize "PF1-PathOfWar.Maneuvers.Type"}}</label>
+        <div class="form-fields">
+          <select name="system.maneuverType">
+            {{selectOptions config.maneuverTypes selected=system.maneuverType labelAttr="label"}}
+          </select>
+        </div>
+      </div>
+
+      {{!-- Action Type --}}
+      <div class="form-group init-time">
+        <label>{{localize "PF1-PathOfWar.initTime"}}</label>
+        <div class="form-fields">
+          <input type="number" name="system.initTime.value" value="{{system.initTime.value}}" data-dtype="Number"
+            placeholder="1" min="0">
+          <select name="system.initTime.units">
+            {{selectOptions config.abilityActivationTypes selected=system.initTime.units}}
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group charges">
+        <label>{{localize "PF1-PathOfWar.Charges.Current"}}</label>
+        <div class="form-fields">
+          <input type="number" name="system.uses.value" value="{{system.uses.value}}" data-dtype="Number"
+            placeholder="1" min="0" max="system.uses.max">
+        </div>
+      </div>
+
+      <div class="form-group max">
+        <label>{{localize "PF1-PathOfWar.Charges.Max"}}</label>
+        <div class="form-fields">
+          <input type="number" name="system.uses.maxFormula" value="{{system.uses.maxFormula}}" data-dtype="Number"
+            placeholder="1" min="0">
+        </div>
+      </div>
+
+      {{!-- Save type --}}
+      <div class="form-group">
+        <label>{{localize "PF1-PathOfWar.Maneuvers.SaveType"}}</label>
+        <div class="form-fields">
+          <select name="system.saveType">
+            {{selectOptions config.maneuverSaveTypes selected=system.saveType labelAttr="label"}}
+          </select>
+          <select name="system.saveEffect">
+            {{selectOptions config.maneuverSaveEffects selected=system.saveEffect labelAttr="label"}}
+          </select>
+        </div>
+      </div>
+  </section>
+</form>
