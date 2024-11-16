@@ -18,20 +18,20 @@ The module also includes the following changes to the character sheet:
  - Added Martial Disciplines row to Features tab.
 
 <h1>Installation</h1>
-To install the module, you can simply download it from FoundryVTT's Module Installation menu. Alternatively, paste the [Manifest](https://raw.githubusercontent.com/YastMe/pf1-pow/main/module.json) link in FoundryVTT's module installation menu and enable it in your game world.
+To install the module, you can simply download it from FoundryVTT's Module Installation menu. Alternatively, paste the <a href="https://raw.githubusercontent.com/YastMe/pf1-pow/main/module.json">Manifest</a> link in FoundryVTT's module installation menu and enable it in your game world.
 <h1>License</h1>
-For the full license, see the [LICENSE](https://github.com/YastMe/pf1-pow/blob/main/LICENSE) file
+For the full license, see the <a href="https://github.com/YastMe/pf1-pow/blob/main/LICENSE">LICENSE</a> file
 <hr>
 NOTE: This module does NOT include any existing Disciplines or Maneuvers from any publisher. Users will be responsible for the creation of these on their own worlds. The created items will be shared between worlds on the same FoundryVTT installation if included in the module's compendium (right click - Toggle Edit Lock).
 <h3>Legal Note:</h3>
-"This module uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy (paizo.com/communityuse). We are expressly prohibited from charging you to use or access this content. This module is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit paizo.com.
+<p>"This module uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy (paizo.com/communityuse). We are expressly prohibited from charging you to use or access this content. This module is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit paizo.com.
 
 "This module references Path of War, a product of Dreamscarred Press, which is used under the Open Game License v1.0a. To the best of our knowledge, the term Path of War is not trademarked. This module does not include any copyrighted text or content from Dreamscarred Press and is not published, endorsed, or specifically approved by them."
 <hr>
 Please note that the module does not include pre-generated content due to copyright considerations. Users are responsible for ensuring that any content they add adheres to intellectual property laws. 
-
+<br><br>
 We encourage users to craft their own custom Martial Disciplines and Maneuvers using the templates and tools provided. By sharing your creations within the FoundryVTT community, you can help others enjoy the system while respecting intellectual property laws.
-
+<br><br>
 This module is designed for users to create and manage their own Path of War content in accordance with applicable copyright laws.
-
-Users are encouraged to ensure that any materials added to the module are sourced legally and comply with intellectual property rights.
+<br><br>
+Users are encouraged to ensure that any materials added to the module are sourced legally and comply with intellectual property rights.</p>
