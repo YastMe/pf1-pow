@@ -96,7 +96,7 @@
         "ASSISTANT": "OWNER"
       }
     }
-  ]
+  ],
   "bugs": "https://github.com/YastMe/pf1-pow/issues",
   "url": "https://github.com/YastMe/pf1-pow",
   "manifest": "https://raw.githubusercontent.com/YastMe/pf1-pow/main/module.json",
