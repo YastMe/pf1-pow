@@ -18,6 +18,8 @@ The module also includes the following changes to the character sheet:
 
 NOTE: This module does NOT include any existing Disciplines or Maneuvers from any publisher. Users will be responsible for the creation of these on their own worlds. The created items will be shared between worlds on the same FoundryVTT installation if included in the module's compendium (right click - Toggle Edit Lock).
 
+Manifest https://raw.githubusercontent.com/YastMe/pf1-pow/main/module.json
+
 Legal Note: 
 "This module uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy (paizo.com/communityuse). We are expressly prohibited from charging you to use or access this content. This module is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit paizo.com.
 
