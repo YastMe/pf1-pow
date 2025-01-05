@@ -10,13 +10,10 @@ export class ManeuverModel extends ManeuverItemModel {
                 value: new fields.NumberField({ initial: 1 }),
                 units: new fields.StringField({ initial: "standard" })
             }),
-            // charges: new fields.SchemaField({
-            //     value: new fields.NumberField({ initial: 1 }),
-            //     max: new fields.NumberField({ initial: 1 })
-            // }),
             maneuverType: new fields.StringField({ initial: "Strike" }),
             saveType: new fields.StringField({ initial: "None" }),
             saveEffect: new fields.StringField({ initial: "See text" }),
+            defaultAttack: new fields.ObjectField({ type: "attack", required: false, initial: undefined }),
         };
         this.addDefaultSchemaFields(schema);
         return schema;
