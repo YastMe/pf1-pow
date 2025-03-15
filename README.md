@@ -29,11 +29,11 @@ For the full license, see the <a href="https://github.com/YastMe/pf1-pow/blob/ma
 "This module is not published, endorsed or specifically approved by Dreamscarred Press. For more information about Dreamscarred Press, visit dreamscarred.com. To the best of our knowledge, this module operates within Dreamscarred Press' OGL Product Identity statement, and all efforts were made to attemt to reach Dreamscarred Press for interpretation, although said efforts were met with unresponsiveness. If a Dreamscarred Press representative is reading this note and believes that the content should be removed from this module, please contact us using the contact information from this module's "module.json" file."
 </p>
 <h3>Content sources</h3>
-<p>
-<a href="https://www.drivethrurpg.com/en/product/135308/path-of-war">Path of War</a>
-<a href="https://www.drivethrurpg.com/en/product/177763/path-of-war-expanded">Path of War Expanded</a>
-<a href="https://www.drivethrurpg.com/en/product/208645/divergent-paths-fools-errand">Divergent Paths: Fool's Errand</a>
-<a href="https://www.drivethrurpg.com/en/product/220762">Divergent Paths: Rajah</a>
-<a href="https://www.d20pfsrd.com">d20PFSRD</a>
-<a href="https://metzo.miraheze.org">Library of Metzofitz</a>
-</p>
+<li>
+<ul><a href="https://www.drivethrurpg.com/en/product/135308/path-of-war">Path of War</a></ul>
+<ul><a href="https://www.drivethrurpg.com/en/product/177763/path-of-war-expanded">Path of War Expanded</a></ul>
+<ul><a href="https://www.drivethrurpg.com/en/product/208645/divergent-paths-fools-errand">Divergent Paths: Fool's Errand</a></ul>
+<ul><a href="https://www.drivethrurpg.com/en/product/220762">Divergent Paths: Rajah</a></ul>
+<ul><a href="https://www.d20pfsrd.com">d20PFSRD</a></ul>
+<ul><a href="https://metzo.miraheze.org">Library of Metzofitz</a></ul>
+<li>
