@@ -31,7 +31,7 @@ For the full license, see the [LICENSE](https://github.com/YastMe/pf1-pow/blob/m
 
 "This module references Path of War, a product of Dreamscarred Press, which is used under the Open Game License v1.0a. To the best of our knowledge, 'Path of War' is not a registered trademark."
 
-"This module is not published, endorsed or specifically approved by Dreamscarred Press. For more information about Dreamscarred Press, visit dreamscarred.com. To the best of our knowledge, this module operates within Dreamscarred Press' OGL Product Identity statement, and all efforts were made to attemt to reach Dreamscarred Press for interpretation, although said efforts were met with unresponsiveness. If a Dreamscarred Press representative is reading this note and believes that the content should be removed from this module, please contact us using the contact information from this module's [module.json]([httos;//www.](https://github.com/YastMe/pf1-pow/blob/main/module.json) file."
+"This module is not published, endorsed or specifically approved by Dreamscarred Press. For more information about Dreamscarred Press, visit dreamscarred.com. To the best of our knowledge, this module operates within Dreamscarred Press' OGL Product Identity statement, and all efforts were made to attemt to reach Dreamscarred Press for interpretation, although said efforts were met with unresponsiveness. If a Dreamscarred Press representative is reading this note and believes that the content should be removed from this module, please contact us using the contact information from this module's [module.json](https://github.com/YastMe/pf1-pow/blob/main/module.json) file."
 
 ### Content sources
 
