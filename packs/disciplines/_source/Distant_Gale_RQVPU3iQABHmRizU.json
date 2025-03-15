@@ -1,0 +1,58 @@
+{
+  "name": "Distant Gale",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Firing with the strength of the winds at your back, you unleash an attack that becomes more dangerous the more distance it travels. Make a ranged attack. If it hits, it deals weapon damage as normal plus an additional +1 point of damage for every 20 feet of distance between you and the target (up to a maximum of +5).</p>"
+    },
+    "discipline": "Tempest Gale",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "m9TvIffvcGuw5kiy",
+  "_id": "RQVPU3iQABHmRizU",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991280017,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!RQVPU3iQABHmRizU"
+}

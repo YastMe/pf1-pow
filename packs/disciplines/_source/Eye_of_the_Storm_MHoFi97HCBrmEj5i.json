@@ -1,0 +1,58 @@
+{
+  "name": "Eye of the Storm",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Tempest Gale maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>Like the calm winds at the center of a hurricane, you are bastion of serenity on the chaos of the battlefield. While you maintain this stance, you add your initiation modifier to damage rolls made with ranged weapons, you do not take penalties on attack rolls from attacking creatures beyond your weapon's first range increment, and ignore the effects of weather conditions and wind effect on your ranged attacks (including magical winds such as a wind wall spell). In addition, your ranged attacks ignore the AC bonus granted to targets by anything less than total cover, and the miss chance granted to targets by anything less than total concealment.</p>"
+    },
+    "discipline": "Tempest Gale",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "P9mezobPJRayYSsF",
+  "_id": "MHoFi97HCBrmEj5i",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991304823,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!MHoFi97HCBrmEj5i"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Brilliant Moon",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Veiled Moon maneuver<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>By partially phasing a portion of his attack out of this reality, the disciple may ignore certain obstacles, such as armor, when striking at an opponent. The initiator makes an attack roll and ignores the target's armor bonus to AC (unless this armor bonus comes from a force effect, such as mage armor). A successful hit inflicts an additional [[4d4]] points of force damage from the spiritual power the disciple infuses into the attack.</p>"
+    },
+    "discipline": "Veiled Moon",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "AGFMsBQAv02ToMHC",
+  "_id": "UsE3Kn5CXCRBFLvI",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991242442,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!UsE3Kn5CXCRBFLvI"
+}

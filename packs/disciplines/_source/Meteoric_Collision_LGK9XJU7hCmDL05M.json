@@ -1,0 +1,58 @@
+{
+  "name": "Meteoric Collision",
+  "img": "systems/pf1/icons/feats/extra-rage.jpg",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Primal Fury maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>The disciple makes a charge at an opponent within the theater of war with the power and force of a falling meteor, striking hard and bowling his opponent over. The initiator makes a bull rush attempt as part of a charge with a +4 bonus, and if the initiator successfully bull rushes his opponent, the fury of his strike inflicts [[7d6]] points of damage to his target as he bull rushes him. This bull rush attempt does not provoke attacks of opportunity.</p>"
+    },
+    "discipline": "Primal Fury",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "DZTeni03nasCxlW1",
+  "_id": "LGK9XJU7hCmDL05M",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991376388,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!LGK9XJU7hCmDL05M"
+}

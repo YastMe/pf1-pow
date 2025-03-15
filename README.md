@@ -2,7 +2,7 @@
 This module aims to incorporate Dreamscarred Press' Path of War system into the Pathfinder 1e system for FoundryVTT.
 
 <h1>Features</h1>
-It includes the necessary Item types for a fully fledged implementation of the Martial Disciplines and Maneuvers at the users' content. This is explicitly a skeleton module, since no content from Dreamscarred Press was authorized to be used.
+It includes the necessary Item types for a fully fledged implementation of the Martial Disciplines and Maneuvers at the users' content.
 
 The module contains four macros to ease the utilization of the system for both players and GMs alike. Please review them in the corresponding Compendium.
 
@@ -17,19 +17,23 @@ The module also includes the following changes to the character sheet:
  - Added Path of War row to Combat tab.
  - Added Martial Disciplines row to Features tab.
 
+Plus, the module now includes a Maneuver Browser button both in the Compendiums tab on the sidebar and the Path of War row inside the Combat tab on a character's sheet.
+
 <h1>License</h1>
 For the full license, see the <a href="https://github.com/YastMe/pf1-pow/blob/main/LICENSE">LICENSE</a> file
-<hr>
-NOTE: This module does NOT include any existing Disciplines or Maneuvers from any publisher. Users will be responsible for the creation of these on their own worlds. The created items will be shared between worlds on the same FoundryVTT installation if included in the module's compendium (right click - Toggle Edit Lock).
 <h3>Legal Note:</h3>
 <p>"This module uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy (paizo.com/communityuse). We are expressly prohibited from charging you to use or access this content. This module is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit paizo.com.
 
-"This module references Path of War, a product of Dreamscarred Press, which is used under the Open Game License v1.0a. To the best of our knowledge, the term Path of War is not trademarked. This module does not include any copyrighted text or content from Dreamscarred Press and is not published, endorsed, or specifically approved by them."
-<hr>
-Please note that the module does not include pre-generated content due to copyright considerations. Users are responsible for ensuring that any content they add adheres to intellectual property laws. 
-<br><br>
-We encourage users to craft their own custom Martial Disciplines and Maneuvers using the templates and tools provided. By sharing your creations within the FoundryVTT community, you can help others enjoy the system while respecting intellectual property laws.
-<br><br>
-This module is designed for users to create and manage their own Path of War content in accordance with applicable copyright laws.
-<br><br>
-Users are encouraged to ensure that any materials added to the module are sourced legally and comply with intellectual property rights.</p>
+"This module references Path of War, a product of Dreamscarred Press, which is used under the Open Game License v1.0a. To the best of our knowledge, 'Path of War' is not a registered trademark."
+
+"This module is not published, endorsed or specifically approved by Dreamscarred Press. For more information about Dreamscarred Press, visit dreamscarred.com. To the best of our knowledge, this module operates within Dreamscarred Press' OGL Product Identity statement, and all efforts were made to attemt to reach Dreamscarred Press for interpretation, although said efforts were met with unresponsiveness. If a Dreamscarred Press representative is reading this note and believes that the content should be removed from this module, please contact us using the contact information from this module's "module.json" file."
+</p>
+<h3>Content sources</h3>
+<p>
+<a href="https://www.drivethrurpg.com/en/product/135308/path-of-war">Path of War</a>
+<a href="https://www.drivethrurpg.com/en/product/177763/path-of-war-expanded">Path of War Expanded</a>
+<a href="https://www.drivethrurpg.com/en/product/208645/divergent-paths-fools-errand">Divergent Paths: Fool's Errand</a>
+<a href="https://www.drivethrurpg.com/en/product/220762">Divergent Paths: Rajah</a>
+<a href="https://www.d20pfsrd.com">d20PFSRD</a>
+<a href="https://metzo.miraheze.org">Library of Metzofitz</a>
+</p>

@@ -1,0 +1,58 @@
+{
+  "name": "Ether Wave",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Veiled Moon maneuvers<br /><strong>Range</strong>: 40-ft.<br /><strong>Target</strong>: None<br /><strong>Duration</strong>: Instantaneous<br /><strong>Area:</strong> Cone-shaped emanation </p><h2>Description</h2><p>The Veiled Moon disciple concentrates his spiritual energies to his hand and tears into the barrier between the Astral and the Material, and releases the energies that form from this in a wracking wave of silvery-blue energy. The initiator unleashes a 40-ft. cone of dimensional energy which inflicts [[12d6]] points of force damage to all targets within its area with a Reflex saving throw (DC 16 + initiation modifier) for half damage.</p>"
+    },
+    "discipline": "Veiled Moon",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "p9muh5Src9b3tFAt",
+  "_id": "eDPA4OpOYZiDZDDm",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991302107,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!eDPA4OpOYZiDZDDm"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Laughing Demilich Attitude",
+  "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 3 Unquiet Grave maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>The skin and muscle of your face pull tightly against your skull when you assume this stance, revealing yellow bone studded with phantasmal gemstones that crackle and dance with negative energy. While you maintain this stance, you gain a 100 ft. fly speed (or improve your existing fly speed by 50 ft.) with Good maneuverability, as well as the immunities enjoyed by creatures with the undead type. You do not gain any of the other benefits or drawbacks of being undead (notably, you are not healed by negative energy, nor are you vulnerable to effects that specifically target undead creatures). Additionally, you may use death knell as a spell-like ability once per round as a free action, though any bonuses gained this way fade when you leave this stance. Grave Call: Undead creatures maintaining this stance do not gain the immunities enjoyed by the undead type; instead, they become immune to positive energy damage and gain DR 20/bludgeoning and good. They still benefit from the other effects of this stance.</p>"
+    },
+    "discipline": "Unquiet Grave",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "LOmfiziljVyK05jK",
+  "_id": "2nmNOl2NGndDyl4S",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991360785,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!2nmNOl2NGndDyl4S"
+}

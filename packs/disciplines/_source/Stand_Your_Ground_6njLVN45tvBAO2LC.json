@@ -1,0 +1,58 @@
+{
+  "name": "Stand Your Ground",
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Eternal Guardian maneuvers<br /><strong>Range</strong>: 60 ft.<br /><strong>Target</strong>: You and one ally<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>You and your ally stand together to defend your position, strengthened by supernatural resolve. When you initiate this counter, choose an ally within 60 feet. For one round, you and that ally each take only half the damage you would otherwise take. Damage that is redirected (such as by the shield other spell or the share pain power) or intentionally taken (such as by strike of the steadfast legion) is not reduced.</p>"
+    },
+    "discipline": "Eternal Guardian",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "WWnToHygGM8gd0rU",
+  "_id": "6njLVN45tvBAO2LC",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991480793,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!6njLVN45tvBAO2LC"
+}

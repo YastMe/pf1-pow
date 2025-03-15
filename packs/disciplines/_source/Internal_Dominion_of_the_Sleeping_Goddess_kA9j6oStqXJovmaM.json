@@ -1,0 +1,58 @@
+{
+  "name": "Internal Dominion of the Sleeping Goddess",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Sleeping Goddess maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>The term \"sleeping goddess\" refers not to any tangible entity, but a state of being; by focusing your psionic might through the lens of true belief, you become something akin to a minor divine power whose realm lies within your physical form. Through this power, you can outright deny the world when it tries to exert such paltry concepts as \"reality\" on you. While you maintain this stance, you gain the following abilities: You can reroll a failed saving throw, taking the higher of the two rolls. You can force an opponent who has just hit you with an attack or succeeded at a combat maneuver check against you to reroll his attack roll or combat maneuver check and take the lower of the two rolls. You may only use a single one of these abilities per round, and activating them is a free action that can be taken even if it isn't your turn.</p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "8SRxK1VsGQHUvakq",
+  "_id": "kA9j6oStqXJovmaM",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991349421,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!kA9j6oStqXJovmaM"
+}

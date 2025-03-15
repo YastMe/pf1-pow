@@ -1,0 +1,58 @@
+{
+  "name": "Tendon Rip",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Black Seraph maneuver<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>By striking at the legs of the opponent, the disciple removes the mobility of a foe, so the foe cannot hamper his progression to victory. The initiator makes an attack on the target creature, and if successful, the attack inflicts an additional [[2d6]] points of damage and halves the opponent's move speed for initiation modifier in rounds.</p>"
+    },
+    "discipline": "Black Seraph",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "vFOY4tQoHiF3QRVY",
+  "_id": "0xWe1DF7MCUK7mD1",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991505226,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!0xWe1DF7MCUK7mD1"
+}

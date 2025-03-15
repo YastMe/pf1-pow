@@ -1,0 +1,58 @@
+{
+  "name": "Devastating Rush",
+  "img": "systems/pf1/icons/feats/extra-rage.jpg",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature or object<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>The disciple performing this attack executes a powerful attack that rushes in past a foe's defenses to shatter them completely. The initiator inflicts an additional [[2d6]] points of damage upon a successful attack and his strike ignores the damage reduction of a subject or the hardness of an object he is attacking.</p>"
+    },
+    "discipline": "Primal Fury",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "HrxfAyp9zWaHtDRP",
+  "_id": "2ShdmAZJs3Y4cUyj",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991274459,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!2ShdmAZJs3Y4cUyj"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Unavoidable Gaze of the Sleeping Goddess",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Sleeping Goddess maneuvers<br /><strong>Range</strong>: Personal (see text)<br /><strong>Target</strong>: You (see text)<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You open your senses, gaining perfect awareness of the world around you with your enhanced perception. While you maintain this stance, you gain a bonus on initiative checks equal to your initiation modifier. You do not need to make Perception checks to notice creatures; you can detect and pinpoint all creatures within 60 feet. You also ignore miss chances granted by concealment, darkness, and invisibility, although you still must have line of effect to a creature or an object to discern it. In addition, you can expend your psionic focus as a move action to pierce creatures' minds as easily as your senses pierce darkness. For a number of rounds equal to your initiation modifier after activating this ability, you can read the surface thoughts of all creatures within 60 feet as if you had manifested the read thoughts power. A creature can make a Will save (DC 16 + your initiation modifier) to keep you from reading their thoughts. A creature that successfully saves against this effect is immune to having its surface thoughts read by this stance for 24 hours. You do not need to concentrate on this ability to maintain it. This use of this stance is considered a mind-affecting effect.</p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "FHsuJxRY2wxHU8wu",
+  "_id": "QCTdm443pBUQ5Z5a",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991525873,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!QCTdm443pBUQ5Z5a"
+}

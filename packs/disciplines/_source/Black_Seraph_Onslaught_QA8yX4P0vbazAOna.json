@@ -1,0 +1,58 @@
+{
+  "name": "Black Seraph Onslaught",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Four Black Seraph maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>A true master of the Black Seraph fears no foe, and suffers none to stand before him. Heedless of personal danger to himself, the disciple brings his enemies to their knees with a relentless flurry of strikes. As part of this maneuver, the initiator takes a full attack action and may make an additional attack as part of this action at his highest attack bonus. The initiator suffers a -2 penalty to AC due to his focus on offense while using this maneuver. This focus on offense adds an extra [[4d6]] points of profane damage per successful attack. The sheer force of these blows nauseates his target with pain as well, for one round per successful attack. Foes killed by use of this maneuver are mutilated so badly that attempts to use a raise dead spell to restore their lives fail automatically; a more powerful restorative magic (such as true resurrection) is required.</p>"
+    },
+    "discipline": "Black Seraph",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 9,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "qOUxvOK6L1KHD4yD",
+  "_id": "QA8yX4P0vbazAOna",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991231495,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!QA8yX4P0vbazAOna"
+}

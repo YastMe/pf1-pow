@@ -1,0 +1,58 @@
+{
+  "name": "Reshape the Sculpted Mind",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Sleeping Goddess maneuvers<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>Your intimate acquaintance with the nature of the mind allows you to strike it where it's most vulnerable. Make an attack. If it hits, it deals weapon damage as normal plus an additional [[1d4]] points of Intelligence, Wisdom, or Charisma damage (your choice), and the target must succeed at a Will save (DC 15 + your initiation modifier) or be affected by one of the following effects, depending on the type of ability damage selected. A target that is immune to ability damage still suffers this additional effect. Intelligence: The target's ability to express its thoughts is dampened, causing it to be unable to communicate with others, even by telepathy, for a number of rounds equal to the Intelligence damage dealt by this strike. The target can still hear others, but anything it says or tries to convey non-verbally is completely unintelligible, even to a creature under the effect of a tongues spell or similar effect. Spells that require verbal components suffer a 50% chance of failure while the target is affected by this strike. Wisdom: The target loses its grasp on reality, causing it to become confused for a number of rounds equal to the Wisdom damage dealt by this strike. Charisma: The target's confidence and ability to believe in itself is shattered, causing it to become frightened for a number of rounds equal to the Charisma damage dealt by this strike. At the end of each of the target's turns while it is frightened, it can attempt another save to end this effect. This use of this strike is considered a fear effect. Augment: You can augment this maneuver in one or more of the following ways: For every 2 power points you spend, the ability damage dealt by this strike increases by one. If you expend your psionic focus while initiating this strike, you ignore any immunity to mind-affecting effects or fear effects the target possesses. Instead, a normally-immune target gains a +5 resistance bonus on its saving throw.</p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "Text",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "4ts2EAT1xcvYx64J",
+  "_id": "Jg0az1apQcIMCDAy",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991420761,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Jg0az1apQcIMCDAy"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Nexus of Elemental Retribution",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Elemental Flux maneuvers<br /><strong>Range</strong>: Personal (see text)<br /><strong>Target</strong>: You (see text)<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You can absorb and redirect the flow of elemental power, syphoning away energies that would harm you and making them your own. While you maintain this stance, you gain energy resistance 30 to acid, cold, electricity, and fire. Any time your resistance reduces damage of one of those types, it is stored in a pool of up to twice your initiator level. As a swift action, you can unleash your stored energy, creating a 20-foot burst centered on you that deals damage of your active element's associated energy equal to the amount stored, then reducing the pool to 0. You do not take damage from this burst. Creatures caught within the area can make a Reflex save (DC 16 + your initiation modifier) to take half damage.</p>"
+    },
+    "discipline": "Elemental Flux",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Half",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "8CHRzYiWJMAxGqqU",
+  "_id": "rKDT1LLlmv2GnkbH",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991384769,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!rKDT1LLlmv2GnkbH"
+}

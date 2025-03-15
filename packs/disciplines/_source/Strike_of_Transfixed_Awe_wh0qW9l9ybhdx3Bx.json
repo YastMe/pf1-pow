@@ -1,0 +1,58 @@
+{
+  "name": "Strike of Transfixed Awe",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Thee Sleeping Goddess maneuvers<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>Your strike momentarily alters the flow of magic around your opponent, viciously rending power from their mind. Make an attack. If it hits, it deals weapon damage as normal plus an additional [[6d6]] points of damage, and the target must succeed at a Will save (DC 16 + your initiation modifier) or become stunned for one round. In addition, if the target fails its save, you learn their caster level or manifester level (if any) and the target loses their highest level unexpended spell slot as if they had cast it (chosen at random) and power points equal to their manifester level. A target that cannot cast spells or does not possess power points is unaffected by this additional effect. Augment: You can augment this maneuver in one or more of the following ways: For every power point you spend, this strike deals an additional [[1d6]] points of damage. For every [[2d6]] you increase the damage by, the save DC of this strike increases by +1.</p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "nonaction",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "FHsuJxRY2wxHU8wu",
+  "_id": "wh0qW9l9ybhdx3Bx",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991491229,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!wh0qW9l9ybhdx3Bx"
+}

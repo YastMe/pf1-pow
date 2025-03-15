@@ -1,0 +1,58 @@
+{
+  "name": "Fearless Faith",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal or 60 ft. (see text)<br /><strong>Target</strong>: You or one ally (see text)<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You know that fear is as great an enemy as the foes in front of you, and through this knowledge and your faith in yourself, you can power through even the most terrifying situations. You can initiate this counter when you would become shaken, frightened, or panicked. You reduce the fear by one step (from panicked to frightened, frightened to shaken, or shaken to unafraid), and are treated as having successfully saved against the effect for the purposes of determining if you can be affected again. Augment: You can augment this maneuver in one or more of the following ways: For every 2 power points you spend, the fear is reduced by an additional step. If you expend your psionic focus while initiating this counter, you can use it in response to an ally within 60 feet becoming shaken, frightened, or panicked. If you do, you apply the effects of this counter to that ally rather than yourself.</p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "rgaS32OsXwBkEWk2",
+  "_id": "kcXzcEzFLs9oNZRd",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991309348,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!kcXzcEzFLs9oNZRd"
+}

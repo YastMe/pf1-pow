@@ -1,0 +1,58 @@
+{
+  "name": "Unbroken Stride",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>With careful steps and focused psionic power, you can slightly shift how you interact with the world, moving over liquids as if they were solid, sprinting along walls, and even walking through the air. While you maintain this stance, you can walk and stand on liquids and other unfirm surfaces as if they were solid ground. You can move at your normal speed, but you cannot run on such a surface. This stance does not protect you from any negative effects that the surface might carry, such as the heat of lava or the stickiness of a spider's web. At initiator level 5th, you gain the ability to move along walls and ceilings as if under the effect of a spider climb spell while you maintain this stance, except that you do not need to use your hands to climb and can fight normally. At initiator level 10th, you can walk through the air as if it were solid ground, gaining a fly speed equal to your land speed with good maneuverability while you maintain this stance. However, while flying in such a way, you cannot hover. At initiator level 15th, your maneuverability when flying in this way increases to perfect, and you can even stand still in midair, hovering as normal.</p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "whugWMRdGhCwBQyw",
+  "_id": "ZkOhyRmypMisBhnP",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991528030,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!ZkOhyRmypMisBhnP"
+}

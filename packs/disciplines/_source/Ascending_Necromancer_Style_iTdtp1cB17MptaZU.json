@@ -1,0 +1,58 @@
+{
+  "name": "Ascending Necromancer Style",
+  "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 2 Unquiet Grave maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Special (see text)</p><h2>Description</h2><p>You wrap yourself in armoring layers of negative energy, shielding your life force with the touch of undeath. When you initiate this counter, you become immune to energy drain and Constitution damage until the beginning of your next turn. Grave Call: An undead creature initiating this maneuver instead becomes immune to channeling and positive energy damage until the beginning of its next turn.</p>"
+    },
+    "discipline": "Unquiet Grave",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "sxwCPO33jTAuNMkm",
+  "_id": "iTdtp1cB17MptaZU",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991221950,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!iTdtp1cB17MptaZU"
+}

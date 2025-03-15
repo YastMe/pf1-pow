@@ -1,0 +1,128 @@
+{
+  "name": "Radiant Dawn Style (Combat, Style)",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p><em>Your martial abilities are laden with restorative akasha.</em></p><p><strong>Prerequisites</strong>: 1 or more Radiant Dawn stances, Diplomacy 3 ranks.</p><p><strong>Benefit</strong>: Whenever you initiate a maneuver, you or an ally within close range (25 feet + 5 feet/2 character levels) is healed for a number of hit points equal to your character level, plus the amount of essence invested in that maneuver. This effect can only trigger once per round.</p><p>You gain 1 point of essence.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "feat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": null,
+  "_id": "W3343OaZlL6QUFPM",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991577320,
+    "modifiedTime": 1739654664153,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!W3343OaZlL6QUFPM"
+}

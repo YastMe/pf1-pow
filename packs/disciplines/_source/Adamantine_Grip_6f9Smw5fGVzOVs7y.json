@@ -1,0 +1,58 @@
+{
+  "name": "Adamantine Grip",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Fool's Errand maneuver<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>After striking with your weapon, you follow with an iron grip. Make a melee attack. It deals weapon damage as normal, and regardless of whether or not your attack hit, you may make a lock attempt against the target. If your lock attempt is successful, the target also becomes entangled for as long as they remain locked.</p>"
+    },
+    "discipline": "Fool's Errand",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "2b0uXO3HjCCyUAIE",
+  "_id": "6f9Smw5fGVzOVs7y",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991213813,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!6f9Smw5fGVzOVs7y"
+}

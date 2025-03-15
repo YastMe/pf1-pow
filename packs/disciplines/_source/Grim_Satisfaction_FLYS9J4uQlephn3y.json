@@ -1,0 +1,58 @@
+{
+  "name": "Grim Satisfaction",
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Eternal Guardian maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>Seeing the fear and resignation in the eyes of your foes spurs you closer to victory. After initiating this boost, the next creature you hit with an attack for one round must succeed at a Will save (DC 17 + your initiation modifier) or cower in fear for one round, and you heal a number of hit points equal to your initiator level. If the creature that fails its save is cursed, you heal an additional 10 hit points.</p>"
+    },
+    "discipline": "Eternal Guardian",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "UZUXlKW9wnCER3Bb",
+  "_id": "FLYS9J4uQlephn3y",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991330738,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!FLYS9J4uQlephn3y"
+}

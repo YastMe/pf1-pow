@@ -1,0 +1,88 @@
+{
+  "name": "Mixed Combat (Combat)",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p><em> You are trained at using ranged and melee attacks at the same time.</em></p><p><strong>Prerequisites</strong>: Quick Draw, base attack bonus +6.</p><p><strong>Benefit</strong>: You can sheathe a weapon as a free action that does not provoke attacks of opportunity, even if it isn't your turn. If you hit a creature with a melee attack, your attacks with ranged weapons until the end of your turn do not provoke attacks of opportunity from that creature.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "feat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": []
+  },
+  "folder": null,
+  "_id": "rV1PdiHunR0oHwR7",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991574510,
+    "modifiedTime": 1739654664352,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!rV1PdiHunR0oHwR7"
+}

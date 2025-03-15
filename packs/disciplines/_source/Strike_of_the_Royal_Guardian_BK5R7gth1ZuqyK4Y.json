@@ -1,0 +1,58 @@
+{
+  "name": "Strike of the Royal Guardian",
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>Some foes may slip past your guard, but as a disciple of the Eternal Guardian, you have other ways to minimize their threat, afflicting your enemies with an agonizing curse that cripples their attacks. Make an attack. If it hits, it deals weapon damage as normal, and the target becomes cursed, taking a -2 penalty on damage rolls with weapon attacks for as long as it is cursed. If an affected target does not make an attack during its turn, it can make a Will save (DC 12 + your initiation modifier) to end this effect. If the target prostrates itself (treated as dropping prone) and grovels for a full round, the curse is automatically removed.</p>"
+    },
+    "discipline": "Eternal Guardian",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "Text",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "pkzCTaUrzwYxyIJk",
+  "_id": "BK5R7gth1ZuqyK4Y",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991491926,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!BK5R7gth1ZuqyK4Y"
+}

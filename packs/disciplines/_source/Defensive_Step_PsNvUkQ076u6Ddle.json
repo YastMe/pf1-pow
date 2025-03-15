@@ -1,0 +1,58 @@
+{
+  "name": "Defensive Step",
+  "img": "icons/magic/light/swords-light-glowing-white.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: %dr</p><h2>Description</h2><p>Inspired by the awareness of the celestial realm, the discipline trusts in his heavenly sense of the battle around him to see where the next attack is coming and move away from danger. He makes a Perception check opposing the opponent's attack roll; if successful, the initiator may make a free 5-ft step in order to evade the attack. If he is unable to move to an adjacent square, he may not use this counter.</p>"
+    },
+    "discipline": "Silver Crane",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "fJauMafwwxqOFCL5",
+  "_id": "PsNvUkQ076u6Ddle",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991271821,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!PsNvUkQ076u6Ddle"
+}

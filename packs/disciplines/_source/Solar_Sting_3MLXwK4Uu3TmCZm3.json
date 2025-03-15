@@ -1,0 +1,58 @@
+{
+  "name": "Solar Sting",
+  "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Ranged attack<br /><strong>Target</strong>: 10-ft. by 10-ft. square<br /><strong>Duration</strong>: 1 round / 2 initiator levels</p><h2>Description</h2><p>The Solar Wind disciple readies his attack and launches it into the sky. The weapon crashes down into the targeted area and creates a semi-real field of phantom caltrops. The initiator chooses a target area within range of his ranged attack, and makes an attack roll to hit that location (AC 5 plus any range penalties). The target area (one 10-ft. by 10-ft. square) becomes covered with phantom caltrops of softly glowing light that cause the area to be considered difficult terrain and act as vicious caltrops, using the initiator's initiation modifier as their attack bonus and inflicting [[1d2]] points of damage and halving the base speed of any they manage to hit. Targets are denied their armor bonus, shield bonus, and deflection bonus to AC against this attack, but if they're wearing boots or heavy foot gear they have a +2 armor bonus to their AC against this attack.</p>"
+    },
+    "discipline": "Solar Wind",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "Lv3Bi7sdsdrkx403",
+  "_id": "3MLXwK4Uu3TmCZm3",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991465290,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!3MLXwK4Uu3TmCZm3"
+}

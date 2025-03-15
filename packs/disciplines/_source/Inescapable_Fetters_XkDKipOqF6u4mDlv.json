@@ -1,0 +1,58 @@
+{
+  "name": "Inescapable Fetters",
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Eternal Guardian maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>Your nightmarish oath that no foe will escape you draws. After initiating this boost, each creature you hit with a melee attack before the start of your next turn becomes cursed for one round per four initiator levels you possess. At the end of each of the turns of a creature cursed by this boost, that creature must succeed at a Will save (DC 16 + your initiation modifier) or be teleported to an unoccupied square adjacent to you. This teleportation provokes an attack of opportunity from you, and functions regardless of the distance between you and the cursed creature, although it cannot teleport a target on another plane of existence. For every 10 feet a cursed creature moves during its turn preceding the teleportation, the save DC of this strike increases by +2 (up to a maximum of a +6 increase to the DC). You can touch a willing ally to curse them, in which case they automatically fail their Will save to resist being teleported back to you at the start of your next turn. You can end this effect and the cursed condition on any affected creature at any time as a free action.</p>"
+    },
+    "discipline": "Eternal Guardian",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "y85xsyiF8TJo1pG4",
+  "_id": "XkDKipOqF6u4mDlv",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991345665,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!XkDKipOqF6u4mDlv"
+}

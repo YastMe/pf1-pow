@@ -1,0 +1,58 @@
+{
+  "name": "Royal Blade",
+  "img": "icons/weapons/swords/sword-runed-glowing.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Scarlet Throne maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: One round</p><h2>Description</h2><p>As a true king of battle, the disciple brings his mastery of Scarlet Throne to the battlefield to the despair of his foes. By initiating this maneuver, his show of majestic force proves his claim to power. The disciple may add a +5 insight bonus to his attack roll and +[[5d8]] insight bonus to his damage roll on a single melee attack made during this turn. Additionally targets who've been struck by an attack augmented with this boost must make a Will save (DC 17 + initiation modifier) or be left cowering for 1 round.</p>"
+    },
+    "discipline": "Scarlet Throne",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "pnZ1HtOvHw4MOoo4",
+  "_id": "XouVyO6rdFqNsvRj",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991427732,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!XouVyO6rdFqNsvRj"
+}

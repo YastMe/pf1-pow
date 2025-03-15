@@ -1,0 +1,58 @@
+{
+  "name": "Blade-Breaking Counter",
+  "img": "systems/pf1/icons/feats/extra-rage.jpg",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Primal Fury maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>An opponent cannot hurt you with his weapon if a weapon does not exist to do it. The Primal Fury disciple takes this to heart with a powerful parrying blow designed to shatter the weapon that his opponent uses before it can strike him. When being attacked, this counter is initiated after a successful hit but before damage is inflicted. The initiator then makes an immediate sunder attempt with a +2 circumstance bonus on his foe's weapon (which does not provoke attacks of opportunity), and if the weapon is reduced to half of its hit points, then it gains the broken condition and the disciple takes half damage from the attack. If this sunder attempt reduces the opponent's weapon to 0 hit points, then the weapon shatters and the disciple takes no damage. If the initiator possesses the Greater Sunder feat, excess damage is applied to the target as per normal.</p>"
+    },
+    "discipline": "Primal Fury",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "v1FjslPmYeP0ACD5",
+  "_id": "BYdJqg1kEDUHTM5M",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991232887,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!BYdJqg1kEDUHTM5M"
+}

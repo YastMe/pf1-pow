@@ -1,0 +1,58 @@
+{
+  "name": "No Escape",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Fool's Errand maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You swiftly react to your opponent's movements, redoubling your grip or following their path. You have even learned the techniques needed to ride along with a target fleeing through magical methods. You can initiate this counter in response to a creature you're locking succeeding on their saving throw to escape your lock or otherwise taking movement that would cause them to escape your lock (including by teleportation or other effects that would normally escape a lock, but not if they used freedom of movement or a similar effect to outright become immune to your lock). Choose one of the following effects: Their movement is canceled and they remain locked (their action is still spent). They succeed on their roll to escape, and at the end of their movement, you may move to any unoccupied space adjacent to the creature (or the nearest unoccupied space, if there are none adjacent to them), regardless of how far they moved or how they moved. Then, you may make a lock attempt against that creature. In the case of movement by teleportation, you are also considered to have teleported.</p>"
+    },
+    "discipline": "Fool's Errand",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "Mb7cUCQ3q1incqrZ",
+  "_id": "jBbmCyzMVNCtmh4L",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991386048,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!jBbmCyzMVNCtmh4L"
+}

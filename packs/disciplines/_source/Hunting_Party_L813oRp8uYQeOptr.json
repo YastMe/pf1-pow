@@ -1,0 +1,58 @@
+{
+  "name": "Hunting Party",
+  "img": "icons/magic/nature/wolf-paw-glow-large-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature and one adjacent ally<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>When two or more soldiers converge on a single target, the odds of victory increase and the disciple with the knowledge of this strike can assist his comrade's potential lethality. When this strike is initiated, a successful melee attack may grant one adjacent ally who is attacking the same target an attack of opportunity against that target.</p>"
+    },
+    "discipline": "Golden Lion",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "hv99MdnZgfsDjwMD",
+  "_id": "L813oRp8uYQeOptr",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991341311,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!L813oRp8uYQeOptr"
+}

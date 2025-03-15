@@ -1,0 +1,58 @@
+{
+  "name": "Staunching Strike",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>To help your allies and harm your enemies is the most basic tenet of the Radiant Dawn discipline. Make an attack. If it hits, it deals weapon damage as normal, and you can heal yourself and allies within close range (25 feet + 5 feet per 2 initiator levels) for a total number of hit points equal to your initiation modifier, divided as you choose between you and your allies. Essence: Each point of essence invested into this strike increases the total amount of healing done by 3 hit points. This healing is split up between targets normally.  </p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "bdtLmcCPXeDa2u2l",
+  "_id": "C9QPMgwYh6rNIaKf",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991481821,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!C9QPMgwYh6rNIaKf"
+}

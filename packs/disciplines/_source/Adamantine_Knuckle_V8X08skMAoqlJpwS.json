@@ -1,0 +1,58 @@
+{
+  "name": "Adamantine Knuckle",
+  "img": "icons/skills/melee/sword-damaged-broken-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Broken Blade maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: One turn</p><h2>Description</h2><p>The sheer ferocity and focus of the disciple's ability in the unarmed combat area rivals that of the greatest ki wielders in the world. By tightening his knuckles, long since numb with scars and digging deep within, the disciple strikes with steel-shattering force. Once initiated, for the rest of the initiator's turn all attacks he makes with this boost inflict an additional [[6d6]] points of damage and ignore the target's damage reduction or an object's hardness.</p>"
+    },
+    "discipline": "Broken Blade",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "No save",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "GzgoQgZEODlYyh5n",
+  "_id": "V8X08skMAoqlJpwS",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991214101,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!V8X08skMAoqlJpwS"
+}

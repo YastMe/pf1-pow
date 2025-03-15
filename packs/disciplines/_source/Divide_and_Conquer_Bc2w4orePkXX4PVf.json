@@ -1,0 +1,58 @@
+{
+  "name": "Divide and Conquer",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Radiant Dawn maneuvers<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous; see text</p><h2>Description</h2><p>This strike pulls essence from the target, creating an effigy of the creature. When the essence returns to its creature, it brings its wounds with it. Make an attack. If it hits, it deals an additional [[3d6]] points of damage, and the target must make a Will save (DC 15 + initiation modifier) or have its essence drawn into one effigy until the end of your next turn. This translucent effigy appears within close range (25 feet plus 5 feet per 2 levels) of you. The effigy is the size of the target of this maneuver, but otherwise does not block movement or occupy spaces, and may be targeted by attacks, spells, or other abilities. Any attack, spell, or other ability used against the effigy (or including it in its aﬀected area) is redirected against the target of this maneuver as if they were the original target regardless of range, and the target may defend themselves normally against these attacks. Essence: Each point of essence invested into this strike increase amount of effigies created by 1 and the save DC of the strike by 1.</p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "Vb9dDbYb56mFXgMF",
+  "_id": "Bc2w4orePkXX4PVf",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991281803,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Bc2w4orePkXX4PVf"
+}

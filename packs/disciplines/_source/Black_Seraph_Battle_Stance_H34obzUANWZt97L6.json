@@ -1,0 +1,58 @@
+{
+  "name": "Black Seraph Battle Stance",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Black Seraph maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>The Black Seraph discipline teaches its disciples that relentless aggression is what wins battles, and by channeling the very might of the lower planes themselves through his form, does he gain the advantage he yearns for. Some who have witnessed a disciple of Black Seraph using this stance have seen plants wither and turn to ash around them and hazy, smoky wings appear around the disciple. Others have seen hellfire licking over their bodies. Regardless, while in this stance, any weapon that the martial disciple wields is treated as if it had the unholy special weapon property. Additionally, he is considered under the influence of a protection from good spell with a caster level equal to his initiator level. </p>"
+    },
+    "discipline": "Black Seraph",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "vFOY4tQoHiF3QRVY",
+  "_id": "H34obzUANWZt97L6",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991230904,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!H34obzUANWZt97L6"
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Awakened Animus (Combat)",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p><em> You can use mental power to modulate the roiling energies within your soul.</em></p><p><strong>Prerequisites</strong>: Animus pool or equivalent ability (such as a rubato bard's tempo class feature or the Tap Animus feat).</p><p><strong>Benefit</strong>: When initiating maneuvers with a psionic augment, you may spend points of animus as if they were power points. In addition, you gain a reserve of 1 power point and the psionic subtype, allowing you to take psionic feats, metapsionic feats, and psionic item creation feats, and to gain psionic focus.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "feat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": []
+  },
+  "folder": null,
+  "_id": "UH7Gaf8aAqmqelx0",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991554174,
+    "modifiedTime": 1739654663926,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!UH7Gaf8aAqmqelx0"
+}

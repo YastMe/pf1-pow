@@ -1,0 +1,129 @@
+{
+  "name": "Daisho Expertise (Combat)",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p><em> Your grace and skill with both the katana and wakizashi is on the level of a prodigy.</em></p><p><strong>Prerequisites</strong>: Proficiency with the katana or wakizashi.</p><p><strong>Benefit</strong>: Increase the damage die of katanas and wakizashi you wield by one die step. In addition, you may use your Dexterity modifier instead of your Strength modifier when making attack rolls with either weapon. This feat counts as Weapon Finesse for purposes of meeting the prerequisites of other feats.</p><p><strong>Special</strong>: If you are proficient with the katana as a martial weapon, you meet the prerequisites for this feat, although you only gain its benefit while wielding a katana in two hands (to gain these benefits while wielding the katana in one hand, you must possess Exotic Weapon Proficiency with the weapon). You must possess Exotic Weapon Proficiency with the wakizashi to gain the benefits of this feat with a wakizashi.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "feat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "showInCombat": false
+  },
+  "folder": null,
+  "_id": "rfDSDiTyduYYS0yn",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.3",
+    "coreVersion": "12.331",
+    "createdTime": 1732991557720,
+    "modifiedTime": 1742069919477,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!rfDSDiTyduYYS0yn"
+}

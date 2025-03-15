@@ -1,0 +1,128 @@
+{
+  "name": "Fool's Errand Scholar (Combat)",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p><em>Your studies have taught you a wide variety of strategies.</em></p><p><strong>Prerequisites</strong>: Fool’s Errand Style, Climb 7 ranks.</p><p><strong>Benefit</strong>: When you activate Fool’s Errand Style, choose a combat feat you qualify for. You gain the benefit of that combat feat for as long as you maintaining Fool’s Errand Style. If a combat feat has a daily use limitation (such as Stunning Fist) or grants a resource (such as Extra Ki), any uses of that feat or its resource count towards that feat's limit, even if you regain the feat later. You can only gain a single feat using this ability per encounter; if you leave Fool’s Errand Style and activate it again, you regain the feat you chose the first time.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "feat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": null,
+  "_id": "VoBJtK1Rwwy86SGV",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991565263,
+    "modifiedTime": 1739654663926,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!VoBJtK1Rwwy86SGV"
+}

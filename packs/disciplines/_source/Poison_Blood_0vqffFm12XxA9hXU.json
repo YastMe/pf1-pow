@@ -1,0 +1,58 @@
+{
+  "name": "Poison Blood",
+  "img": "icons/weapons/daggers/dagger-magical-glowing-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Steel Serpent Maneuver<br /><strong>Range</strong>: One attack that inflicts slashing or piercing damage<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Every disciple of Steel Serpent has long accepted that in battle, sometimes the superior warrior gets injured. The Steel Serpent however, believes that for every wound inflicted upon the disciple, a wound must be inflicted upon the attacker. By forcing ki energies into his blood at the point of being wounded, the blood lost from this attack sprays at the disciple's foe as a caustic acid. To use this counter, the disciple must have been struck in combat by a slashing or piercing weapon. Upon the initiating of this counter, the attacker takes acid damage equal to twice the disciple's initiator level. This is a supernatural ability.</p>"
+    },
+    "discipline": "Steel Serpent",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "XfUj6jGIay1EUwzB",
+  "_id": "0vqffFm12XxA9hXU",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991400570,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!0vqffFm12XxA9hXU"
+}

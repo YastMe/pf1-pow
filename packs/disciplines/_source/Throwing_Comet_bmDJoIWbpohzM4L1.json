@@ -1,0 +1,58 @@
+{
+  "name": "Throwing Comet",
+  "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Piercing Thunder maneuvers<br /><strong>Range</strong>: 30 ft.<br /><strong>Target</strong>: None<br /><strong>Duration</strong>: Instantaneous<br /><strong>Area:</strong> 30-ft. line </p><h2>Description</h2><p>With an overhand spin, you hurl your polearm at your enemies, decimating their ranks in a whirling path. When you initiate this maneuver, you throw your weapon, creating a 30-foot line that deals damage to each creature in the area as if you had hit them with an attack with a weapon you are wielding (including damage from magical properties or other bonuses), plus an additional [[8d6]] points of damage, and knocks them prone. Use the same damage roll for each creature. Creatures caught in the line can make a Reflex save (DC 15 + your initiation modifier) to take half damage and not fall prone. After resolving this maneuver, the weapon you threw lands in the furthest square from you at the end of the line. If it is enchanted with a property such as returning or teleporting, or you otherwise have the ability to cause thrown weapons to return to you, it does so normally as if you had made an attack with it.</p>"
+    },
+    "discipline": "Piercing Thunder",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "Half",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "PBJ6DL6hp56KFSWp",
+  "_id": "bmDJoIWbpohzM4L1",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991510930,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!bmDJoIWbpohzM4L1"
+}

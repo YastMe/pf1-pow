@@ -1,0 +1,58 @@
+{
+  "name": "Lesson I: Balance",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>The first lesson a Fool's Errand trainee is taught is merely to stand. By learning to balance both your body and your mind, you can calmly proceed through your forms and drills, even in the midst of combat. While you maintain this stance, you gain Improved Unarmed Strike as a bonus feat, can make Climb checks in place of Acrobatics checks, and can stand up from the prone position as a free action without provoking attacks of opportunity. If you already possess the Improved Unarmed Strike feat, you also gain Greater Unarmed Strike as a bonus feat, using your initiator level instead of your base attack bonus for the purposes of its effect. If your initiator level is below 3, treat it as 3 for the purposes of the feat.</p>"
+    },
+    "discipline": "Fool's Errand",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "RwDoImkWaKjAypx1",
+  "_id": "GFaewsjBHGnWEHUt",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991364930,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!GFaewsjBHGnWEHUt"
+}

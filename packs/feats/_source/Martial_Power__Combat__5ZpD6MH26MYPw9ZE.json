@@ -1,0 +1,88 @@
+{
+  "name": "Martial Power (Combat)",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p><em> You are able to instinctively call upon reserves of untapped power within yourself to defend yourself.</em></p><p><strong>Prerequisites</strong>: None</p><p><strong>Benefit</strong>: You can choose to take a -1 penalty on attack rolls and combat maneuver checks to gain 2 temporary hit points. This bonus is increased by half (50%) when you are using a shield of any kind. When your base attack bonus reaches +3 and every +2 thereafter, the penalty increases by -1 and the temporary hit point bonus increases by 2. You can only choose to use this feat when you declare that you are making an attack or a full-attack action with a melee weapon, or when you are initiating a maneuver. The penalty to attack rolls and temporary hit points gained from use of this feat last until the start of your next turn.</p><p><strong>Special</strong>: Martial Power can be used in place of Combat Expertise to qualify for a feat, prestige class, or other special ability. You can take both this feat and Combat Expertise.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "feat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": []
+  },
+  "folder": null,
+  "_id": "5ZpD6MH26MYPw9ZE",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991571953,
+    "modifiedTime": 1739654663692,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!5ZpD6MH26MYPw9ZE"
+}

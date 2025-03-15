@@ -1,0 +1,58 @@
+{
+  "name": "Holy Pinions",
+  "img": "icons/magic/light/swords-light-glowing-white.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Silver Crane maneuvers<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Using this advanced technique of the Silver Crane, the martial disciple infuses his strike with the pure celestial essence of their heavenly companion and smites the forces of the Lower Planes. Make an attack that inflicts and additional [[10d6]] points of damage. The disciple may also choose to strike incorporeal foes with this strike as if they were made manifest, including fiends who currently possess a creature. To strike a possessing fiend, the body they inhabit must be also struck, but all damage goes to the possessing fiend without harming the host. If used against a possessing fiend or an incorporeal creature, he may attempt to make this creature corporeal (if used against a possessing fiend, the creature will appear adjacent of the host) temporarily. The creature must make a Will save (DC 16 + initiation modifier) or be made corporeal and stunned for the character's initiation modifier in rounds (minimum of one round).</p>"
+    },
+    "discipline": "Silver Crane",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "LP9l2bWKpw73AGGA",
+  "_id": "LRchgyWgsYLlmC8l",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991338226,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!LRchgyWgsYLlmC8l"
+}

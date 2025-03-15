@@ -1,0 +1,58 @@
+{
+  "name": "Sanguine Proclamation",
+  "img": "icons/weapons/swords/sword-runed-glowing.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Scarlet Throne maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>With a mighty overhand swing the Scarlet Throne disciple puts his foe in their place; on their knees before the majesty of a prince of warriors. The initiator must make a melee attack against a target creature which if successful inflicts an additional [[10d6]] points of damage and the target must make a successful Will save (DC 17 + initiation modifier) to resist being driven to its knees, knocked prone.</p>"
+    },
+    "discipline": "Scarlet Throne",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "pnZ1HtOvHw4MOoo4",
+  "_id": "JHsWCfwEwglPwicr",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991434700,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!JHsWCfwEwglPwicr"
+}

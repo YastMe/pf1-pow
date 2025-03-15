@@ -1,0 +1,58 @@
+{
+  "name": "Copycat Cut",
+  "img": "icons/magic/unholy/energy-smoke-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>With a slight shift of your stance, you mimic an attack you've witnessed in the last few seconds of combat. Make a melee attack. If it hits, it deals weapon damage as normal plus an additional [[1d6]] points of damage, and you can choose to use the result of any attack roll made by your target in their next turn in place of one of your attack rolls in your next turn. If you strike that opponent with their own attack roll, you deal an additional [[2d4]] points of damage. An attack made using an opponent's attack roll does not threaten or confim critical hits.</p>"
+    },
+    "discipline": "Shattered Mirror",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "U7xkaBJIenn1Fo0U",
+  "_id": "2PHoCcADQ2ZGmSXb",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991257859,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!2PHoCcADQ2ZGmSXb"
+}

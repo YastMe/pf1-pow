@@ -1,0 +1,58 @@
+{
+  "name": "Push the Advantage",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Close (25 ft. + 5 ft./2 levels)<br /><strong>Target</strong>: One ally<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>With the enemy defeated, you spurn an ally towards further glory. You may initiate this counter when you or an ally defeats an enemy. That ally may immediately take a standard action, and you may also heal yourself and allies within close range (25 feet + 5 feet per 2 initiator levels) for a total number of hit points equal to seven times your initiation modifier, divided as you choose between you and your allies. Essence: Each point of essence invested into this counter increases the total amount of healing done by 9 hit points, and while essence is invested into this counter, the target gains the option to move up to 5 feet per point of essence invested after this maneuver is initiated, provoking attacks of opportunity as normal. This healing is split up between targets normally</p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "6qjAXbNUllvzSPyd",
+  "_id": "M4ZdB4kg3Z8vcjGs",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991407463,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!M4ZdB4kg3Z8vcjGs"
+}

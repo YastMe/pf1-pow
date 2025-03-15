@@ -1,0 +1,58 @@
+{
+  "name": "Guard the Pride",
+  "img": "icons/magic/nature/wolf-paw-glow-large-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Adjacent ally<br /><strong>Target</strong>: One ally<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>By trusting the awareness of the celestial realm, the around him to see where the next attack is coming and move away from danger. As an immediate action, the initiator grants a circumstance bonus to the target adjacent ally's Armor Class for one round equal to half the disciple's initiator level.</p>"
+    },
+    "discipline": "Golden Lion",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "MSzT5o484RA27wOg",
+  "_id": "gO6N3M213XQsNmE7",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991331961,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!gO6N3M213XQsNmE7"
+}

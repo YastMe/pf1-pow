@@ -1,0 +1,58 @@
+{
+  "name": "Enduring Shell",
+  "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>By tightening up behind his shield and dropping low under its protective aegis, the disciple of the Iron Tortoise learns to minimize the risk he suffers from spells and effects that would cause him to rely solely on reflexes. The initiator throws up his shield when he is forced to make a Fortitude or Reflex save and uses it to help mitigate the harm he is about to endure. The initiator may add his total shield bonus to AC to a single Fortitude or Reflex save when using this counter.</p>"
+    },
+    "discipline": "Iron Tortoise",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "EaazsVP56vRh3k1L",
+  "_id": "2kWgxRzoi1Ncw9fl",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991297318,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!2kWgxRzoi1Ncw9fl"
+}

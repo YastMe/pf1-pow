@@ -1,0 +1,128 @@
+{
+  "name": "Riven Hourglass",
+  "img": "icons/magic/time/clock-spinning-gold-pink.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Time exists. No one can deny this fact that time inexorably marches forward and brings all things to crumbling ruin, to death, and to dissolution. For others, time brings great things, as when things mature they grow and change, become more beautiful or potent. At the end of all things, the sand in the hourglass always falls and time passes. Some souls rejected this notion, and learned through skill with a blade to cleave the hourglass in twain and alter the passage of time to their benefit. Thus, the Riven Hourglass discipline was born. Students of this discipline believe that within each being there is an Hourglass in their soul, and within this hourglass resides the sands that flow endlessly towards the end of a creature’s time in the world. By manipulating their own Hourglass and that of others, the practitioners of this art show that through will, determination, and the use of the sands of time within all beings that battle can be won before it has even begun. Riven Hourglass disciples are capable of seeing minute flows in the endlessly flowing sands of time and are capable of making decisions in the moments when they need to be made.</p><p><strong>Associated Skills</strong>: Autohypnosis</p><p><strong>Associated Weapon Groups</strong>: Flails, hammers, and light blades</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": true,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "4R015KXgVtLwEFXS",
+  "_id": "fAQ8OZBXpU5k2DzQ",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991426413,
+    "modifiedTime": 1739654663237,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!fAQ8OZBXpU5k2DzQ"
+}

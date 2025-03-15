@@ -1,0 +1,58 @@
+{
+  "name": "Steel Shell",
+  "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 2 Iron Tortoise Maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: None</p><h2>Description</h2><p>By steeling himself against an attack behind the wall of his mighty shield, an Iron Tortoise disciple may attempt to negate or reduce an incoming attack. The initiator makes an opposed attack roll using his base attack bonus plus shield bonus to AC against the opponent's attack roll. If successful, the attack is negated. If the opposed check is failed by the martial disciple, he instead gains DR 20/- to resist the attack.</p>"
+    },
+    "discipline": "Iron Tortoise",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "EIuEezEcGPv2rbEe",
+  "_id": "ipNID7C5cE1rvRQK",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991485250,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!ipNID7C5cE1rvRQK"
+}

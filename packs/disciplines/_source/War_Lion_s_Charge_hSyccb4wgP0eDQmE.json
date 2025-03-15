@@ -1,0 +1,58 @@
+{
+  "name": "War Lion’s Charge",
+  "img": "icons/magic/nature/wolf-paw-glow-large-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 3 Golden Lion maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>With the ferocity of an angered lion, the Golden Lion disciple races across the battlefield ignoring secondary targets to bear down on a single enemy and reduce him to dust. The initiator makes a charge attack against a foe (which does not provoke attacks of opportunity) and this attack inflicts an additional [[14d6]] points of damage. The foe must also make a Fortitude save (DC 17 + initiation modifier) or be stunned for one round.</p>"
+    },
+    "discipline": "Golden Lion",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Partial",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "ZEkzExs9YDjvuNqq",
+  "_id": "hSyccb4wgP0eDQmE",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991539780,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!hSyccb4wgP0eDQmE"
+}

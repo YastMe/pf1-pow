@@ -1,0 +1,58 @@
+{
+  "name": "Blazing Mirror Strike",
+  "img": "icons/magic/unholy/energy-smoke-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Shattered Mirror maneuver<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>In a flash of bright death, your weapon transforms into light, passing through your foe's armor and scorching their eyes. Make a melee touch attack with a weapon you are wielding. If it hits, it deals weapon damage as normal, and the target must succeed at a Fortitude save (DC 14 + your initiation modifier) or become blinded for a number of rounds equal to your initiator level.</p>"
+    },
+    "discipline": "Shattered Mirror",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "Negates",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "oe4yZ4T0sVM7JNOV",
+  "_id": "lmhtks7meAIiG5UI",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991235403,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!lmhtks7meAIiG5UI"
+}

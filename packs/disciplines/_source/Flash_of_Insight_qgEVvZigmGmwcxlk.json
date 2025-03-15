@@ -1,0 +1,58 @@
+{
+  "name": "Flash of Insight",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: 30 ft.<br /><strong>Target</strong>: One or two allies (see text)<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You turn a sudden burst of inspiration into strength for your allies, sharing your power to give them an edge in battle and help them shrug of their wounds. You can activate this boost after making a successful attack or combat maneuver check. One ally within 30 feet gains another saving throw against a non-instantaneous effect that allows a saving throw affecting them. This saving throw has the same DC as the original save. If your ally succeeds, the effect ends. The ally does not suffer any additional effects for failing the save (such as a poison's damage). You cannot grant an ally more than one additional save against a given effect. Augment: You can augment this maneuver in one or more of the following ways: For every power point you spend, your ally gains a +1 insight bonus on their saving throw. If you expend your psionic focus while initiating this boost, this boost instead affects up to two allies within 30 feet.</p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "whugWMRdGhCwBQyw",
+  "_id": "qgEVvZigmGmwcxlk",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991313978,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!qgEVvZigmGmwcxlk"
+}

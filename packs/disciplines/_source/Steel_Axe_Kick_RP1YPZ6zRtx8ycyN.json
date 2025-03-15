@@ -1,0 +1,58 @@
+{
+  "name": "Steel Axe Kick",
+  "img": "icons/skills/melee/sword-damaged-broken-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Broken Blade maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>With a sweeping axe kick that strikes as hard as any hammerstrike could ever be hoped to, the disciple of the Broken Blade lands a crushing blow that causes even the strongest of opponents to pause in pain. The initiator delivers a devastating spinning kick (as an unarmed strike) that inflicts an additional [[10d6]] points of damage and potentially dazes the target for [[1d3]] rounds on a failed Fortitude save (DC 16 + initiation modifier).</p>"
+    },
+    "discipline": "Broken Blade",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Partial",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "rrvfEvquw5zAQQJM",
+  "_id": "RP1YPZ6zRtx8ycyN",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991482502,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!RP1YPZ6zRtx8ycyN"
+}

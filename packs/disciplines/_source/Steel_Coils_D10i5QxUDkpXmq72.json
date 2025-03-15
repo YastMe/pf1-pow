@@ -1,0 +1,58 @@
+{
+  "name": "Steel Coils",
+  "img": "icons/weapons/daggers/dagger-magical-glowing-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Steel Serpent Maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>In this stance, the movements and motions of the disciple become more sinuous and deliberate, as if he were a serpent coiled to strike. While in this stance, the disciple may make grapple attempts without provoking attacks of opportunity, and if the disciple successfully grapples a foe, he may constrict his opponent to inflict [[4d6]] + his Strength modifier in damage. The manner in which he must carry himself in this stance, muscles taught and stiffened, grants him some degree of protection, adding a +4 bonus to his natural armor.</p>"
+    },
+    "discipline": "Steel Serpent",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "zBprjBQlsO9Soc4n",
+  "_id": "D10i5QxUDkpXmq72",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991482844,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!D10i5QxUDkpXmq72"
+}

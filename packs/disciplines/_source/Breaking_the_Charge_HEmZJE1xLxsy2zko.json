@@ -1,0 +1,58 @@
+{
+  "name": "Breaking the Charge",
+  "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Piercing Thunder maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>The disciple of the Piercing Thunder is wise to the ways of combat, and when opponents rush by, his lance is always at the ready. You can initiate this counter whenever a charging opponent passes within 10 feet of you (including if you yourself are being charged). Make a melee attack against that creature with a weapon you are wielding, even if its reach would not otherwise allow you to strike the foe. If it hits, it deals weapon damage as normal plus an additional [[5d6]] points of damage, and the target must succeed at a Reflex save (DC 17 + your initiation modifier) or be knocked prone. Regardless of whether or not they succeed at the save, the target's movement ends, potentially keeping them from making their charge attack. This maneuver may only be made with a discipline weapon.</p>"
+    },
+    "discipline": "Piercing Thunder",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Partial",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "JoF5qKZN65AdthCq",
+  "_id": "HEmZJE1xLxsy2zko",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991241038,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!HEmZJE1xLxsy2zko"
+}

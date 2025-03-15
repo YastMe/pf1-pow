@@ -1,0 +1,58 @@
+{
+  "name": "Assay Resistance",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Elemental Flux maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>By directly targeting the elemental essence that suffuses all creatures, you overcome an opponent's defenses with a powerful attack. Your next attack ignores the first 25 points of energy resistance to your active element's associated energy type, automatically overcomes damage reduction, and deals an additional [[2d6]] points of damage. Animus augmentation: You may spend one point of animus to increase this boost's additional damage to [[3d6]].</p>"
+    },
+    "discipline": "Elemental Flux",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "hoIeEU1tVM3AvgNH",
+  "_id": "r0kYRHNm1x5EC4xq",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991222227,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!r0kYRHNm1x5EC4xq"
+}

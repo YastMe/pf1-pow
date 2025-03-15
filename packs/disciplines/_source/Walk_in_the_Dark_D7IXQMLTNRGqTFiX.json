@@ -1,0 +1,58 @@
+{
+  "name": "Walk in the Dark",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Black Seraph maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Using the principles of shadow and temporarily merging with the dark, the Black Seraph disciple becomes engulfed in smothering darkness and fear. While in this stance, the initiator is surrounded by a 20-ft. radius aura of darkness (this functions identically to the darkness spell while the character is in this stance). The initiator gains darkvision of 60 ft. while in this stance. Additionally, as a move action, the disciple may focus this smothering darkness to target an individual within it to frighten them for their initiation modifier in rounds (Will save DC 14 + initiation modifier reduces this to being shaken for one round).</p>"
+    },
+    "discipline": "Black Seraph",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "QJTtckKHuojTR23s",
+  "_id": "D7IXQMLTNRGqTFiX",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991539067,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!D7IXQMLTNRGqTFiX"
+}

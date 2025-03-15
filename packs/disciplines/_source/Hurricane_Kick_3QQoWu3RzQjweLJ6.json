@@ -1,0 +1,58 @@
+{
+  "name": "Hurricane Kick",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack (see text)<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>With a powerful leap and a twist, you take brief flight, before crashing down with a deadly blow. As part of initiating this strike, you may move up to your land speed as if you had a fly speed with average maneuverability, then make a melee attack against a creature within your reach at the end of this movement. This attack deals weapon damage as normal. If your movement ends in a location that cannot support you, your attack occurs before you fall (you take falling damage as normal). If you have a means to fly, glide, or hover after your movement, you may do so. You can make Climb checks in place of Fly checks during the movement of this strike.</p>"
+    },
+    "discipline": "Fool's Errand",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "yu8c8Xhm6JnZJ1xq",
+  "_id": "3QQoWu3RzQjweLJ6",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991342557,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!3QQoWu3RzQjweLJ6"
+}

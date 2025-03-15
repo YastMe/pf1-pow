@@ -1,0 +1,58 @@
+{
+  "name": "Reunion in Dreams",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Sleeping Goddess maneuver<br /><strong>Range</strong>: Close (25 ft. + 5 ft./2 levels)<br /><strong>Target</strong>: One willing creature (see text)<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Your understanding of the world and your place in it grows, and allows you to reach out to others and bring them under your protection even over great distances. When you initiate this boost, you teleport one willing creature that you can see within close range (25 feet + 5 feet per 2 initiator levels) to an unoccupied square adjacent to you. If there are no unoccupied adjacent squares for the creature to appear in, this boost has no effect. Augment: You can augment this maneuver in one or more of the following ways: For every power point you spend, you can teleport an additional willing creature within close range to an adjacent square. If you expend your psionic focus while initiating this boost, you may teleport yourself to an unoccupied square adjacent to a willing creature within close range before resolving the other effects of this boost. Measure the range of this boost from and teleport targets to unoccupied squares adjacent to your new position.</p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "zx02drM8VVPeGVbe",
+  "_id": "5LEK87GU5k7zwPXd",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991421433,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!5LEK87GU5k7zwPXd"
+}

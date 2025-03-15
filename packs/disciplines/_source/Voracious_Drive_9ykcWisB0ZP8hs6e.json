@@ -1,0 +1,58 @@
+{
+  "name": "Voracious Drive",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>The relentless nature of the Black Seraph discipline's philosophy deems that progression must be made with each swing, lest the battle turn against the disciple. With this philosophy in mind, the disciple moves forward and strikes viciously. The disciple makes a charge attack which does not provoke attacks of opportunity, and this inflicts an additional [[1d6]] points of damage. When making a charge attack with this strike, he does not suffer the standard -2 Armor Class penalty.</p>"
+    },
+    "discipline": "Black Seraph",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "NvKCTJ96SV9yRKmQ",
+  "_id": "9ykcWisB0ZP8hs6e",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991538350,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!9ykcWisB0ZP8hs6e"
+}

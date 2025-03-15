@@ -1,0 +1,58 @@
+{
+  "name": "Temporal Distortion",
+  "img": "icons/magic/time/clock-spinning-gold-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Riven Hourglass maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>By finding yourself in an immediate need of action, you are capable of stretching a tiny amount of time into the moments needed to move yourself away from danger. You can initiate this counter to move up to twice your speed without provoking attacks of opportunity. You cannot gain more than one movement from this counter per round.</p>"
+    },
+    "discipline": "Riven Hourglass",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "GBPg0cPljL7qIj2Q",
+  "_id": "hLi61LmI2HSrwzoy",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991504176,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!hLi61LmI2HSrwzoy"
+}

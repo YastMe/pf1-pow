@@ -1,0 +1,58 @@
+{
+  "name": "Twisting Parry",
+  "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Piercing Thunder maneuvers<br /><strong>Range</strong>: One attack<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>A champion of combat, the disciple of the Piercing Thunder is capable of using the size and weight of his weapon to buffet an attack aside to strike at another foe. You can initiate this counter in response to a melee or ranged attack being made against you. Make an attack roll with a weapon you are wielding. Use the higher of your AC and your attack roll as your effective AC against the incoming attack. If the attack against you misses, you deflect the attack at another creature you can see within reach or range of the attacker. Treat the attack as if it had been made against that creature, using the attacker's original attack roll to resolve the attack as normal. If there is no new target available, the attack is simply negated.</p>"
+    },
+    "discipline": "Piercing Thunder",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "PBJ6DL6hp56KFSWp",
+  "_id": "dpt45etlf5aw8Tho",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991524070,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!dpt45etlf5aw8Tho"
+}

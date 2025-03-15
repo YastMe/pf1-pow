@@ -1,0 +1,58 @@
+{
+  "name": "Judgement Day",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Four Radiant Dawn maneuvers<br /><strong>Range</strong>: Close (25 ft. + 5 ft./2 levels) range<br /><strong>Target</strong>: None<br /><strong>Duration</strong>: Instantaneous<br /><strong>Area:</strong> Burst centered on the initiator </p><h2>Description</h2><p>All enemies within the area are consumed by pure akashic ﬂame, taking 50 points of untyped damage. A successful Reﬂex save (DC 19 + initiation modifier) halves this damage. Allies within range are healed for 50 points of damage. This healing acts like that of a breath of life spell, with the exception that it isn't positive energy-based, and it may revive targets that have died since the last sunrise. Allies slain by death eﬀects can attempt another saving throw against that death eﬀect with a bonus equal to your initiation modifier. If this save is successful, they are revived with hit points equal to amount of healing done by this maneuver. A creature may only benefit from the breath of life eﬀect of this maneuver once, and must experience sunrise before they can gain its benefit again, though it still benefits from this maneuver's healing normally. Essence: Each point of essence invested into this maneuver increases the healing and damage done by 15 points each, the DC by 1, and the results of new saving throws against death eﬀects by 2.</p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 9,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "ANTZXICsJiDPnWFX",
+  "_id": "evwDfnNVikFGSnY2",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991357646,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!evwDfnNVikFGSnY2"
+}

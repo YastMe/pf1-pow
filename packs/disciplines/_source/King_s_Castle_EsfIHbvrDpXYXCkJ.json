@@ -1,0 +1,58 @@
+{
+  "name": "King's Castle",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Radiant Dawn maneuvers<br /><strong>Range</strong>: Close (25 ft. + 5 ft./2 levels)<br /><strong>Target</strong>: You and one ally<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Your faithful respond to your call for help. You may initiate this counter in response to being attacked. One willing ally (other than you) teleports to a space adjacent to you and gains temporary hit points equal to your initiator level, as well as DR/- equal to your initiation modifier, both of which last for 1 round. Resolve the attack against the teleported ally instead of yourself. After the attack is resolved, the ally teleported may make a single melee or ranged attack at their highest base attack bonus against the creature that attacked you. This attack does not provoke attacks of opportunity. Essence: Each point of essence invested into this maneuver increases the temporary hit points granted by this maneuver by 6, the damage reduction by 1, and the damage made by that ally's next attack by [[1d6]].</p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "hnkhUFBVLAZuEImC",
+  "_id": "EsfIHbvrDpXYXCkJ",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991359218,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!EsfIHbvrDpXYXCkJ"
+}

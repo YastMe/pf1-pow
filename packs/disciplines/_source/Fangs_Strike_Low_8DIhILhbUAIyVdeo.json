@@ -1,0 +1,58 @@
+{
+  "name": "Fangs Strike Low",
+  "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Thrashing Dragon maneuver<br /><strong>Range</strong>: One melee attack<br /><strong>Target</strong>: Personal<br /><strong>Duration</strong>: 3 rounds</p><h2>Description</h2><p>By forcing an opponent's guard up, the Thrashing Dragon spins low and attacks at the legs of the target to reduce his mobility and cause deep, flensing wounds. Upon successfully striking a target in melee combat with this maneuver, in addition to weapon damage the initiator's attack halves the target's land speed and inflicts [[1d6]] points of bleed damage per round for three rounds or until the target has been healed (magically or by a successful DC 15 Heal check).</p>"
+    },
+    "discipline": "Thrashing Dragon",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "KzM2lDENeRKiWDTT",
+  "_id": "8DIhILhbUAIyVdeo",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991308125,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!8DIhILhbUAIyVdeo"
+}

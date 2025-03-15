@@ -1,0 +1,58 @@
+{
+  "name": "Eye for an Eye",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two cursed razor maneuvers<br /><strong>Range</strong>: See text<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>With a snarled curse you level vengeance at your enemy. You can initiate this counter whenever you are struck by an attack or when you fail a saving throw against a maneuver, power, psi-like ability, spell, or spell- like ability. This counter cannot be initiated in response to failing a save against a harmless effect. The creature originating the attack or effect suffers all damage and effects inflicted upon you, just as if they'd targeted themselves. This maneuver only duplicates the effects you suffered on the creature, not the entire effect.</p>"
+    },
+    "discipline": "Black Seraph",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "ORBWpSsE4pXByCtN",
+  "_id": "2aMsyME4525yyBMv",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991304228,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!2aMsyME4525yyBMv"
+}

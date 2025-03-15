@@ -1,0 +1,58 @@
+{
+  "name": "Ego-Wounding Strike",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>You wrap your blade in psionic energy, telepathically amplifying the pain of the blow. Make an attack. If it hits, it deals weapon damage as normal, and the target must succeed at a Will save (DC 11 + your initiation modifier) or take become overwhelmed with agonizing pain, taking a -2 penalty on attack rolls, ability checks, and skill checks for one round. Each time one of your allies successfully hits that creature while it is under the effect of this strike, the duration increases by one round, up to a maximum number of rounds equal to your initiator level. Augment: You can augment this maneuver in one or more of the following ways: For every 2 power points you spend, the penalty inflicted by this strike increases by -1. If you expend your psionic focus while initiating this strike, your target does not get a saving throw against it.</p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "whugWMRdGhCwBQyw",
+  "_id": "mbmLtf59h95uMXo5",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991288332,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!mbmLtf59h95uMXo5"
+}

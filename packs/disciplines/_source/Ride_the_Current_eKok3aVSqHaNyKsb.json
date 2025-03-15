@@ -1,0 +1,58 @@
+{
+  "name": "Ride the Current",
+  "img": "icons/weapons/swords/sword-katana.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Mithral Current maneuver<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>By reading the movements of a foe, you are able to position yourself out of your enemy's reach, striking as a final parting gift. You can initiate this counter in response to a melee or ranged attack being made against you. If your weapon is sheathed, you may draw it and make a melee attack against your attacker. If it hits, it deals weapon damage as normal. Regardless of whether or not you attacked, you can move up to 10 feet without provoking attacks of opportunity. You cannot make this counterattack if the target is not within your melee reach or otherwise targetable with a melee attack.</p>"
+    },
+    "discipline": "Mithral Current",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "2ZZsq9Aoh0pYhtqj",
+  "_id": "eKok3aVSqHaNyKsb",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991423428,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!eKok3aVSqHaNyKsb"
+}

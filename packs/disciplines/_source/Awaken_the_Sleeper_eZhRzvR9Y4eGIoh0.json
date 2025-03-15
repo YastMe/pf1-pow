@@ -1,0 +1,58 @@
+{
+  "name": "Awaken the Sleeper",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Close (25 ft. + 5 ft./2 levels)<br /><strong>Target</strong>: One ally<br /><strong>Duration</strong>: 1 round; see text</p><h2>Description</h2><p>It's said that the soul of a mortal contains power that can rival the gods, and this maneuver awakens a fraction of that power for a brief moment. When you initiate this maneuver, choose one ally within close range other than yourself. That ally gains a maneuver known by you of 6th or lower level, readied and unexpended for the duration of this maneuver. An ally may choose to use your initiation modifier and initiator level in place of their own (if any) for this granted maneuvers. Additionally, the ally may may roll twice for any attack, saving throw, damage roll, or any skill check made as part of a maneuver they make during that round. Finally, that ally also gains temporary hit points equal to half of their maximum hit points. These temporary hit points last for 1 round. Essence: Each point of essence invested into this maneuver increases the target's movement speeds by 15 feet.</p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "6qjAXbNUllvzSPyd",
+  "_id": "eZhRzvR9Y4eGIoh0",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991225039,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!eZhRzvR9Y4eGIoh0"
+}

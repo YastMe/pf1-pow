@@ -1,0 +1,58 @@
+{
+  "name": "Bean nighe Attitude",
+  "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>By reading whispers of impending death, you stay one step ahead of your fate, avoiding even magical attempts on your life. While you maintain this stance, your clothing and equipment takes on a ravaged, blood-splattered appearance, as though you have been horrifically slain; additionally, you gain a +1 insight bonus on saving throws, which improves by 1 at 4th level and again every 4 levels thereafter.</p>"
+    },
+    "discipline": "Unquiet Grave",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "9WGHc1dH7t9vFXTG",
+  "_id": "EtYEByTaukMPEPoD",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991227826,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!EtYEByTaukMPEPoD"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Distorted Clock",
+  "img": "icons/magic/time/clock-spinning-gold-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>Magic is a fickle thing that wanes in power as the sands glitter through the hourglass of existence. You halt this progression within yourself, sustaining abilities that would normally only last a few minutes. You can apply the effects of the Extend Spell metamagic feat (or Extend Power metapsionic feat) to a single beneficial extract, power, psi-like ability, spell, or or spell-like ability cast upon you for as long as you maintain this stance. Leaving this stance causes the duration to resume as normal (each round of the effect spent as half of a round while in this stance). Starting at initiator level 10, you may extend a second effect. In addition, you gain a +2 circumstance bonus on saving throws against harmful effects with a duration of longer than instantaneous.</p>"
+    },
+    "discipline": "Riven Hourglass",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "lQfqVt1rSFFKB5U2",
+  "_id": "YdgOqUcAIob7TUjY",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991280319,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!YdgOqUcAIob7TUjY"
+}

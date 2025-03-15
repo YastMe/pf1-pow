@@ -1,0 +1,58 @@
+{
+  "name": "Raging Flux",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Elemental Flux maneuver<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You know how to strike with such eldritch force that it drives your foes backwards. Make an attack. If it hits, it deals weapon damage as normal plus an additional [[4d6]] points of damage of your active element's associated energy type. For every 10 points of damage you deal, the target of this attack is pushed 5 feet away from you in any direction. If this movement causes the target to collide with a solid object (such as a tree or a wall), it takes an additional [[1d6]] points of bludgeoning damage from striking the surface. Animus augmentation: You may spend one point of animus to push the target an additional 5 feet.</p>"
+    },
+    "discipline": "Elemental Flux",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "10E2NXFgmlqEtPlw",
+  "_id": "Xm2ynQE8R6wOJ9mi",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991409717,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Xm2ynQE8R6wOJ9mi"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Shadow Raptor Swarm",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Black Seraph maneuvers<br /><strong>Range</strong>: 30-ft cone<br /><strong>Target</strong>: None<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>The power of a Black Seraph disciple's hatred is made manifest by summoning a swarming mass of beating wings with razor tipped wings made of shadow that he directs at his foes in a cone of terror and rage. The initiator extends his hand or weapon and from this point a 30-ft cone of shadowy birds rip and rend at the disciple's foes and inflict [[12d6]] points of profane damage; a successful Reflex save (DC 16 + initiation modifier) halves this damage. All targets within this maneuver's effects are shaken for the disciple's initiation modifier in rounds.</p>"
+    },
+    "discipline": "Black Seraph",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Half",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "Gqd95KIMyWBnIgNC",
+  "_id": "T2S4MMEgWzG2f6qI",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991443079,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!T2S4MMEgWzG2f6qI"
+}

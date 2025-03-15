@@ -1,0 +1,58 @@
+{
+  "name": "Unbreakable Promise",
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Eternal Guardian maneuvers<br /><strong>Range</strong>: 60 ft.<br /><strong>Target</strong>: All opponents within 60 ft.<br /><strong>Duration</strong>: 3 rounds (see text)</p><h2>Description</h2><p>You vow that no foe will land a killing blow against those under your protection. You can initiate this counter in response to a melee or ranged attack being made against another ally within 60 feet. All opponents within 60 feet of you must succeed at a Will save (DC 17 + your initiation modifier) or become cursed for three rounds. While a creature is cursed by this counter, it cannot reduce any creature other than itself below 0 hit points by any means; any additional damage is negated. An affected creature can strike itself as an attack action or part of a full-attack action (dealing damage as normal for the attack) to end this curse.</p>"
+    },
+    "discipline": "Eternal Guardian",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "UZUXlKW9wnCER3Bb",
+  "_id": "Ri8zqiB4V449gIcs",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991526957,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Ri8zqiB4V449gIcs"
+}

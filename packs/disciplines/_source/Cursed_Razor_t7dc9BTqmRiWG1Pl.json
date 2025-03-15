@@ -1,0 +1,128 @@
+{
+  "name": "Cursed Razor",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>The discipline known now as Cursed Razor has dark origins indeed, spawned forth from the bodyguards of an ancient demonic cult. Tapping into the power of their own malevolence, these warrior-warlocks struck their opponents down with dark curses channeled through their weapons and developed techniques to project maleficent auras that sapped away at the bodies and minds of their enemies. Since then Cursed Razor has spread far beyond the now-dead cult, which taught other students before its demise, left books of its secrets lying around, or else simply inspired others with demonstrations of its entropic power. Though the techniques of Cursed Razor stem from the inborn malice found in any sapient mind, its powers are not necessarily evil—pragmatic, certainly, and utterly lacking in any sense of fair play, but not evil. Knights and champions in the mortal realm seeking the weapons to combat evil turn to Cursed Razor to gain an edge on their fiendish foes, or as a way of acknowledging the terrible truth of evil’s place in the multiverse while at the same time casting their defiance in its teeth. Maneuvers from the Cursed Razor discipline are imbued and enhanced with magical energies; as such, they are supernatural abilities. </p><p>Maneuvers from this discipline are imbued and enhanced with magical energies. As such, they are supernatural abilities.</p><p><strong>Curse Maneuvers</strong>: Some maneuvers in Cursed Razor have the curse descriptor. These maneuvers, much like spells with the curse descriptor, use persistent, malicious energies to inflict penalties on their victims. A creature immune to curses is immune to the effects of these maneuvers, with the exception of any weapon damage inflicted by them.</p><p>Many of these curse maneuvers inflict a new condition: cursed. By itself, the cursed condition does nothing, but many maneuvers or abilities have an increased effect on cursed creatures, or can only be used on cursed creatures (see individual maneuver descriptions for more information on how they interact with the cursed condition). Spells with the curse descriptor also apply the cursed condition for a duration equal to the spell’s duration. Multiple applications of the cursed condition do not overlap; instead the duration of each new application of the condition is added to the remaining duration of the previous application. The successful use of break enchantment, remove curse, or similar effects removes the cursed condition from the target in addition to their normal effects.</p><p><strong>Associated Skills</strong>: Spellcraft </p><p><strong>Associated Weapon Groups</strong>: Heavy blades, light blades, and spears  </p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": true,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "SKKZKeDmBMpEKfYY",
+  "_id": "t7dc9BTqmRiWG1Pl",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991265041,
+    "modifiedTime": 1739654663237,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!t7dc9BTqmRiWG1Pl"
+}

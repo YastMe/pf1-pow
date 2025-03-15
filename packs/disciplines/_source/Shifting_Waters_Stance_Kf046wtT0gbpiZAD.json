@@ -1,0 +1,58 @@
+{
+  "name": "Shifting Waters Stance",
+  "img": "icons/weapons/swords/sword-katana.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Mithral Current maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You dance your way across the battlefield, heedless of any obstacles between you and your target. While you maintain this stance, you do not need to move in a straight line while charging, and may move through difficult terrain while charging (although your movement is still reduced if you do so). In addition, any time a maneuver allows you to move as part of initiating it (including maneuvers that allow you to take a 5-foot step), you may move an additional 5 feet. You can sheath your weapon once per round as a free action that does not provoke attacks of opportunity, even if it is not your turn.</p>"
+    },
+    "discipline": "Mithral Current",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "ZheSxMUAYpU3tL7I",
+  "_id": "Kf046wtT0gbpiZAD",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991449257,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Kf046wtT0gbpiZAD"
+}

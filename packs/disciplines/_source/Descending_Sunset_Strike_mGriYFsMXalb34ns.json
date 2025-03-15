@@ -1,0 +1,58 @@
+{
+  "name": "Descending Sunset Strike",
+  "img": "icons/weapons/swords/sword-runed-glowing.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Scarlet Throne maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>With a downward swing of his blade, the Scarlet Throne adapt proves his mastery of the discipline by shattering the will of the enemy to fight. The disciple makes a Sense Motive check in place of his normal attack roll (he may add any enhancement bonus from his weapon or feats that apply from the use of his weapon to this Sense Motive check as well), and if this Sense Motive check equals or exceeds the target's armor class, the attack deals quadruple damage. If this check does not meet or exceed the target's armor class, then the attack fails and the disciple misses.</p>"
+    },
+    "discipline": "Scarlet Throne",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "G1DWVhLhWsZQhakz",
+  "_id": "mGriYFsMXalb34ns",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991273302,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!mGriYFsMXalb34ns"
+}

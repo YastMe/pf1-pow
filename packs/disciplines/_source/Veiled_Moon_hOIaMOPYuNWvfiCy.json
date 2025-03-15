@@ -1,0 +1,128 @@
+{
+  "name": "Veiled Moon",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>As the stillness of the moon reflected upon a still pond, the spiritualist discipline of Veiled Moon is seen as a strange and esoteric art, whose mysteries are difficult to grasp, and even harder to practice! The practitioners of this discipline are said to be ‘half-in, half-out’ due to the fact that they seem to be living in two worlds; in fact, this is not far from the truth. Veiled Moon disciples have grasped connections to the Astral and Ethereal planes in their mind through intense meditation and a spiritual devotion to learning the ways of spirits and the natural world, and blended them seamlessly into a martial art so supernatural that it borders on the magical. A potent, yet passive, discipline, its esoteric abilities are often misunderstood. Maneuvers include short distance astral teleportation, ethereal abilities to become incorporeal or use incorporeal touch attacks to strike foes easily, force damage strikes, and the ability to cause foes to become incorporeal themselves.</p><p><strong>Associated Skills</strong>: Stealth</p><p><strong>Associated Weapon Groups:</strong> Light blades, double weapons, and spears</p><p><strong>Special Note</strong>: The discipline of Veiled Moon and all of its maneuvers and stances are considered to be supernatural abilities and thus do not function in situations where supernatural abilities will fail. If the character is on an a plane that does not touch the Ethereal, then Veiled Moon maneuvers that specify that they use the Ethereal Plane do not function; all others function normally due to all planes connecting to the Astral Plane. Teleportation maneuvers require that the destination must be within line of sight to the initiator, and are usable with the Dimensional Agility line of feats. Also, maneuvers with the [Teleportation] tag only apply to the initiator himself, his gear and equipment, and up to 25 pounds of carried objects. Lastly, maneuvers with the [Mind-affecting] tag are considered enchantment effects for the purposes of saving throws and immunities.</p><p>Maneuvers and stances that cause the initiator to become incorporeal also cause the initiator’s equipment, and up to 25 pounds of carried items, to become incorporeal.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": true,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "XpMwsS218CjqxO9I",
+  "_id": "hOIaMOPYuNWvfiCy",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991534618,
+    "modifiedTime": 1739654663237,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!hOIaMOPYuNWvfiCy"
+}

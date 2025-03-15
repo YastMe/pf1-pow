@@ -1,0 +1,58 @@
+{
+  "name": "Sudden Gust",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Your placed shot can knock an enemy to the ground as easily as a mighty sword swing. Make a ranged attack. If it hits, it deals weapon damage as normal plus an additional [[2d6]] points of damage, and you can make a trip attempt against the target as a free action, using a Sleight of Hand check in place of your combat maneuver check. This trip attempt does not provoke an attack of opportunity.</p>"
+    },
+    "discipline": "Tempest Gale",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "5oQ1uACOPZDw7Ofw",
+  "_id": "N875zdgsFtJ4wu83",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991493661,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!N875zdgsFtJ4wu83"
+}

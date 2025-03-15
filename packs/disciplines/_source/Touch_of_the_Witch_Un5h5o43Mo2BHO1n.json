@@ -1,0 +1,58 @@
+{
+  "name": "Touch of the Witch",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: Self<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>Your weapons become charged with malicious energies. While you maintain this stance, any creature you hit with a melee weapon (including natural weapons) becomes cursed for a number of rounds equal to your initiation modifier. This stance's effect resolves after other effects relating to the attack (such as strikes or weapon properties). </p>"
+    },
+    "discipline": "Cursed Razor",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "No save",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "C4jBfNix1HcOwiYF",
+  "_id": "Un5h5o43Mo2BHO1n",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991518722,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Un5h5o43Mo2BHO1n"
+}

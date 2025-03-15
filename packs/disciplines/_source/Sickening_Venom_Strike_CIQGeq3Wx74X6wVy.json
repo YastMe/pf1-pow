@@ -1,0 +1,58 @@
+{
+  "name": "Sickening Venom Strike",
+  "img": "icons/weapons/daggers/dagger-magical-glowing-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Steel Serpent Maneuver<br /><strong>Range</strong>: Melee attack or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous, [[1d4]] rounds</p><h2>Description</h2><p>With a sharp jab of sickening ki energy, the Steel Serpent disciple can rob an enemy of his will to continue to fight as their body rebels against them. Make an attack against an opponent, and if this is successful, the strike inflicts an additional 2 points of Constitution damage and has the chance to sicken the target for [[1d4]] rounds. A successful Fortitude save (DC 13 + initiation modifier) negates the sickened effect. This is a supernatural ability.</p>"
+    },
+    "discipline": "Steel Serpent",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "Negates",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "zBprjBQlsO9Soc4n",
+  "_id": "CIQGeq3Wx74X6wVy",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991452598,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!CIQGeq3Wx74X6wVy"
+}

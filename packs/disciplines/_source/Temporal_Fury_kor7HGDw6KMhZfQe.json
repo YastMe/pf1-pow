@@ -1,0 +1,58 @@
+{
+  "name": "Temporal Fury",
+  "img": "icons/magic/time/clock-spinning-gold-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Riven Hourglass maneuver<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One living creature<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>You surround your weapon with quintessence, the essence of time that withers all things, and strike at your foe with its burning temporal energies. Make an attack. If it hits, it deals weapon damage as normal plus an additional [[2d6]] points of damage, and the target must succeed at a Fortitude save (DC 13 + your initiation modifier) or be affected as if by a slow spell for two rounds.</p>"
+    },
+    "discipline": "Riven Hourglass",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "Negates",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "2KWG1MnnqLOAnxHt",
+  "_id": "kor7HGDw6KMhZfQe",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991504526,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!kor7HGDw6KMhZfQe"
+}

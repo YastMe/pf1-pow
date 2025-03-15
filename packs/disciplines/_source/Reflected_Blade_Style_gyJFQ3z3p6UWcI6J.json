@@ -1,0 +1,58 @@
+{
+  "name": "Reflected Blade Style",
+  "img": "icons/magic/unholy/energy-smoke-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Shattered Mirror maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>Your will creates a glimmering mirror of your assaults, afflicting two enemies at once. After initiating this boost, the next strike you initiate with an initiation action of 1 standard action that targets one creature also affects an additional opponent within close range (25 feet + 5 feet per 2 initiator levels), even if that opponent would normally be out of range of the strike. If the strike requires an attack roll, use the same attack roll against both targets.</p>"
+    },
+    "discipline": "Shattered Mirror",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "hujiV3ChchMBWMRW",
+  "_id": "gyJFQ3z3p6UWcI6J",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991418163,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!gyJFQ3z3p6UWcI6J"
+}

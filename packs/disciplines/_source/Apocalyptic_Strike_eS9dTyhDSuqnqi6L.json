@@ -1,0 +1,58 @@
+{
+  "name": "Apocalyptic Strike",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Black Seraph maneuvers<br /><strong>Range</strong>: 40-ft<br /><strong>Target</strong>: None<br /><strong>Duration</strong>: Instant<br /><strong>Area</strong>: 40-ft-radius burst centered on you </p><h2>Description</h2><p>This master level technique of the Black Seraph discipline allows its disciples to bring forth the true power of destruction from the darkness within. By letting out a cry of rage and driving his weapon into the ground at his feet, he lets forth a burst of destructive energy to all surrounding him, friend or foe. This destructive wrath inflicts [[16d6]] points of profane damage to all targets within a 40-ft radius burst, centered on the initiator. The power of this blast is such that it may daze all affected creatures for one round with unholy agony that were not quick enough to avoid the worst of the assault. Those caught within the blast of dark energy may attempt a Reflex save (DC 18 + initiation modifier) for half damage and to negate the dazed condition.</p>"
+    },
+    "discipline": "Black Seraph",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "Half",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "ax5wCEhQoBDAmsGB",
+  "_id": "eS9dTyhDSuqnqi6L",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991219395,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!eS9dTyhDSuqnqi6L"
+}

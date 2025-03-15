@@ -1,0 +1,58 @@
+{
+  "name": "Mourning Ghost Attitude",
+  "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 2 Unquiet Grave maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>When you assume this stance, your outline smudges gently and your hair and equipment become semi-transparent, as though you had become a ghost. While you maintain this stance, your armor has the ghost touch property (even if it is not otherwise magical) and you - along with your worn, carried, or held equipment - may move through solid objects as though you were incorporeal, provided you do not end your movement within a solid object.</p>"
+    },
+    "discipline": "Unquiet Grave",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "mGwusVbb6leIuha7",
+  "_id": "LowF6KVhqpwR30ap",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991383479,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!LowF6KVhqpwR30ap"
+}

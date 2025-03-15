@@ -1,0 +1,58 @@
+{
+  "name": "Charge of the Ravager",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Black Seraph maneuvers<br /><strong>Range</strong>: Up to twice base movement<br /><strong>Target</strong>: One creature and all adjacent targets along charge path<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>The path to victory is not a curved line, it is a straight, bloody line. The Black Seraph teaches its disciples this and urges them to greater glory and carnage on the field of battle. The disciple makes a charge attack against an opponent to start this maneuver and he may make a full attack upon the target of this charge. This charge does not provoke attacks of opportunity. The disciple may also make one attack at his highest attack bonusagainst any opponent along his charge path, and all successful attacks inflict an additional [[2d6]] points of damage. He may only make one attack per target when he initiates this maneuver.</p>"
+    },
+    "discipline": "Black Seraph",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "vdgpvp9LYb0wUg90",
+  "_id": "6iY8pA4LmVUmNtvj",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991252438,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!6iY8pA4LmVUmNtvj"
+}

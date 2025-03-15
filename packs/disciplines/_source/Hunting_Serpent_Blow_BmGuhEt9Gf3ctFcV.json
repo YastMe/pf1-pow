@@ -1,0 +1,58 @@
+{
+  "name": "Hunting Serpent Blow",
+  "img": "icons/weapons/daggers/dagger-magical-glowing-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>The disciple hunts his foe through the emulation of a hunting serpent, obfuscating his true attack until the moment he strikes. The disciple makes a Heal check with a difficulty equal to his opponent's armor class. If this check is successful, then the target is made flat-footed and the disciple may make a melee attack against him, inflicting an additional [[1d6]] points of damage if successful. If this Heal check fails, then his opponent sees through this ruse, and the disciple makes his melee attack with a -2 penalty as the enemy is anticipating his attack.</p>"
+    },
+    "discipline": "Steel Serpent",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "waQOpS3nPqWY5GXO",
+  "_id": "BmGuhEt9Gf3ctFcV",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991341620,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!BmGuhEt9Gf3ctFcV"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Kill the Wounded",
+  "img": "icons/magic/nature/wolf-paw-glow-large-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 1 Golden Lion maneuver<br /><strong>Range</strong>: Any attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: One round</p><h2>Description</h2><p>The Golden Lion disciple makes a ferocious assault on his foe, opening the enemy's defenses to the attacks of his allies. The initiator makes a melee attack against a foe and if successful, subsequent attacks made by the initiator's allies inflict an additional [[2d6]] points of damage per successful attack until the initiator's next turn.</p>"
+    },
+    "discipline": "Golden Lion",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "M3IkK7dUVfMrj4JE",
+  "_id": "SGq6WQ9Qho0JLCft",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991358908,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!SGq6WQ9Qho0JLCft"
+}

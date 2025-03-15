@@ -1,0 +1,128 @@
+{
+  "name": "Piercing Thunder",
+  "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>The Piercing Thunder discipline finds its traditions rooted in one of the oldest weapons known to intelligent beings: the spear. Be this spear fought in melee, tossed to hunt, or used as part of a charge, the spear, and later the polearm, has been a standard in military practice. Those who follow Piercing Thunder’s teachings know that these mighty hafted weapons are equally at home in the hands of a warrior on the battlefield as they are in those of a poor peasant militiaman—the spear knows no rank, only skill. Piercing Thunder shows superiority through the overwhelming force granted by reach and mobility.</p><p><strong>Associated Skills</strong>: Acrobatics </p><p><strong>Associated Weapon Groups</strong>: Polearms and spears</p><p><strong>Special Note</strong>: The specialized nature of some Piercing Thunder maneuvers requires you to be wielding a discipline weapon or a weapon that inflicts piercing damage. If you are not wielding such a weapon, then you cannot perform those maneuvers. In addition, while you maintain a Piercing Thunder stance, you can retrieve unattended weapons as a free action, provided the weapon is within your reach at some point during your turn (including as part of movement). </p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": true,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "boYt6O8ekmEZEMhM",
+  "_id": "ddjbDqrEFnnh11tS",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991398863,
+    "modifiedTime": 1739654663237,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!ddjbDqrEFnnh11tS"
+}

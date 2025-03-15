@@ -1,0 +1,58 @@
+{
+  "name": "Stutter Strike",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>With just the faintest edge of dark energies, you can afflict your victims with a word-eating curse. Make a melee attack. If it hits, it deals weapon damage as normal, and the target must succeed at a Will save (DC 11 + your initiation modifier) or take a -4 penalty on language-based skill checks and suffer a 25% chance of failure when casting spells (including divine spells) with a verbal component for a number of rounds equal to your initiator level. In addition, a struck target becomes cursed for a number of rounds equal to your initiator level, regardless of whether or not it succeeded on its save.</p>"
+    },
+    "discipline": "Black Seraph",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Partial",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "C4jBfNix1HcOwiYF",
+  "_id": "6WoiwurLctZiXdMQ",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991493309,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!6WoiwurLctZiXdMQ"
+}

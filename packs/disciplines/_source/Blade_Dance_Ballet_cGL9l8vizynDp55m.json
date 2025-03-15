@@ -1,0 +1,58 @@
+{
+  "name": "Blade-Dance Ballet",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Fool's Errand maneuvers<br /><strong>Range</strong>: Melee or ranged attack (see text)<br /><strong>Target</strong>: See text<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You follow a slash of your sword with several quick jabs or kicks. As part of this strike, make an attack with a weapon you are wielding and three unarmed strike attacks. You take a -2 penalty on your attack rolls during this strike. These attacks can be made against any valid targets for an attack (such as creatures, objects, or squares), and can be made in any order. After each attack, you may move up to 5 feet without provoking attacks of opportunity. In addition, you may move up to your speed before or after resolving this strike. Unlike the previous movement, this movement provokes attacks of opportunity as normal.</p>"
+    },
+    "discipline": "Fool's Errand",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "2RqFN1A3ndEFyV2M",
+  "_id": "cGL9l8vizynDp55m",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991233166,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!cGL9l8vizynDp55m"
+}

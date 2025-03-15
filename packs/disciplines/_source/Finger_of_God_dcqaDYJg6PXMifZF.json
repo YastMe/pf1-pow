@@ -1,0 +1,58 @@
+{
+  "name": "Finger of God",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Fool's Errand maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature (see text)<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Every sword on the battlefield is your weapon, even if your foes happen to be holding them for safekeeping. Choose one creature within your reach and make a Climb check with a DC equal to their CMD. If you succeed, you may throw the target up to 5 feet per initiator level you possess in any direction (including up). The target falls prone (taking falling damage, if applicable) in the last unoccupied space in that direction, and you may move to any other unoccupied space adjacent to where they landed. Neither your target's movement nor your movement during this strike provokes attacks of opportunity. If you have a free hand and there is a weapon within your reach at any point during this maneuver's movement (treat your movement as a straight line to your new space), you may pick that weapon up. If that weapon is wielded or worn by a creature, you must succeed at a disarm attempt to grab the weapon. This disarm attempt does not provoke an attack of opportunity, and you use a Climb check in place of your combat maneuver check. This ability does not give you any special ability to wield or carry the weapon in question if you normally couldn't (such as if it's improperly-sized for you or too heavy to lift). After you move during this boost, you can make a melee attack against the creature you threw (potentially using the weapon you grabbed during the movement).</p>"
+    },
+    "discipline": "Fool's Errand",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "WkC4w0MK0Kir3SqH",
+  "_id": "dcqaDYJg6PXMifZF",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991312754,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!dcqaDYJg6PXMifZF"
+}

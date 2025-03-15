@@ -1,0 +1,58 @@
+{
+  "name": "Steel Fang",
+  "img": "icons/weapons/daggers/dagger-magical-glowing-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Steel Serpent Maneuvers<br /><strong>Range</strong>: One melee attack or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>The spiritual ki focus of the disciple is so intense that it gains armor piercing force when applied to a weapon or hand strike. The disciple makes an attack against an opponent, and if successful, the attack deals an additional [[8d6]] points of damage and bypasses all damage reduction the target may possess. The awesome force of the disciple's ki is so strong that it has the potential to daze the opponent on a failed Will save (DC 15 + initiation modifier) for one round. Additionally, if the disciple is using poison or a prana maneuver with this strike, increase the saving throw DC by +3. This is a supernatural ability.</p>"
+    },
+    "discipline": "Steel Serpent",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "4qKTfUdl724VosRQ",
+  "_id": "qEhgVlth1Li7GpK8",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991483184,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!qEhgVlth1Li7GpK8"
+}

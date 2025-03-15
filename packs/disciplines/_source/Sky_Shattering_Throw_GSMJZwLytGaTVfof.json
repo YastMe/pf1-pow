@@ -1,0 +1,58 @@
+{
+  "name": "Sky-Shattering Throw",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Fool's Errand maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One locked creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You grip your opponent and throw them, converting all of your strength into their momentum. Choose one creature you're locking and make a Climb check with a DC equal to their CMD. If you succeed, you may throw the target up to 100 feet in any direction (including up) for each rank you have in the Climb skill. If the target would enter the space of a solid object (including the ground) or another creature, they stop, and both they and the object or creature they collided with take damage as if they had fallen a distance equal to the remaining distance the target would have traveled (up to a maximum of [[20d6]], as normal). This damage is treated as falling damage, and may be reduced by Fly checks or other abilities as normal. The target then falls prone in the space they land in.</p>"
+    },
+    "discipline": "Fool's Errand",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "I6jFf4QLS1RdSJql",
+  "_id": "GSMJZwLytGaTVfof",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991458762,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!GSMJZwLytGaTVfof"
+}

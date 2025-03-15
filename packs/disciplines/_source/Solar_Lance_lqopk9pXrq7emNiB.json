@@ -1,0 +1,58 @@
+{
+  "name": "Solar Lance",
+  "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>The disciple focuses his energies into his weapon and lets loose a powerful shot in a gusting wind. The initiator makes a ranged attack against his foe and if successful, the attack inflicts an additional [[2d6]] points of damage. The force of the wind that accompanies this blow is enough to potentially bull rush an opponent, allowing the initiator to make a free bull rush attempt as part of this attack, using his initiation modifier to calculate his CMB for the attempt with a +2 circumstance bonus. This is a supernatural ability.</p>"
+    },
+    "discipline": "Solar Wind",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "MrVJnKGt79twYb5D",
+  "_id": "lqopk9pXrq7emNiB",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991464261,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!lqopk9pXrq7emNiB"
+}

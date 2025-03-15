@@ -1,0 +1,58 @@
+{
+  "name": "Thunderous Fall",
+  "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Using the principles of Piercing Thunder, you are well-suited to taking advantage of your superior reach to bring your foes to the ground, be they cavalry or infantry. Make a melee attack. If it hits, it deals weapon damage as normal plus an additional [[2d6]] points of damage, and if the target is riding a mount, they must succeed at a Reflex save (DC 12 + your initiation modifier) or be dismounted, falling prone in a square of your choice adjacent to their mount. If the target is not mounted, you may instead make a trip attempt against them as a free action with a +2 competence bonus to your combat maneuver check. This strike can only be initiated with a</p>"
+    },
+    "discipline": "Piercing Thunder",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "Negates",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "oKcGVYIKiv1kYRD5",
+  "_id": "SsJrYgehYczyrhbf",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991514111,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!SsJrYgehYczyrhbf"
+}

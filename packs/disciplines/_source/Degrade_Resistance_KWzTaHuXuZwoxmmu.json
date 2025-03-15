@@ -1,0 +1,58 @@
+{
+  "name": "Degrade Resistance",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>As a disciple of the Elemental Flux, you understand how to use elements to assault those normally resistant to them. When you initiate this boost, your attacks ignore the first 10 points of energy resistance to your active element for one round. Animus augmentation: You may spend one point of animus to cause your first attack during the duration of this boost to deal an additional [[1d6]] points of damage of your active element's associated energy type.</p>"
+    },
+    "discipline": "Elemental Flux",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "eZxOelKAM7bSuDNC",
+  "_id": "KWzTaHuXuZwoxmmu",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991272427,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!KWzTaHuXuZwoxmmu"
+}

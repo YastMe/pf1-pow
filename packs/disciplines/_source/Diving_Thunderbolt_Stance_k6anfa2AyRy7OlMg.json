@@ -1,0 +1,58 @@
+{
+  "name": "Diving Thunderbolt Stance",
+  "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Piercing Thunder maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>Your movements are light and nimble, allowing you to reach incredible heights and strike with the force of a swooping dragon. While you maintain this stance, you become immune to falling damage, gain a bonus on Acrobatics checks made to jump equal to twice your initiator level, and your vertical jumping distance is not limited by your maximum movement speed. In addition, if you attack your opponent from a higher elevation (including after jumping towards them as a move action), you are considered to be charging that opponent for the purposes of feats and abilities you possess that would provide a beneficial effect.</p>"
+    },
+    "discipline": "Piercing Thunder",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "g2iLSiidJP6Owofm",
+  "_id": "k6anfa2AyRy7OlMg",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991282104,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!k6anfa2AyRy7OlMg"
+}

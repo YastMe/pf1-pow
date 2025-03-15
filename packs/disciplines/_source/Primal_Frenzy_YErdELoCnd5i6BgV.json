@@ -1,0 +1,58 @@
+{
+  "name": "Primal Frenzy",
+  "img": "systems/pf1/icons/feats/extra-rage.jpg",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Primal Fury maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>The disciple becomes a whirling dervish of hellish weapon blows as he descends into a blood-drenched frenzy of strikes against his surrounding foes, relying on his killer instincts to see him through the fight. As a full attack action, the initiator makes an attack roll at full base attack bonus against each target within his reach with each weapon he is currently wielding (including natural attacks and armor or shield spikes), and each successful attack inflicts an additional [[6d6]] points of damage. After initiating this maneuver, the initiator's focus on offense causes his AC to suffer a -2 penalty until his next turn.</p>"
+    },
+    "discipline": "Primal Fury",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "vLQkH6VAVVLds9fV",
+  "_id": "YErdELoCnd5i6BgV",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991403544,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!YErdELoCnd5i6BgV"
+}

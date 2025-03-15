@@ -1,0 +1,58 @@
+{
+  "name": "Meteoric Crash",
+  "img": "systems/pf1/icons/feats/extra-rage.jpg",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Primal Fury maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>By rushing at a foe like a blazing comet through the sky, the Primal Fury disciple crashes through an opponent to sculpt the battlefield into a field of carnage. The initiator makes a bull rush attempt as part of a charge with a +4 bonus (this bonus stacks with the +2 bonus from making a charge); if successful, the initiator inflicts [[10d6]] points of damage to the target as part of the bull rush and if the target is pushed back more than 10-ft., they are knocked prone on a failed Reflex save (DC 18 + initiation modifier) and he may make an immediate attack of opportunity against his prone foe. In initiator must be able to follow or reach the target to make this attack of opportunity.</p>"
+    },
+    "discipline": "Primal Fury",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "Negates",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "cVPtxcurqoQMBuRL",
+  "_id": "ULx9dJFJwHLs2L4y",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991376702,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!ULx9dJFJwHLs2L4y"
+}

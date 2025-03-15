@@ -1,0 +1,58 @@
+{
+  "name": "Banish to the Beyond",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Four Veiled Moon maneuvers<br /><strong>Range</strong>: Melee touch<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Special (see text)</p><h2>Description</h2><p>The ultimate technique of the Veiled Moon disciple is the ability to lay a mark against a target and shunt it gently into the Astral plane where it may ponder its reasons for crossing the likes of a master. The initiator makes a melee touch attack against a target, who then makes a Will save (DC 19 + initiation modifier). Failure indicates that the target is shifted fully into the Astral plane, body and all, and the target may not return to the Material plane for one hour. If the foe has no way to return to the Material plane after this duration has expired, he is effectively stranded and must find his own way back to his world. If the target succeeds his saving throw, he is still shunted to the Astral plane, but returns automatically to the Material plane after one minute. While in the Astral plane, the target is tethered to his body at the location he occupied before being pushed into the Astral Plane with a silver cord as normal (per astral projection).</p>"
+    },
+    "discipline": "Veiled Moon",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 9,
+    "saveEffect": "Partial",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "Lmzzk57mmwpeVcbU",
+  "_id": "q0NpI6GP9OHqYMj4",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991226152,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!q0NpI6GP9OHqYMj4"
+}

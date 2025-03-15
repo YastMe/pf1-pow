@@ -1,0 +1,58 @@
+{
+  "name": "Wyrmling’s Fang",
+  "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Thrown<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>With a quick flick of his wrist, the disciple hurls a blade deeply into his foe with blinding speed. The initiator must make a ranged attack against a target by throwing a light weapon with a range increment (such as a dagger) or a weapon from an associated Thrashing Dragon weapon group (improvised weapon penalties apply if applicable). If this attack is successful, the attack inflicts an additional [[1d6]] points of damage.</p>"
+    },
+    "discipline": "Thrashing Dragon",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "5Rxg0fxZVQDYqAl3",
+  "_id": "Uj8VCbrlUBN1AvMX",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991552140,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Uj8VCbrlUBN1AvMX"
+}

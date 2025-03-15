@@ -1,0 +1,58 @@
+{
+  "name": "Hooded Cobra Attitude",
+  "img": "icons/weapons/daggers/dagger-magical-glowing-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Steel Serpent Maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>By adopting this stance, the disciple of Steel Serpent evokes the menacing dread of the hooded cobra. The weaving, hypnotic motions of that most venomous of serpents manifests in the lithe movements of the disciple, whose gaze paralyzes a foe with its intensity. The disciple gains a gaze attack with a range of 30- ft. (see gaze attacks in Pathfinder Roleplaying Game Bestiary 1 for more information on how to avoid gaze attacks). Creatures coming within this range are shaken by the disciple's deadly presence and the glint of his eyes (Will save DC 18 + initiation modifier negates). When the disciple focuses his gaze (as an attack action) on a target, it may make a Will save (DC 18 + initiation modifier) to resist being paralyzed for [[1d4]] rounds by his hypnotic gaze. A successful save negates this effect. The disciple may only have one opponent paralyzed at a time. This is a mind-affecting, compulsion effect. This is a supernatural ability.</p>"
+    },
+    "discipline": "Steel Serpent",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "RRJAizyzBO8liAI7",
+  "_id": "COmimBMbTqFZCmDx",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991338841,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!COmimBMbTqFZCmDx"
+}

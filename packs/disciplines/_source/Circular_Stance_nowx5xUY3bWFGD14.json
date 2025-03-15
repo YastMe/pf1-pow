@@ -1,0 +1,58 @@
+{
+  "name": "Circular Stance",
+  "img": "icons/weapons/swords/sword-runed-glowing.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>Practitioners of Scarlet Throne know that to be a lord amongst warriors, he must walk the path of battle alone, and he understands that often times he may be beset by all sides. By adopting the Circular Stance, the disciple learns to defend himself from the predations of those who would think him outflanked. While in this stance, the initiator is never considered flanked (this thwarts sneak attack attempts as well, provided that the rogue or ninja's level does not exceed the disciple's initiator level by 4 or more).</p>"
+    },
+    "discipline": "Scarlet Throne",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "qQvmKZ8Lu0DBXPpi",
+  "_id": "nowx5xUY3bWFGD14",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991255572,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!nowx5xUY3bWFGD14"
+}

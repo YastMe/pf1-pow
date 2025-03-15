@@ -1,0 +1,58 @@
+{
+  "name": "Lion Lord’s Agony",
+  "img": "icons/magic/nature/wolf-paw-glow-large-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 3 Golden Lion maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>With a fury born of desperation and determination for victory, the Golden Lion disciple pours his pain into his swings so that the enemy may drink deeply of it. The initiator makes a melee attack, and in lieu of the weapon's damage the attack instead inflicts a number of points of damage equal to the initiator's maximum hit points minus his current hit points (example, if the disciple has 200 maximum hit points and has been wounded down to 54 remaining hit points, this attack inflicts 146 points of damage). The initiator is shaken for 1 round after using this strike.</p>"
+    },
+    "discipline": "Golden Lion",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "nsiS1FSKq5brwI3w",
+  "_id": "kqKTehkwJsfD9VuN",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991369045,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!kqKTehkwJsfD9VuN"
+}

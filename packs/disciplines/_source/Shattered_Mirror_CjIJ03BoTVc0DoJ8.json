@@ -1,0 +1,128 @@
+{
+  "name": "Shattered Mirror",
+  "img": "icons/magic/unholy/energy-smoke-pink.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>The strange and, in some ways, disquieting discipline known as Shattered Mirror is ancient and misunderstood. Many conflicting tales of its origins and practice exist, crediting its invention to a variety sources. Perhaps the most well-known story of its origin places blame for it at the feet of a mirror of opposition triggered by a great warrior caught in the midst of a magical conflict. The mirror’s powerful magics were pulled and warped by the flying spells and magical taint and the being it coughed forth came out wrong, unable to return to its home. Deprived of its homeland and its true and proper nature, it traveled the lands seeking power over reflections in an effort to return. The product of its failure, says the legend, is Shattered Mirror, which is still practiced to this day by those who seek power over reflections both true and deceptive. Some maneuvers from this discipline require the initiator to make a Craft check; these checks must use one of the Craft skills associated with Shattered Mirror.</p><p><strong>Associated Skills</strong>: Craft (glassmaking), Craft (painting), Craft (sculpture), and Craft (sketching) </p><p><strong>Associated Weapon Groups</strong>: Heavy blades, light blades, and close weapons  </p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": true,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "vobcmeSR6ujLvEhy",
+  "_id": "CjIJ03BoTVc0DoJ8",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991447918,
+    "modifiedTime": 1739654663237,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!CjIJ03BoTVc0DoJ8"
+}

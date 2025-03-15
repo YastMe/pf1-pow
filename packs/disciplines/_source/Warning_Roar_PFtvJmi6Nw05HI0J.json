@@ -1,0 +1,58 @@
+{
+  "name": "Warning Roar",
+  "img": "icons/magic/nature/wolf-paw-glow-large-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: 60-ft.<br /><strong>Target</strong>: One allied creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Witnessing a clear and present danger to an ally, the disciple shouts out a well-timed warning and aids his ally in defending against an attack. The initiator makes a Diplomacy check opposing an opponent's attack roll made on an ally. If successful then the attack is negated.</p>"
+    },
+    "discipline": "Golden Lion",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "Oy4OfPZL30lxnt8u",
+  "_id": "PFtvJmi6Nw05HI0J",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991541611,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!PFtvJmi6Nw05HI0J"
+}

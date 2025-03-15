@@ -1,0 +1,58 @@
+{
+  "name": "Surround from Within",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Fool's Errand maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: Adjacent opponents<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You cleverly place yourself in a position to strike at all enemies. Make a melee attack roll and compare it to the AC of each adjacent opponent. If the attack roll hits a target, it deals weapon damage as normal. After resolving your attacks, you may make a lock attempt against each target struck.</p>"
+    },
+    "discipline": "Fool's Errand",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "2RqFN1A3ndEFyV2M",
+  "_id": "tdOAQuXqt4XD43Q8",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991496482,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!tdOAQuXqt4XD43Q8"
+}

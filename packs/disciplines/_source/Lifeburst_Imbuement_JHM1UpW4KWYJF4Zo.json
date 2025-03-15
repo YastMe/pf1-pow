@@ -1,0 +1,58 @@
+{
+  "name": "Lifeburst Imbuement",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Close (25 ft. + 5 ft./2 levels)<br /><strong>Target</strong>: One ally<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>This maneuver imbues another to carry out your will. The target's next attack that hits also deals an additional [[2d6]] points of damage. When this attack hits, you can also heal yourself and allies within close range (25 feet + 5 feet per 2 initiator levels) for a total number of hit points equal to four times your initiation modifier, divided as you choose between you and your allies. Essence: Each point of essence invested into this boost increases the total amount of healing done by 6 hit points. This healing is split up between targets normally.  </p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "0KLoSITbXVwMCSBx",
+  "_id": "JHM1UpW4KWYJF4Zo",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991366825,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!JHM1UpW4KWYJF4Zo"
+}

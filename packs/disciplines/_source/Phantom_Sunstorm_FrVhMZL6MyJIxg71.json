@@ -1,0 +1,58 @@
+{
+  "name": "Phantom Sunstorm",
+  "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Solar Wind maneuvers<br /><strong>Range</strong>: One ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>The disciple draws back one weapon and lets loose with a hundred. The initiator creates dozens of phantom weapons that cause very real injuries in addition to the one real weapon used in the attack. The initiator initiates this boost as part of an attack or strike. If the attack is successful, then it inflicts maximum damage. This is a supernatural ability.</p>"
+    },
+    "discipline": "Solar Wind",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "jdQpVfIer8Ptib76",
+  "_id": "FrVhMZL6MyJIxg71",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991396278,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!FrVhMZL6MyJIxg71"
+}

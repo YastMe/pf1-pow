@@ -1,0 +1,58 @@
+{
+  "name": "Inner Sphere Stance",
+  "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>A defensive stance that focuses on using the disciple's dance-like movements to confound his foe, Inner Sphere Stance allows the disciple to use erratic movements to defend himself and bolster his confidence. When wielding two weapons while in this stance, the disciple gains a +2 dodge bonus to AC and a +2 morale bonus to Will saves. These bonuses increase by +1 when the character's initiator level reaches 6th, and increases again by +1 at 12th and 18th initiator level.</p>"
+    },
+    "discipline": "Thrashing Dragon",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "5Rxg0fxZVQDYqAl3",
+  "_id": "gMGhgyG9qz994suk",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991348471,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!gMGhgyG9qz994suk"
+}

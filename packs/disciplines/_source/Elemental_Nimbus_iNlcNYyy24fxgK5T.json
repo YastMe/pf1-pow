@@ -1,0 +1,58 @@
+{
+  "name": "Elemental Nimbus",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>Channeling the strength of the elements lends your attacks strength and fury. While you maintain this stance, you gain one of the following benefits, based on your active element: Air You gain a +2 bonus on attack rolls against opponents wearing metal armor, and your attacks deal an additional [[1d6]] points of electricity damage. At initiator level 10th, the bonus on attack rolls increases to +4 and the additional damage increases to [[3d6]]. Earth The strength of the earth empowers your weapon, causing it to deal damage as if it was one size category larger. Starting at initiator level 10th, your weapons instead deal damage as if they were two size categories larger. Fire Your attacks deal additional fire damage equal to your initiation modifier. At initiator level 10th, this damage increases to be equal to twice your initiation modifier. Water When you successfully hit an opponent with an attack, they must succeed at a Fortitude save (DC 11 + your initiation modifier) or become staggered for one round. A creature cannot be staggered by this stance more than once per round. The save DC for this stance's effect increases by +1 at initiator level 5th and at every four initiator levels thereafter.</p>"
+    },
+    "discipline": "Elemental Flux",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Text",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "rV7BH0T1g9pjMP1q",
+  "_id": "iNlcNYyy24fxgK5T",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991293154,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!iNlcNYyy24fxgK5T"
+}

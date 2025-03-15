@@ -1,0 +1,58 @@
+{
+  "name": "Bronze Knuckle",
+  "img": "icons/skills/melee/sword-damaged-broken-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: One turn</p><h2>Description</h2><p>With a spectacular crack of his knuckles, the disciple delivers an extra-potent blow to his foe in the form of a bone-crushing strike. As part of a unarmed attack or a strike from this discipline, the initiator's attacks for the duration of his turn inflict an additional [[2d6]] points of damage and these attacks ignore a target's damage reduction.</p>"
+    },
+    "discipline": "Broken Blade",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "kwmVJepvrSz9uCgA",
+  "_id": "LBDM1JMRif6Kor0C",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991244150,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!LBDM1JMRif6Kor0C"
+}

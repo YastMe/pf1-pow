@@ -1,0 +1,58 @@
+{
+  "name": "Swallow Your Fear",
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Eternal Guardian maneuver<br /><strong>Range</strong>: 60 ft.<br /><strong>Target</strong>: One ally<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>Your knowledge of fear and devotion allows you to absorb and control harmful magics which can affect the mind. You can initiate this counter in response to an ally (including yourself) within 60 feet rolling a saving throw against a mind-affecting effect. You or your ally gains a +4 morale bonus on that saving throw, and if the save is successful, that ally gains a number of temporary hit points equal to the save DC of that effect for a number of rounds equal to your initiator level.</p>"
+    },
+    "discipline": "Eternal Guardian",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "DQUTxOVDuxKVksMX",
+  "_id": "H4mg98PwoYqBvmB0",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991496835,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!H4mg98PwoYqBvmB0"
+}

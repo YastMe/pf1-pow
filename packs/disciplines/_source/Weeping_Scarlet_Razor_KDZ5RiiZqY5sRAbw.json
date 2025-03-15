@@ -1,0 +1,58 @@
+{
+  "name": "Weeping Scarlet Razor",
+  "img": "icons/weapons/swords/sword-runed-glowing.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Scarlet Throne maneuver<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Special</p><h2>Description</h2><p>Even the basest common soldier knows that there are places on a man's body where if he were to be stabbed, then he would bleed out in minutes. The Scarlet Throne disciple takes this knowledge and arms himself with his superior skill to utilize this arterial strike against his foes. The initiator makes a melee attack against a target creature, and if successful, this attack inflicts an additional [[4d6]] points of damage and the target begins to bleed profusely, inflicting 4 points of bleed damage per round until a successful Heal check (DC 20) or a spell or effect that cures hit point damage has been administered to the target.</p>"
+    },
+    "discipline": "Scarlet Throne",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "OWqQwCbH4FyD3Sed",
+  "_id": "KDZ5RiiZqY5sRAbw",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991543405,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!KDZ5RiiZqY5sRAbw"
+}

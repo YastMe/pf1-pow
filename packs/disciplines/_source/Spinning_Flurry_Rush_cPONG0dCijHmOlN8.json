@@ -1,0 +1,58 @@
+{
+  "name": "Spinning Flurry Rush",
+  "img": "icons/skills/melee/sword-damaged-broken-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Broken Blade maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: All adjacent enemies<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>The disciple of the Broken Blade takes a deep breath when he finds himself surrounded by opponents and hopes that they've made peace with the gods, for they will be seeing them soon. The initiator makes two attacks at full base attack bonus per opponent within his reach, and each attack inflicts an additional [[4d6]] points of damage.</p>"
+    },
+    "discipline": "Broken Blade",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "No save",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "GzgoQgZEODlYyh5n",
+  "_id": "cPONG0dCijHmOlN8",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991471462,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!cPONG0dCijHmOlN8"
+}

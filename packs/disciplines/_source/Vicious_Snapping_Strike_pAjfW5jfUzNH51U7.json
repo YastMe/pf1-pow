@@ -1,0 +1,58 @@
+{
+  "name": "Vicious Snapping Strike",
+  "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 2 Iron Tortoise Maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: None</p><h2>Description</h2><p>A skilled disciple of the Iron Tortoise knows the secrets to slowing his opponents down to match his heavily armored speed. By landing a powerful, mobility-reducing blow, the martial disciple keeps his enemy close. Make a melee attack, and if successful, the strike inflicts an additional [[5d6]] points of damage and halves the opponent's movement speed for their turn.</p>"
+    },
+    "discipline": "Iron Tortoise",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "zZXVIGXnNJDxBmnw",
+  "_id": "pAjfW5jfUzNH51U7",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991535763,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!pAjfW5jfUzNH51U7"
+}

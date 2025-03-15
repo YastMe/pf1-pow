@@ -1,0 +1,58 @@
+{
+  "name": "Unbearable Gaze",
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Eternal Guardian maneuvers<br /><strong>Range</strong>: 60 ft.<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>Your stare fills a creature with supernatural dread, causing them to fear looking into your eyes lest it cause them great harm. You can initiate this counter in response to being targeted by an attack, spell, or power originating from an creature within 60 feet. That creature must succeed at a Reflex save (DC 15 + your initiation modifier) or become blinded for one round, averting its eyes as a result of utter terror. If the target fails its saving throw, the attack or effect suffers a 50% miss chance against you, even if it would normally automatically hit. A creature without eyes or that is already blind is immune to this effect.</p>"
+    },
+    "discipline": "Eternal Guardian",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "Negates",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "WWnToHygGM8gd0rU",
+  "_id": "DeSJ5UczWkroDvQ2",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991526231,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!DeSJ5UczWkroDvQ2"
+}

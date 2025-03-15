@@ -1,0 +1,58 @@
+{
+  "name": "Infinity Mirror Stance",
+  "img": "icons/magic/unholy/energy-smoke-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Shattered Mirror maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>By bending the light near yourself, you create a deceptive defense against assault. When you enter this stance, you gain the benefits of a mirror image spell with a caster level equal to your initiator level. Instead of the normal amount of mirror images generated, you create one image for every four initiator levels you possess (minimum 1), and the effect lasts until you enter another stance, at which point any remaining images fade.</p>"
+    },
+    "discipline": "Shattered Mirror",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "hujiV3ChchMBWMRW",
+  "_id": "7G2MCrBhk4t71HWo",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991347230,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!7G2MCrBhk4t71HWo"
+}

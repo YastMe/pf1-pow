@@ -1,0 +1,58 @@
+{
+  "name": "Fading Strike",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: Up to the disciple's movement speed<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>The disciple learns the basic technique at this level for walking between worlds to reach locations that previously could be inaccessible on the mortal world and potentially attack foes at those locales. As a standard action, the initiator may either teleport to a location no farther away than his maximum movement speed, and make an attack action against an opponent as part of the same standard action, or attack an adjacent target and then teleport to a location no farther away than his maximum movement speed. The teleportation destination must be clearly seen by the disciple to teleport to that location, and it must be unoccupied.</p>"
+    },
+    "discipline": "Veiled Moon",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "FPSMjCMI8jvZ8CzC",
+  "_id": "vlx9GR7AVMZ3qjcb",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991306921,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!vlx9GR7AVMZ3qjcb"
+}

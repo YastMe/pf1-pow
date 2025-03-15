@@ -1,0 +1,58 @@
+{
+  "name": "Spinning Adamantine Axe",
+  "img": "icons/skills/melee/sword-damaged-broken-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Broken Blade maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: All adjacent enemies<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>With a powerful leap into the air, the disciple of the Broken Blade unleashes a powerful spinning kick to his surrounding foes that strikes with the force of a hurricane. The initiator makes one unarmed attack against each foe in range, each successful strike inflicting an additional [[10d6]] points of damage that ignores the target's damage reduction. Foes that are struck are also knocked prone from the force of this assault.</p>"
+    },
+    "discipline": "Broken Blade",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "I79DuPKYXtJ7r1O9",
+  "_id": "e5EkgUzEdyyalOuv",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991471120,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!e5EkgUzEdyyalOuv"
+}

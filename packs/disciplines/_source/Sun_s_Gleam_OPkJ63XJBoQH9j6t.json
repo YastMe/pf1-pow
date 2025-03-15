@@ -1,0 +1,163 @@
+{
+  "name": "Sun's Gleam",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "attack",
+  "system": {
+    "description": {
+      "value": "<p>A Radiant Dawn disciple can choose to fire a ray of light as a ranged touch attack at a target within close range (25 feet + 5 feet per 2 initiator levels) in place of making a ranged weapon attack as part of initiating a strike from a maneuver the initiator could invest essence into. This does not require a free hand. The initiator can choose to use their Strength modifier in place of their Dexterity modifier when firing a ray in this fashion. The ray of light deals force damage equal to 1d6 plus the initiator’s initiation modifier on a hit, plus any effects of the strike (such as additional damage or conditions). The disciple may choose to deal nonlethal damage with this attack at no penalty. As Sun’s Gleam can only be used as substitutes for attacks granted by maneuvers, an initiator cannot channel uses of it through weapons with the conductive weapon special property, or similar abilities. </p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [
+      {
+        "_id": "rrczS0fo3sla0Gnh",
+        "name": "Attack",
+        "description": "",
+        "activation": {
+          "cost": 1,
+          "type": "standard",
+          "unchained": {
+            "cost": 1,
+            "type": "nonaction"
+          }
+        },
+        "range": {
+          "value": "25 + (floor(@attributes.hd.total / 2) * 5)",
+          "units": "ft"
+        },
+        "uses": {},
+        "measureTemplate": {
+          "type": "ray",
+          "size": "25 + (floor(@attributes.hd.total / 2) * 5)",
+          "color": "#f9f06b",
+          "texture": null
+        },
+        "actionType": "rsak",
+        "damage": {
+          "parts": [
+            {
+              "formula": "1d6",
+              "types": [
+                "force"
+              ]
+            }
+          ]
+        },
+        "ability": {
+          "attack": "dex",
+          "damage": "wis",
+          "damageMult": 1,
+          "critRange": 20,
+          "critMult": 2
+        },
+        "soundEffect": null,
+        "powerAttack": {
+          "multiplier": null,
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "naturalAttack": {
+          "secondary": {
+            "attackBonus": "-5",
+            "damageMult": 0.5
+          },
+          "primary": true
+        },
+        "nonlethal": false,
+        "splash": false,
+        "touch": true,
+        "ammo": {
+          "type": "none",
+          "cost": 1
+        },
+        "conditionals": [],
+        "enh": {
+          "value": null
+        },
+        "notes": {}
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "ability",
+    "baseTypes": [],
+    "broken": false,
+    "weaponGroups": [],
+    "showInQuickbar": true,
+    "weapon": {
+      "category": "",
+      "type": ""
+    },
+    "timeworn": false,
+    "artifact": false,
+    "material": {
+      "base": {
+        "value": "",
+        "custom": false
+      },
+      "normal": {
+        "value": "",
+        "custom": false
+      },
+      "addon": []
+    },
+    "alignments": {
+      "lawful": false,
+      "chaotic": false,
+      "good": false,
+      "evil": false
+    },
+    "size": "med"
+  },
+  "folder": "1uoCaJ5S87bmX0Hx",
+  "_id": "OPkJ63XJBoQH9j6t",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991494367,
+    "modifiedTime": 1739654663237,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!OPkJ63XJBoQH9j6t"
+}

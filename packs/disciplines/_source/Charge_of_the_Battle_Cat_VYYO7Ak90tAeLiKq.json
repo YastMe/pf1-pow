@@ -1,0 +1,58 @@
+{
+  "name": "Charge of the Battle Cat",
+  "img": "icons/magic/nature/wolf-paw-glow-large-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 1 Golden Lion maneuver<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Like the charge of the mighty lion as he takes his prey to the ground, the Golden Lion disciple charges into battle, heedless of his enemies, to crash into his chosen foe with a mighty strike, knocking him to the ground at his feet. The initiator makes a charge attack, inflicting an additional [[4d6]] points of damage. Additionally, the foe must make a Reflex save (DC equal to 14 + initiation modifier) or be knocked prone from the strike.</p>"
+    },
+    "discipline": "Golden Lion",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "Partial",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "8nvYl2FL1YjTXABc",
+  "_id": "VYYO7Ak90tAeLiKq",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991251869,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!VYYO7Ak90tAeLiKq"
+}

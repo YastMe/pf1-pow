@@ -1,0 +1,58 @@
+{
+  "name": "Adamant Will",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal and 60 ft. (see text)<br /><strong>Target</strong>: You and one ally (see text)<br /><strong>Duration</strong>: 1 round (see text)</p><h2>Description</h2><p>Though armor can be pierced and shields can be broken, your will remains a final bastion, and those who witness this resolution of mind can be inspired to cultivate it within themselves. You can initiate this counter in response to a melee or ranged attack being made against you. You gain a +4 insight bonus to your AC against that attack, potentially causing it to miss. In addition, one of your allies within 60 feet gains a +4 insight bonus to their AC against the next attack made against them for one round. Augment: You can augment this maneuver in one or more of the following ways: For every power point you spend, the insight bonus to you and your ally's AC increases by +1. For every 3 power points you spend, this counter lasts an additional round. If you augment this counter in this way, the bonus to your ally's AC applies against every attack made against that ally during the duration, rather than only the next attack.</p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "rgaS32OsXwBkEWk2",
+  "_id": "lAQpu4GTHV5BGTac",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991213247,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!lAQpu4GTHV5BGTac"
+}

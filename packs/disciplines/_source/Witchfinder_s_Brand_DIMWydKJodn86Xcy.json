@@ -1,0 +1,58 @@
+{
+  "name": "Witchfinder’s Brand",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One cursed razor maneuver<br /><strong>Range</strong>: Medium (100′ + 10/level)<br /><strong>Target</strong>: Self<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>With a swift gesture, you impede the sorceries of others. When you initiate this boost, one creature within medium range (100 feet + 10 feet per level) develops an ashen brand on a visible part of its body or clothing. The next time the target attempts to cast a spell, manifest a power, or use a psi-like or spell-like ability, they must succeed at a Concentration check (DC 15 + your initiator level + your initiation modifier) or the spell, power, or ability is disrupted (see the Concentration rules in the Pathfinder RPG Core Rulebook). If the target does not attempt to use such an ability within one round, the brand vanishes harmlessly.</p>"
+    },
+    "discipline": "Cursed Razor",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "No save",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "MptdiMSdWhrtKni6",
+  "_id": "DIMWydKJodn86Xcy",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991548463,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!DIMWydKJodn86Xcy"
+}

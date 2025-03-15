@@ -1,0 +1,58 @@
+{
+  "name": "Body of the Night",
+  "img": "icons/weapons/daggers/dagger-magical-glowing-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>A wielder of the secrets of Steel Serpent knows his body and how to use it effectively in the art of stealth. By learning to manipulate his ki flows to obscure his movements from sight and hearing, using his body-control to mask the signs of his passage. The disciple may add his ranks in the Heal skill to his ranks in the Stealth skill when making a Stealth check while in this stance as a competence bonus. While in this stance, when making an attack against a flat-footed opponent or one that has been denied its Dexterity bonus to AC, the disciple gains a +4 competence bonus to attack rolls and inflicts an additional [[1d6]] points of damage. This is a supernatural ability.</p>"
+    },
+    "discipline": "Steel Serpent",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "waQOpS3nPqWY5GXO",
+  "_id": "KKuN8FBi8wG2DM4S",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991238796,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!KKuN8FBi8wG2DM4S"
+}

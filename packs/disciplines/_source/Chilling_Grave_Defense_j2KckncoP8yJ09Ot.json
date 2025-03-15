@@ -1,0 +1,58 @@
+{
+  "name": "Chilling Grave Defense",
+  "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Close (25 ft. plus 5 ft. per 2 levels)<br /><strong>Target</strong>: 1 creature<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>You afflict an attacker with the chill of the grave, sapping the strength from their limbs. You may activate this counter in response to a melee or ranged attack being made against you. The creature making that attack suffers a -4 penalty to its Strength and Dexterity for 1 round. Apply these penalties before calculating the attack and damage rolls for the attack (this may cause the attack to miss).</p>"
+    },
+    "discipline": "Unquiet Grave",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "jHSa8zvCqg8ZmYOR",
+  "_id": "j2KckncoP8yJ09Ot",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991253584,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!j2KckncoP8yJ09Ot"
+}

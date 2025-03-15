@@ -1,0 +1,58 @@
+{
+  "name": "Iron Tortoise Stance",
+  "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 1 Iron Tortoise Maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>This stance allows the disciple of the Iron Tortoise greater offensive ability while still remaining on the defensive, protecting himself and his allies. By positioning his footwork to allow for fast lunges and withdrawal, the reach of the martial disciple increases to meet his foes as they try to evade him and he stands imposing, impassable. The martial disciple is considered one size larger for the purposes of determining his CMD while in this stance, and he gains +5 ft. reach for making attacks of opportunity and may make one additional attack of opportunity per round.</p>"
+    },
+    "discipline": "Iron Tortoise",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "KGEWXSTuqnSg2hRz",
+  "_id": "1q9wiBZhJD7NTsfl",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991355769,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!1q9wiBZhJD7NTsfl"
+}

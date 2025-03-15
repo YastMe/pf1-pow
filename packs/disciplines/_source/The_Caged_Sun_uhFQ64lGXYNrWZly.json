@@ -1,0 +1,58 @@
+{
+  "name": "The Caged Sun",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>If you have 50% or fewer hit points, entering this stance can be done as a free action instead of a swift. While you maintain this stance, you cannot heal creatures other than yourself, but any healing you receive is increased by 50%. If you would be healed for more than your maximum amount of hit points, you instead gain an amount of temporary hit points equal to the excess healing. These temporary hit points stack with other temporary hit points granted by you, up to a maximum of your maximum hit points, and last for one minute, until initiative is rolled, or you abandon this stance. Essence: Each point of essence invested into this stance increases the amount of healing you receive by 2 (before being modified by the stance's eﬀects). Each point of essence also increases your attack rolls, AC, and saves by 1.</p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "bdtLmcCPXeDa2u2l",
+  "_id": "uhFQ64lGXYNrWZly",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991506274,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!uhFQ64lGXYNrWZly"
+}

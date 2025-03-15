@@ -1,0 +1,58 @@
+{
+  "name": "Death at Ten Paces",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: 1 turn</p><h2>Description</h2><p>Though a combination of immense speed and honed skill, you can use wind pressure to strike a target at a distance. After initiating this boost, you can make your next melee strike or melee attack this turn against a target within 30 feet. You can only target a single creature, even if the strike would normally affect multiple targets. Attacks made under the effects of this boost are treated in all ways as melee attacks, rather than ranged ones (for example, you do not take the normal -4 penalty for shooting into melee).</p>"
+    },
+    "discipline": "Fool's Errand",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "yu8c8Xhm6JnZJ1xq",
+  "_id": "jjBVLHC4ELwhX048",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991268588,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!jjBVLHC4ELwhX048"
+}

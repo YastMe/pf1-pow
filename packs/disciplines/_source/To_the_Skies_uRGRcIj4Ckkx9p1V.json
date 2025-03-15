@@ -1,0 +1,58 @@
+{
+  "name": "To the Skies",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Fool's Errand maneuvers<br /><strong>Range</strong>: Melee reach<br /><strong>Target</strong>: Creatures you're locking<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>With a mighty effort, you entrust those in your grip to the sky. When you initiate this boost, you launch each creature you're locking upwards up to 5 feet for each rank you have in the Climb skill. Thy are no longer locked by you, and fall to the ground (landing prone) unless they have some method of remaining in the air, such as by hovering with a fly speed. You may follow one of the launched creatures into the air and immediately attack that creature using any of your remaining actions for your turn (such as by initiating a strike). If you successfully hit with an attack, they fall and take falling damage afterwards, regardless of whether or not they have a fly speed. You also fall unless you have a way of remaining in the air, though you take no falling damage when using this ability. Neither yours nor your targets' movement during this boost provokes attacks of opportunity.</p>"
+    },
+    "discipline": "Fool's Errand",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "Mb7cUCQ3q1incqrZ",
+  "_id": "uRGRcIj4Ckkx9p1V",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991516244,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!uRGRcIj4Ckkx9p1V"
+}

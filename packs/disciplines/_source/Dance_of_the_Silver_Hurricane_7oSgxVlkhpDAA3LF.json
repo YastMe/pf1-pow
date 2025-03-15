@@ -1,0 +1,58 @@
+{
+  "name": "Dance of the Silver Hurricane",
+  "img": "icons/weapons/swords/sword-katana.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Four Mithral Current Maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>Having reached the epitome of the Mithral Current discipline, you know the dance of battle perfectly, and every step you take is attuned to that deadly rhythm. After initiating this counter, you can make a Perform (dance) check and use it in place of your AC or CMD against any attack or combat maneuver made against you until the start of your next turn. In addition, any time an attack or combat maneuver misses you during the duration of this counter, you can move up to 10 feet as a free action. You may choose to not provoke attacks of opportunity during this movement, or to provoke attacks of opportunity as normal. At the start of your next turn, make melee attack roll and compare it to the AC of each creature that attacked you and missed while this counter was in effect. If the attack roll hits a target, it deals weapon damage as normal, and is treated as silver for the purposes of vulnerabilities and overcoming damage reduction. This attack affects creatures regardless of the distance between you and your opponents. If you drew your weapon as part of this counter, a struck opponent takes an additional [[1d6]] points of damage for each time it missed you while the counter was in effect (up to a maximum of [[6d6]] points of additional damage per creature).</p>"
+    },
+    "discipline": "Mithral Current",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 9,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "FvxXGJNw2asbDhIZ",
+  "_id": "7oSgxVlkhpDAA3LF",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991266199,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!7oSgxVlkhpDAA3LF"
+}

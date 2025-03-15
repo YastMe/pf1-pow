@@ -1,0 +1,58 @@
+{
+  "name": "Flowing Creek",
+  "img": "icons/weapons/swords/sword-katana.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Like the flowing water that inspired your art, you sidestep and work around foes instead of fighting them directly. You can initiate this counter in response to a melee or ranged attack (including touch or ranged touch spell attacks) being made against you. Make a Perform (dance) check, using your opponent's attack roll as the DC. If you succeed, the attack is negated and you may take a 5-foot step as a free action, even if you have already taken one this round.</p>"
+    },
+    "discipline": "Mithral Current",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "rMUzF0u9LZ7wQAAQ",
+  "_id": "bf6v8Apjd3Uqzpyl",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991316384,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!bf6v8Apjd3Uqzpyl"
+}

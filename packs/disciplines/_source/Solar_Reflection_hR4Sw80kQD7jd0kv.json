@@ -1,0 +1,58 @@
+{
+  "name": "Solar Reflection",
+  "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Solar Wind maneuver<br /><strong>Range</strong>: Ranged attack<br /><strong>Target</strong>: One or two targets, see description<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>As reflective surfaces bounce the rays of the sun, so can the Solar Wind disciple ricochet a missile weapon from one target to another. The initiator makes a single ranged attack roll and if this roll is successful, he may apply this same attack roll against another opponent within 20-ft. of the first. This strike inflicts an additional [[2d6]] points of damage to the first target, and normal damage to the second target. Each reflection attack is considered a separate attack for the purposes of determining the effectiveness of single attack boosting abilities, such as boosts that affect one attack or spells like true strike. If the ammunition had special properties, the ammunition retains its properties on each attack until the strike ends.</p>"
+    },
+    "discipline": "Solar Wind",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "TluZoXKigKzPgtZ6",
+  "_id": "hR4Sw80kQD7jd0kv",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991464944,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!hR4Sw80kQD7jd0kv"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Luckdrinker Aura",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three cursed razor maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: Self<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>This cursed aura steals beneficence from your enemies and gifts it to your allies. You supernaturally sense magic around you and can twist it to your advantage. While you maintain this stance, you automatically know which spells, powers, or magical effects are active upon any individual you see within 30 feet. In addition, at the beginning of each round, you may select a power, psi-like ability, spell, or spell-like ability affecting a hostile creature within 30 feet. Make a dispel check ([[1d20]] + your initiator level) against the effect (DC 11 + the effect's caster or manifester level). If you succeed, the effect is suppressed for a number of rounds equal to your initiation modifier, and one of your allies within 30 feet gains the benefit of that effect for the same duration. </p>"
+    },
+    "discipline": "Cursed Razor",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "No save",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "4dBrnRMvHLfJwymS",
+  "_id": "jIAcPbHC111fIvNB",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991371953,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!jIAcPbHC111fIvNB"
+}

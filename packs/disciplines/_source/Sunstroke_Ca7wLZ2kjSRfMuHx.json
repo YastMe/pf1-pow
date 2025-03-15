@@ -1,0 +1,58 @@
+{
+  "name": "Sunstroke",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Radiant Dawn maneuver<br /><strong>Range</strong>: Close (25 ft. + 5 ft./2 levels)<br /><strong>Target</strong>: One ally<br /><strong>Duration</strong>: 1 round or until discharged </p><h2>Description</h2><p>Your akasha shapes an attack into a powerful solar flare. Choose one ally within range. The next melee or ranged weapon attack made by that ally can be made at any target within long range (400 feet + 40 feet per initiator level) of that ally. When this maneuver is initiated, the initiator may choose to treat the amount of essence invested in this maneuver as any amount of essence equal to or less than the amount of essence invested in this maneuver (minimum 0) for determining the effects of its essence augmentation. Essence: Each point of essence invested into this boost increases the minimum area of the chosen ally’s attack - while at least one point of essence is invested, the attack becomes a burst with a radius of 5 feet per point of essence invested. A single attack roll is made for the attack, and compared against all creatures within the burst, and any damage the attack does is halved. If the attack allows for a save, creatures caught within the burst may roll twice and take the better result. </p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "0KLoSITbXVwMCSBx",
+  "_id": "Ca7wLZ2kjSRfMuHx",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991495416,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Ca7wLZ2kjSRfMuHx"
+}

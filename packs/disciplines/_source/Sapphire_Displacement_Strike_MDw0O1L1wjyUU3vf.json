@@ -1,0 +1,58 @@
+{
+  "name": "Sapphire Displacement Strike",
+  "img": "icons/magic/light/swords-light-glowing-white.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Silver Crane maneuver<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: None</p><h2>Description</h2><p>The agents of the celestial realms guide your blade and hinder the senses of your foes. Make a successful attack and the target must make a Fortitude save (DC 14 + initiation modifier) or fail on all Perception checks and suffers a 50% miss chance on attack rolls for the disciple's initiation modifier in rounds (minimum of one round).</p>"
+    },
+    "discipline": "Silver Crane",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "Negates",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "alXPpAW49DxCjkBr",
+  "_id": "MDw0O1L1wjyUU3vf",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991435046,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!MDw0O1L1wjyUU3vf"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Ghost Hunting Blow",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: One round</p><h2>Description</h2><p>By reaching across the barrier between worlds, the disciple may strike at disembodied spirits as easily he would strike a normal mortal. Any and all of the initiator's attacks made this round, including attacks of opportunity, are made as if the initiator's weapon possessed the ghost touch property. This is an Ethereal plane using maneuver.</p>"
+    },
+    "discipline": "Veiled Moon",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "5MXHWd5FlrllLOvG",
+  "_id": "7AXIE5QZQTOTwB4S",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991323424,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!7AXIE5QZQTOTwB4S"
+}

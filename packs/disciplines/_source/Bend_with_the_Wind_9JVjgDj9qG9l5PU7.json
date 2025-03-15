@@ -1,0 +1,58 @@
+{
+  "name": "Bend with the Wind",
+  "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Thrashing Dragon maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>The graceful, flowing movements of the Thrashing Dragon's dance helps defend the disciple in combat while providing him the ability to move through danger unscathed. While in this stance, for each attack that misses the disciple, he may either gain a +2 dodge bonus until his next turn, or he may make a free 5-ft. step to any square his attacker threatens (which does not provoke attacks of opportunity). The initiator can mix which benefit he wishes to gain from this stance from multiple missed attacks. If the initiator is unable to take a 5 ft. step, he is not permitted to select a dodge bonus due to being constrained and having no room to move around in.</p>"
+    },
+    "discipline": "Thrashing Dragon",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "tTsnnMraJqR643ZA",
+  "_id": "9JVjgDj9qG9l5PU7",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991228661,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!9JVjgDj9qG9l5PU7"
+}

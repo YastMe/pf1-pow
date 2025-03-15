@@ -1,0 +1,58 @@
+{
+  "name": "Break the Hourglass",
+  "img": "icons/magic/time/clock-spinning-gold-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Four Riven Hourglass maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>By forcing your will upon the quintessence of the universe and acting within pockets of time so small that blink past within the gap between seconds, you turn time on its end and react to an opponent's actions before they have even been made. You can initiate this counter in response to being targeted or caught within the area of an attack or effect. You can immediately take a standard action and a move action (or a single full-round action by combining them) before that effect resolves. While taking these actions, you can only attack or otherwise affect the originator of the attack or effect. If you reduce the originator of the attack or effect to 0 or fewer hit points with these actions, then the attack or effect (including parts of the effect that affect other creatures) is completely negated, having been prevented from happening at all. You cannot gain more than one standard action and move action per round this way.  </p>"
+    },
+    "discipline": "Riven Hourglass",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 9,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "V9024UxqcteXoaEP",
+  "_id": "M4rWVoOKWe97SDG9",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991240197,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!M4rWVoOKWe97SDG9"
+}

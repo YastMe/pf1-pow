@@ -1,0 +1,58 @@
+{
+  "name": "Hurricane of Fangs",
+  "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Thrashing Dragon maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: One round</p><h2>Description</h2><p>Utilizing this technique, a Thrashing Dragon disciple is capable of hurling multiple blades at a target in rapid succession with brutal power and incredible accuracy and range. For one round, the range of thrown weapons with range increments (such as daggers) or thrown weapons from an associated Thrashing Dragon weapon group (improvised weapon penalties apply as applicable) is increased by +30-ft.. Additionally, these thrown weapons strike with deadly force, inflicting an additional amount of damage equal to the initiator's initiator level.</p>"
+    },
+    "discipline": "Thrashing Dragon",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "tTsnnMraJqR643ZA",
+  "_id": "dDqn2r7iAY8WgEws",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991342865,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!dDqn2r7iAY8WgEws"
+}

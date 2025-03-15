@@ -1,0 +1,58 @@
+{
+  "name": "Elemental Destruction Ring",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Elemental Flux maneuvers<br /><strong>Range</strong>: 20 ft.<br /><strong>Target</strong>: None<br /><strong>Duration</strong>: Instantaneous (see text)<br /><strong>Area</strong>: 20-ft. radius burst, centered on you </p><h2>Description</h2><p>You whip the elements around you into a fury, then unleash the energy at all the foes who surround you. When you initiate this maneuver, you release a 20-foot burst of energy centered on you that deals [[12d6]] points of damage of your active element's associated energy type to any creatures in the area. You do not take damage from this burst. This strike also has one of the following effcts, based on your active element: Air The flash of lightning blinds targets for [[1d4]] rounds. Earth The acid is gummy and sticky, applying a -4 penalty to targets' Dexterity scores and a -2 penalty to attack rolls for [[1d4]] rounds. In addition, targets take [[1d6]] points of acid damage at the start of each of their turns for a number of rounds equal to your initiation modifier. Fire The intense heat and pain from the blast dazes targets for one round. Water Targets become staggered for [[1d6]] rounds from the intense chill. Creatures caught in the burst can make a Reflex save (DC 16 + your initiation modifier) to take half damage and negate the added effect. Animus augmentation: You may spend any number of animus points to augment this strike, regardless of your level. For every point of animus you spend, this strike's damage increases by [[1d6]]. The total damage dice for this maneuver may not exceed your initiator level (up to a maximum of [[20d6]]).</p>"
+    },
+    "discipline": "Elemental Flux",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Half",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "8CHRzYiWJMAxGqqU",
+  "_id": "r0bjpE2S4bnupW9t",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991291954,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!r0bjpE2S4bnupW9t"
+}

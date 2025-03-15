@@ -1,0 +1,58 @@
+{
+  "name": "Arcane Torrent",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Elemental Flux maneuver<br /><strong>Range</strong>: 60 ft.<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You unleash a sudden burst of eldritch energy that surges towards a distant foe. When you initiate this strike, select a target within 60 feet. Magical missiles of explosive force swiftly fly at this target, dealing [[6d6]] points of force damage to the target unless it succeeds at a Reflex save (DC 14 + your initiation modifier). Animus augmentation: You may spend two points of animus to instead fire a barrage of force missiles. Instead of this strike's normal effect, you create a 15-foot burst within 60 feet of you, affecting each creature within its area as if you had targeted them.</p>"
+    },
+    "discipline": "Elemental Flux",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "Negates",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "hoIeEU1tVM3AvgNH",
+  "_id": "SyVhc8b9omM1wlvm",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991219957,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!SyVhc8b9omM1wlvm"
+}

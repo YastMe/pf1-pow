@@ -1,0 +1,58 @@
+{
+  "name": "Eldritch Energy Hammer",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Elemental Flux maneuvers<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You know how to destroy the bonds that hold magic together just as easily as you can forge them. Make an attack. If it hits, it deals weapon damage as normal, and you affect the target as if you had cast a targeted greater dispel magic on it. Make a dispel check against the spell with the highest caster level affecting the target, using your initiator level as your caster level for the check. If you do not successfully dispel that spell, compare the same result to the spell with the next highest caster level. Repeat this process until you have dispelled one spell affecting the target, or you have failed to dispel every spell. You can only end one spell with this maneuver. If you successfully dispel a spell affecting the target, your target takes [[1d6]] points of force damage for each level of the effect dispelled. Animus augmentation: You may spend points of animus up (up to your maximum for augmenting Elemental Flux maneuvers) to gain a +2 bonus on your dispel check per point spent.</p>"
+    },
+    "discipline": "Elemental Flux",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "8CHRzYiWJMAxGqqU",
+  "_id": "pQ6mbz6RiBAX1HEk",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991288937,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!pQ6mbz6RiBAX1HEk"
+}

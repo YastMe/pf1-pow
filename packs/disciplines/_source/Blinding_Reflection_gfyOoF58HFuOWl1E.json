@@ -1,0 +1,58 @@
+{
+  "name": "Blinding Reflection",
+  "img": "icons/weapons/swords/sword-katana.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Mithral Current maneuver<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>Reflecting light of your blade like a pond bathed in moonlight, you temporarily blind an opponent and swiftly strike in the opening granted. Make a melee attack. If it hits, it deals weapon damage as normal plus an additional [[6d6]] points of damage. If you drew your weapon as part of this strike, a struck target must succeed at a Fortitude Save (DC 14 + your initiation modifier) or become blinded for 1 minute. If the target succeeds on their save, they are instead dazzled for one round.</p>"
+    },
+    "discipline": "Mithral Current",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "Partial",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "2ZZsq9Aoh0pYhtqj",
+  "_id": "gfyOoF58HFuOWl1E",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991236537,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!gfyOoF58HFuOWl1E"
+}

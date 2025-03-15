@@ -1,0 +1,58 @@
+{
+  "name": "Silver Crane’s Mercy",
+  "img": "icons/magic/light/swords-light-glowing-white.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Silver Crane maneuvers<br /><strong>Range</strong>: Personal or 30-ft<br /><strong>Target</strong>: You or ally<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>With a recitation of power and a prayer for mercy upon those who are servants of heaven, the Silver Crane disciple strikes out at the evil he battles. Upon making a successful attack, you or an ally within 30-ft of you is healed of [[9d6]] points of damage.</p>"
+    },
+    "discipline": "Silver Crane",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "LP9l2bWKpw73AGGA",
+  "_id": "hmITjDK76rECrwLQ",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991456032,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!hmITjDK76rECrwLQ"
+}

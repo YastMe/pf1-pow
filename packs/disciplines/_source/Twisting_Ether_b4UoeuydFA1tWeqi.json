@@ -1,0 +1,58 @@
+{
+  "name": "Twisting Ether",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Veiled Moon maneuvers<br /><strong>Range</strong>: 30-ft.<br /><strong>Target</strong>: You and willing ally<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>With a nod to his ally, the Veiled Moon adept may sink through the world with his ally and switch places with him for better effect in combat. As a swift action, the initiator may designate a willing ally within 30-ft. and swap places with him via teleportation.</p>"
+    },
+    "discipline": "Veiled Moon",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "3K6jR2JjZi2SK5H8",
+  "_id": "b4UoeuydFA1tWeqi",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991523352,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!b4UoeuydFA1tWeqi"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Iron Fang",
+  "img": "icons/weapons/daggers/dagger-magical-glowing-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>By hardening ki along edge of his weapon, the Steel Serpent disciple uses the pressure of his ki to penetrate the defenses of his foe. The disciple makes an attack against a foe which if successful inflicts an additional <a data-mode=\"none\" data-flavor data-formula=\"2d6\" class=\"inline-preroll inline-formula none\" data-tooltip=\"2d6\"><i class=\"fas fa-dice-d20\"></i> 2d6</a> points of damage and ignores any damage reduction the target may possess. Additionally, if the disciple is using poison or a prana maneuver with this strike, increase the saving throw DC by +2. This is a supernatural ability.</p>"
+    },
+    "discipline": "Steel Serpent",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "GquB6bsXGSJCu9WN",
+  "_id": "HPVbEwuF26j3x734",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991352236,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!HPVbEwuF26j3x734"
+}

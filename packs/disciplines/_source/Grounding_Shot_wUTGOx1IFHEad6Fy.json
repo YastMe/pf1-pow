@@ -1,0 +1,58 @@
+{
+  "name": "Grounding Shot",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Tempest Gale maneuvers<br /><strong>Range</strong>: Ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>Your slings and arrows can bring down even the mightiest fliers, dropping them to the earth where their wings mean nothing. Make a ranged attack. If it hits, it deals weapon damage as normal plus an additional [[5d6]] points of damage, and if the target of the attack is flying, they must succeed at a Fly check opposed by your Sleight of Hand check or lose their ability to fly for a number of rounds equal to your initiation modifier, falling to the ground and taking falling damage as normal.</p>"
+    },
+    "discipline": "Tempest Gale",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "L500reKbSHwitrip",
+  "_id": "wUTGOx1IFHEad6Fy",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991331342,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!wUTGOx1IFHEad6Fy"
+}

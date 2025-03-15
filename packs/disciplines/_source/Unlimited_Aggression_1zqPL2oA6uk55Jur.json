@@ -1,0 +1,58 @@
+{
+  "name": "Unlimited Aggression",
+  "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 2 Iron Tortoise Maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: All enemies within 60 ft. with an Intelligence score of 3 or higher<br /><strong>Duration</strong>: None</p><h2>Description</h2><p>By assuming an aggressive posture and taunting his foes, the Iron Tortoise challenges all foes to face him if they dare. All enemies within 60 ft. must make a Will save (DC 17 + initiation modifier) to resist attacking the Iron Tortoise master on their next available action. Victims who fail this saving throw are free to choose how they will attack the Iron Tortoise disciple, but they must attack him.</p>"
+    },
+    "discipline": "Iron Tortoise",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "oWJgx72waCnf25DS",
+  "_id": "1zqPL2oA6uk55Jur",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991531685,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!1zqPL2oA6uk55Jur"
+}

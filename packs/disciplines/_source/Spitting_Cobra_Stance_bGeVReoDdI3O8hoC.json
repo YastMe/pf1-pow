@@ -1,0 +1,58 @@
+{
+  "name": "Spitting Cobra Stance",
+  "img": "icons/weapons/daggers/dagger-magical-glowing-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Steel Serpent Maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>Some serpents spit their venom, and as they are deadly at a distance so does the disciple learn to be deadlier at range with his attacks. When at range, thrown weapons inflict an additional [[2d6]] points of damage and throwing them does not provoke attacks of opportunity. Use of poison (mundane or magical poisons such as stings or prana maneuvers) are more vicious as well, adding +1 to each damage die or ability damage die rolled for its effect (effects with a flat number of damage increase this by +1).</p>"
+    },
+    "discipline": "Steel Serpent",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "OVsxnk7RTn0cxLBX",
+  "_id": "bGeVReoDdI3O8hoC",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991472494,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!bGeVReoDdI3O8hoC"
+}

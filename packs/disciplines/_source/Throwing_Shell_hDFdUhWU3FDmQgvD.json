@@ -1,0 +1,58 @@
+{
+  "name": "Throwing Shell",
+  "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Using a special technique developed for surprisingly effective ranged attacks, the disciple of the Iron Tortoise knows how to deliver his shield in a powerful throw in a manner similar to a champion discus thrower. The initiator throws his shield (light or heavy shields; this does not work with bucklers or tower shields) with a range increment of 20 ft. as a ranged attack, inflicting damage as if the character had just shield bashed his opponent and inflicting an additional [[1d6]] points of damage and the shield falls to a space adjacent of his target (the player may choose which space it lands in). If the attacked target is within the first two range increments, then the initiator may catch the shield as a free action and regain use of his shield on his turn.</p>"
+    },
+    "discipline": "Iron Tortoise",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "KXkkV7YAUKVCFucV",
+  "_id": "hDFdUhWU3FDmQgvD",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991511628,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!hDFdUhWU3FDmQgvD"
+}

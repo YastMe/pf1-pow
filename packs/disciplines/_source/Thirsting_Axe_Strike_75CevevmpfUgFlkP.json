@@ -1,0 +1,58 @@
+{
+  "name": "Thirsting Axe Strike",
+  "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: Creature struck<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Drawing on the primal hunger of the negative energy plane, you lash out at your victim. Make a melee attack. If it hits, it deals weapon damage as normal and you gain temporary hit points equal to the damage dealt. The temporary hit points gained from this maneuver stack with those gained from other Unquiet Grave maneuvers, to the normal maximum.</p>"
+    },
+    "discipline": "Unquiet Grave",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "9WGHc1dH7t9vFXTG",
+  "_id": "75CevevmpfUgFlkP",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991508396,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!75CevevmpfUgFlkP"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Karmic Strike",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Radiant Dawn maneuvers<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous; see text</p><h2>Description</h2><p>This blow marks an enemy with a simple brand that burrows into their essence. As they do harm, the brand sees to it that they are harmed as well. Make an attack. If it hits, it deals an extra [[4d6]] points of damage, you may heal yourself and allies within close range (25 feet + 5 feet per 2 initiator levels) for a total number of hit points equal to six times your initiation modifier, divided as you choose between you and your allies. The target must also make a Will save (DC 16 + Initiation modifier) or have a brand placed upon them for one minute. Whenever the target would deal damage, as a free action that can be done on any turn, the creature that took damage may remove the brand, and only take half of the damage that they would have taken from the attack. The branded creature then takes half of the damage mitigated this way. Essence: Each point of essence invested in this maneuver increases the healing done by 8 points and the number of brands placed on the creature after a failed will save by 1.</p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "hnkhUFBVLAZuEImC",
+  "_id": "t348MFTZ5ZcOjoDp",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991358279,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!t348MFTZ5ZcOjoDp"
+}

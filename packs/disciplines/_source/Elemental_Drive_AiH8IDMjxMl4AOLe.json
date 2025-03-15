@@ -1,0 +1,58 @@
+{
+  "name": "Elemental Drive",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Elemental Flux maneuvers<br /><strong>Range</strong>: 30 ft.<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You charge your weapon with kinetic and elemental energy, driving them back with a wave of elemental power. You fie a ray against an opponent within 30 feet. This ray requires a ranged touch attack to hit and deals [[9d6]] points of damage of your active element's associated energy type, and you attempt a bull rush against your target, calculating your CMB using your initiation modifier and initiator level in place of your Strength modifier and base attack bonus. Animus augmentation: You may spend one point of animus to gain a +5 bonus on your bull rush attempt.</p>"
+    },
+    "discipline": "Elemental Flux",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "WLxGi8ubFLO5NNkV",
+  "_id": "AiH8IDMjxMl4AOLe",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991292255,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!AiH8IDMjxMl4AOLe"
+}

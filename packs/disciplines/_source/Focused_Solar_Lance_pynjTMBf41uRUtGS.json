@@ -1,0 +1,58 @@
+{
+  "name": "Focused Solar Lance",
+  "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Solar Wind maneuvers<br /><strong>Range</strong>: Ranged attack<br /><strong>Target</strong>: None<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>The disciple raises his deadly weapon and lets loose an attack so powerful as to pin a target to the ground with a hurricane force wind. The initiator makes a ranged attack on a target and if successful, inflicts an additional [[4d6]] points of damage from the excessive force of the hit. Additionally, upon a successful hit, the initiator may make an immediate CMB check using his initiation modifier in place of Strength or Dexterity with a +2 circumstance bonus against the target's CMD. If this check is successful, the target is either pinned to the ground beneath him and is knocked prone and considered pinned, or is attached to a wall or tree or other object within a straight line of fire from the initiator and is considered pinned there if the target is within 5-ft. of said object or wall. Targets may not be pinned to other creatures. This maneuver does not function against flying targets.</p>"
+    },
+    "discipline": "Solar Wind",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "pkUnkj8ibx4kqfVa",
+  "_id": "pynjTMBf41uRUtGS",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991318827,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!pynjTMBf41uRUtGS"
+}

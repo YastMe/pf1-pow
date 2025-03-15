@@ -1,0 +1,58 @@
+{
+  "name": "Iron Hide Stance",
+  "img": "systems/pf1/icons/feats/extra-rage.jpg",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Primal Fury maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>Standing strong in the theater of war, the Primal Fury master stands as a pillar of blood-soaked iron amidst the bodies of those too weak to live in his presence. While in this stance, the initiator gains a damage reduction of 5/-, and the initiator's Strength bonus to damage is doubled (or tripled if wielding a weapon with two hands). Additionally, the initiator is treated as one size category larger (so if the initiator is Medium-sized, then he counts as Large-sized) when it benefits his CMB and CMD (such as resisting trip attacks or overrun attempts).</p>"
+    },
+    "discipline": "Primal Fury",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "cVPtxcurqoQMBuRL",
+  "_id": "W969WgZTbRFnBSDx",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991353191,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!W969WgZTbRFnBSDx"
+}

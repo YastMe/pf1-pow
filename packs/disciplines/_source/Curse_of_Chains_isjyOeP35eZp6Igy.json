@@ -1,0 +1,58 @@
+{
+  "name": "Curse of Chains",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two cursed razor maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Phantom chains trail in the wake of your strike and spread through your enemies like wildfire. Make a melee attack. If it hits, it deals weapon damage as normal, and the target must succeed at a Will save (DC 16 + your initiation modifier) or become cursed and paralyzed for a number of rounds equal to your initiation modifier. While the target is paralyzed by this strike, opponent that ends its turn adjacent must succeed at a Will save (DC 16 + your initiation modifier) or also become cursed and paralyzed for a number of rounds equal to your initiation modifier. Only the initial target spreads its curse in this manner. This strike can paralyze creatures normally immune to paralysis, though such creatures gain a +6 competence bonus on their saving throws.</p>"
+    },
+    "discipline": "Black Seraph",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "ORBWpSsE4pXByCtN",
+  "_id": "isjyOeP35eZp6Igy",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991263293,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!isjyOeP35eZp6Igy"
+}

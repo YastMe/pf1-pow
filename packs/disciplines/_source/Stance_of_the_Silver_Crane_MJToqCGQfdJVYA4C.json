@@ -1,0 +1,58 @@
+{
+  "name": "Stance of the Silver Crane",
+  "img": "icons/magic/light/swords-light-glowing-white.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Silver Crane Maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>The martial disciple with knowledge of this stance learns to channel the potency of their celestial patrons to combat evil with great efficiency. In the midst of battle ghostly images of wings or blazing wrathful haloes can often be seen near Silver Crane disciples. While in this stance, any weapon that the martial disciple wields is treated as if it had the holy special weapon property. Additionally, the character is considered under the influence of a protection from evil spell with a caster level equal to his initiator level.</p>"
+    },
+    "discipline": "Silver Crane",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "9IMi6Fsk52bxJzc1",
+  "_id": "MJToqCGQfdJVYA4C",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991479411,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!MJToqCGQfdJVYA4C"
+}

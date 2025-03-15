@@ -1,0 +1,58 @@
+{
+  "name": "Dismiss",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>This attack ‘softly' removes an enemy from your presence. Make an attack. If it hits, you deal damage as normal, and you can make a trip attempt against the target. If your trip attempt succeeds, the target is also pushed away as if you had successfully bull rushed them, using the same result as your trip attempt. You may not move with the target with this bull rush. Neither the trip attempt nor the target's movement during the bull rush provoke attacks of opportunity. When determining your combat maneuver bonus for this strike, you may use your initiator level in place of your base attack bonus, and may choose to use your Dexterity or initiation modifer in place of your Strength modifer. Essence: For each point of essence invested into this strike, you gain a cumulative +2 bonus to this maneuver's trip attempt.</p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "bdtLmcCPXeDa2u2l",
+  "_id": "2Il4tpIBVI3EE9UK",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991278241,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!2Il4tpIBVI3EE9UK"
+}

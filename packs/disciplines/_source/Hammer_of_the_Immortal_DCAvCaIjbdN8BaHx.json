@@ -1,0 +1,58 @@
+{
+  "name": "Hammer of the Immortal",
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Eternal Guardian maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: Every threatened opponent<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>You act as both hammer and anvil, striking your enemies with furious skill that breaks their lines and their spirits. Make a melee attack roll and compare it to the AC of each opponent you threaten. If the attack roll hits a target, it deals weapon damage as normal plus an additional [[8d6]] points of damage, and the target takes a -4 penalty to its AC and CMB until the start of your next turn. Use the same damage roll for each target. In addition, you may make a single combat maneuver attempt against each target you hit with this strike as a free action. These combat maneuver attempts do not provoke attacks of opportunity.</p>"
+    },
+    "discipline": "Eternal Guardian",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "U5zt3ZE4OuqtFXKx",
+  "_id": "DCAvCaIjbdN8BaHx",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991333202,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!DCAvCaIjbdN8BaHx"
+}

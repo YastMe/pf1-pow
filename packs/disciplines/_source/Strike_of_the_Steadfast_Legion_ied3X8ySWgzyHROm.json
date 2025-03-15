@@ -1,0 +1,58 @@
+{
+  "name": "Strike of the Steadfast Legion",
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Eternal Guardian maneuver<br /><strong>Range</strong>: Melee or ranged attack and 60 ft. (see text)<br /><strong>Target</strong>: One creature (see text)<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>When you bring your enemy low, your strength bolsters the will of your allies. Make an attack. If it hits, it deals weapon damage as normal plus additional damage equal to 1/2 your initiator level, and all allies within 60 feet of you gain damage reduction/- equal to your initiation modifier (minimum 1) for one round. In addition, any ally who gains damage reduction from this strike can expend a number of hit point up to your initiator level to grant any other ally who gained damage reduction from this strike three times that amount in temporary hit points. These temporary hit points last for one round.</p>"
+    },
+    "discipline": "Eternal Guardian",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "03otfa7Kw8fy50S6",
+  "_id": "ied3X8ySWgzyHROm",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991492271,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!ied3X8ySWgzyHROm"
+}

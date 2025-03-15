@@ -1,0 +1,58 @@
+{
+  "name": "Decree of Freedom",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Radiant Dawn maneuvers<br /><strong>Range</strong>: Close (25 ft. + 5 ft./2 levels)<br /><strong>Target</strong>: You or one ally within close range<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>With a gesture and a single word, you cause a target's essence to ﬂare, freeing them from their bonds. The target of this boost can move and attack normally for the duration of the boost, even under the inﬂuence of magic that usually impedes movement, such as paralysis, solid fog, slow, and web. The maneuver also allows the subject to move and attack normally while underwater, even with slashing weapons such as axes and swords or with bludgeoning weapons such as ﬂails, hammers, and maces, provided that the weapon is wielded in the hand rather than thrown. Essence: Each essence invested into this boost increases the duration by 1 round.</p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "hnkhUFBVLAZuEImC",
+  "_id": "WZCqODsJB3WkEqZJ",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991269476,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!WZCqODsJB3WkEqZJ"
+}

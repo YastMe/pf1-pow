@@ -1,0 +1,58 @@
+{
+  "name": "Gift of Time",
+  "img": "icons/magic/time/clock-spinning-gold-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Riven Hourglass maneuver<br /><strong>Range</strong>: Touch<br /><strong>Target</strong>: One ally<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>By focusing and carefully gathering glittering grains of quintessence from within your Hourglass into your hands, you can donate time to another with a touch. You can only initiate this boost at the start of your turn, before taking any other actions. Select an adjacent ally you can touch. You can choose to grant them a standard, move, or full-round action. That ally can take the action you selected, and must use them immediately, changing their place in the initiative order as if they had readied an action. You lose the chosen action, and cannot take it this turn. You cannot grant more actions than you could normally take during your turn, thus if you are staggered you could not grant an ally a full-round action, only a standard or move action.</p>"
+    },
+    "discipline": "Riven Hourglass",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "GhBTNn3XBVrHAN1q",
+  "_id": "iYqKw3W8r7yPCKUL",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991324035,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!iYqKw3W8r7yPCKUL"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Savage Drive",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Black Seraph maneuver<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Ever hungry for carnage, the demonic disciple demands action and satisfaction through battle. Pressing forward with ruthless efficiency, the disciple inflicts more damage than his foes, thus outlasting them. The disciple makes a charge attack which does not provoke attacks of opportunity, and this inflicts an additional [[4d6]] points of damage. When making a charge attack with this strike, he does not suffer the standard -2 Armor Class penalty. </p>"
+    },
+    "discipline": "Black Seraph",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "vFOY4tQoHiF3QRVY",
+  "_id": "7U7zXG5yIf3X41cR",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991435387,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!7U7zXG5yIf3X41cR"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Iron Defenderâ€™s Riposte",
+  "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 2 Iron Tortoise Maneuvers<br /><strong>Range</strong>: One ally within 20-ft<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: None</p><h2>Description</h2><p>The Iron Tortoise master is wary of the danger to his charges that his enemies represent, and he is ready to spring into motion to defend them. By using this maneuver when an ally within 20-ft is attacked, the martial disciple may rush up 20 ft. to become adjacent his ally. Once there, he may make an opposed attack roll using his base attack bonus plus his shield bonus to AC to negate the attack to his ally. If successful, the attack is negated and he may make an immediate counter attack against that foe which inflicts an additional +[[4d6]] points of damage and dazes them if the target fails a Fortitude save (DC 17 + initiation modifier).</p>"
+    },
+    "discipline": "Iron Tortoise",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "oWJgx72waCnf25DS",
+  "_id": "KpBkSYVgXVEj71Zx",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991351618,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!KpBkSYVgXVEj71Zx"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Carnival Swap",
+  "img": "icons/magic/unholy/energy-smoke-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 1 Shattered Mirror maneuver<br /><strong>Range</strong>: Close (25-ft + 5-ft/2 levels)<br /><strong>Target</strong>: You and one other creature<br /><strong>Duration</strong>: Special (see text)</p><h2>Description</h2><p>You catch your enemy in the reflection of your blade and twist reality like a funhouse mirror, leaving an unfair trade. The next time this round that you make an attack that hits, you may select one power, psi-like ability, spell, or spell-like ability affecting the struck creature. That creature loses the benefits of the chosen effect and you gain them for a number of rounds equal to your initiation modifier. Select a power, psi-like ability, spell, or spell-like ability affecting you. You lose the chosen effect and the struck creature gains it for a number of rounds equal to your initiation modifier.</p>"
+    },
+    "discipline": "Shattered Mirror",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "oe4yZ4T0sVM7JNOV",
+  "_id": "nuwxGR4pF6w4tMC8",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991248180,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!nuwxGR4pF6w4tMC8"
+}

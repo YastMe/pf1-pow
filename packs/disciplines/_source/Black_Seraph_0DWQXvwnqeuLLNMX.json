@@ -1,0 +1,128 @@
+{
+  "name": "Black Seraph",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>The secrets of the Black Seraph discipline are taught by possessing fiends and demonic tutors to their pawns as a way of enticing fools who desire power into learning their secrets or the occasional few with wills strong enough to tear those secrets from their infernal prisoners. Not ones to blanch at the thought of fighting dirty, Black Seraph disciples are quite content to injure their foes in any way that they can to ensure their victory. This discipline focuses on powerful, straightforward two-handed strikes and vicious counters as well as intimidation, pain-infliction, and dirty fighting.</p><p>The Black Seraph discipline’s associated skill is Intimidate, and its associated weapon groups are axes, flails, and pole arms.</p><p>The discipline of Black Seraph is a supernatural discipline and all abilities within are considered supernatural abilities and follow the rules and restrictions of such. Many abilities in this discipline carry the [evil] descriptor, but not all of them.</p><p><strong>Associated Skills</strong>: Intimidate </p><p><strong>Associated Weapon Groups</strong>: Axes, flails, and pole arms  </p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": true,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "KwF7BFoJHrL5I8hd",
+  "_id": "0DWQXvwnqeuLLNMX",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991231190,
+    "modifiedTime": 1739654663237,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!0DWQXvwnqeuLLNMX"
+}

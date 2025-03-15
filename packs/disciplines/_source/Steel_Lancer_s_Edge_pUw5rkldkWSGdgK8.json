@@ -1,0 +1,58 @@
+{
+  "name": "Steel Lancer’s Edge",
+  "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Piercing Thunder maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You add a burst of speed and force to the end of your charge, striking your foe with a deadly thrust before using the momentum to leap away from their counterattack. Make a charge attack that does not provoke attacks of opportunity. If it hits, it deals weapon damage as normal plus an additional [[8d6]] points of damage, and automatically overcomes damage reduction. In addition, regardless of whether your attack hit or not, you can make an Acrobatics check to jump as a free action. Movement during this jump does not provoke attacks of opportunity from the target.</p>"
+    },
+    "discipline": "Piercing Thunder",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "g2iLSiidJP6Owofm",
+  "_id": "pUw5rkldkWSGdgK8",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991484209,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!pUw5rkldkWSGdgK8"
+}

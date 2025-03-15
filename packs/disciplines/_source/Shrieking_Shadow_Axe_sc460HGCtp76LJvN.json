@@ -1,0 +1,58 @@
+{
+  "name": "Shrieking Shadow Axe",
+  "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 1 Unquiet Grave maneuver<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: Creature struck<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You wrap your weapon in tenebrous energy that saps the strength of your victims. Make a melee attack. If it hits, it deals weapon damage as normal, plus [[1d8]] points of Strength damage. You gain temporary hit points equal to twice the Strength damage dealt by this strike. The temporary hit points gained from this maneuver stack with those gained from other Unquiet Grave maneuvers, to the normal maximum.</p>"
+    },
+    "discipline": "Unquiet Grave",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "JvBiDrTopZQPosxo",
+  "_id": "sc460HGCtp76LJvN",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991450626,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!sc460HGCtp76LJvN"
+}

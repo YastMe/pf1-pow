@@ -1,0 +1,58 @@
+{
+  "name": "Mithral Tortoise Stance",
+  "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 2 Iron Tortoise Maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>The Iron Tortoise disciple has become so comfortable in his armor that is like a second skin to him, and he is capable of moving better than most while wearing it. While in this stance, the initiator treats armor he is wearing as one type lighter (i.e. heavy armor is treated as medium armor, and this stacks with the mithral material bonus, treating heavy mithral armor as light armor), increases his maximum Dexterity modifier by +2, and his total armor check penalty is halved while in this stance (any armor check penalty from armor, shields, or encumbrance). Finally, due to being stronger from wearing his burden of metal so much, the initiator moves more freely, and gains a +2 dodge bonus to his AC and to his CMD.</p>"
+    },
+    "discipline": "Iron Tortoise",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "EIuEezEcGPv2rbEe",
+  "_id": "5Ge5P1c70p3N22zc",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991380926,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!5Ge5P1c70p3N22zc"
+}

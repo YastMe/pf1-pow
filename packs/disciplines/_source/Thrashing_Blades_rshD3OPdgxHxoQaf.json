@@ -1,0 +1,58 @@
+{
+  "name": "Thrashing Blades",
+  "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Thrashing Dragon maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>With the speed and ferocity of a rampaging dragon, the disciple rends his foe to ribbons with his furious onslaught as he turns the quickening principles of fighting many opponents to fight only one. The initiator may make a full attack action at his foe, each attack at full attack bonus (with no reduction from iterative attacks), with both wielded weapons and any natural attacks or unarmed strikes the initiator possesses. Each of these attacks inflicts an additional [[2d6]] points of damage due to the sheer ferocity of the attack. The price for this ferocity is that the initiator must leave himself open to some attack; until his next turn the initiator suffers a -4 penalty to his AC and to Reflex saves.</p>"
+    },
+    "discipline": "Thrashing Dragon",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "wCp5TWbm9VDwZvCc",
+  "_id": "rshD3OPdgxHxoQaf",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991508749,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!rshD3OPdgxHxoQaf"
+}

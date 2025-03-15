@@ -1,0 +1,58 @@
+{
+  "name": "Traitor’s Roar",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three cursed razor maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Channeling dark energies through your blade, you poison the loyalty of those you strike. Make a melee attack. If it hits, it deals weapon damage as normal, and the target must succeed at a Will save (DC 17 + your initiation modifier) or be overwhelmed with feelings of hatred for its allies. A target that fails its save immediately takes a standard action (even if it isn't its turn) to harm or hinder its allies in some way. The victim acts as though possessed of true hatred for its allies, utilizing whatever it perceives as the most harmful ability possible, and targets them as if it were their foe. Once the harmful action is taken, the creature becomes cursed for a number of rounds equal to your initiation modifier and resumes its normal attitude towards its allies. This maneuver does not change the creature's feelings about its enemies; for example, it might use its action to cast a fireball spell that includes both its allies and enemies within its area.</p>"
+    },
+    "discipline": "Black Seraph",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "9K2Gb1VPY40OCGZx",
+  "_id": "Lr7L6oIlBbxEGK0t",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991519084,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Lr7L6oIlBbxEGK0t"
+}

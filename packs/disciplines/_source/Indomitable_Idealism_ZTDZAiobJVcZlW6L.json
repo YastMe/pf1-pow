@@ -1,0 +1,58 @@
+{
+  "name": "Indomitable Idealism",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Sleeping Goddess maneuvers<br /><strong>Range</strong>: Personal and 100 ft. (see text)<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>An idea cannot be killed as long as it still inhabits a mind. As a master of the Sleeping Goddess discipline, you have the ability to use this fact to your advantage, channeling overwhelming psionic power through yourself for a brief moment in order to become a living embodiment of your ideals and beliefs. You can initiate this counter when you would be killed or knocked unconscious, either through damage reducing you to 0 or fewer hit points or by an effect that kills you outright (such as a death effect or a vorpal weapon). You do not take the damage or are completely unaffected by the effect, and may move to a space adjacent to any creature within 100 feet that has seen you or otherwise knows who you are. This movement does not provoke attacks of opportunity, nor does it require line of sight or line of effect, although you must be aware that the creature in question is in range. To observers, you seem to vanish and reappear next to the creature, folding out of space and becoming to all eyes a near-flawless, ideal version of yourself for a few seconds before returning to your normal appearance.</p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "mCppkEHUWdB2exuo",
+  "_id": "ZTDZAiobJVcZlW6L",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991345360,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!ZTDZAiobJVcZlW6L"
+}

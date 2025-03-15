@@ -1,0 +1,58 @@
+{
+  "name": "Lesson VI: Supremacy",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Fool's Errand maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>As a master of your art, you can fluidly combine the styles of the Fool's Errand discipline with the others you've studied and trained in. When you enter this stance, choose another stance you know of 7th level or lower. You gain the benefits of that stance for as long as you maintain this stance. In addition, you can make a lock attempt against an adjacent creature once per round as a free action. You may also make a lock attempt against any adjacent creature you hit with an attack of opportunity. If you interrupt a creature's movement with a successful lock, they still spend their action. Dragging creatures you've locked does not penalize your movement speeds. You can change the second stance you're benefiting from as a swift action (as if entering that stance).</p>"
+    },
+    "discipline": "Fool's Errand",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "I6jFf4QLS1RdSJql",
+  "_id": "FCF43KBlGXBxrmgu",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991365249,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!FCF43KBlGXBxrmgu"
+}

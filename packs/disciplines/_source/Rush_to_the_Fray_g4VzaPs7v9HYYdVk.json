@@ -1,0 +1,58 @@
+{
+  "name": "Rush to the Fray",
+  "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Piercing Thunder maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One or more creatures<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You charge fearlessly towards a group of foes, heedless of difficulties and deliver a flurry of potent attacks. Make a charge attack that does not provoke attacks of opportunity. During this charge, you ignore difficult terrain (potentially allowing you to charge where you otherwise could not). At the end of your charge, you can give up your regular attacks and instead make a melee attack or combat maneuver attempt at your highest base attack bonus against each opponent within reach. If an attack hits, it deals weapon damage as normal plus an additional [[5d6]] points of damage, or if used for a combat maneuver attempt, you gain a +5 competence bonus on your combat maneuver check. You must make a separate attack roll against each target.</p>"
+    },
+    "discipline": "Piercing Thunder",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "JoF5qKZN65AdthCq",
+  "_id": "g4VzaPs7v9HYYdVk",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991429060,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!g4VzaPs7v9HYYdVk"
+}

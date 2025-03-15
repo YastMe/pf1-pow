@@ -1,0 +1,58 @@
+{
+  "name": "Taunting Laugh",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Black Seraph maneuver<br /><strong>Range</strong>: 30-ft<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: One round</p><h2>Description</h2><p>With an intimidating growl and mighty laugh at his pitiful opponents, the Black Seraph disciple causes his foe's resolve to weaken and his anger to stoke, allowing him to make the tragic mistake of giving the disciple the upper hand. As a swift action, the disciple makes a demoralization attempt against a foe, and if successful, in addition to demoralizing the foe, the target is struck flat-footed until the end of the disciple's next turn.</p>"
+    },
+    "discipline": "Black Seraph",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "vFOY4tQoHiF3QRVY",
+  "_id": "mzMn8Urr93ffy0lG",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991500660,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!mzMn8Urr93ffy0lG"
+}

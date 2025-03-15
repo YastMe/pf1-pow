@@ -1,0 +1,58 @@
+{
+  "name": "Stance of the Eternal Guardian",
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Eternal Guardian maneuver<br /><strong>Range</strong>: Personal and 60 ft. (see text)<br /><strong>Target</strong>: You and one ally (see text)<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You bind your soul in a protective embrace around one of your allies. When you enter this stance, choose an ally within 60 feet. While you maintain this stance and as long as that ally is within 60 feet of you, that gains a +1 deflection bonus to its AC and a +1 bonus on all saving throws. At initiator level 8th and at every four initiator levels thereafter, these bonuses increase by +1 (up to a maximum of +5 at 20th level). In addition, as long as that ally is within 60 feet of you, it takes only half damage from all wounds and attacks (including special abilities) that deal hit point damage. Th amount of damage not taken by the your ally is taken by you. Forms of harm that do not involve hit points, such as charm effects, temporary ability damage, level draining, and death effects, are not shared. If the subject suffers a reduction of hit points from a lowered Constitution score, the reduction is not split with you because it is not hit point damage.</p>"
+    },
+    "discipline": "Eternal Guardian",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "DQUTxOVDuxKVksMX",
+  "_id": "zssGt8EF1DFcvJNX",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991476987,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!zssGt8EF1DFcvJNX"
+}

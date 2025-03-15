@@ -1,0 +1,58 @@
+{
+  "name": "Iron Shell",
+  "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>A shield is used for defense primarily, a basic martial truth. It turns aside harm, and the shield of a disciple of the Iron Tortoise can do the same thing in ways that others cannot. The initiator makes an opposed attack roll as if making a shield bash attempt at his full base attack bonus plus his shield bonus to AC against his enemy's attack roll to deflect a single enemy's melee or missile attack (that is not a spell or power).</p>"
+    },
+    "discipline": "Iron Tortoise",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "KXkkV7YAUKVCFucV",
+  "_id": "NMPoXUD3xIKhVcEp",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991355085,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!NMPoXUD3xIKhVcEp"
+}

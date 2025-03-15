@@ -1,0 +1,128 @@
+{
+  "name": "Iron Tortoise",
+  "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>The discipline known as Iron Tortoise rose up from the need to protect one’s self and allies from harm during wartime. Phalanx fighters knew that their shield protected them as much as their brother, and that a sturdy shield wall could repel almost any harm. Iron Tortoise disciples learn that their discipline requires their defensive stances to be perfect; they must not be budged from their spot unless they choose to move from them. Iron Tortoise requires its practitioners be proficient with a shield, and many of its maneuvers can only be used with a shield or shield-like device.</p><p>Maneuvers from Iron Tortoise require use of a shield in one hand. Animated shields are not allowed as they do not allow the full range of motions required to use these maneuvers. Tower shields may be used, but cannot be used to perform shield bash maneuvers unless the initiator has the ability to perform shield bashes with tower shields.</p><p><strong>Associated Skills</strong>: Bluff </p><p><strong>Associated Weapon Groups</strong>: Axes, heavy blades, and close weapons  </p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": true,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "XfOnJFMn1k9vn1gm",
+  "_id": "rC95GZKffPpnoJib",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991355400,
+    "modifiedTime": 1739654663237,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!rC95GZKffPpnoJib"
+}

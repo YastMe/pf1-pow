@@ -1,0 +1,58 @@
+{
+  "name": "Proof of Victory",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "discipline": "Fool's Errand",
+    "level": 9,
+    "initTime": {
+      "value": 1,
+      "units": "special"
+    },
+    "saveType": "Special",
+    "saveEffect": "Half",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "description": {
+      "value": "<p><strong>Prerequisites</strong>: Four Fool’s Errand maneuvers<br /><strong>Range</strong>: See text<br /><strong>Target, Effect, or Area</strong>: See text<br /><strong>Duration</strong>: See text</p><h2>Description</h2><p>At its heart, the Fool’s Errand discipline is founded on stolen ideas. You have seen and experienced a great many maneuvers and techniques, and in a moment of perfect clarity, you can recall your wealth of knowledge and create a brand new move, if only for a moment. You can initiate this maneuver to emulate another maneuver (not a stance) of the following list.</p><ul><li><p>An 8th-level or lower maneuver of a discipline you know at least one maneuver or stance from.</p></li><li><p>A 7th-level or lower maneuver of a discipline you do not know at least one maneuver or stance from.</p></li></ul><p>You must follow any restriction that maneuver has (such as if a counter is normally initiated in response to something, or if a maneuver has restrictions on what actions it can be taken with). The save DCs of any saving throws prompted by the maneuver are determined using this maneuver’s level, and as such are equal to 19 + your initiation modifier. In addition, observers trying to identify the exact maneuver you’ve used have great difficulty; a successful Knowledge (martial) check to identify this maneuver only reveals the maneuver it is emulating. An observer must beat the DC by 10 or more in order to fully understand what you’ve done. In all other ways, this maneuver acts as the maneuver you are emulating.</p>"
+    },
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "RrpYw5jeVMEcHxyk",
+  "_id": "GFhyLysVOUBOs4hP",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991405505,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!GFhyLysVOUBOs4hP"
+}

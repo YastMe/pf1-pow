@@ -1,0 +1,58 @@
+{
+  "name": "Jailer of the Damned",
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Eternal Guardian maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You adopt the stance of the wardens which guard the gates of death. While you maintain this stance, your maneuvers and other abilities treat creatures that are normally immune to mind-affecting effects and fear effects as if they were not immune. Such creatures gain a +5 resistance bonus on saving throws against these effects, rather than ignoring them outright. In addition, while you maintain this stance, you do not provoke attacks of opportunity when attempting a combat maneuver against a creature that is shaken, frightened, or panicked, and you gain a +2 bonus on your combat maneuver checks against such creatures.</p>"
+    },
+    "discipline": "Eternal Guardian",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "WWnToHygGM8gd0rU",
+  "_id": "cCvqzSmdQjxEyPhI",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991357018,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!cCvqzSmdQjxEyPhI"
+}

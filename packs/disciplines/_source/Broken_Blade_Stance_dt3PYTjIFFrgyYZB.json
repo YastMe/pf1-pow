@@ -1,0 +1,58 @@
+{
+  "name": "Broken Blade Stance",
+  "img": "icons/skills/melee/sword-damaged-broken-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Broken Blade maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>The disciple of the Broken Blade has learned the flows of combat to a degree and has the insight necessary to see the path to victory through the patterns of steel his opponents weave before his eyes. While in this stance, the initiator gains a competence bonus equal to his initiator level to Acrobatics checks to avoid attacks of opportunity, and may make an additional attack when making a full attack action. If the initiator is two weapon fighting, he gains this extra attack for both hands. The attack(s) uses the initiator's full base attack bonus, plus any modifiers appropriate to the situation.</p>"
+    },
+    "discipline": "Broken Blade",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "TsQgMoQNsetFOMNl",
+  "_id": "dt3PYTjIFFrgyYZB",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991243300,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!dt3PYTjIFFrgyYZB"
+}

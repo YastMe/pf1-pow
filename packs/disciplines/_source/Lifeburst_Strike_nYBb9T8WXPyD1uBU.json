@@ -1,0 +1,58 @@
+{
+  "name": "Lifeburst Strike",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Radiant Dawn maneuver<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You strike out with a simple blow with an uncanny power to heal and harm. Make an attack. If it hits, it deals weapon damage as normal plus an additional [[1d6]] points of damage, and you can heal yourself and allies within close range (25 feet + 5 feet per 2 initiator levels) for a total number of hit points equal to three times your initiation modifier, divided as you choose between you and your allies. Alternatively, you may choose to grant a single ally within close range a saving throw against an ongoing eﬀect on them that oﬀers a saving throw to negate, at the eﬀect's original DC. If it succeeds, the eﬀect ends. This does not progress poison, diseases, or similar eﬀects on a failed saving throw. Essence: Each point of essence invested into this strike increases the total amount of healing done by 5 hit points. This healing is split up between targets normally.</p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "UKWiJOQf1Bv9VqOw",
+  "_id": "nYBb9T8WXPyD1uBU",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991367142,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!nYBb9T8WXPyD1uBU"
+}

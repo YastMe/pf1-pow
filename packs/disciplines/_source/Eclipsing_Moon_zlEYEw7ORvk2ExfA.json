@@ -1,0 +1,58 @@
+{
+  "name": "Eclipsing Moon",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Veiled Moon maneuvers<br /><strong>Range</strong>: Melee attack, movement speed<br /><strong>Target</strong>: Special<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Folding space around his form effortlessly, the disciple is capable of leaps through the ether and attacking through the barrier between the worlds in a series of staccato bursts of silvery-blue light, his image blinking as he strikes. As a full attack action, the initiator may make an attack against a target and then teleport a distance up to his movement speed to a new target to strike again, and each attack is made against the target's flat-footed armor class. He may do this a number of times equal to the number of attacks he possesses on a full attack action (including off hand attacks or secondary attacks), and he may select the same target for each attack but each teleportation must land him in position to make an attack against a target creature (he must attack a target creature at the end of each teleportation). Each attack gains a +2 competence bonus and inflicts an additional [[4d4]] points of force damage. Secondary attacks such as off-hand attacks and secondary natural attacks only add [[2d4]] of force damage. The initiator may forgo the first attack of this maneuver to teleport himself into position to use the rest of the attacks of this maneuver.</p>"
+    },
+    "discipline": "Veiled Moon",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "JQeAe7CaqKKLBE1c",
+  "_id": "zlEYEw7ORvk2ExfA",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991287745,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!zlEYEw7ORvk2ExfA"
+}

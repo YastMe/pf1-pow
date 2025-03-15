@@ -1,0 +1,58 @@
+{
+  "name": "Cartwheel Axe Kick",
+  "img": "icons/skills/melee/sword-damaged-broken-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>With a quick handspring into a cartwheel or flip, the disciple of the Broken Blade levels a powerful axe kick at his foe. The initiator must make an Acrobatics check with a DC of 15; if successful the initiator may either move 10-ft. towards or away from a target creature without provoking attacks of opportunity. The initiator makes his unarmed attack roll (before he moves if he's moving away, or after he moves if he's approaching a target) and if successful, this kick inflicts an additional [[2d6]] points of damage.</p>"
+    },
+    "discipline": "Broken Blade",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "kwmVJepvrSz9uCgA",
+  "_id": "WPYswL3hkSXcji3X",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991248462,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!WPYswL3hkSXcji3X"
+}

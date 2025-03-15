@@ -1,0 +1,58 @@
+{
+  "name": "Ruby Battle Lord’s Strike",
+  "img": "icons/weapons/swords/sword-runed-glowing.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Scarlet Throne maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Perfection in combat is the true goal of any disciple of Scarlet Throne, and to become a true master of this discipline is to know how to strike perfectly with each and every attack. The disciple initiating Ruby Battle Lord's Strike must make a full attack against a target, each attack using his full base attack bonus with a +2 insight bonus instead of the normal -5 reduction of each consecutive attacks (i.e. an initiator with a base attack bonus of +16, who normally has four attacks in a full attack action, would make each attack using this maneuver using his full +16 base attack bonus with a +2 insight bonus in addition).</p>"
+    },
+    "discipline": "Scarlet Throne",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "pnZ1HtOvHw4MOoo4",
+  "_id": "mjeNLsdSnQXhWV6k",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991428063,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!mjeNLsdSnQXhWV6k"
+}

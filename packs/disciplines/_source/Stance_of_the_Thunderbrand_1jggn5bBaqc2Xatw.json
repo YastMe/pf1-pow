@@ -1,0 +1,58 @@
+{
+  "name": "Stance of the Thunderbrand",
+  "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Piercing Thunder maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You tightly concentrate your focus on the battlefield, maximizing the effectiveness of your reach and keeping enemy attacks at bay. While you maintain this stance, you gain a +4 dodge bonus to your AC and your weapon's reach increases by 5 feet. In addition, any creature you threaten that leaves their square provokes an attack of opportunity from you, even if their movement was a 5-foot step or movement that would not otherwise provoke attacks of opportunity (such as with the Spring Attack feat or a teleportation effect). Your opponents cannot use the Withdraw action to treat the squares they start in as no longer threatened by you.</p>"
+    },
+    "discipline": "Piercing Thunder",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "PBJ6DL6hp56KFSWp",
+  "_id": "1jggn5bBaqc2Xatw",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991480454,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!1jggn5bBaqc2Xatw"
+}

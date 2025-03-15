@@ -1,0 +1,58 @@
+{
+  "name": "Harsh Light of Day",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Radiant Dawn maneuvers<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature; see text<br /><strong>Duration</strong>: Instantaneous; see text</p><h2>Description</h2><p>This attack brings with it a blast of light, forcing enemies to reveal their true selves. Make an attack. This attack ignores miss chance (such as granted by concealment, or spells) and attempts at redirection (Such as Mirror Image), and if it hits, you deal weapon damage as normal plus an additional [[5d6]] points of damage. The target must then make a Will save (DC 17 + Initiation modifier) or have all illusions and polymorph eﬀects you choose dispelled from them. Additionally, if they fail this will save, the target loses the ability to benefit from miss chance for rounds equal to your initiation modifier. You may attack an empty space with this maneuver. If you do so, the attack automatically veers towards the nearest enemy to the targeted space within 10ft of it, even enemies that you are unaware of or cannot see, and aﬀects them as if they were the original target of this maneuver, even if they are out of range of the original attack. Creatures you are completely unaware of count as enemies if their attitude to you is unfriendly or worse, or if they have used a harmful ability on you or your allies within the last minute. Essence: Each point of essence invested in this veil in creases the save DC and the duration of this maneuver by 1, and increase the seeking radius of an attack aimed at an empty square by 5 feet.</p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "6qjAXbNUllvzSPyd",
+  "_id": "KDl40NuSBmEqX1P3",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991334836,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!KDl40NuSBmEqX1P3"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Battle Against the Sun",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Radiant Dawn maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>To challenge you is to challenge the sun itself: An exercise in futility. While you maintain this stance, you shed bright light, as if by a daylight spell, out to close range (25 feet + 5 feet per 2 levels). Once per round, as a free action that can be taken at any time (including when it is not your turn), you may create a line with a length of 20 feet that originates anywhere within this light. Unlike normal line attacks, this line attack does not need to fire away from you; it may travel in any direction so long as the origin point is within your daylight range. Enemies within the area take damage equal to your initiator level. A successful Reflex save (DC 16 + initiation modifier) halves this damage. Allies caught within the line are instead healed for a number of hit points equal to your initiator level. Essence: Each point of essence invested in this stance allows you to aﬀect one additional target adjacent to the line and increases the DC of the Reﬂex save by 1.</p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "hnkhUFBVLAZuEImC",
+  "_id": "3tAZBGhoJuAFHYOb",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991226707,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!3tAZBGhoJuAFHYOb"
+}

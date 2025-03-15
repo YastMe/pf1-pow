@@ -1,0 +1,58 @@
+{
+  "name": "Stance of the Sunlight Shield",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Radiant Dawn maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>This stance sits halfway between martial form and magic prowess, conjuring shields of light to defend yourself and others. While you maintain this stance, you may create sunlight shields. Creating a single sunlight shield is done as free action that can be done once per round, and is done automatically when you enter this stance. A sunlight shield can be created anywhere within close range (25 feet plus 5 feet per 2 levels) of you (to include in the air, where they ﬂoat until destroyed, dismissed, or removed). Treat a sunlight shield as a 10ft by 10ft by 1 inch thick wall of force, but with hardness equal to your initiator level plus your initiation modifier, and 1 hit point. They may be made smaller at the initiator's discretion. You may have a number of sunlight shields equal to your initiation modifier, and these shields last indefinitely, or until they are no longer within close range of you, you dismiss them as a free action, or you leave this stance. These sunlight shields can be made at any angle, and are treated as normal terrain when stepped on. You may command these shields to ﬂy an amount of feet equal to your movement speed as a move action. You may also create a sunlight shield as an immediate action, but doing so is dangerous as the hasty construction leaves your essence tied to it. Until the start of your next turn, any damage that the shield takes (before hardness is taken into account), or any spell that would fail because of the shield's sudden appearance between its caster and its target is also inﬂicted on you, regardless of distance. Creatures can attack other creatures on the other side of these shields, dealing damage to the shield first. If an attack would break the shield, the remainder of the damage is dealt to the creature if the original attack would have hit. When you enter this stance, you may designate any number of allies. These allies' attacks and abilities are not impeded by your sunlight shields. Essence: Each point of essence invested into this stance increases the hardness of the sunlight shields by 3, the number of sunlight shields you create when entering this stance by 1, and the number of sunlight shields you can possess at one time by 2.</p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "Vb9dDbYb56mFXgMF",
+  "_id": "dAuA6D1zFQCebPlY",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991479765,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!dAuA6D1zFQCebPlY"
+}

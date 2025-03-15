@@ -1,0 +1,58 @@
+{
+  "name": "Bite The Mongoose",
+  "img": "icons/weapons/daggers/dagger-magical-glowing-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Steel Serpent Maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One attacker<br /><strong>Duration</strong>: One attack</p><h2>Description</h2><p>Inevitably, the disciple of Steel Serpent will be struck in combat and through the use of this technique; he learns to make his foe regret its actions. Just as the cobra often poisons the foolish mongoose, so does the disciple of Steel Serpent poison his foe. Upon being struck in combat, the disciple takes advantage of the opening that his injury makes available and strikes out once with poisoned, life sapping ki energies. Make an immediate attack at full base attack bonus against the opponent that has successfully attacked you; if this attack hits it inflicts an additional [[6d6]] points of damage and [[1d6]] Constitution damage (Fortitude save DC 17 + initiation modifier halves this Constitution damage). This is a supernatural ability.</p>"
+    },
+    "discipline": "Steel Serpent",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "NGwnHlx2ymT9ipyn",
+  "_id": "hFoCE1J8mw3Aur3G",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991230060,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!hFoCE1J8mw3Aur3G"
+}

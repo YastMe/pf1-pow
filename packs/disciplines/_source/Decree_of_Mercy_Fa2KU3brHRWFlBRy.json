@@ -1,0 +1,58 @@
+{
+  "name": "Decree of Mercy",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Close (25 ft. + 5 ft./2 levels)<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: 1 round or until discharged</p><h2>Description</h2><p>A simple look and gesture can weaken one's resolve to kill. You can initiate this counter in response to a creature making any action within close range (25 feet + 5 feet per 2 initiator levels). The next time the target uses an eﬀect which deals hit point damage, the damage is nonlethal. If the effect targets or includes a creature that is immune to nonlethal, the effect instead deals half damage to that creature. Essence: Each point of essence invested into this counter causes another instance of damage from your target to deal nonlethal damage.  </p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "bdtLmcCPXeDa2u2l",
+  "_id": "Fa2KU3brHRWFlBRy",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991269771,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Fa2KU3brHRWFlBRy"
+}

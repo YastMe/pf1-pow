@@ -1,0 +1,58 @@
+{
+  "name": "Grasp of the Goddess",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Sleeping Goddess maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>For a brief moment, you transcend the limits of your physical form, striking beyond the reach of your weapons and reacting with a speed and grace you would not normally have. After initiating this boost, your melee reach increases by 5 feet for one round, and you can make one additional attack of opportunity this round. This extra attack of opportunity stacks with other effects that grant additional attacks of opportunity, such as the Combat Reflexes feat. In addition, at any time during this boost's duration, you may expend your psionic focus as an immediate action to warp the world around you and move to any unoccupied space within your melee reach without provoking attacks of opportunity. Augment: You can augment this maneuver in one or more of the following ways: For every 2 power points you spend, you can make another additional attack of opportunity each round while under the effect of this boost. For every 3 power points you spend, this boost's effect lasts for an additional round.</p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "8SRxK1VsGQHUvakq",
+  "_id": "a9YMjZtODt3Nhh7K",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991328578,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!a9YMjZtODt3Nhh7K"
+}

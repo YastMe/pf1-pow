@@ -1,0 +1,58 @@
+{
+  "name": "Leaping Thunder Crash",
+  "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Piercing Thunder maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>With a tremendous leap into the air, you come crashing down upon your enemy with the force of the gods themselves. Make a melee attack, using an Acrobatics check in place of your attack roll. Any bonuses and penalties that would be applied to a normal attack roll, such as weapon enhancements, spell effects, or the penalties for fighting with two weapons, are applied to the skill check as well. If your attack hits, it deals weapon damage as normal plus an additional 35 points of damage, and the target must succeed at a Fortitude save (DC 17 + your initiation modifier) or drop any held items, as though they had been disarmed.</p>"
+    },
+    "discipline": "Piercing Thunder",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Negates",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "JoF5qKZN65AdthCq",
+  "_id": "nW0lVcLEd0QV16z6",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991363026,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!nW0lVcLEd0QV16z6"
+}

@@ -1,0 +1,128 @@
+{
+  "name": "Fool's Errand",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>In the annals of history, as the story goes, a lone warrior appeared from nowhere and laid down a challenge: stop him. He tore a bloody path across the martial arts world, and eventually stood alone, undefeated and surrounded by the broken bodies of his victims. Afterwards, the warrior offered to teach his skills to those who dared to learn. The seemingly-impossible demands and trials his teachings entailed were off-putting to many, and those who managed to succeed became mediocre martial artists at best. It was not until he was hunted down by the son of one he had slain that the truth was revealed. The warrior was not a martial artist but a mage, and had triumphed in his battles through heavy use of obfuscated magic and hidden items. When called out on this falsehood, the mage laughed it off, claiming that his way was the epitome of martial skill—that to train the body instead of the mind was, and always would be, a “fool’s errand.”</p><p>Naturally, some took this as a challenge. A group of master martial artists took his “teachings” and repurposed them, finding meaning in the mage’s lies. Rather than rewriting his training manuals, they decided to take them at face value, channeling their spite to achieve the dangerous, stupid, and seemingly-impossible. After they eventually succeeded, the result was an eclectic mix of pilfered techniques and improbable metaphors that nonetheless resembled a functional style of martial arts. The group of masters later compiled their newfound knowledge into new teachings, and christening the discipline the Fool’s Errand, after its inventor’s contemptuous remark.</p><p><strong>Associated Skills</strong>: Climb</p><p><strong>Associated Weapon Groups</strong>: All weapons</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": true,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "kPCUtWew2eMagBXu",
+  "_id": "YKyesqqDVNSpFBgN",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991319735,
+    "modifiedTime": 1739654663237,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!YKyesqqDVNSpFBgN"
+}

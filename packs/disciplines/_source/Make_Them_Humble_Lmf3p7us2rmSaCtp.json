@@ -1,0 +1,58 @@
+{
+  "name": "Make Them Humble",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Fool's Errand maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>Your training has shown you that while magic is an advantage, it is not insurmountable if you simply apply enough brute force. You can initiate this counter when one of your abilities would be negated by a freedom of movement spell, the slip the bonds power, or effects that replicate either of these effects. Make a dispel check (DC 11 + the effect's caster level or manifester level) against the effect, using your initiator level as your caster level. You gain an additional +1 bonus on your dispel check for every 4 Climb ranks you possess. If you succeed, the effect is dispelled and your ability functions as normal. If the effect originated from an item (such as a ring of freedom of movement) or a non-spell, non-power ability, the effect is instead suppressed for [[1d4]] rounds. If the ability has no caster level, use its originator's Hit Dice.</p>"
+    },
+    "discipline": "Fool's Errand",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "vm6FozC2VLLchqWB",
+  "_id": "Lmf3p7us2rmSaCtp",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991373215,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Lmf3p7us2rmSaCtp"
+}

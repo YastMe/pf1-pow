@@ -1,0 +1,58 @@
+{
+  "name": "Raging Hunter Pounce",
+  "img": "systems/pf1/icons/feats/extra-rage.jpg",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>With the ferocity of a raging great cat, the disciple of Primal Fury provides the very real fear that users of this discipline are known to inspire with their reckless assault techniques of offense over all. The initiator makes a charge attack and makes a full attack at the end of the charge against the target creature. He must focus all of these attacks against a single target, and if the target is brought to 0 or fewer hit points, then any remaining attacks are lost as the initiator savages the foe's body with the remaining attacks.</p>"
+    },
+    "discipline": "Primal Fury",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "HrxfAyp9zWaHtDRP",
+  "_id": "DdMBLQIhWfOnBmra",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991410045,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!DdMBLQIhWfOnBmra"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Ruby Zenith Strike",
+  "img": "icons/weapons/swords/sword-runed-glowing.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Scarlet Throne maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>The focus of battle teaches that in a single hair's breadth of time, a warrior may strike down a foe in a single blow. The disciple makes a Sense Motive check in place of his normal attack roll (he may add any enhancement bonus from his weapon or feats that apply from the use of his weapon to this Sense Motive check as well), and if this Sense Motive check equals or exceeds the target's armor class, the attack deals triple damage. If this check does not meet or exceed the target's armor class, then the attack fails and the disciple misses.</p>"
+    },
+    "discipline": "Scarlet Throne",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "k7vpFiMp70EvFA4q",
+  "_id": "DneUP25LtqasNZgP",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991428396,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!DneUP25LtqasNZgP"
+}

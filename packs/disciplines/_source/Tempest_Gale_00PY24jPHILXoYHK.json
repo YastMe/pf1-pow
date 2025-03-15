@@ -1,0 +1,128 @@
+{
+  "name": "Tempest Gale",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Like the whipping winds of a great storm front, the arrows, slings, bullets and thrown weapons of a Tempest Gale disciple reach out across the battlefield to find their target without error. Developed from the skills of masterful archers who used trick shots and careful aim to bring down their foes, Tempest Gale is a discipline that specializes in targeted shots that can disable or destroy any foe.</p><p><strong>Associated Skills</strong>: Sleight of Hand</p><p><strong>Associated Weapon Groups</strong>: Bows, crossbows, firearms, and thrown</p><p><strong>Special Note</strong>: Some Tempest Gale maneuvers allow the disciple to make a ranged combat maneuver attempt. Treat this as a normal combat maneuver, except that it does not provoke attacks of opportunity and may be executed against any creature the disciple could attack with their weapon. If the target is at a distance greater than one range increment, the normal penalty to attack rolls is instead applied to the combat maneuver attempt, as normal. In addition, while you maintain a Tempest Gale stance, you can retrieve unattended weapons as a free action, provided the weapon is within your reach at some point during your turn (including as part of movement). </p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": true,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "bNVc363ZJswjxBrV",
+  "_id": "00PY24jPHILXoYHK",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991502057,
+    "modifiedTime": 1739654663237,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!00PY24jPHILXoYHK"
+}

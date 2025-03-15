@@ -1,0 +1,58 @@
+{
+  "name": "Call the Soul’s Blade",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: 1 round/level (see text)</p><h2>Description</h2><p>As an adept of the Sleeping Goddess discipline, your greatest weapon is your personal ideology given form. By focusing on all you view as right and just, you can shape psionic might into a soul's blade. When you initiate this boost, a soul's blade appears in your hands, taking the form of a masterwork melee weapon you are proficient with. A soul's blade created with this boost has hardness 10 and 10 hit points, and is treated as a magic weapon for the purposes of overcoming damage reduction. The blade lasts a number of rounds equal to your initiator level before vanishing. If you throw your soul's blade or otherwise relinquish your grip on it (such as by being disarmed), it dissipates after one round unless you reclaim it. You can have multiple soul's blades created at once if you initiate this boost or other boosts that create a soul's blade multiple times, although only as many as you can wield. If you are currently wielding a mind blade or equivalent weapon (such as a deadly fist's empowered strikes, a psychic armory's panoply of blades, or a soulbolt's mind bolt), you can choose to amplify it instead of this boost's normal effects. Until the start of your next turn, all such weapons you wield (including those created after initiating this boost) gain the benefit of a weapon special ability equivalent to a +1 enhancement bonus. This ability must be chosen from the list of weapon special abilities you can normally place on your mind blade (see Mind Blade Enhancements).</p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "whugWMRdGhCwBQyw",
+  "_id": "xI66FOsSSSnSu1wv",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991247333,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!xI66FOsSSSnSu1wv"
+}

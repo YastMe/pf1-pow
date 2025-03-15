@@ -6,7 +6,7 @@ export class ManeuverItemModel extends foundry.abstract.TypeDataModel {
             uses: new fields.SchemaField({
                 per: new fields.StringField({required: true, initial: "charges"}),
                 value: new fields.NumberField({required: true, initial: 0}),
-                maxFormula: new fields.StringField({required: true, initial: ""}),
+                maxFormula: new fields.StringField({required: true, initial: "1"}),
                 autoDeductChargesCost: new fields.StringField({required: true, initial: ""}),
                 rechargeFormula: new fields.StringField({required: true, initial: ""}),
             }),

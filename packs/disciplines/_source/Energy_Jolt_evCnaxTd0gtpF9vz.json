@@ -1,0 +1,58 @@
+{
+  "name": "Energy Jolt",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: 30 ft.<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>You fill the opponent with harmful elemental energy, dealing damage and causing them to suffer debilitating effects. You fire a ray against an opponent within 30 feet. This ray requires a ranged touch attack to hit and deals [[3d6]] points of damage of your active element's associated energy type. This strike also has one of the following effects, based on your active element: Air If your ray hits, the target must succeed at a Fortitude save or be pushed 15 feet away from you in a direction of your choice. Earth If your ray hits, the target takes an additional [[1d6]] points of acid damage at the start of your next turn, and must succeed at a Fortitude save or be sickened for a number of rounds equal to your initiation modifier. Fire If your ray hits, the target must succeed at a Reflex save or take an additional [[2d6]] points of fire damage at the start of your next turn. Animus augmentation: You may spend points of animus up (up to your maximum for augmenting Elemental Flux maneuvers) to increase the initial damage of this strike by [[1d6]] per point of animus spent and increase the save DC of this strike by +1 per point of animus spent.</p>"
+    },
+    "discipline": "Elemental Flux",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "Text",
+    "saveType": "Special",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "10E2NXFgmlqEtPlw",
+  "_id": "evCnaxTd0gtpF9vz",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991298214,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!evCnaxTd0gtpF9vz"
+}

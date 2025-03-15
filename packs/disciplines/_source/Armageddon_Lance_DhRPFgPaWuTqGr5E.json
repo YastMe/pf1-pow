@@ -1,0 +1,58 @@
+{
+  "name": "Armageddon Lance",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Black Seraph maneuvers<br /><strong>Range</strong>: Close (25-ft + 5-ft/initiator level)<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>One the supreme arts of the Black Seraph discipline allows the disciple to call upon the fell and eternal wrath of his dark agreement with the lower planes and use it as a devastating lance of destructive unholy terror. This is a ranged touch attack which deals [[14d6]] points of profane damage, but the cost of creating this powerful attack requires sacrifice by the host, resulting in the initiator suffering [[2d6]] points of damage. Foes struck by this potent attack must make a Will save (DC 17 + initiation modifier) or be panicked for one round.</p>"
+    },
+    "discipline": "Black Seraph",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "vdgpvp9LYb0wUg90",
+  "_id": "DhRPFgPaWuTqGr5E",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991220787,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!DhRPFgPaWuTqGr5E"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Sun's Zenith",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Radiant Dawn maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You mimic the eternal dance of the sun across the sky with this stance. When you assume this stance, any essence you currently have invested in maneuvers becomes uninvested (reducing their totals to 0). Essence bound into an expended maneuver remains invested until that maneuver is recovered. While you maintain this stance, you cannot invest essence into maneuvers. This does not prevent you from using Sun's Gleam. Each of your unexpended maneuvers and stances is treated as though it had essence invested in it equal to the number of maneuvers you've expended from this stance's source, to a maximum of ½ your initiator level. Only maneuvers from the class (not feats) that granted this stance are counted towards this. Unlike other Radiant Dawn stances, essence may not be invested into this stance.</p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "lKFkG4jUPYt33q6H",
+  "_id": "TBQlSja6XXLnyOUq",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991494712,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!TBQlSja6XXLnyOUq"
+}

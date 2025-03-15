@@ -1,0 +1,58 @@
+{
+  "name": "Mimic’s Gambit",
+  "img": "icons/magic/unholy/energy-smoke-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: See text</p><h2>Description</h2><p>Drawing on your power over reflections and mimicry, you copy an effect from your victim. Make a melee attack. If it hits, it deals weapon damage as normal, and you can choose one spell or power affecting the target. You gain the effects of the spell or power, just as if it had been cast or manifested on you, except that its duration is equal to its duration or a number of rounds equal to your initiation modifier (whichever is lower). If you do not have any knowledge of the spells or powers affecting the target, then choose one at random.</p>"
+    },
+    "discipline": "Shattered Mirror",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "TlciFCWI2VaB4c0E",
+  "_id": "gKlUMBrIgMJLeN6I",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991378381,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!gKlUMBrIgMJLeN6I"
+}

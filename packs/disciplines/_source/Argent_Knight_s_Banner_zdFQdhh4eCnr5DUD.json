@@ -1,0 +1,58 @@
+{
+  "name": "Argent Knight’s Banner",
+  "img": "icons/magic/light/swords-light-glowing-white.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Silver Crane maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: Special<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Infusing his arms and weapon with the glory of the Silver Crane's majesty, the martial disciple smites his foe and radiates a banner of heavenly wings, which explode with celestial light and power. Make a melee attack that inflicts an additional [[8d6]] points of damage and heals the initiator and all of his allies within 30-ft for [[4d6]] points of damage.</p>"
+    },
+    "discipline": "Silver Crane",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "9G1JoU7ZuEUj6UIU",
+  "_id": "zdFQdhh4eCnr5DUD",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991220511,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!zdFQdhh4eCnr5DUD"
+}

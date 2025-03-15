@@ -1,0 +1,58 @@
+{
+  "name": "Chilling Mist Sidestep",
+  "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 3 Unquiet Grave maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Special (see text)</p><h2>Description</h2><p>You turn into dark mist that crackles with negative energy. You may initiate this counter in response to a melee or ranged attack being made against you. Until the beginning of your next turn, you are immune to weapon damage, and spells targeted against you have a 50% miss chance. If you initiated this counter in response to a melee attack, the creature attacking you suffers [[7d8]] points of negative energy damage.</p>"
+    },
+    "discipline": "Unquiet Grave",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "LOmfiziljVyK05jK",
+  "_id": "U2yi5I9Agc7NxiV8",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991253870,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!U2yi5I9Agc7NxiV8"
+}

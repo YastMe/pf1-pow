@@ -1,0 +1,58 @@
+{
+  "name": "God of the Hourglass Stance",
+  "img": "icons/magic/time/clock-spinning-gold-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Riven Hourglass maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>Your control over your own time-stuff allows you to isolate your Hourglass from reality, causing you to move with unparalleled speed and grace and affording you protection from those who would manipulate your quintessence. While you maintain this stance, you may take an additional move or standard action during your turn, you become immune to the slow spell and similar effects, and you cannot become fatigued or exhausted. In addition, can always act during a surprise round, even if you're caught unaware, and if an ally or opponent uses a time stop spell or similar effect while you are within 50 feet of them you can take a single standard action during the duration of that spell or effect.</p>"
+    },
+    "discipline": "Riven Hourglass",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "ovQgN1oGwBBIla6T",
+  "_id": "F8izlLR0PnCmfDFs",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991325549,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!F8izlLR0PnCmfDFs"
+}

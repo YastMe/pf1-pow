@@ -1,0 +1,58 @@
+{
+  "name": "Infinite Reflections",
+  "img": "icons/magic/unholy/energy-smoke-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Shattered Mirror maneuver<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>As your blade connects, you seem to vanish, before reappearing around your opponent several times in succession and delivering blow after blow. Make a melee attack. If it hits, it deals weapon damage as normal, and you can make another melee attack with a -4 penalty on your attack roll. If that attack hits, you can make a further melee attack at a -8 penalty. You continue to repeat this process, taking a cumulative -4 penalty for each additional attack, until you miss an attack or you reduce your target to 0 or fewer hit points. You must direct all of these attacks at the same creature.</p>"
+    },
+    "discipline": "Shattered Mirror",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "UOzC8X3kTunzWSOi",
+  "_id": "A5IpEpZ8m1CKqXl1",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991346921,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!A5IpEpZ8m1CKqXl1"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Flashing Ether Touch",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Veiled Moon maneuvers<br /><strong>Range</strong>: Melee attack, 60-ft.<br /><strong>Target</strong>: One target<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>With but a touch the Veiled Moon disciple may send a foe hurtling through the Astral to reappear with frightening velocity to hit the ground. The initiator makes a melee touch against a target, and the target makes a Will save (DC 17 + initiation modifier) or is teleported up to 60-ft. away, successful saving throw negating the maneuver. Upon a failed saving throw, the target suffers [[10d6]] points of damage from reaching high speeds and slamming hard into the ground and are considered prone.</p>"
+    },
+    "discipline": "Veiled Moon",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "XEL6qUU2ObNpFtRS",
+  "_id": "o9GRR3yOTdVdWj8U",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991314575,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!o9GRR3yOTdVdWj8U"
+}

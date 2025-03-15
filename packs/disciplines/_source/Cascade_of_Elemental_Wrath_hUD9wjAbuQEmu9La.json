@@ -1,0 +1,58 @@
+{
+  "name": "Cascade of Elemental Wrath",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Elemental Flux maneuvers<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One or more creatures (see text)<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Each slash of your blade releases more and more eldritch power, overwhelming your enemies with the power of your strikes. Make a full attack. Each attack deals damage entirely of your active element's associated energy type, and additional damage equal to [[1d6]] + your initiation modifier. During your full attack, you can change your active element as a free action once after each subsequent attack. Animus augmentation: You may spend two points of animus to make an extra attack during this strike at your highest attack bonus.</p>"
+    },
+    "discipline": "Elemental Flux",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "pltoVx7zViHOsRQA",
+  "_id": "hUD9wjAbuQEmu9La",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991248745,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!hUD9wjAbuQEmu9La"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Night Falls",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Fool's Errand maneuver<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One locked creature<br /><strong>Duration</strong>: See text</p><h2>Description</h2><p>Open combat is not your only battlefield-you are also adept at ending fights before they start. Make a lock attempt against a creature you are already locking. If you succeed, that creature becomes pinned and silenced for as long as they are locked. They can attempt to escape the lock as a move action, as normal, even though they cannot actually move (they take no penalty on their checks for being pinned). If you successfully pin a flat-footed creature in the same turn that you locked them, they cannot make a sound in response (potentially allowing you to take them down silently).</p>"
+    },
+    "discipline": "Fool's Errand",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "vm6FozC2VLLchqWB",
+  "_id": "wsgg5IYdsU1ilPUc",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991385094,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!wsgg5IYdsU1ilPUc"
+}

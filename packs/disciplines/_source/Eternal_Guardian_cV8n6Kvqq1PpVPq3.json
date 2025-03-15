@@ -1,0 +1,18 @@
+{
+  "name": "Eternal Guardian",
+  "folder": null,
+  "_id": "cV8n6Kvqq1PpVPq3",
+  "type": "Item",
+  "sorting": "a",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "11.315",
+    "createdTime": 1732991192042,
+    "modifiedTime": 1736076968758,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "_key": "!folders!cV8n6Kvqq1PpVPq3"
+}

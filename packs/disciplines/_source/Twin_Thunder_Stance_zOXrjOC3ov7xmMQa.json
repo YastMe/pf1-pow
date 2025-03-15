@@ -1,0 +1,58 @@
+{
+  "name": "Twin Thunder Stance",
+  "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Piercing Thunder maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You have learned how to use normally two-handed weapons in one hand, using the weapons' size and momentum to strike your foes with powerful blows. While you maintain this stance, You can wield normally two-handed weapons as one-handed weapons, and you gain the benefits of the Two-Weapon Fighting feat while using two discipline weapons in either hand (even if you do not meet its prerequisites). If you already possess the Two-Weapon Fighting feat, you may instead wield one or both of weapons as light weapons (reducing the penalties further and making them eligible for use with feats such as Weapon Finesse or Deadly Agility), and you gain the benefits of the Improved Two-Weapon Fighting feat, or the Greater Two-Weapon Fighting if you already possessed Improved Two-Weapon Fighting, even if you do not meet these feats' prerequisites. You do not need to be wielding multiple weapons to gain the benefits of this stance. Special Note: If you possess the armament shield class feature (see zweihander sentinel warder archetype in Path of War) and wielding a two-handed weapon in one hand, the benefits of armament shield will still apply to that weapon. If you are wielding a pair of two-handed weapons, armament shield only applies to one of them, although you can choose which weapon it applies to as a free action at the start of each turn. Note that even if you are wielding more than two weapons, you can only gain extra attacks with a single of hand weapon each turn.</p>"
+    },
+    "discipline": "Piercing Thunder",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "jYlwSO4QP9p4rKcl",
+  "_id": "zOXrjOC3ov7xmMQa",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991522996,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!zOXrjOC3ov7xmMQa"
+}

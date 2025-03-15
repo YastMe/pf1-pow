@@ -1,0 +1,58 @@
+{
+  "name": "Flowing Stream",
+  "img": "icons/weapons/swords/sword-katana.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Mithral Current maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Your graceful movements allow you to distance yourself from enemies' attacks. You can initiate this counter response to a melee or ranged attack being made against you or when caught in an effect that requires a Reflex saving throw. Make a Perform (dance) check, using your opponent's attack roll or the Reflex save DC as the DC. If you succeed, the attack is negated or you are otherwise unaffected by the effect, and you can move up to your speed without provoking attacks of opportunity towards the originator of the attack or effect. If your weapon is sheathed when you initiate this counter, you may draw it and make a melee attack against your attacker. If it hits, it deals weapon damage as normal plus an additional [[3d6]] points of damage. You cannot make this counterattack if the target is not within your melee reach or otherwise targetable with a melee attack</p>"
+    },
+    "discipline": "Mithral Current",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "ZheSxMUAYpU3tL7I",
+  "_id": "lDhpHobySSyjnNUM",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991317612,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!lDhpHobySSyjnNUM"
+}

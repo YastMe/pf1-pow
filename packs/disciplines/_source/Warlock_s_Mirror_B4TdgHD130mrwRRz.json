@@ -1,0 +1,58 @@
+{
+  "name": "Warlock’s Mirror",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three cursed razor maneuvers<br /><strong>Range</strong>: Medium (100′ + 10/level)<br /><strong>Target</strong>: One cursed creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Those under your influence find their own powers betraying them. You can initiate this counter in response to any cursed creature making an attack, initiating a maneuver, or using a power, psi-like ability, spell, or spell-like ability targeting you (it may also have other targets, as long as you are one of them). Make a Spellcraft check (DC = 10 + 1/2 the cursed creature's Hit Dice + the cursed creature's Charisma modifier). If you succeed, the attack, maneuver, power, psi-like ability, spell, or spell-like ability does not affect its intended target(s) and instead affects up to three targets of your choice within range, even if it would normally affect only one creature.</p>"
+    },
+    "discipline": "Cursed Razor",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "No save",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "4dBrnRMvHLfJwymS",
+  "_id": "B4TdgHD130mrwRRz",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991540866,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!B4TdgHD130mrwRRz"
+}

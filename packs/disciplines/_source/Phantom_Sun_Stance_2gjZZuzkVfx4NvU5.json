@@ -1,0 +1,58 @@
+{
+  "name": "Phantom Sun Stance",
+  "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>Using the principles of shadow and light, the Solar Wind disciple is capable of making phantom copies of his ammunition for use in combat. While in this stance, the initiator may make semi-real copies of arrows, bolts, bullets, or throwing weapons by willing them into existing as a free action while possessing at least one of the above on his person. Weapons that need reloading, such as crossbows and firearms, are fully reloaded as a move action (and if the character possesses the Rapid Reload feat, he may reload as a swift action). Magical properties, alchemical properties, or special materials of the ammunition are not copied, only the base properties of the ammunition (as if they were made of mundane steel with no special abilities or properties). Once the ammunition has been used, it disappears immediately after the attack. If the bow, firearm, sling, or cross bow making the attack has magical properties these are bestowed upon the ammunition. Thrown weapons copied by this stance are duplicates of the original, but do not manifest the material portion of the weapon, only it's magical enhancements. Once these weapons are used, they fade away immediately after use. This is a supernatural ability.</p>"
+    },
+    "discipline": "Solar Wind",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "Lv3Bi7sdsdrkx403",
+  "_id": "2gjZZuzkVfx4NvU5",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991395966,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!2gjZZuzkVfx4NvU5"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Unimpeachable Authority of the Sleeping Goddess",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Sleeping Goddess maneuvers<br /><strong>Range</strong>: Personal (see text)<br /><strong>Target</strong>: You (see text)<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You focus your spirit and belief, becoming a terrible and awe-inspiring sight; the world around you pales in comparison to your reality, and those who meet your eyes can feel your presence boring into their very soul. You may enter and maintain this stance even if you are immune to mind-affecting effects or fear effects. While you maintain this stance, opponents within 60 feet of you become shaken. This stance cannot create a stronger fear condition if an opponent is already shaken; affected opponents merely remain shaken while they remain within 60 feet of you (although other fear effects can do so as normal). In addition, as a move action, you can turn your attention to an opponent within 60 feet that can see or otherwise perceive you. That opponent must succeed at a Will save (DC 18 + your initiation modifier) or become panicked for one round. If you expend your psionic focus as part of using this ability, you ignore any immunity to mind-affecting or fear effects possessed by the target. Instead, a normally-immune target gains a +5 resistance bonus on its saving throw.</p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "mCppkEHUWdB2exuo",
+  "_id": "mNnETakv9iGvWxrp",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991531242,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!mNnETakv9iGvWxrp"
+}

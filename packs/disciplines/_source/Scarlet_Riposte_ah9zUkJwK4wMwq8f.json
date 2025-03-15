@@ -1,0 +1,58 @@
+{
+  "name": "Scarlet Riposte",
+  "img": "icons/weapons/swords/sword-runed-glowing.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Scarlet Throne maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: One attack<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Within the focus of the disciple's mind, pathways to victory form which he uses to sculpt and mold the outcome of the battle. When an enemy's attack threatens to unravel these pathways, a supreme act of will can restore order to them. The disciple makes a Sense Motive check with a +4 competence bonus opposing his enemy's melee attack roll. If successful, the attack is blocked and he may make an immediate counter attack against that opponent at his full attack bonus and inflict an additional [[3d6]] points of damage.</p>"
+    },
+    "discipline": "Scarlet Throne",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "k7vpFiMp70EvFA4q",
+  "_id": "ah9zUkJwK4wMwq8f",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991437728,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!ah9zUkJwK4wMwq8f"
+}

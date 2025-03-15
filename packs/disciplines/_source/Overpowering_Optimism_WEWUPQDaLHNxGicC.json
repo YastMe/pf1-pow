@@ -1,0 +1,58 @@
+{
+  "name": "Overpowering Optimism",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Sleeping Goddess maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: 3 rounds</p><h2>Description</h2><p>Your faith in yourself allows you to press the advantage further than most-by believing you can succeed, you change yourself into someone who will. When you initiate this boost, you instantly regain your psionic focus. In addition, you may augment a maneuver you initiate within the next three rounds without spending power points, gaining the benefits of the maneuver as if you had spent the maximum number of power points you could spend on that maneuver. You may not spend additional power points when augmenting a maneuver in this way, nor does this maneuver allow you to spend more power points than you would normally be allowed to.</p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "FHsuJxRY2wxHU8wu",
+  "_id": "WEWUPQDaLHNxGicC",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991392776,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!WEWUPQDaLHNxGicC"
+}

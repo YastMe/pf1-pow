@@ -1,0 +1,58 @@
+{
+  "name": "Vampiric Aura",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Black Seraph maneuvers<br /><strong>Range</strong>: 20-ft radius centered on the initiator<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>By opening one's self to the eternal hunger of the darkness that resides with the disciple, he may use himself as a filter for the life energies that feed this dark urge. At the end of the disciple's turn, he inflicts [[2d6]] points of profane damage on all living creatures within his 20-ft aura, gaining a like amount of temporary hit points. These temporary hit points persist until the end of the encounter, the initiator leaves this stance, or until they are lost. If an initiator already has a pool of temporary hit points from this stance, when it subsequently grants him new temporary hit points he either replaces his current pool with the new number or retains his current pool, whichever is greater. The initiator may exclude a number of allies from this damage equal to initiation modifier.</p>"
+    },
+    "discipline": "Black Seraph",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "ax5wCEhQoBDAmsGB",
+  "_id": "Ocsbd65oRVx6BNJM",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991533489,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Ocsbd65oRVx6BNJM"
+}

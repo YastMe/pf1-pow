@@ -1,0 +1,58 @@
+{
+  "name": "Reverberation of Defeat",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Sleeping Goddess maneuvers<br /><strong>Range</strong>: 30 ft.<br /><strong>Target</strong>: One or more creatures (see text)<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>As you destroy one foe, his allies feel the weight of his failure, the pain, fear, and feeling of utter defeat cascading down the ties of friendship or belief. You can activate this boost when you reduce an opponent to 0 or lower hit points. Each of that opponent's allies within 30 feet must succeed at a Will save (DC 15 + your initiation modifier) or become shaken and sickened for a number of rounds equal to your initiation modifier.</p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "4ts2EAT1xcvYx64J",
+  "_id": "BwCJiSOLEdQSI07U",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991421763,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!BwCJiSOLEdQSI07U"
+}

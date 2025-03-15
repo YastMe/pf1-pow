@@ -1,0 +1,58 @@
+{
+  "name": "Lunar Penumbra",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Veiled Moon maneuvers<br /><strong>Range</strong>: Personal. Close (25-ft. + 5-ft./2 initiator levels)<br /><strong>Target</strong>: You and one target<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>It is said that the moon is portrayed in some legends as a laughing trickster, and with this powerful ability, the Veiled Moon disciple is capable of pulling an incredible trick upon his foe. The initiator makes a Stealth check against his foe's Perception check. If successful he and his attacker switch positions, and the attack that was directed against the disciple now affects the attacker, effectively causing the target to strike itself. This ability may be used to evade spells and effects that directly target the initiator or for those that allow for a Reflex save (but if the initiator is still within the radius of the effect, he still is struck by it).</p>"
+    },
+    "discipline": "Veiled Moon",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "JQeAe7CaqKKLBE1c",
+  "_id": "zQLb7WNHdm0X1Dz5",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991372269,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!zQLb7WNHdm0X1Dz5"
+}

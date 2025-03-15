@@ -1,0 +1,58 @@
+{
+  "name": "Sanguine Perfection",
+  "img": "icons/weapons/swords/sword-runed-glowing.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Scarlet Throne maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: A number of rounds equal to initiation modifier</p><h2>Description</h2><p>The supreme clarity of mind and focus of form allows a disciple of Scarlet Throne to simply overcome any obstacle placed before him, albeit for the short term. The disciple calls upon his supreme will and focus and may delay or stop a number of negative conditions placed upon him through the use of this maneuver for a number of rounds equal to the disciple's initiation modifier. Conditions that are subjected to this maneuver are: blinded, confused, cowering, dazed, dazzled, deafened, disabled, dying (though he still suffers hit point damage each round), energy drained, exhausted, fascinated, fatigued, frightened, helpless, nauseated, panicked, paralyzed, petrified, shaken, sickened, staggered, stunned, or unconscious. If the condition has a duration that would expire before the use of this maneuver, then the effect is negated. If the effect would have continue to have effect after the duration of this maneuver expires, then the subject suffers the remaining duration of that effect as normal after the maneuver ends.</p>"
+    },
+    "discipline": "Scarlet Throne",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "k7vpFiMp70EvFA4q",
+  "_id": "rJ41Nc3kepHB6fSw",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991434040,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!rJ41Nc3kepHB6fSw"
+}

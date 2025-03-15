@@ -1,0 +1,58 @@
+{
+  "name": "Utter Commitment",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Fool's Errand maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature (see text)<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Your dedication to your training and determination to exceed has brought you past the normal limits. By committing everything to one punch, you can destroy any enemy. Make an unarmed strike attack. If it hits, it deals weapon damage as normal plus additional points of damage equal to 7 times your initiator level. Regardless of whether or not your attack hits, your attack also affects a 30-foot cone through the target (see the Cones sidebar). Use the result of the initial attack roll and compare it to the AC of each creature caught within the area to determine if an affected creature is hit. Creatures hit by the cone take half the damage of the initial attack, and neither you nor the initial target of your attack is affected by the cone. If you use this strike with an ability that turns the attack into an area of effect (such as a zealot's destruction augment), it makes only one cone, originating from the closest affected creature.</p>"
+    },
+    "discipline": "Fool's Errand",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "WkC4w0MK0Kir3SqH",
+  "_id": "6fy0vYtK49vCdoFz",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991532411,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!6fy0vYtK49vCdoFz"
+}

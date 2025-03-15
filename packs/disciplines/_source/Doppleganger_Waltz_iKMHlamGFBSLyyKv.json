@@ -1,0 +1,58 @@
+{
+  "name": "Doppleganger Waltz",
+  "img": "icons/magic/unholy/energy-smoke-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Shattered Mirror maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>Like a reflection in the mirror, you follow your enemies' every move. You can initiate this counter in response to an opponent within close range (25 feet + 5 feet per 2 initiator levels) moving any distance. Whenever that opponent moves this round, you may move an equal distance or up to your speed (whichever is lower) as a free action, even if it isn't your turn. This movement provokes attacks of opportunity as normal and takes place after your opponent's movement. You may only move up to three times your highest movement speed in one round using this maneuver. You can only use this counter against a given opponent once per round.</p>"
+    },
+    "discipline": "Shattered Mirror",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "oe4yZ4T0sVM7JNOV",
+  "_id": "iKMHlamGFBSLyyKv",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991284203,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!iKMHlamGFBSLyyKv"
+}

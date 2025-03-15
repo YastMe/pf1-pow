@@ -1,0 +1,58 @@
+{
+  "name": "The Ties that Bind",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Sleeping Goddess maneuvers<br /><strong>Range</strong>: Melee attack and 60 ft. (see text)<br /><strong>Target</strong>: One or more creatures (see text)<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>With a psionically-empowered strike, you stab through an enemy's physical form and attack their spirit and those tied to it. In the minds of your targets, the world warps, keeping them from fighting or moving effectively. Make an attack. If it hits, it deals weapon damage as normal plus an additional [[5d6]] points of damage, and the target must succeed at a Will save (DC 15 + your initiation modifier) or it and one of the target's allies within 60 feet of your choice become entangled for a number of rounds equal to your initiation modifier. The target's ally does not receive a saving throw against this effect. Augment: You can augment this maneuver in one or more of the following ways: For every power point you spend, this strike deals an additional [[1d6]] points of damage. For every [[2d6]] you increase the damage by, the save DC of this strike increases by +1. For every 3 power points you spend, you may select an additional one of the target's allies to entangle if the target fails its saving throw. If you expend your psionic focus while initiating this strike, the target and its affected allies also become nauseated for one round on a failed saving throw.</p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "4ts2EAT1xcvYx64J",
+  "_id": "i0FWYhfs81ezRlDR",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991507682,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!i0FWYhfs81ezRlDR"
+}

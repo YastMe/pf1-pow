@@ -1,0 +1,58 @@
+{
+  "name": "Breath of the Moon",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Veiled Moon maneuver<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: [[1d4]] rounds</p><h2>Description</h2><p>The moon is a source of madness, so the legend goes, and by using the principles of lunar cycles on the psyche of mortals, the disciple may temporarily relieve a target of its sanity for a few moments in combat. The initiator must make a melee attack against a target creature, and if successful, in addition to damage the target must make a Will save (DC 14 + initiation modifier) or be confused (as the spell confusion) for [[1d4]] rounds. After the application of this maneuver, the subject briefly forgets that the initiator exists and thus may not target the initiator while confused.</p>"
+    },
+    "discipline": "Veiled Moon",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "vJvwaGs7bqNHeTM3",
+  "_id": "7nosBpTBvHbuy452",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991241885,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!7nosBpTBvHbuy452"
+}

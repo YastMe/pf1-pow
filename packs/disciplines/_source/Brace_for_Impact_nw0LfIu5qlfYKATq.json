@@ -1,0 +1,58 @@
+{
+  "name": "Brace for Impact",
+  "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>In the chaos of battle, you know you can truly only trust the weapon in your hand. You can initiate this counter when an opponent makes a charge attack against you. Make an Acrobatics check, using your opponent's attack roll as the DC. If you succeed, the attack is negated and that opponent takes damage equal to your initiator level. If you are wielding a weapon with the brace property, this damage is doubled. If you are not wielding a discipline weapon or a piercing weapon, this counter does no damage to your opponent but can still negate the attack.</p>"
+    },
+    "discipline": "Piercing Thunder",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "oKcGVYIKiv1kYRD5",
+  "_id": "nw0LfIu5qlfYKATq",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991239635,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!nw0LfIu5qlfYKATq"
+}

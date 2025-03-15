@@ -1,0 +1,58 @@
+{
+  "name": "Path of the Sun",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Radiant Dawn maneuvers<br /><strong>Range</strong>: Close range foot line<br /><strong>Target</strong>: One or more creatures<br /><strong>Duration</strong>: Instantaneous; see text</p><h2>Description</h2><p>Coalesce the power of the sun into a powerful beam that washes over enemies and allies alike, leaving behind thousands of motes of light. Allies of the initiator may traverse these motes as if they were light themselves. When you initiate this maneuver, you create a close range (25 feet + 5 feet per 2 levels) foot line of light. Enemies caught within this line take damage equal to your initiator level plus your initiation modifier, and must make a Reﬂex save (DC 16 + initiation modifier) or be Blinded for rounds equal to your half your initiation modifier. This line persists as a field of golden motes for rounds equal to your initiation modifier. Enemies who enter the line or start their turn within the area take damage and must make a save as if they were struck by this maneuver. Allies do not provoke attack of opportunities when entering or moving through these squares, and can enter or move through these squares as free actions on their turn. Treat creatures within these squares as being exposed to direct sunlight. Essence: Each point invested increases the DC and duration of this maneuver by 1.</p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Half",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "hnkhUFBVLAZuEImC",
+  "_id": "dpaTAiUJrntv3OMn",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991394372,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!dpaTAiUJrntv3OMn"
+}

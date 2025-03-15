@@ -1,0 +1,58 @@
+{
+  "name": "Phantom Penumbra",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Veiled Moon maneuvers<br /><strong>Range</strong>: Personal, 20-ft.<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instantaneous, 4 rounds</p><h2>Description</h2><p>To slip through the worlds is a simple matter for the disciple, and using this to deceive and evade an attacker is effortlessly done. The initiator makes a Stealth check against the attacker's Perception check. If the disciple succeeds he is able to teleport to a position up to 20-ft. away, gain the incorporeal subtype, and leave behind [[1d6]] major images where his previous position lay. Major images persist until they are slain or until 4 rounds have elapsed and the initiator remains incorporeal until his next turn. This ability may be used to evade spells and effects that directly target the initiator or those that allow for a Reflex save. This is an Ethereal plane using maneuver.</p>"
+    },
+    "discipline": "Veiled Moon",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "p9muh5Src9b3tFAt",
+  "_id": "t02K1pANl2BxhSsz",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991395647,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!t02K1pANl2BxhSsz"
+}

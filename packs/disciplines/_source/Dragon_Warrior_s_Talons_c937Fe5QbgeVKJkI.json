@@ -1,0 +1,58 @@
+{
+  "name": "Dragon Warrior’s Talons",
+  "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Thrashing Dragon maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>With mastery of the Thrashing Dragon's dance comes supremacy in effectiveness and efficiency with the arms that emulate the weapons of the dragon race. His mien is that of a ferocious, implacable dragon and his blades, hands and feet represent the deadly weapons of the wyrms that inspired the style in their deadly prowess. When wielding two weapons in this stance, all melee attacks and unarmed strikes made ignore a target's damage reduction and inflict bleeding wounds on foes, inflicting [[2d4]] points of bleed damage per round. A successful DC 20 Heal check or the application of any effect that cures hit point damage will stop the bleeding.</p>"
+    },
+    "discipline": "Thrashing Dragon",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "wCp5TWbm9VDwZvCc",
+  "_id": "c937Fe5QbgeVKJkI",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991286274,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!c937Fe5QbgeVKJkI"
+}

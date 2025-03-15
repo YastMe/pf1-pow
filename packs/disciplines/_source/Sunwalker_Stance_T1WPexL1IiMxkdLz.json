@@ -1,0 +1,58 @@
+{
+  "name": "Sunwalker Stance",
+  "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Solar Wind maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>Using the hunting techniques of the ancient days of the White Steppes, the Solar Wind disciple hunts on the move, making attacks while chasing down his prey. The initiator gains the benefits of the Shot on the Run feat (As a full-round action, you can move up to your speed and make a single ranged attack at any point during your movement) while in this stance (he does not need to meet the prerequisites of this feat), and he gains a +2 circumstance bonus to his armor class against attacks if he moves more than 10-ft. during his turn.</p>"
+    },
+    "discipline": "Solar Wind",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "TluZoXKigKzPgtZ6",
+  "_id": "T1WPexL1IiMxkdLz",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991495785,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!T1WPexL1IiMxkdLz"
+}

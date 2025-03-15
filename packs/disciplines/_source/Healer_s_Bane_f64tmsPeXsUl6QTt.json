@@ -1,0 +1,58 @@
+{
+  "name": "Healer's Bane",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Close (25 ft. + 5 ft./2 levels)<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Made to combat other practitioners of the Radiant Dawn discipline, this maneuver hijacks healing for one's own purpose. You may initiate this counter in response to a target within range healing hit point damage. The target must make a will save (DC 12 + initiation modifier) or have their healing stolen. Instead of the target (and any other creatures aﬀected by that instance of the eﬀect) being healed, you draw the total amount of healing done into a pool, and may redistribute this pool of healing to allies within close range (25 feet + 5 feet per 2 initiator levels), divided as you choose between you and your allies. Targets that would have been healed by the healing then take damage equal to half of the healing stolen. Essence: Each point of essence invested into this counter increases the DC by 2, and the healing and damage done by your initiation modifier.</p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "L11Gm05Ar4C958gZ",
+  "_id": "f64tmsPeXsUl6QTt",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991336066,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!f64tmsPeXsUl6QTt"
+}

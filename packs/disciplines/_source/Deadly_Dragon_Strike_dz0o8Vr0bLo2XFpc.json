@@ -1,0 +1,58 @@
+{
+  "name": "Deadly Dragon Strike",
+  "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Four Thrashing Dragon maneuvers<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One or two creatures<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Upon reaching mastery of the Thrashing Dragon discipline, the disciple learns the truth of his deadly war dance; at its center is a deadly calm. It is in this calm that he discovers the true nature of his art and that one perfect blow can spell instant death for a foe. The disciple analyzes his foes in the blur of combat and finds his perfect moment and strikes for the heart and pierces it through. The initiator makes an attack roll against one or two foes using his two weapons (both attacks made through this strike are made at full attack bonus) and if these attacks are successful, his weapon perfectly and precisely pierces the foe's heart or other vital zone, killing it instantly on a failed Fortitude save (DC 19 + initiation modifier). Even if the creature successful saves, the strike inflicts his weapon's damage plus an additional [[12d6]] points of damage from the trauma of the blow. The initiator can use this strike to attack the same target with both attacks, forcing the target to make two Fortitude saves as above. Creatures immune to precision damage are not subject to the death effects of this strike.</p>"
+    },
+    "discipline": "Thrashing Dragon",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 9,
+    "saveEffect": "Text",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "pAcacmyP36RXgYxL",
+  "_id": "dz0o8Vr0bLo2XFpc",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991267983,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!dz0o8Vr0bLo2XFpc"
+}

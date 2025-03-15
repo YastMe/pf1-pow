@@ -1,0 +1,58 @@
+{
+  "name": "Armaments of the Empire",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Radiant Dawn maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>A thin layer of akasha ﬂows forth from you and covers your and your allies' weapons. While you maintain this stance, you empower a number of weapons (including natural weapons) within close range (25 feet + 5 feet per 2 initiator levels) up to your initiation modifier. Each empowered weapon gains the benefit of a weapon special ability with a market price of \"+1 bonus\". This ability must be chosen from the list of weapon special abilities you could normally place on a mind blade (see the enhanced mind blade class feature in Chapter 3 of Ultimate Psionics or in the Reference Materials section at the end of this book). At initiator 10th and every five levels thereafter, the market price of the weapon special ability you can grant a weapon increases (to \"+2 bonus\", then \"+3 bonus\", and so on). A weapon can only gain a single ability through this stance, though you need not grant the same ability to each aﬀected weapon. A weapon retains its new ability for as long as it remains within close range. You choose which weapons are empowered when you enter this stance, and you can change which weapons within range are empowered as a swift action or as part of reallocating essence. Essence: For each point of essence invested into this stance, creatures wielding weapons you have empowered gain a cumulative +1 bonus to their CMD.</p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "UKWiJOQf1Bv9VqOw",
+  "_id": "9VHAaWGtnRuiSUxL",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991221066,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!9VHAaWGtnRuiSUxL"
+}

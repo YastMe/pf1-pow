@@ -1,0 +1,58 @@
+{
+  "name": "Finishing Kick",
+  "img": "icons/skills/melee/sword-damaged-broken-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Broken Blade maneuvers<br /><strong>Range</strong>: One full melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Amidst the flurry of punches, kicks, and elbows that are the hallmarks of the Broken Blade discipline, the disciple who has put his foe through the ropes of learning what it is to underestimate the warrior without weapons may deliver this powerful kick to reduce his foe to a bleeding heap. At the end of a full attack action, the initiator may use this boost to deliver one final extra unarmed attack as he delivers a powerful kick at his full base attack bonus and inflicting an additional [[6d6]] points of damage.</p>"
+    },
+    "discipline": "Broken Blade",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "rrvfEvquw5zAQQJM",
+  "_id": "pce1guGZae9z1Brp",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991313061,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!pce1guGZae9z1Brp"
+}

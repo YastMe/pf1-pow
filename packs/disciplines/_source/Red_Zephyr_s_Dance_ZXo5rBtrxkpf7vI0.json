@@ -1,0 +1,58 @@
+{
+  "name": "Red Zephyr’s Dance",
+  "img": "icons/weapons/swords/sword-runed-glowing.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Scarlet Throne maneuver<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>The Red Zephyr's Dance allows the disciple to step confidently through a battlefield, his blade leading the way in decisive sweeps as a graceful as a ballroom dance. The disciple makes a melee attack at his full attack bonus against a target, and if successful, the disciple moves 10-ft. (no more or no less) and may make another attack at his next highest attack bonus. He may not make more attacks in a round than his maximum main-hand number of attacks, nor may he move farther than his normal maximum speed. For example, if a warlord with a base attack bonus of +13 initiated this maneuver, he would make one attack at +13, move 10-ft., make his second attack at +8, then move 10-ft. again, and make a final attack at +3.</p>"
+    },
+    "discipline": "Scarlet Throne",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "OWqQwCbH4FyD3Sed",
+  "_id": "ZXo5rBtrxkpf7vI0",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991416556,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!ZXo5rBtrxkpf7vI0"
+}

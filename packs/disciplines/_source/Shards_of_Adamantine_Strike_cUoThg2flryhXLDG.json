@@ -1,0 +1,58 @@
+{
+  "name": "Shards of Adamantine Strike",
+  "img": "icons/skills/melee/sword-damaged-broken-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Broken Blade maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature or object<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>It is said that masters of the discipline are capable of using their hand in the manner of striking serpent to punch through solid stone as if it were straw, and disciples with this maneuver are those who can. Taking this training to the theater of war, a punch so potent that it can leave the foe sickened with pain is what this art form can deliver. The initiator makes an attack against the target creature and if successful, this attack inflicts an additional [[12d6]] points of damage that ignores the target's damage reduction or an object's hardness. If striking a living creature, the target must make a Fortitude save (DC 17 + initiation modifier) or be nauseated with the pain of the strike for [[1d4]] rounds.</p>"
+    },
+    "discipline": "Broken Blade",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Partial",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "GzgoQgZEODlYyh5n",
+  "_id": "cUoThg2flryhXLDG",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991443412,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!cUoThg2flryhXLDG"
+}

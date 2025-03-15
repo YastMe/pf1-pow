@@ -1,0 +1,58 @@
+{
+  "name": "Binding Fetters",
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Eternal Guardian maneuver<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>Your oath binds you and the target of your attack in combat with each other, leashing your very souls together. You can activate this boost when you hit a creature with a melee attack. That creature becomes cursed for one round, and at the start of your next turn, it must succeed at a Will save (DC 13 + your initiation modifier) or be teleported to an unoccupied square adjacent to you. This teleportation functions regardless of the distance between you and the target, although it cannot teleport a target on another plane of existence. For every 10 feet the target moves during its turn preceding the teleportation, the save DC of this strike increases by +1 (up to a maximum of a +3 increase to the DC). You can touch an ally in place of a willing ally to curse them, in which case they automatically fail their Will save to resist being teleported back to you at the start of your next turn. You can end this effect and the cursed condition on any the target at any time as a free action.</p>"
+    },
+    "discipline": "Eternal Guardian",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "Text",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "DQUTxOVDuxKVksMX",
+  "_id": "DZitI8GjQWijquVr",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991229780,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!DZitI8GjQWijquVr"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Vicious Tempest Volley",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Four Tempest Gale maneuvers<br /><strong>Range</strong>: Ranged attack<br /><strong>Target</strong>: One or more creatures (see text)<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Unleashing the might of the winds to carry your attacks throughout the battlefield, you launch a hail of arrows, bolts, stones or weapons to devastate your enemies. Make a full attack with any ranged weapon you are wielding. Each attack deals an additional [[2d6]] points of damage, and any time you hit with an attack during this full attack, you can make a bull rush, dirty trick, disarm, sunder, or trip attempt against the creature struck as a free action. These combat maneuver attempts use a Sleight of Hand check in place of your combat maneuver check, and do not provoke attacks of opportunity.</p>"
+    },
+    "discipline": "Tempest Gale",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 9,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "emCW2QLGxSMv8aaF",
+  "_id": "kWOtgs569OyL9XPb",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991536524,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!kWOtgs569OyL9XPb"
+}

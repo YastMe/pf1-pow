@@ -1,0 +1,128 @@
+{
+  "name": "Solar Wind",
+  "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>The disciples of the Solar Wind learn their arts on the windy plains where they train to deliver deadly force and precision in any environment. Throwing weapons and archery are their tools, and they rarely miss. Hallmark maneuvers include ricochet maneuvers, deadly precision strikes, supernaturally forceful maneuvers that may fire through opponents in a deadly line, showers of phantom weapons that inflict true damage, and ranged attack counters which shoot enemy missiles from the sky.</p><p><strong>The Elements and Solar Wind</strong>: The traditionalists of the Solar Wind discipline teach their students the fie is the natural power of the sun, and while this art was developed in sunny mesas and rolling plateaus bathed in winds, there are other environments where the discipline was adapted. From the frozen fjords and frigid taigas comes the icy Glacial Frost variant (cold). From the tropical forests of the world comes the corrosive Virulent Spray variant (acid). Finally, hailing from stormy peaks of wave-tossed islands comes the electrical variant Oncoming Storm (electrical) variant. When a character possesses the Solar Wind discipline, they can decide which variant (if any) is used, changing the standard elemental damage type associated with Solar Wind to that of the variant chosen. This choice is made when the character gains access to the discipline—other variants can be learned whenever the character gains a level in a new class that possesses the Solar Wind martial discipline or through the Variable Wind feat.</p><p><strong>Associated Skills</strong>: Perception </p><p><strong>Associated Weapon Groups</strong>: Bows, crossbows, firearms, and thrown  </p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": true,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "ajngtHC7uS54y9G5",
+  "_id": "6shvb4nSUubZzgrB",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991467042,
+    "modifiedTime": 1739654663237,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!6shvb4nSUubZzgrB"
+}

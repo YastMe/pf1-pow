@@ -1,0 +1,128 @@
+{
+  "name": "Mithral Current",
+  "img": "icons/weapons/swords/sword-katana.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Like the flashing rapids, thundering waterfalls and deep, silent depths of the ocean, disciples of Mithral Current embody the many forms and ever changing nature of water. The art of Mithral Current’s bladework began as a set of scattered abilities found across several different island nations. Through frequent cultural exchange, trade and war these techniques spread and mixed forming a unique style that blended the culture and history of many peoples. The discipline found its use among all walks of life, from noble palaces where the drawing of a blade was an act of social suicide to the slums of portside cities where a hidden blade was the only thing that could keep one safe.</p><p><strong>The Fine Art of Iaijutsu</strong>: Disciples of the Mithral Current discipline are swift -striking warriors, and many of their maneuvers gain an added benefit if the disciple “draws their weapon as part of the attack.” For purposes of game mechanics, this means that the disciple has their weapon sheathed before initiating the maneuver, has the Quick Draw feat or a base attack bonus of +1 (allowing them to draw their weapon as part of a move action) and is initiating the maneuver using the weapon that is sheathed, drawing that weapon as a free action prior to initiating the maneuver (this can be done even if it isn’t their turn). As long as all three conditions are met, the Mithral Current disciple meets the requirements for these bonus effects to activate when initiating these maneuvers. A weapon is considered sheathed if it is in a non-threatening position, such as a monk putting their hands at their sides or in their pockets, a spear wielder pointing the tip of their spear into the ground, a soulknife with an unformed mind blade, or even a samurai keeping their katana in its sheath. The terminology of sheathing the weapon is only intended to serve as a shorthand for any number of ways a warrior can present themselves as non-threatening with their weapon.</p><p><strong>Associated Skills</strong>: Perform (dance) </p><p><strong>Associated Weapon Groups</strong>: Light blades, heavy blades, and polearms  </p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": true,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "w5ZkpXtNAUxCc8qT",
+  "_id": "12RYyhGvq0VoWIiv",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991379969,
+    "modifiedTime": 1739654663237,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!12RYyhGvq0VoWIiv"
+}

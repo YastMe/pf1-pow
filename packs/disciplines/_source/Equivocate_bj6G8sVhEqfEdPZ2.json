@@ -1,0 +1,58 @@
+{
+  "name": "Equivocate",
+  "img": "icons/magic/unholy/energy-smoke-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Close (25 ft. + 5 ft./2 levels)<br /><strong>Target</strong>: You and one other creature<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>You ensnare yourself and a foe in a reflective relationship. You can initiate this counter in response to opponent within close range (25 feet + 5 feet per 2 initiator levels) being targeted by a power, psi-like ability, spell, or spell-like ability. For one round, any such effect targeting that opponent also targets you (and vice versa), even if it normally could not affect that many targets or one of you would be out of range. This counter happens before the effect takes place, allowing you to gain the effect you responded to.</p>"
+    },
+    "discipline": "Shattered Mirror",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "TlciFCWI2VaB4c0E",
+  "_id": "bj6G8sVhEqfEdPZ2",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991300613,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!bj6G8sVhEqfEdPZ2"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Battle Mantra",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>n the heat of battle, every second matters and every blow is crucial. Your focus and psionic powers enhance your senses, allowing you to detect subtle movements and mental impressions, reacting to the ever-changing melee before those changes manifest. While you maintain this stance, you gain one of the following benefits. </p><p>    You gain a +1 insight bonus to your AC. </p><p>    You gain a +1 insight bonus on all attack rolls. </p><p>    You gain a +2 insight bonus on combat maneuver checks and to your CMD. </p><p>Once per round as a free action, you can turn your attention to another facet of the combat, losing your current bonus and gaining a different benefit from this stance. These bonuses increase by +1 for every four initiator levels you possess.  </p>"
+    },
+    "discipline": "Sleeping Goddess",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "whugWMRdGhCwBQyw",
+  "_id": "sxQwJyr2Mb2YUBJt",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991227267,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!sxQwJyr2Mb2YUBJt"
+}

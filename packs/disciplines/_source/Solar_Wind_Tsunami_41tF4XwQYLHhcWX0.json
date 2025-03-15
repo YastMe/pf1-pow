@@ -1,0 +1,58 @@
+{
+  "name": "Solar Wind Tsunami",
+  "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Solar Wind maneuvers<br /><strong>Range</strong>: 60-ft.<br /><strong>Target</strong>: None<br /><strong>Duration</strong>: Instantaneous<br /><strong>Area:</strong> Cone shaped </p><h2>Description</h2><p>The disciple holds aloft a glowing weapon which burns with the wrath of the Solar Wind, and lets it loose against his foes in a wave of destruction. The initiator creates a 60-ft. cone-shaped burst of quasi-real missiles that tear his foes to shreds. The attack inflicts [[15d6]] + initiator level (max +20) points of damage to all within the area of effect. Targets within may make a Reflex save (DC 18 + initiation modifier) to take half damage. The initiator need not loose his projectile weapon as part of this attack, retaining it to use at a later time. This is a supernatural ability.</p>"
+    },
+    "discipline": "Solar Wind",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "Half",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "jLLAgapVqtjgEdZO",
+  "_id": "41tF4XwQYLHhcWX0",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991466677,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!41tF4XwQYLHhcWX0"
+}

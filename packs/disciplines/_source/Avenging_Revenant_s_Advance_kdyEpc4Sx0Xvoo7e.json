@@ -1,0 +1,58 @@
+{
+  "name": "Avenging Revenant's Advance",
+  "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 1 Unquiet Grave maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>When you assume this stance, your skin pales and your breath fogs with the chill of the grave. While you maintain this stance, you are healed by negative energy and harmed by positive energy, just as an undead creature is (you gain no other benefit or drawback of being undead). Additionally, the unstoppable vengeance of revenants drives you: your movement speeds may not be reduced to less than 1/2 their normal value while you maintain this stance. Grave Call: An undead creature maintaining this stance is healed by cold damage in the same manner that it is healed by negative energy damage instead of the normal effects of this stance. Its movement speeds still cannot be reduced to less than ½ their normal value while it maintains this stance.</p>"
+    },
+    "discipline": "Unquiet Grave",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "7oGA16q89GhIlhUH",
+  "_id": "kdyEpc4Sx0Xvoo7e",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991224761,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!kdyEpc4Sx0Xvoo7e"
+}

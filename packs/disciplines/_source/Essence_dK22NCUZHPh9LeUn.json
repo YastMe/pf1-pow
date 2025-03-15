@@ -1,0 +1,128 @@
+{
+  "name": "Essence",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p><strong>Essence</strong>: Every creature has a finite amount of essence in their being, referred to as an essence pool. While essence is not typically expended when maneuvers or other akashic effects are activated, a given creature can only devote a certain amount of essence to any particular maneuver. This is done by investing the essence into the chosen receptacle, which could be a Radiant Dawn maneuver, akashic feat, or other ability. Investing essence or changing where essence is invested is a swift action. Essence invested into a maneuver is temporarily bound when that maneuver is expended, and cannot be recovered or reassigned to another receptacle until that maneuver is recovered.</p><p><strong>Essence Capacity</strong>: However large your essence pool is, you can only invest a certain amount of essence into any one Veil, feat, class feature, magic item, or other Akashic receptacle. Your character level determines this Essence capacity as shown below, though some feats, class features, magic items, or other abilities or effects may modify your base capacity:</p><table><tbody><tr><th><p>Character level</p></th><th><p>Essence</p></th></tr><tr><td><p>1st-5th</p></td><td><p>1</p></td></tr><tr><td><p>6th-11th</p></td><td><p>2</p></td></tr><tr><td><p>12th-17th</p></td><td><p>3</p></td></tr><tr><td><p>18th-20th</p></td><td><p>4</p></td></tr></tbody></table>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "charges",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "1uoCaJ5S87bmX0Hx",
+  "_id": "dK22NCUZHPh9LeUn",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991301209,
+    "modifiedTime": 1739654663237,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!dK22NCUZHPh9LeUn"
+}

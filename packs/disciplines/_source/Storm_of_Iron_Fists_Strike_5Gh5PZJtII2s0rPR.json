@@ -1,0 +1,58 @@
+{
+  "name": "Storm of Iron Fists Strike",
+  "img": "icons/skills/melee/sword-damaged-broken-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Four Broken Blade maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>The true master of the Broken Blade unleashes a storm of adamantine-hard strikes that rip through the defenses of his unfortunate target and resound as thunder from the force of the blows. Those witnessing this strike implemented rarely forget it, and those that feel it rarely survive it. The initiator makes a full attack and each strike inflicts an additional [[4d6]] points of damage that ignores damage reduction. After the attacks are made, the target must make a Fortitude save (DC is 19 + initiation modifier). Each successful hit increases Fortitude save by +1 per attack to resist this strike; failure on the Fortitude save indicates that the target is reduced to -1 hit points.</p>"
+    },
+    "discipline": "Broken Blade",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 9,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "nVanfLKezlJuJetU",
+  "_id": "5Gh5PZJtII2s0rPR",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991488810,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!5Gh5PZJtII2s0rPR"
+}

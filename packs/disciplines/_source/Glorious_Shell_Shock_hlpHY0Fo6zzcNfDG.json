@@ -1,0 +1,58 @@
+{
+  "name": "Glorious Shell Shock",
+  "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 3 Iron Tortoise Maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: Up to three adjacent creatures<br /><strong>Duration</strong>: None</p><h2>Description</h2><p>By sweeping his shield in a deadly arc, the martial disciple may send up to three adjacent foes flying away with bone-shattering force. The initiator makes a single shield bash attempt and applies the attack roll to up to three adjacent foes; any successful attacks to these targets inflict an additional +[[8d6]] points of damage and send them hurtling up to 20 ft. away. The initiator determines which direction his foes are hurled to.</p>"
+    },
+    "discipline": "Iron Tortoise",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "56shyMrj9q8hZP20",
+  "_id": "hlpHY0Fo6zzcNfDG",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991324943,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!hlpHY0Fo6zzcNfDG"
+}

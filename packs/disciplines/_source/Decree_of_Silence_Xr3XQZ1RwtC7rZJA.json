@@ -1,0 +1,58 @@
+{
+  "name": "Decree of Silence",
+  "img": "icons/magic/light/beam-rays-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Close (25 ft. + 5 ft./2 levels)<br /><strong>Target</strong>: One casting or manifesting creature within range<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Your presence demands silence. Only those who you allow to speak may do so. You may initiate this counter in response to a creature within close range (25 feet + 5 feet per 2 initiator levels) manifesting a power, casting a spell, or using a spell-like or psi-like ability. Roll damage as if you'd made a successful attack with a weapon you're wielding; you don't deal this damage, but the target of this counter must succeed at a concentration check (DC 10 + damage that would be dealt by this attack + the level of the spell being cast or power being manifested) or lose the power, psi-like ability, spell, or spell-like ability as if it had been disrupted. Essence: Each point of essence invested into this counter increases the DC of the concentration check by 1.  </p>"
+    },
+    "discipline": "Radiant Dawn",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "Half",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "0KLoSITbXVwMCSBx",
+  "_id": "Xr3XQZ1RwtC7rZJA",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991270356,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Xr3XQZ1RwtC7rZJA"
+}

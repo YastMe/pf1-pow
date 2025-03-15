@@ -1,0 +1,58 @@
+{
+  "name": "Iron Monger’s Throw",
+  "img": "icons/skills/melee/sword-damaged-broken-purple.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Broken Blade maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Opponents with their deadly blades and powerful spears can harry the disciple who fights with his hands, and the truth that is forgotten by filling one's hands with iron and steel is that the one with open hands may use them for whatever purpose suits them, and in this case it is for taking a foe and viciously hurling him away to give the disciple room to maneuver and plan his next move. The initiator makes a CMB check with a +4 competence bonus that does not provoke attacks of opportunity, and if successful the initiator rolls into a reverse somersault to hurl his foe up to 20-ft. away from him (the disciple's player chooses the flight path of the thrown foe) where they land in heavily, taking [[6d6]] points of damage.</p>"
+    },
+    "discipline": "Broken Blade",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "ieD0MhbPL8hXu3tN",
+  "_id": "92okp5eOyZR5uc5L",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991354460,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!92okp5eOyZR5uc5L"
+}

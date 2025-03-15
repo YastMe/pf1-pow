@@ -1,0 +1,58 @@
+{
+  "name": "The Sincerest Form of Flattery",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Fool's Errand maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>You can initiate this counter in response to a maneuver (not a stance) being initiated by another creature you can see. You gain that maneuver as a readied maneuver, regardless of your available disciplines and initiator level. You can initiate that maneuver once before losing the knowledge needed to use it. If you recover or initiate this counter (such as with the warder's extended defense ability) or ready new maneuvers before you initiate the copied maneuver, it is expended immediately and lost. In effect, you \"trade\" this maneuver for the copied one. You can only copy a maneuver of up to one level higher than the maximum maneuver level a character of your initiator level could learn (for example, if you are initiator level 9th, you can use this counter to copy a maneuver of up to 6th level).</p>"
+    },
+    "discipline": "Fool's Errand",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "vm6FozC2VLLchqWB",
+  "_id": "ZkKvWxwrsnk8plD3",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991507339,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!ZkKvWxwrsnk8plD3"
+}

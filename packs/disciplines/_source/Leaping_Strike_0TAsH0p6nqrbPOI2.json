@@ -1,0 +1,58 @@
+{
+  "name": "Leaping Strike",
+  "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Piercing Thunder maneuver<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>In a daring feat of acrobatics, you leap high into the air and descend with the force of a lightning bolt. Make a melee attack, using an Acrobatics check in place of your attack roll. Any bonuses and penalties that would be applied to a normal attack roll, such as weapon enhancements, spell effects, or the penalties for fighting with two weapons or shooting into melee, are applied to the skill check as well. If your attack hits, it deals weapon damage as normal plus an additional [[6d6]] points of damage.</p>"
+    },
+    "discipline": "Piercing Thunder",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "s6DMpdWt9FsgoddE",
+  "_id": "0TAsH0p6nqrbPOI2",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991362709,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!0TAsH0p6nqrbPOI2"
+}

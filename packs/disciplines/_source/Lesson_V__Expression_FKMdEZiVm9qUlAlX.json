@@ -1,0 +1,58 @@
+{
+  "name": "Lesson V: Expression",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Fool's Errand maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>Th fifth lesson you learned expanded on the precepts and concepts of the earlier teachings. By striking the air itself, you create a cascade of pressure that delivers your blow beyond your reach. While you maintain this stance, you can make unarmed strikes at range. Your unarmed strikes have a range increment of 10 feet and a maximum range of five range increments. Otherwise, they are treated in all ways as melee attacks rather than ranged ones, allowing you to shoot into melee without taking the normal -4 penalty, or to initiate normally melee strikes at range. In addition, each of your unarmed strikes also affects a 15-foot cone through the target (see the Cones sidebar). Use the result of the initial attack roll and compare it to the AC of each creature caught within the area to determine if an affected creature is hit. You do not apply the effects of strikes or boosts to the cone's effects, and neither you nor the initial target of your unarmed strike is affected by the cone. If you use this stance with an ability that turns the attack into an area of effect (such as a zealot's destruction augment), each attack makes only one cone, originating from the closest affected creature.</p>"
+    },
+    "discipline": "Fool's Errand",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "Mb7cUCQ3q1incqrZ",
+  "_id": "FKMdEZiVm9qUlAlX",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991365565,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!FKMdEZiVm9qUlAlX"
+}

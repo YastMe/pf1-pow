@@ -1,0 +1,58 @@
+{
+  "name": "Spiritual Weapon Stance",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Veiled Moon maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>By channeling ethereal energies along his weapons and his body, the initiator becomes immersed in both worlds, being as solid on the Ethereal Plane as he is on the Material. While in this stance, the initiator's weapons, armor, and equipment are treated as if they had the ghost touch property (ammunition retains the property until used), and his attacks inflict an additional [[2d6]] points or force damage. As a side-effect of this empowerment from the Ethereal plane, this energy acts a buffer against magical attacks, and grants the disciple spell resistance equal to 5 + his initiator level. This is an Ethereal plane using stance.</p>"
+    },
+    "discipline": "Veiled Moon",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "p9muh5Src9b3tFAt",
+  "_id": "uFiORLB0mmCNsFp1",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991472150,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!uFiORLB0mmCNsFp1"
+}

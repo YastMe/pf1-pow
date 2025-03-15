@@ -1,0 +1,58 @@
+{
+  "name": "Infinite Focus",
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Eternal Guardian maneuvers<br /><strong>Range</strong>: 60 ft.<br /><strong>Target</strong>: All allies within 60 ft.<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>You share some of your patience and dedication with your allies, allowing them to avoid careless mistakes that would allow an opponent to strike. After initiating this counter, your allies within 60 feet of you do not provoke attacks of opportunity for one round. Any ally that moves further than 60 feet away from you loses this benefit. You can initiate this counter in response to an ally provoking an attack of opportunity from an opponent; if you do, that attack is negated, and the ally gains the full benefits of this counter as normal.</p>"
+    },
+    "discipline": "Eternal Guardian",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "y85xsyiF8TJo1pG4",
+  "_id": "IZxP4thvbocQKLxK",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991346612,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!IZxP4thvbocQKLxK"
+}

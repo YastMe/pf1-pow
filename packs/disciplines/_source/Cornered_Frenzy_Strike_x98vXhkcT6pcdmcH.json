@@ -1,0 +1,58 @@
+{
+  "name": "Cornered Frenzy Strike",
+  "img": "systems/pf1/icons/feats/extra-rage.jpg",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Primal Fury maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>As an animal cornered lashes out at all comers, so does the Primal Fury disciple when he finds himself surrounded. By using his intuition and striking where he feels a foe to be, he uses his instincts as a powerful weapon. As a full attack action, the initiator makes an attack roll at full base attack bonus against each target within his reach with each weapon he is currently wielding (including natural attacks; armor and shield spikes always count as wielded weapons), and each successful attack inflicts an additional [[4d6]] points of damage. After initiating this maneuver, the initiator's focus on offense causes his AC to suffer a -2 penalty until his next turn.</p>"
+    },
+    "discipline": "Primal Fury",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "DZTeni03nasCxlW1",
+  "_id": "x98vXhkcT6pcdmcH",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991258720,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!x98vXhkcT6pcdmcH"
+}

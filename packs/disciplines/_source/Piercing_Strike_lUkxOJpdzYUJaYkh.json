@@ -1,0 +1,58 @@
+{
+  "name": "Piercing Strike",
+  "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One or two creatures<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You issue a potent impaling blow with your weapon, battering defenses aside and striking bloodily at your foe. During this strike, your weapon's reach increases by 5 feet. Make a melee attack roll and compare it to the ACs of up to two creatures within your reach that are adjacent to each other. If the attack roll hits a target, it deals weapon damage as normal. Use the same damage roll for each target.</p>"
+    },
+    "discipline": "Piercing Thunder",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "G6yd6hoVa7f0mN4m",
+  "_id": "lUkxOJpdzYUJaYkh",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991398227,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!lUkxOJpdzYUJaYkh"
+}

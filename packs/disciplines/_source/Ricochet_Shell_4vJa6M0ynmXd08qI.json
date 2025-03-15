@@ -1,0 +1,58 @@
+{
+  "name": "Ricochet Shell",
+  "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 1 Iron Tortoise Maneuver<br /><strong>Range</strong>: Ranged attack<br /><strong>Target</strong>: Up to four creatures within 10 ft. of each other<br /><strong>Duration</strong>: None</p><h2>Description</h2><p>By hurling his shield at his foes with the speed and force of a giant-tossed boulder, the disciple of the Iron Tortoise bounces his shield between a few targets with rapid speed and punishing force. The initiator makes a ranged attack, hurling his shield with a range increment of 20 ft.. If successful, this attack inflicts damage as a shield bash and inflicts an additional [[3d6]] points of damage and may bounce to another valid target using the same attack roll within 10 ft. of the target. This second target suffers damage as a shield bash plus an additional [[2d6]] points of damage for the second target, an additional [[1d6]] points of damage for the third target, and normal shield bash damage for the fourth and final target. At the end of the attack, the shield returns to the initiator who may catch it as a free action and resume its use that round.</p>"
+    },
+    "discipline": "Iron Tortoise",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "vl2P7Fg1MZ71HLD8",
+  "_id": "4vJa6M0ynmXd08qI",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991422424,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!4vJa6M0ynmXd08qI"
+}

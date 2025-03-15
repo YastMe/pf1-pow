@@ -1,0 +1,128 @@
+{
+  "name": "Elemental Flux",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Equal parts martial discipline and magical art form, the discipline of Elemental Flux is a martial art that is said to have roots in the bloodlines of genies and their mortal descendants. By tapping their magical natures, they were able to pioneer a style of fighting that channeled their innate magic into a cohesive fighting style. Those descended from these original genie battle masters passed their talents down through the generations, and the discipline proliferated from there. In the current day, practitioners of Elemental Flux blend arcane elemental energies with martial strikes to create a dizzying array of quasi-arcane, magic-infused attacks that spell devastation and ruin to enemies.</p><p>Maneuvers from this discipline are universally supernatural in nature, drawing as they do on the initiator’s ability to manipulate the elements. As such, they are supernatural abilities. In addition, many maneuvers within the Elemental Flux discipline may be augmented and improved by spending one or more points of animus (see the mystic base class or the Tap Animus feat for more details) when initiating the maneuver. Unless otherwise noted, you can only augment an individual maneuver once. Unlike a mystic’s normal animus augmentations, the number of animus points spent on Elemental Flux augmentations is not limited by your mystic level. Instead, you can spend a maximum amount of animus augmenting a maneuver equal to one point plus one additional point of animus for every seven initiator levels you possess. If you have the ability to augment your maneuvers in other ways, such as from a class feature or other ability, this cannot be combined with the augments of Elemental Flux maneuvers; you must choose which augmentation type to use when initiating the maneuver.</p><p><strong>Active Elements</strong>: Many Elemental Flux maneuvers deal damage of the initiator’s active element’s associated energy type. The four available active elements (and their associated energy type) are air (electricity), earth (acid), fire (fire), and water (cold). A character that knows at least one Elemental Flux maneuver chooses his active element when he readies his maneuvers, and can change it by focusing as a standard action. A character can only have one active element at a time. An Elemental Flux maneuver that deals energy damage gains that damage type as a descriptor. If a character is psionic, they can change their active energy type whenever they change their active element, and vice versa. A psionic character’s active energy type need not match their active element.</p><p><strong>Associated Skills</strong>: Spellcraft</p><p><strong>Associated Weapon Groups</strong>: Light blades, monk, and thrown. </p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": true,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "PULYPYlatQpeehpj",
+  "_id": "HHlVGEAHmxpR2V43",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991292850,
+    "modifiedTime": 1739654663237,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!HHlVGEAHmxpR2V43"
+}

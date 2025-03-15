@@ -1,0 +1,58 @@
+{
+  "name": "Zephyr Flux",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Elemental Flux maneuvers<br /><strong>Range</strong>: 120 ft.<br /><strong>Target</strong>: One primary target, plus additional secondary targets equal to your initiation modifier<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>Upon reaching supreme levels of understanding in this elemental energy and travel in the blink of an eye across the battlefield, leaving a wake of devastation behind you. When you initiate this strike, select a primary target and a number of secondary targets within 30 feet of the primary target equal to your initiation modifier. A creature cannot be both a primary target and a secondary target. Your path across the battlefield deals [[14d6]] points of damage to the primary target and [[7d6]] points of damage to secondary targets. All damage is of your active element's associated energy type. This strike also has one of the following effects, based on your active element: Air Any target who fails its save is dazed by the electrical jolt for one round. Earth Any target who fails its save is deafened from the seismic vibrations for [[1d3]] rounds. Fire Any target who fails its save is engulfed in cinders and smoke, becoming blinded for [[1d3]] rounds. Water Any target who fails its save is nauseated for [[1d3]] rounds from the bone-chilling cold. All targets can make a Reflex save (DC 18 + your initiation modifier) to take half damage and negate the added effect. After this strike concludes, you can move to any space within 10 feet of a secondary target of this strike without provoking attacks of opportunity. As a supernatural ability, this strike is not subject to spell resistance. Animus augmentation: You may spend points of animus up (up to your maximum for augmenting Elemental Flux maneuvers) to increase the initial damage of this strike by [[2d6]] ([[1d6]] to secondary targets) per point of animus spent and increase the save DC of this strike by +1 per point of animus spent.</p>"
+    },
+    "discipline": "Elemental Flux",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "Half",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "5OBJk48MpCSf0Ubv",
+  "_id": "8wrhMewVSgB1fGQk",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991552497,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!8wrhMewVSgB1fGQk"
+}

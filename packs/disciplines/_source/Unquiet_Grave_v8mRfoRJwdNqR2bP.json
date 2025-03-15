@@ -1,0 +1,128 @@
+{
+  "name": "Unquiet Grave",
+  "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Practitioners of Unquiet Grave utilize the power of negative energy, enhancing their attacks with entropic power. Thought to have originated from ancient vampiric warlords, this necromantic discipline is used to scourge living opponents and infuse its practitioners with the powers of undeath. Though somewhat rare, Unquiet Grave remains popular amongst undead warriors, as well as assassins who specialize in living victims.</p><p>Maneuvers of the Unquiet Grave discipline are infused with negative energy and the power of undeath. As such, they are supernatural abilities. Additionally, a creature that knows 1 or more Unquiet Grave strikes may expend one of those strikes as a standard action to touch a creature that is healed by negative energy and infuse it with negative energy; the touch heals the creature for 1d8 hit points per level of the expended strike. As usual, a strike must be readied before it may be expended.</p><p>Many maneuvers of the Unquiet Grave discipline have additional, or different, effects if the creature that initiates them is undead. These effects are marked “Grave Call” in the maneuvers’ descriptions. If an Unquiet Grave maneuver is initiated by a non-undead creature that is healed by negative energy, an undead creature that is healed by positive energy, or a creature with the graveblood subtype, then they may choose whether or not to utilize its grave call each time they initiate that maneuver. Additionally, some maneuvers of the Unquiet Grave discipline grant temporary hit points. These temporary hit points stack with themselves and with temporary hit points gained through other maneuvers of this discipline, up to a maximum equal to 1/2 the initiator’s normal maximum hit points, and last for up to 1 hour.</p><p><strong>Associated Classes</strong>: Harbingers, mystics, stalkers, and warlords may exchange access to one of their martial disciplines for access to the Unquiet Grave discipline.</p><p><strong>Associated Skill</strong>: Knowledge (religion).</p><p><strong>Associated Weapon Groups</strong>: Axes, natural, polearms. Scythes are considered discipline weapons for the Unquiet Grave discipline. </p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": true,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "jn8uANQAkHwxUXGg",
+  "_id": "v8mRfoRJwdNqR2bP",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "11.1",
+    "coreVersion": "12.331",
+    "createdTime": 1732991532057,
+    "modifiedTime": 1739654663237,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!v8mRfoRJwdNqR2bP"
+}

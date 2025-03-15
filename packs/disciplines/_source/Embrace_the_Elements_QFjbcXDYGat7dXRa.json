@@ -1,0 +1,58 @@
+{
+  "name": "Embrace the Elements",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>By filing yourself with the fundamentals of an element, you are capable of altering how your body defends itself in the realm of martial combat. While you maintain this stance, you gain one of the following effects, based on your active element: Air You gain a +2 dodge bonus to your AC and the benefit of the Deflect Arrows feat, even if you do not meet the normal prerequisites. This dodge bonus increases by +1 for every six initiator levels you possess. Earth You gain a +2 natural armor bonus on AC and a +4 resistance bonus on CMD to resist bull rush, grapple, and trip attempts. These bonuses increase by +1 for every six initiator levels you possess. Fire You gain a +4 bonus on initiative checks and you gain the benefits of the endure elements spell. The bonus on initiative checks increases by +1 for every six initiator levels you possess. Water You gain a +2 bonus on Reflex saving throws and a +4 competence bonus on Acrobatics checks. These bonuses increase by +1 for every six initiator levels you possess.</p>"
+    },
+    "discipline": "Elemental Flux",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "rV7BH0T1g9pjMP1q",
+  "_id": "QFjbcXDYGat7dXRa",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991294354,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!QFjbcXDYGat7dXRa"
+}

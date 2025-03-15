@@ -1,0 +1,58 @@
+{
+  "name": "Diamond Wings of the Imperial Crane",
+  "img": "icons/magic/light/swords-light-glowing-white.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Silver Crane maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>The true master of the Silver Crane discipline who learns its mysteries must be prepared to take the fight to the enemies of the Upper Planes. By initiating this stance, a halo of ghostly wings erupts around the disciple to ward away harmful magics. While in this stance, the ghostly image of wings protects the initiator against the spells and powers of evil spells and dark powers, granting him spell resistance equal to 15 + his initiator level and a +4 sacred bonus to saving throws. Effects that fail to pass the initiator's spell resistance restore twice the level of the effect in hit points to the disciple.</p>"
+    },
+    "discipline": "Silver Crane",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "ynRW88s6WjF88oxp",
+  "_id": "GN0x6YF1gND9dIJo",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "10.8",
+    "coreVersion": "12.331",
+    "createdTime": 1732991275622,
+    "modifiedTime": 1736076969747,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!GN0x6YF1gND9dIJo"
+}
