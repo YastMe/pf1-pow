@@ -1,39 +1,43 @@
-# pf1-pow
+pf1-pow
+=======
+
 This module aims to incorporate Dreamscarred Press' Path of War system into the Pathfinder 1e system for FoundryVTT.
 
-<h1>Features</h1>
-It includes the necessary Item types for a fully fledged implementation of the Martial Disciplines and Maneuvers at the users' content.
+Features
+========
 
-The module contains four macros to ease the utilization of the system for both players and GMs alike. Please review them in the corresponding Compendium.
+It includes the necessary Item types for a fully fledged implementation of the Martial Disciplines and Maneuvers at the users' content. The module contains four macros to ease the utilization of the system for both players and GMs alike. Please review them in the corresponding Compendium. 
+* Set Initiation Modifier: This macro sets the currently selected token's Initiation Modifier, used to calculate saving throw DCs. If no token is selected, it will default to the player's selected character in the User Configuration section.
+* Use Maneuver: This macro shows a dialogue with a dropdown menu from where to select the maneuver. When used, it will be shared in the chat with all necessary information, including description and Save DC if applicable, and a use will be expended.
+* Recover Maneuver: Like the previous macro, but this time recovers a use and the dropdown menu only shows maneuvers that aren't at full capacity.
+* Recover all Maneuvers: This macro recovers all of the maneuvers the character had expended. Like the previous macros, only works when a token is selected or, by default, with the player's selected character.
 
- - Set Initiation Modifier: This macro sets the currently selected token's Initiation Modifier, used to calculate saving throw DCs. If no token is selected, it will default to the player's selected character in the User Configuration section.
- - Use Maneuver: This macro shows a dialogue with a dropdown menu from where to select the maneuver. When used, it will be shared in the chat with all necessary information, including description and Save DC if applicable, and a use will be expended.
- - Recover Maneuver: Like the previous macro, but this time recovers a use and the dropdown menu only shows maneuvers that aren't at full capacity.
- - Recover all Maneuvers: This macro recovers all of the maneuvers the character had expended. Like the previous macros, only works when a token is selected or, by default, with the player's selected character.
-
-The module also includes the following changes to the character sheet:
- - Added Autohypnosis (Wis, Trained only) to Skills tab.
- - Added Knowledge (Martial) (Int, Trained only) to Skills tab.
- - Added Path of War row to Combat tab.
- - Added Martial Disciplines row to Features tab.
+The module also includes the following changes to the character sheet: 
+* Added Autohypnosis (Wis, Trained only) to Skills tab.
+* Added Knowledge (Martial) (Int, Trained only) to Skills tab.
+* Added Path of War row to Combat tab.
+* Added Martial Disciplines row to Features tab.
 
 Plus, the module now includes a Maneuver Browser button both in the Compendiums tab on the sidebar and the Path of War row inside the Combat tab on a character's sheet.
 
-<h1>License</h1>
-For the full license, see the <a href="https://github.com/YastMe/pf1-pow/blob/main/LICENSE">LICENSE</a> file
-<h3>Legal Note:</h3>
-<p>"This module uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy (paizo.com/communityuse). We are expressly prohibited from charging you to use or access this content. This module is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit paizo.com.
+License
+=======
+
+For the full license, see the [LICENSE](https://github.com/YastMe/pf1-pow/blob/main/LICENSE) file
+
+### Legal Note:
+
+"This module uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy (paizo.com/communityuse). We are expressly prohibited from charging you to use or access this content. This module is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit paizo.com."
 
 "This module references Path of War, a product of Dreamscarred Press, which is used under the Open Game License v1.0a. To the best of our knowledge, 'Path of War' is not a registered trademark."
 
-"This module is not published, endorsed or specifically approved by Dreamscarred Press. For more information about Dreamscarred Press, visit dreamscarred.com. To the best of our knowledge, this module operates within Dreamscarred Press' OGL Product Identity statement, and all efforts were made to attemt to reach Dreamscarred Press for interpretation, although said efforts were met with unresponsiveness. If a Dreamscarred Press representative is reading this note and believes that the content should be removed from this module, please contact us using the contact information from this module's "module.json" file."
-</p>
-<h3>Content sources</h3>
-<li>
-<ul><a href="https://www.drivethrurpg.com/en/product/135308/path-of-war">Path of War</a></ul>
-<ul><a href="https://www.drivethrurpg.com/en/product/177763/path-of-war-expanded">Path of War Expanded</a></ul>
-<ul><a href="https://www.drivethrurpg.com/en/product/208645/divergent-paths-fools-errand">Divergent Paths: Fool's Errand</a></ul>
-<ul><a href="https://www.drivethrurpg.com/en/product/220762">Divergent Paths: Rajah</a></ul>
-<ul><a href="https://www.d20pfsrd.com">d20PFSRD</a></ul>
-<ul><a href="https://metzo.miraheze.org">Library of Metzofitz</a></ul>
-<li>
+"This module is not published, endorsed or specifically approved by Dreamscarred Press. For more information about Dreamscarred Press, visit dreamscarred.com. To the best of our knowledge, this module operates within Dreamscarred Press' OGL Product Identity statement, and all efforts were made to attemt to reach Dreamscarred Press for interpretation, although said efforts were met with unresponsiveness. If a Dreamscarred Press representative is reading this note and believes that the content should be removed from this module, please contact us using the contact information from this module's [module.json]([httos;//www.](https://github.com/YastMe/pf1-pow/blob/main/module.json)) file."
+
+### Content sources
+
+*   [Path of War](https://www.drivethrurpg.com/en/product/135308/path-of-war)
+*   [Path of War Expanded](https://www.drivethrurpg.com/en/product/177763/path-of-war-expanded)
+*   [Divergent Paths: Fool's Errand](https://www.drivethrurpg.com/en/product/208645/divergent-paths-fools-errand)
+*   [Divergent Paths: Rajah](https://www.drivethrurpg.com/en/product/220762)
+*   [d20PFSRD](https://www.d20pfsrd.com)
+*   [Library of Metzofitz](https://metzo.miraheze.org)
