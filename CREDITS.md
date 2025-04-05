@@ -8,3 +8,4 @@ The goal of this file is to thank and recognize those who helped me with the dev
 - FoundryVTT's Discord community as a whole, for the help granted through the development channels and the warm welcome me and this project received.
 - The Pathfinder 1e for Foundry VTT Discord server in particular, for accompanying me through the development of this project and cheering it on release.
 - Tubbz, for showing me how to work with Browsers through their modules.
+- claudekennilol, for helping me understand input injection into the character sheet.
