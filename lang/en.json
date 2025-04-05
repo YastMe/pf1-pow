@@ -1,95 +1,99 @@
 {
-    "TYPES": {
-        "Item": {
-            "pf1-pow": {
-                "maneuver": "Maneuver",
-                "stance": "Stance",
-                "discipline": "Discipline"
-            }
-        }
-    },
-    "PF1-PathOfWar": {
-        "System": "Path of War",
-        "Actions": {
-            "InitiateManeuver": "Initiate Maneuver"
-        },
-        "Disciplines": {
-            "Single": "Discipline",
-            "Plural": "Disciplines",
-            "blackSeraph": "Black Seraph",
-            "brokenBlade": "Broken Blade",
-            "cursedRazor": "Cursed Razor",
-            "elementalFlux": "Elemental Flux",
-            "eternalGuardian": "Eternal Guardian",
-            "foolsErrand": "Fool's Errand",
-            "goldenLion": "Golden Lion",
-            "ironTortoise": "Iron Tortoise",
-            "mithralCurrent": "Mithral Current",
-            "piercingThunder": "Piercing Thunder",
-            "primalFury": "Primal Fury",
-            "radiantDawn": "Radiant Dawn",
-            "rivenHourglass": "Riven Hourglass",
-            "scarletThrone": "Scarlet Throne",
-            "shatteredMirror": "Shattered Mirror",
-            "silverCrane": "Silver Crane",
-            "sleepingGoddess": "Sleeping Goddess",
-            "solarWind": "Solar Wind",
-            "steelSerpent": "Steel Serpent",
-            "tempestGale": "Tempest Gale",
-            "thrashingDragon": "Thrashing Dragon",
-            "unquietGrave": "Unquiet Grave",
-            "veiledMoon": "Veiled Moon"
-        },
-        "Maneuvers": {
-            "Single": "Maneuver",
-            "Plural": "Maneuvers",
-            "Level": "Maneuver level",
-            "Type": "Maneuver type",
-            "Types": {
-                "boost": "Boost",
-                "counter": "Counter",
-                "strike": "Strike",
-                "stance": "Stance",
+	"TYPES": {
+		"Item": {
+			"pf1-pow": {
+				"maneuver": "Maneuver",
+				"stance": "Stance",
+				"discipline": "Discipline"
+			}
+		}
+	},
+	"PF1-PathOfWar": {
+		"System": "Path of War",
+		"Actions": {
+			"InitiateManeuver": "Initiate Maneuver"
+		},
+		"Disciplines": {
+			"Single": "Discipline",
+			"Plural": "Disciplines",
+			"blackSeraph": "Black Seraph",
+			"brokenBlade": "Broken Blade",
+			"cursedRazor": "Cursed Razor",
+			"elementalFlux": "Elemental Flux",
+			"eternalGuardian": "Eternal Guardian",
+			"foolsErrand": "Fool's Errand",
+			"goldenLion": "Golden Lion",
+			"ironTortoise": "Iron Tortoise",
+			"mithralCurrent": "Mithral Current",
+			"piercingThunder": "Piercing Thunder",
+			"primalFury": "Primal Fury",
+			"radiantDawn": "Radiant Dawn",
+			"rivenHourglass": "Riven Hourglass",
+			"scarletThrone": "Scarlet Throne",
+			"shatteredMirror": "Shattered Mirror",
+			"silverCrane": "Silver Crane",
+			"sleepingGoddess": "Sleeping Goddess",
+			"solarWind": "Solar Wind",
+			"steelSerpent": "Steel Serpent",
+			"tempestGale": "Tempest Gale",
+			"thrashingDragon": "Thrashing Dragon",
+			"unquietGrave": "Unquiet Grave",
+			"veiledMoon": "Veiled Moon"
+		},
+		"Maneuvers": {
+			"Single": "Maneuver",
+			"Plural": "Maneuvers",
+			"Level": "Maneuver level",
+			"Type": "Maneuver type",
+			"Types": {
+				"boost": "Boost",
+				"counter": "Counter",
+				"strike": "Strike",
+				"stance": "Stance",
 				"untyped": "Untyped",
-                "text": "See text"
-            },
-            "SaveType": "Saving throw",
-            "SaveTypes": {
-                "none": "None",
-                "reflex": "Reflex",
-                "fortitude": "Fortitude",
-                "will": "Will",
-                "special": "Special"
-            },
-            "SaveEffects": {
-                "partial": "Partial",
-                "half": "Half",
-                "negate": "Negates",
-                "text": "See text"
-            }
-        },
-        "Stances": {
-            "Single": "Stance",
-            "Plural": "Stances"
-        },
-        "Skills": {
-            "kmt": "Knowledge (Martial)",
-            "ahp": "Autohypnosis"
-        },
-        "initTime": "Initiation action",
-        "Charges": {
-            "Single": "Use",
-            "Plural": "Uses",
-            "Max": "Maximum uses",
-            "Current": "Uses left"
-        },
-        "HasUses": "Has use limit",
-        "FeatTypes": {
-            "martialDiscipline": {
-                "Plural": "Martial Disciplines",
-                "Single": "Martial Discipline"
-            }
-        },
-		"Browse": "Browse Maneuvers"
-    }
+				"text": "See text"
+			},
+			"SaveType": "Saving throw",
+			"SaveTypes": {
+				"none": "None",
+				"reflex": "Reflex",
+				"fortitude": "Fortitude",
+				"will": "Will",
+				"special": "Special"
+			},
+			"SaveEffects": {
+				"partial": "Partial",
+				"half": "Half",
+				"negate": "Negates",
+				"text": "See text"
+			}
+		},
+		"Stances": {
+			"Single": "Stance",
+			"Plural": "Stances"
+		},
+		"Skills": {
+			"kmt": "Knowledge (Martial)",
+			"ahp": "Autohypnosis"
+		},
+		"initTime": "Initiation action",
+		"Charges": {
+			"Single": "Use",
+			"Plural": "Uses",
+			"Max": "Maximum uses",
+			"Current": "Uses left"
+		},
+		"HasUses": "Has use limit",
+		"FeatTypes": {
+			"martialDiscipline": {
+				"Plural": "Martial Disciplines",
+				"Single": "Martial Discipline"
+			}
+		},
+		"Browse": "Browse Maneuvers",
+		"Attributes": {
+			"maneuverAttr": "Initiator Modifier"
+		},
+		"duoPartner": "Duo Partner"
+	}
 }

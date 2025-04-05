@@ -20,10 +20,10 @@
       "value": 1
     },
     "level": 1,
-    "saveEffect": "See text",
+    "saveEffect": "Half",
     "saveType": "None",
     "uses": {
-      "per": "charges",
+      "per": "",
       "value": 1,
       "maxFormula": "1",
       "autoDeductChargesCost": "",
@@ -33,7 +33,7 @@
     "changes": [],
     "contextNotes": [],
     "sources": [],
-    "maneuverType": "Boost"
+    "maneuverType": "Stance"
   },
   "folder": "foYXrmMtkV5cfSym",
   "_id": "nKaFIolJZrZ5p0we",
@@ -41,10 +41,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "10.8",
+    "systemVersion": "11.3",
     "coreVersion": "12.331",
     "createdTime": 1732991536893,
-    "modifiedTime": 1736076969747,
+    "modifiedTime": 1743802769861,
     "lastModifiedBy": "jI6iseAymTC0jkXd",
     "compendiumSource": null,
     "duplicateSource": null

@@ -90,6 +90,10 @@
                 "Single": "Disciplina marcial"
             }
         },
-		"Browse": "Buscar Maniobras"
+		"Browse": "Buscar Maniobras",
+		"Attributes": {
+			"maneuverAttr": "Modificador de Iniciador"
+		},
+		"duoPartner": "Compañero de Duo"
     }
 }

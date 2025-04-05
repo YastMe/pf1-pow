@@ -4,82 +4,94 @@ import { ManeuverSheet } from "./applications/_module.mjs"; // Item sheet
 import { ManeuverItem } from "./documents/_module.mjs";     // Item document
 import "./applications/actor/actor-skills.mjs";             // Add Skills
 
-import { ManeuverBrowser } from "./compendiumBrowser/maneuver-browser.mjs"; // Maneuver Browser
+import { ManeuverBrowser, maneuverBrowser } from "./compendiumBrowser/maneuver-browser.mjs"; // Compendium browser
 
-// Execute when the module is initialized.
-Hooks.once("init", () => {
-	// Register new config and items.
-	registerConfig();
-	registerItems();
-	// Log that the module has been initialized.
-	console.log(`${MODULE_ID} | Initialized`);
-})
 
-// Localize new config
-Hooks.once("i18nInit", () => {
-	console.log(`${MODULE_ID} | Localizing`);
-	for (let r of Object.values(pf1.config.maneuverTypes)) {
-		r.label = game.i18n.localize(r.label);
-	}
-	for (let r of Object.values(pf1.config.maneuverSaveTypes)) {
-		r.label = game.i18n.localize(r.label);
-	}
-	for (let r of Object.values(pf1.config.maneuverSaveEffects)) {
-		r.label = game.i18n.localize(r.label);
-	}
-})
+/**
+ * Core initialization and integration logic for the Path of War module in Pathfinder 1e.
+ * Handles registration of item types, compendium browser, actor skills, UI hooks, and data migrations.
+ */
 
-// Execute when all data is loaded.
-Hooks.once("ready", () => {
-	console.log(`${MODULE_ID} | Ready`);
-	// Only check for old actors if the current user is the GM.
-	if (game.users.activeGM !== game.user) return;
-	console.log(`${MODULE_ID} | Migrating old actors`);
-	game.actors.contents.forEach(actor => {
-		// Check if actor has system data. If not, skip.
-		if (actor.type !== "character" && actor.type !== "npc") return;
-		if (!actor.system.skills) return;
-		let skills = actor.system.skills;
-		// Check if actor has Knowledge (Martial). If not, add it.
-		if (actor.system.skills.kmt == undefined) {
-			actor.update({
-				system: {
-					skills: {
-						kmt: {
-							name: game.i18n.localize("PF1-PathOfWar.Skills.kmt"),
-							ability: "int",
-							rank: 0,
-							rt: true,
-							acp: false,
-							background: true,
-						}
-					}
-				}
-			});
-			console.log(`${MODULE_ID} | Added Knowledge (Martial) to ${actor.name}`);
-		}
-		// Check if actor has Autohypnosis. If not, add it.
-		if (actor.system.skills.ahp == undefined) {
-			actor.update({
-				system: {
-					skills: {
-						ahp: {
-							name: game.i18n.localize("PF1-PathOfWar.Skills.ahp"),
-							ability: "wis",
-							rank: 0,
-							rt: true,
-							acp: false,
-							background: true,
-						}
-					}
-				}
-			});
-			console.log(`${MODULE_ID} | Added Autohypnosis to ${actor.name}`);
-		}
-	});
-	// Register the Maneuver Browser
+/**
+ * Registers the Maneuver Browser in the `pf1.applications.compendiums` and `pf1.applications.compendiumBrowser` namespaces.
+ * This allows users to access and interact with a specialized browser for maneuvers.
+ */
+function registerManeuverBrowser() {
 	pf1.applications.compendiums.maneuver = new ManeuverBrowser();
 	pf1.applications.compendiumBrowser.maneuver = ManeuverBrowser;
+}
+
+/**
+ * Migrates existing actors by adding missing skills (`kmt` and `ahp`) to their skill list.
+ * This ensures all actors have the required skills for the "Path of War" system.
+ */
+function migrateOldActors() {
+	console.log(`${MODULE_ID} | Migrating old actors`);
+	game.actors.contents.forEach(actor => {
+		if (!isValidActor(actor)) return;
+		addSkillIfMissing(actor, "kmt", {
+			name: game.i18n.localize("PF1-PathOfWar.Skills.kmt"),
+			ability: "int",
+			rank: 0,
+			rt: true,
+			acp: false,
+			background: true,
+		});
+		addSkillIfMissing(actor, "ahp", {
+			name: game.i18n.localize("PF1-PathOfWar.Skills.ahp"),
+			ability: "wis",
+			rank: 0,
+			rt: true,
+			acp: false,
+			background: true,
+		});
+	});
+}
+
+/**
+ * Checks if an actor is valid for migration.
+ * A valid actor must be of type `character` or `npc` and have a `skills` property in its system data.
+ * 
+ * @param {Object} actor - The actor to validate.
+ * @returns {boolean} - Returns `true` if the actor is valid, otherwise `false`.
+ */
+function isValidActor(actor) {
+	return (actor.type === "character" || actor.type === "npc") && actor.system.skills;
+}
+
+/**
+ * Adds a skill to an actor's skill list if it is missing.
+ * 
+ * @param {Object} actor - The actor to update.
+ * @param {string} skillKey - The key for the skill (e.g., `"kmt"` or `"ahp"`).
+ * @param {Object} skillData - The data for the skill, including:
+ *   - `name`: Localized name of the skill.
+ *   - `ability`: Associated ability score (e.g., `"int"`, `"wis"`).
+ *   - `rank`: Initial rank (default is `0`).
+ *   - `rt`: Whether the skill is a class skill (boolean).
+ *   - `acp`: Whether the skill is affected by armor check penalties (boolean).
+ *   - `background`: Whether the skill is a background skill (boolean).
+ */
+function addSkillIfMissing(actor, skillKey, skillData) {
+	if (actor.system.skills[skillKey] === undefined) {
+		actor.update({
+			system: {
+				skills: {
+					[skillKey]: skillData
+				}
+			}
+		});
+		console.log(`${MODULE_ID} | Added ${skillData.name} to ${actor.name}`);
+	}
+}
+
+/**
+ * Displays a welcome dialog to users who have installed the module for the first time.
+ * The dialog introduces the module's features and provides instructions for setup.
+ * 
+ * The dialog is only shown once per user by setting a flag (`flags.pf1pow`) on the user.
+ */
+function showWelcomeDialog() {
 	if (!game.users.current.flags.pf1pow) {
 		new Dialog({
 			title: 'Path of War for Pathfinder 1e',
@@ -102,10 +114,17 @@ Hooks.once("ready", () => {
 		}).render(true);
 		game.users.current.update({ "flags.pf1pow": true });
 	}
-})
+}
 
-// Add Browse Maneuver button to sidebar.
-Hooks.on("renderCompendiumDirectory", async (app, html) => {
+
+/**
+ * Injects a custom "Browse" button for maneuvers into the provided HTML element.
+ * The button is styled and configured to trigger the `maneuverBrowser` function when clicked.
+ * Additionally, it adjusts its styling based on the number of existing child elements.
+ *
+ * @param {JQuery} html - The jQuery-wrapped HTML element where the button will be injected.
+ */
+function injectManeuverButton(html) {
 	var buttons = html[0].children[2];
 	const button = document.createElement("button");
 	button.type = "button";
@@ -116,72 +135,15 @@ Hooks.on("renderCompendiumDirectory", async (app, html) => {
 	button.addEventListener("click", maneuverBrowser)
 	if (buttons.children.length % 2 == 0)
 		button.classList.add("colspan-2");
-})
-
-// Add Browse Maneuvers button in Path of War row inside Combat tab
-Hooks.on("renderActorSheet", (app, html, data) => {
-	var controls = document.getElementsByClassName("attacks-maneuvers")[0].children[6];
-	const searchManeuvers = document.createElement("a")
-	searchManeuvers.classList.add("item-control", "item-search");
-	searchManeuvers.innerHTML = '<i class="fas fa-folder-plus"></i> ';
-	searchManeuvers.addEventListener("click", maneuverBrowser);
-	controls.append(searchManeuvers);
-});
-
-// Execute when an Item sheet is rendered.
-Hooks.on("renderItemSheet", (app, html, data) => {
-	let item = app.object;
-	// Check if the item is a maneuver. If so, hide the save information if the save type is None or Special, show it otherwise.
-	if (item.type === "pf1-pow.maneuver") {
-		let headers = document.getElementsByClassName("saveHeader");
-		if (item.system.saveType == "None" || item.system.saveType == "Special") {
-			html.find("select[name='system.saveEffect']").hide();
-			for (let header of headers) {
-				header.style.display = "none";
-			}
-		}
-		else {
-			html.find("select[name='system.saveEffect']").show();
-			for (let header of headers) {
-				header.style.display = "block";
-			}
-		}
-		if (item.system.saveType == "Special") {
-			headers = document.getElementsByClassName("saveHeaderSpecial");
-			for (let header of headers) {
-				header.style.display = "block";
-			}
-		}
-		else {
-			headers = document.getElementsByClassName("saveHeaderSpecial");
-			for (let header of headers) {
-				header.style.display = "none";
-			}
-		}
-		// Check if the item is a stance. If so, hide the charges information.
-		if (item.system.maneuverType == "Stance") {
-			headers = document.getElementsByClassName("chargesHeader");
-			for (let header of headers) {
-				header.style.display = "none";
-			}
-		}
-		else {
-			headers = document.getElementsByClassName("chargesHeader");
-			for (let header of headers) {
-				header.style.display = "block";
-			}
-		}
-	}
-})
-
-function maneuverBrowser(event) {
-	event.preventDefault();
-	let type = event.target.dataset.category;
-	if (type === undefined)
-		type = "maneuver";
-	pf1.applications.compendiums[type].render(true, { focus: true });
 }
 
+/**
+ * Registers configuration settings and item types for the module.
+ * This includes adding new skills, maneuver types, save types, and feat subtypes.
+ * It also sets up the sheet sections for maneuvers and martial disciplines.
+ * 
+ * @returns {void}
+ */
 function registerConfig() {
 	// Add Knowledge (Martial) skill
 	pf1.config.skills["kmt"] = "PF1-PathOfWar.Skills.kmt";
@@ -268,6 +230,12 @@ function registerConfig() {
 	};
 }
 
+/**
+ * Registers new item types and their corresponding sheets for the module.
+ * This includes adding the Maneuver item type and its associated sheet.
+ * 	
+ * @returns {void}
+ */
 function registerItems() {
 	// Register new item type
 	Object.assign(CONFIG.Item.documentClasses, {
@@ -294,3 +262,249 @@ function registerItems() {
 		});
 	}
 }
+
+/**
+ * Injects a custom "Browse" button for maneuvers into the Combat tab of the Actor sheet.
+ * The button is styled and configured to trigger the `maneuverBrowser` function when clicked.
+ */
+function injectCombatBrowserButton(app, html) {
+	var controls = html.find(".attacks-maneuvers")[0].children[6];
+	const searchManeuvers = document.createElement("a");
+	searchManeuvers.classList.add("item-control", "item-search");
+	searchManeuvers.innerHTML = '<i class="fas fa-folder-plus"></i> ';
+	searchManeuvers.addEventListener("click", maneuverBrowser);
+	controls.append(searchManeuvers);
+}
+
+function injectInitiatingModifierSelector(app, html, actor) {
+	var controls = html.find(".combat")[1]
+	const select = document.createElement("select");
+	select.name = `flags.${MODULE_ID}.maneuverAttr`;
+	const label = document.createElement("label");
+	label.innerText = game.i18n.localize("PF1-PathOfWar.Attributes.maneuverAttr");
+	label.setAttribute("for", select.name);
+	const options = [];
+	Object.entries(pf1.config.abilities).forEach(([key, value]) => {
+		options.push({ value: key, label: value });
+	});
+	if (!actor.flags[MODULE_ID] || !actor.flags[MODULE_ID].maneuverAttr)
+		actor.setFlag(MODULE_ID, "maneuverAttr", "wis");
+	for (let option of options) {
+		const opt = document.createElement("option");
+		opt.value = option.value;
+		opt.innerText = option.label;
+		if (option.value === actor.flags[MODULE_ID].maneuverAttr) {
+			opt.selected = true;
+		}
+		select.append(opt);
+	}
+	controls.append(label);
+	controls.append(select);
+}
+
+function injectDuoPartnerSelector(app, html, currentActor) {
+	var controls = html.find(".misc-settings")[0]
+	const select = document.createElement("select");
+	select.name = `flags.${MODULE_ID}.duoPartner`;
+	const label = document.createElement("label");
+	label.innerText = game.i18n.localize("PF1-PathOfWar.duoPartner");
+	label.setAttribute("for", select.name);
+	const actorChoices = { '': '' };
+	if (!game.users.current.isGM) {
+		game.actors
+			.filter(actor => actor.isOwner && actor.id !== currentActor.id)
+			.forEach(actor => actorChoices[actor.uuid] = `${actor.name} [${actor.id}]`);
+	}
+	else {
+		game.actors
+			.filter(actor => actor.id !== currentActor.id)
+			.forEach(actor => actorChoices[actor.uuid] = `${actor.name} [${actor.id}]`);
+	}
+	if (!currentActor.flags[MODULE_ID] || !currentActor.flags[MODULE_ID].duoPartner)
+		currentActor.setFlag(MODULE_ID, "duoPartner", '');
+	for (let [key, value] of Object.entries(actorChoices)) {
+		const opt = document.createElement("option");
+		opt.value = key;
+		opt.innerText = value;
+		if (key === currentActor.flags[MODULE_ID].duoPartner) {
+			opt.selected = true;
+		}
+		select.append(opt);
+	}
+	label.classList.add("col-span-2");
+	const div = document.createElement("div");
+	div.classList.add("form-group", "col-6", "flexrow", "duoPartnerSelector");
+	div.append(label);
+	div.append(select);
+	controls.append(div);
+}
+
+/**
+ * Handles the visibility of save type fields and headers based on the item's save type.
+ * 
+ * @param {Object} item - The item being rendered.
+ * @param {JQuery} html - The jQuery-wrapped HTML element of the item sheet.
+ */
+function handleSaveTypeVisibility(item, html) {
+	let headers = html[0].querySelectorAll(".saveHeader");
+
+	if (item.system.saveType === "None" || item.system.saveType === "Special") {
+		html.find("select[name='system.saveEffect']").hide();
+		for (let header of headers) {
+			header.style.display = "none";
+		}
+	} else {
+		html.find("select[name='system.saveEffect']").show();
+		for (let header of headers) {
+			header.style.display = "block";
+		}
+	}
+}
+
+/**
+ * Handles the visibility of special save headers based on the item's save type.
+ * 
+ * @param {Object} item - The item being rendered.
+ */
+function handleSpecialSaveHeaders(item) {
+	let headers = document.getElementsByClassName("saveHeaderSpecial");
+
+	if (item.system.saveType === "Special") {
+		for (let header of headers) {
+			header.style.display = "block";
+		}
+	} else {
+		for (let header of headers) {
+			header.style.display = "none";
+		}
+	}
+}
+
+/**
+ * Handles the visibility of charges headers based on the item's maneuver type.
+ * 
+ * @param {Object} item - The item being rendered.
+ */
+function handleChargesVisibility(item) {
+	let headers = document.getElementsByClassName("chargesHeader");
+
+	if (item.system.maneuverType === "Stance") {
+		for (let header of headers) {
+			header.style.display = "none";
+		}
+	} else {
+		for (let header of headers) {
+			header.style.display = "block";
+		}
+	}
+}
+
+/**
+ * @credit claudekennilol
+ * @param {ActorPF | ItemPF | ItemAction} doc
+ * @param {RollData} rollData
+ */
+function onGetRollData(doc, rollData) {
+	if (doc instanceof pf1.documents.actor.ActorPF) {
+		const actor = doc;
+
+		const attr = actor.getFlag(MODULE_ID, 'maneuverAttr') || '';
+		rollData.maneuverAttr = actor.system.abilities[attr]?.mod ?? 0;
+		const duoPartner = actor.getFlag(MODULE_ID, 'duoPartner') || '';
+		if (duoPartner === '')
+			rollData.duoPartner = null;
+		else
+			rollData.duoPartner = game.actors.get(foundry.utils.parseUuid(duoPartner).id) || null;
+	}
+}
+
+
+/**
+ * Module hooks for initialization, localization, and rendering.
+ */
+
+/**
+ * Executes when the module is initialized.
+ * It registers the configuration settings and item types for the module.
+ */
+Hooks.once("init", () => {
+	registerConfig();
+	registerItems();
+	console.log(`${MODULE_ID} | Initialized`);
+})
+
+/**
+ * Executes when the i18n localization system is initialized.
+ * It localizes the labels for maneuver types, save types, and save effects.
+ */
+Hooks.once("i18nInit", () => {
+	console.log(`${MODULE_ID} | Localizing`);
+	for (let r of Object.values(pf1.config.maneuverTypes)) {
+		r.label = game.i18n.localize(r.label);
+	}
+	for (let r of Object.values(pf1.config.maneuverSaveTypes)) {
+		r.label = game.i18n.localize(r.label);
+	}
+	for (let r of Object.values(pf1.config.maneuverSaveEffects)) {
+		r.label = game.i18n.localize(r.label);
+	}
+})
+
+/**
+ * Executes when all data is ready and the module is fully loaded.
+ * It registers the Maneuver Browser and performs migration tasks for old actors.
+ * Additionally, it shows a welcome dialog to users who have installed the module for the first time.
+ */
+Hooks.once("ready", () => {
+	console.log(`${MODULE_ID} | Ready`);
+	registerManeuverBrowser();
+	if (game.users.activeGM === game.user) {
+		migrateOldActors();
+		showWelcomeDialog();
+	}
+});
+
+/**
+ * Executes when the Compendium Directory is rendered.
+ * It injects a custom "Browse" button for maneuvers into the Compendium Directory UI.
+ * This button allows users to quickly access the Maneuver Browser from the Compendium Directory.
+ */
+Hooks.on("renderCompendiumDirectory", async (app, html) => {
+	injectManeuverButton(html)
+})
+
+/**
+ * Executes when the Actor sheet is rendered.
+ * It adds a custom "Browse" button for maneuvers to the Actor sheet UI.
+ * This button allows users to quickly access the Maneuver Browser from the Actor sheet.
+ * The button is styled and configured to trigger the `maneuverBrowser` function when clicked.
+ */
+Hooks.on("renderActorSheet", (app, html, data) => {
+	injectCombatBrowserButton(app, html);
+	injectInitiatingModifierSelector(app, html, data.actor);
+	injectDuoPartnerSelector(app, html, data.actor);
+});
+
+/**
+ * Executes when the Item sheet is rendered.
+ * It modifies the visibility of certain fields based on the type of maneuver being edited.
+ * Specifically, it hides or shows the save information and charges information based on the maneuver type and save type.
+ * It also adjusts the display of headers for save effects and charges.
+ */
+Hooks.on("renderItemSheet", (app, html, data) => {
+	let item = app.object;
+
+	if (item.type === "pf1-pow.maneuver") {
+		handleSaveTypeVisibility(item, html);
+		handleSpecialSaveHeaders(item);
+		handleChargesVisibility(item);
+	}
+});
+
+/**
+ * Executes when RollData is requested.
+ * It adds the initiation modifier to the roll data for actors using the Path of War system.
+ * This allows for accurate calculations during combat and maneuver rolls.
+ *
+ */
+Hooks.on('pf1GetRollData', onGetRollData);

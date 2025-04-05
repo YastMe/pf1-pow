@@ -10,3 +10,11 @@ export class ManeuverBrowser extends pf1.applications.compendiumBrowser.Compendi
 	static typeName = "PF1-PathOfWar.Maneuvers.Plural";
 	static filterClasses = [commonFilters.TagFilter, ManeuverFilter];
 }
+
+export function maneuverBrowser(event) {
+	event.preventDefault();
+	let type = event.target.dataset.category;
+	if (type === undefined)
+		type = "maneuver";
+	pf1.applications.compendiums[type].render(true, { focus: true });
+}

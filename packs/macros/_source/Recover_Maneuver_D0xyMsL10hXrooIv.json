@@ -1,0 +1,33 @@
+{
+  "name": "Recover Maneuver",
+  "type": "script",
+  "scope": "global",
+  "author": "jI6iseAymTC0jkXd",
+  "img": "icons/svg/regen.svg",
+  "command": "function getManeuverFromActor(maneuver, actor) {\n\treturn (actor.items.filter((item) => item.name === maneuver.name)[0] || null)\n}\n\nfunction isManeuver(item) {\n    return (item.type===\"pf1-pow.maneuver\" && item.system.uses.value < item.system.uses.max && !item.system.disabled);\n}\n\nfunction getManeuvers(actor) {\n    return (actor.items.filter(isManeuver))\n}\n\nfunction getManeuverOptions(maneuvers) {\n    return (maneuvers.map(maneuver => maneuver.name))\n}\n\nvar options = \"\";\ntry {\n\tvar actor = game.actors.get(canvas.tokens.controlled[0].document.actorId);\n} catch (error) {\n\tvar actor = game.users.current.character;\n\tif (actor === null)\n\t{\n\t\tui.notifications.error(\"Please select an actor token or pick a character in user configuration.\");\n\t\treturn ;\n\t}\n}\n\ngetManeuverOptions(getManeuvers(actor)).forEach(maneuver => options += '<option value=\"' + maneuver + '\">' + maneuver + '</option>');\n\nconst duoPartner = actor._rollData.duoPartner;\n\nif (options === \"\")\n{\n    ui.notifications.error(\"You don't have any maneuvers to recover!\");\n    return ;\n}\n\nlet d = new Dialog({\n  title: 'Maneuver Recovery',\n  content: `\n    <form class=\"flexcol\">\n      <div class=\"form-group\">\n        <label for=\"maneuverSelect\">Select a maneuver</label>\n        <select name=\"maneuverSelect\">` + options + `\n        </select>\n      </div>\n    </form>\n  `,\n  buttons: {\n    yes: {\n      icon: '<i class=\"fas fa-check\"></i>',\n      label: 'Use maneuver',\n      callback: (html) => {\n        let select = html.find('[name=\"maneuverSelect\"]').val();\n        getManeuvers(actor).forEach(maneuver => {\n        if (maneuver.name === select)\n\t{\n\t\tmaneuver.update({'system.uses.value': maneuver.system.uses.value + 1});\n\t\tif (duoPartner)\n\t\t{\n\t\t\tlet partnerManeuver = getManeuverFromActor(maneuver, duoPartner);\n\t\t\tif (partnerManeuver)\n\t\t\t\tpartnerManeuver.update({'system.uses.value': maneuver.system.uses.value + 1});\n\t\t}\n\n\t\tui.notifications.info(\"Recovered \" + maneuver.name + \".\");\n\t}\n    })\n      }\n    },\n  },\n  default: 'yes'\n}).render(true)",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "d49bb3652291eb7f5e99154a84f5ab3d707a643d",
+      "sourceId": "Macro.WnHWP4pypgFYVJvw"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.3",
+    "createdTime": 1743846178424,
+    "modifiedTime": 1743846178424,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "_id": "D0xyMsL10hXrooIv",
+  "sort": 0,
+  "_key": "!macros!D0xyMsL10hXrooIv"
+}
