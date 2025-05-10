@@ -219,6 +219,12 @@ function registerConfig() {
 		sort: 10_000
 	};
 
+	CONFIG.PF1.buffTargets["powModifier"] = {
+		label: "PF1-PathOfWar.Attributes.maneuverAttr",
+		category: "misc",
+/* 		sort: 1_000,
+ */	};
+
 	// Add section for maneuvers in Combat tab
 	pf1.config.sheetSections.combat.maneuvers = {
 		label: "PF1-PathOfWar.System",
@@ -289,11 +295,16 @@ function injectInitiatingModifierSelector(app, html, actor) {
 	});
 	if (!actor.flags[MODULE_ID] || !actor.flags[MODULE_ID].maneuverAttr)
 		actor.setFlag(MODULE_ID, "maneuverAttr", "wis");
+	let hasContent = false;
+	for (const prop in actor.flags) {
+		if (Object.hasOwn(actor.flags, prop))
+			hasContent = true;
+	}
 	for (let option of options) {
 		const opt = document.createElement("option");
 		opt.value = option.value;
 		opt.innerText = option.label;
-		if (option.value === actor.flags[MODULE_ID].maneuverAttr) {
+		if (hasContent && option.value === actor.flags[MODULE_ID].maneuverAttr) {
 			opt.selected = true;
 		}
 		select.append(opt);
@@ -322,11 +333,16 @@ function injectDuoPartnerSelector(app, html, currentActor) {
 	}
 	if (!currentActor.flags[MODULE_ID] || !currentActor.flags[MODULE_ID].duoPartner)
 		currentActor.setFlag(MODULE_ID, "duoPartner", '');
+	let hasContent = false;
+	for (const prop in currentActor.flags) {
+		if (Object.hasOwn(currentActor.flags, prop))
+			hasContent = true;
+	}
 	for (let [key, value] of Object.entries(actorChoices)) {
 		const opt = document.createElement("option");
 		opt.value = key;
 		opt.innerText = value;
-		if (key === currentActor.flags[MODULE_ID].duoPartner) {
+		if (hasContent && key === currentActor.flags[MODULE_ID].duoPartner) {
 			opt.selected = true;
 		}
 		select.append(opt);
