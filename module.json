@@ -9,7 +9,7 @@
         "type": "system",
         "compatibility": {
           "minimum": "10",
-          "verified": "11.2"
+          "verified": "11.6"
         }
       }
     ],
@@ -23,7 +23,7 @@
   },
   "compatibility": {
     "minimum": "12",
-    "verified": "12"
+    "verified": "13"
   },
   "languages": [
     {
