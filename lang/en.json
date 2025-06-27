@@ -106,6 +106,7 @@
 			"NotGranted": "Maneuver not granted",
 			"Grant": "Grant Maneuver",
 			"GrantAll": "Grant All Maneuvers",
+			"GrantTitle": "Choose Maneuvers to Grant",
 			"ToggleAllGranted": "Toggle All Grants",
 			"GrantDialogue": "Trigger Grant Dialogue"
 		},

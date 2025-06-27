@@ -210,6 +210,7 @@ export function grantDialogue(actor) {
 	</div>
 	`;
 	new Dialog({
+		title: game.i18n.localize("PF1-PathOfWar.Maneuvers.GrantTitle"),
 		content: dialogContent,
 		buttons: {
 			yes: {
