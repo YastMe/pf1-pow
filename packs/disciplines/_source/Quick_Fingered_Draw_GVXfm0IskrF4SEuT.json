@@ -1,0 +1,62 @@
+{
+  "name": "Quick-Fingered Draw",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You keep your hands primed to seize any piece of equipment you possess from your person quickly. While in this stance, any action required to draw or stow an item on your person is made one step quicker (full-round action to standard action, standard action to move action, move action to swift action, swift action to free action). If your initiator level is at least 10th, the action is instead made two steps quicker.</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "j8hWKm5rKqSrKT4m",
+  "_id": "GVXfm0IskrF4SEuT",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "e22ab96ad400aa2e43b0e6b386633ebe94e36618"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!GVXfm0IskrF4SEuT"
+}

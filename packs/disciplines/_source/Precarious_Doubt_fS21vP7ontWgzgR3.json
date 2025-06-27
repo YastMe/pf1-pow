@@ -1,0 +1,58 @@
+{
+  "name": "Precarious Doubt",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Leaden Hyena Maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>You unleash a terrific display that discombobulates nearby creatures into staying out of your reach. When you initiate this boost, all terrain within 20 feet of your position is considered difficult terrain for all creatures save for you and your allies. If you move, the radius of terrain you affect changes to surrounding your new position.</p>"
+    },
+    "discipline": "Leaden Hyena",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "1Ze0KDloWTG93BYU",
+  "_id": "fS21vP7ontWgzgR3",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!fS21vP7ontWgzgR3"
+}

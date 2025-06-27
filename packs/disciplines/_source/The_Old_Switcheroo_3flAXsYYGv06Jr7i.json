@@ -1,0 +1,58 @@
+{
+  "name": "The Old Switcheroo",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 3 Roaring Mouse maneuvers<br /><strong>Range</strong>: 60 feet<br /><strong>Target</strong>: 1 creature<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>The oldest trick in the book, and they fell for it. You may initiate this counter upon you or an ally within range being targeted by an attack or being subjected to an effect which requires a saving throw from a tricked creature. You or the ally may swap places with a willing creature or tricked foe within range, causing them to become the new target of the attack or effect. This may even cause the tricked foe to attack themself. A tricked foe receives a Will save (DC 18 + initiation modifier) to resist the swap. This is a supernatural maneuver. Exploit: A tricked foe being swapped in does not receive a Will save. Alternatively, a creature making a full attack must complete its action against the new target. Upon using this exploit, the foe is immune to this exploit for seven rounds.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "Text",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "4l2YPLVKbMHWZWIH",
+  "_id": "3flAXsYYGv06Jr7i",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!3flAXsYYGv06Jr7i"
+}

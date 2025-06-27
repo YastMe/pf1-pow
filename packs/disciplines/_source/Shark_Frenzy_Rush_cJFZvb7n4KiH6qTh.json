@@ -1,0 +1,58 @@
+{
+  "name": "Shark Frenzy Rush",
+  "img": "icons/magic/water/water-jet-wave-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Surging Shark maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature (see text)<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You smell blood in the water, and your hunger is clear and terrifying. Make a charge attack, using a Swim check in place of your attack roll. If it hits, you deal an additional [[6d6]] damage and your target is knocked off-balance and shaken for six rounds. During this charge, you do not provoke attacks of opportunity from movement, and may pass through occupied squares. Call of the Deep: Your churning wake summons a frenzy of bloodthirsty sharks formed from the water to aid you. Choose a number of additional creatures up to your initiation modifier within 10 feet of the initial target of this strike. The aqueous sharks make charge attacks against these creatures, using your modifiers and dice. If they hit, they deal an additional [[3d6]] damage. This call of the deep effect is supernatural.</p>"
+    },
+    "discipline": "Surging Shark",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "f9MAArIBaoqgid16",
+  "_id": "cJFZvb7n4KiH6qTh",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270747251,
+    "modifiedTime": 1750270747251,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!cJFZvb7n4KiH6qTh"
+}

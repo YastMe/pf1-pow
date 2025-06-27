@@ -1,0 +1,62 @@
+{
+  "name": "Sabotage",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: melee or ranged attack<br /><strong>Target</strong>: one object<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>Seizing an opening, you target the weakest points on your opponent's equipment. Make a sunder attempt using a Disable Device check in place of an attack roll. On a success, you ignore all of the item's hardness and deal [[1d6]] additional points of damage to it.</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "j8hWKm5rKqSrKT4m",
+  "_id": "yVzsYzvHE4fNVzR2",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "9dca5143e8b8981e8ce3f13c3084d0925a554f63"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!yVzsYzvHE4fNVzR2"
+}

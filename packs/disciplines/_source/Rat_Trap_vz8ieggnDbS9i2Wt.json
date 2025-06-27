@@ -1,0 +1,58 @@
+{
+  "name": "Rat Trap",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You got your tail caught, but you make the most of it. Make an Escape Artist attempt against your foe's attack roll. If you succeed, you halve the damage, trick your target for a number of rounds equal to your initiation modifier, and may gain an extra effect of your choice. Move into any space adjacent to your foe that you could normally occupy. Move your foe into any space adjacent to you that they could normally occupy. Neither you nor your foe's movement provokes an attack of opportunity. Exploit: You negate the attack instead of halving its damage.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "8BPI6H6tXuyO6pty",
+  "_id": "vz8ieggnDbS9i2Wt",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!vz8ieggnDbS9i2Wt"
+}

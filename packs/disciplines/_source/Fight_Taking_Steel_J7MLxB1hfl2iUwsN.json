@@ -1,0 +1,58 @@
+{
+  "name": "Fight-Taking Steel",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Leaden Hyena Maneuvers<br /><strong>Range</strong>: Melee or Ranged<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Your foe becomes wholly rattled as its body is torn apart, its might pouring from every gash in its body. Make an attack roll against a creature. On a successful hit, the attack deals an additional [[2d4]] points of Strength damage and causes 2 points of Strength bleed every round. This bleeding can be stopped by a Heal check (DC 15 + your initiator level) or by healing magic. However, any creature that attempts healing magic on the target must make a caster level check with a DC identical to the Heal check or have the spell fail to stop the bleeding.</p>"
+    },
+    "discipline": "Leaden Hyena",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "CvAJ7FHVk9EFlCyV",
+  "_id": "J7MLxB1hfl2iUwsN",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!J7MLxB1hfl2iUwsN"
+}

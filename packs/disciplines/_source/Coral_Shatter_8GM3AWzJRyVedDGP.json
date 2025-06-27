@@ -1,0 +1,58 @@
+{
+  "name": "Coral Shatter",
+  "img": "icons/magic/water/water-jet-wave-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Surging Shark maneuver<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>With a mighty blow, you break your foe's defense like fragile coral. Make an attack. If it hits, you deal an additional [[4d6]] damage, and the foe must make a Fortitude save (DC 14 + initiation modifier) or become stunned for 1 round. Call of the Deep: Your strike causes ripples that explode out from your target in a 15 foot cone. Compare the initial attack roll against the AC of any opponents caught in the cone. Any creatures that are hit also take [[4d6]] damage and are stunned for 1 round unless they succeed at a Fortitude save with the same DC as the main target. A successful save negates the stun effect. Do not apply the effects of boosts to the cone. If you use this call of the deep effect with an ability that turns an attack into an area of effect (such as a zealot's destruction augment), the strike only creates one cone, originating from the closest affected creature. Using this call of the deep effect makes this maneuver supernatural.</p>"
+    },
+    "discipline": "Surging Shark",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "Negates",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "IVwUPtVIuGrO1epb",
+  "_id": "8GM3AWzJRyVedDGP",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270747251,
+    "modifiedTime": 1750270747251,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!8GM3AWzJRyVedDGP"
+}

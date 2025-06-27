@@ -14,7 +14,7 @@
     "description": {
       "value": "<p><strong>Prerequisite(s)</strong>: Two cursed razor maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Phantom chains trail in the wake of your strike and spread through your enemies like wildfire. Make a melee attack. If it hits, it deals weapon damage as normal, and the target must succeed at a Will save (DC 16 + your initiation modifier) or become cursed and paralyzed for a number of rounds equal to your initiation modifier. While the target is paralyzed by this strike, opponent that ends its turn adjacent must succeed at a Will save (DC 16 + your initiation modifier) or also become cursed and paralyzed for a number of rounds equal to your initiation modifier. Only the initial target spreads its curse in this manner. This strike can paralyze creatures normally immune to paralysis, though such creatures gain a +6 competence bonus on their saving throws.</p>"
     },
-    "discipline": "Black Seraph",
+    "discipline": "Cursed Razor",
     "initTime": {
       "units": "standard",
       "value": 1
@@ -41,10 +41,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "10.8",
+    "systemVersion": "11.6",
     "coreVersion": "12.331",
     "createdTime": 1732991263293,
-    "modifiedTime": 1736076969747,
+    "modifiedTime": 1750270859960,
     "lastModifiedBy": "jI6iseAymTC0jkXd",
     "compendiumSource": null,
     "duplicateSource": null

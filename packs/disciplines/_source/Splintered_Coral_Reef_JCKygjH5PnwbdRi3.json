@@ -1,0 +1,58 @@
+{
+  "name": "Splintered Coral Reef",
+  "img": "icons/magic/water/water-jet-wave-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Surging Shark maneuvers <br /><strong>Range</strong>: 30 ft<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instantaneous<br /><strong>Area:</strong> 30 ft burst</p><h2>Description</h2><p>Full of rage, you summon forth pieces of broken coral reefs and fire them with vengeance at your hated foes. All enemies in range take 6d6 slashing damage and [[2d6]] bleed damage. A Reflex save (DC 17 + initiation modifier) halves the damage and negates the bleed. A DC 15 Heal check can stop this bleeding. This is a supernatural maneuver.</p><p>Call of the Deep: The wounds you open are cursed and don't close easily. The bleeding disables any fast healing or regeneration the target has. When healed by magic, the caster needs to make a Caster level check (DC is equal to the Fortitude save + 5) or the bleeding does not stop. </p>"
+    },
+    "discipline": "Surging Shark",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Half",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "gRW4KU4pKFAgu1St",
+  "_id": "JCKygjH5PnwbdRi3",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270747251,
+    "modifiedTime": 1750270747251,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!JCKygjH5PnwbdRi3"
+}

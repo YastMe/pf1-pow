@@ -1,0 +1,58 @@
+{
+  "name": "Sand Shark Rush",
+  "img": "icons/magic/water/water-jet-wave-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Your prey cannot escape your charging maw. Make a charge attack, using a Swim check in place of your attack roll. If it hits, you deal an additional [[1d6]] damage. During this charge, you do not provoke attacks of opportunity from movement.</p>"
+    },
+    "discipline": "Surging Shark",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "8uPfHrIWVJJ4HdGI",
+  "_id": "Fs5bnJWTKm3HUTxg",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270747251,
+    "modifiedTime": 1750270747251,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Fs5bnJWTKm3HUTxg"
+}

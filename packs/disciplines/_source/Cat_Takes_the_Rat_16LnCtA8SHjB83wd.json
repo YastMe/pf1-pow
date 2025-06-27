@@ -1,0 +1,58 @@
+{
+  "name": "Cat Takes the Rat",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Close (25 ft. + 5ft./2 levels)<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>It's not nice to play with your food, but that never stopped you. Upon initiating this boost, select one opponent with the tricked condition within range. The next successful attack within 1 round against them deals an extra 3 damage per round of the tricked condition they have remaining at the time you initiated this boost, to a maximum of 3 times your initiator level. Exploit: The maximum limit of extra damage is doubled, to 6 times your initiator level. Upon using this exploit, the target is immune to this exploit for two rounds.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "Tj2qXLPoDjO7CQ9f",
+  "_id": "16LnCtA8SHjB83wd",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!16LnCtA8SHjB83wd"
+}

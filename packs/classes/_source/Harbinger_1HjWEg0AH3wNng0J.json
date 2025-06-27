@@ -1,0 +1,26 @@
+{
+  "name": "Harbinger",
+  "sorting": "a",
+  "folder": "jue4EIseroc5nauv",
+  "type": "Item",
+  "_id": "1HjWEg0AH3wNng0J",
+  "sort": 100000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "e47ebc21464256949b6361fb07a84f099115c489"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.3",
+    "createdTime": null,
+    "modifiedTime": 1743933932930,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "description": "",
+  "_key": "!folders!1HjWEg0AH3wNng0J"
+}

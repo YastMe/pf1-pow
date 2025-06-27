@@ -1,0 +1,58 @@
+{
+  "name": "Dormouse Strike",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 2 Roaring Mouse maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>You send your foe into a deep sleep with this precision strike. Make an attack. If it hits, you deal weapon damage as normal plus an additional [[5d6]] damage. Additionally, your foe must make a Fortitude save (DC 16 + initiation modifier) or fall unconscious for a number of rounds equal to [[1d6]] + initiation modifier. If they are damaged while unconscious, they receive another save to wake up. Exploit: This maneuver can even affect creatures normally immune to sleep or unconsciousness. In addition, you may change the save required to a Will save, if you wish. This exploit changes the maneuver into a supernatural maneuver.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Negates",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "DwDVOnEEdjuMgSyT",
+  "_id": "RMmdjXl9sUIILzQ4",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!RMmdjXl9sUIILzQ4"
+}

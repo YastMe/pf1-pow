@@ -1,0 +1,128 @@
+{
+  "name": "Roaring Mouse",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>A century-long war between ratfolk and catfolk came to an end when the assassin sent to kill the ratfolk king spared his life and befriended him instead. In the era of peace that followed, the two races worked together to create a fighting style that combined the trickery of the catfolk with the swarming strength of the ratfolk. Thus was born the Roaring Mouse, a discipline with a unique focus on teamwork.</p><p><strong>Associated Skill</strong>: Escape Artist</p><p><strong>Associated Weapons</strong>: Close, flails, light blades, hammers, and natural </p><p><strong>Accessing the Discipline: </strong>The thesis of Roaring Mouse is one of camaraderie, friendship, and teamwork, and as such it is simple to learn. Any character of any class can access the Roaring Mouse discipline by trading one of their available disciplines for it. If they do, they gain Escape Artist as a class skill. Any companion creature that can learn maneuvers (such as an ambush hunter’s martial companion, or an eidolon with the Martial Training feat) has access to the Roaring Mouse discipline for free, regardless of any other restrictions on their maneuvers.</p><p><strong>Combat Maneuvers: </strong>Some Roaring Mouse maneuvers allow you to perform hindering combat maneuvers, such as dirty trick, disarm, and steal. Unless otherwise stated, these combat maneuvers do not provoke attacks of opportunity. If you have abilities that augment these maneuvers, such as the Greater Steal feat, you may apply those effects to these maneuvers.</p><p><strong>New Condition (Tricked)</strong>: Many Roaring Mouse maneuvers impart a new condition called “tricked”. A tricked creature is slightly off-balance, whether in mind or body, and is easy prey. Once tricked, the creature can be exploited, as marked by the “Exploit” section of the maneuver’s description. Exploits allow you to remove the tricked condition from a creature in exchange for added effects. Unless otherwise stated, you may only perform an exploit if the maneuver was successful. A creature is not tricked until the maneuver used against them is complete, meaning that you cannot exploit a creature with the same use of the maneuver that tricked them. Likewise, you cannot trick a creature with the same action that exploited them. Spells augmented by the Trick Spell feat also apply the tricked condition for a duration equal to the spell’s duration. Removing the tricked condition for an exploit does not dispel a trick spell currently affecting them. Multiple applications of the tricked condition do not overlap; instead the duration of each new application of the condition is added to the remaining duration of the previous application. If an exploit states that the creature becomes immune to it for a certain amount of time, it is immune to any application of that exploit, regardless of the source. </p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "sCX1ERWm0zMnpbxd",
+  "_id": "jquDr1ZIFnXPEFCs",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!jquDr1ZIFnXPEFCs"
+}

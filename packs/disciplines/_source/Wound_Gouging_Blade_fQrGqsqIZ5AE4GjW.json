@@ -1,0 +1,58 @@
+{
+  "name": "Wound-Gouging Blade",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee or Ranged<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: instantaneous, see text</p><h2>Description</h2><p>Your weapon buries itself in the wounds of your foe, amplifying their suffering by several factors. Make an attack roll against a creature. On a successful hit, any bleed damage that the target is taking is increased by 50%, with the save DC being required to stop the bleeding increasing by 5. If the target creature is not already bleeding, it takes [[2d4]] points of bleed damage (this is not affected by the 50% increase of this maneuver). In addition, any creatures attempting to stop the bleeding using magic must make a caster level check (DC 15 + your initiator level) or else have the spell fail to stop the bleeding.</p>"
+    },
+    "discipline": "Leaden Hyena",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "dl7OYuQ5CXX57cYl",
+  "_id": "fQrGqsqIZ5AE4GjW",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!fQrGqsqIZ5AE4GjW"
+}

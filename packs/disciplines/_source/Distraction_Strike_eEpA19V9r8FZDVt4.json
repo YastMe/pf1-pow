@@ -1,0 +1,58 @@
+{
+  "name": "Distraction Strike",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack (see text)<br /><strong>Target</strong>: Creature struck<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Your antics give your allies a juicy target. Make a melee attack. If successful, you deal an additional [[1d6]] damage, trick your target for a number of rounds equal to your initiation modifier, and one ally within Close range can make an attack against your target. Your ally must be threatening the target to make a melee attack, otherwise they must make a ranged attack. Ranged attacks made by your ally do not provoke from the target of this strike, but may provoke from other creatures. Your ally may not benefit from this strike more than once per round, regardless of the source. Exploit: Your ally may perform any standard action in place of making an attack, so long as that standard action targets the target of this strike or includes them in its area of effect. Spells, powers, and spell-like or psi-like abilities used by your ally do not provoke from the target of this strike, but may provoke from other creatures. Your ally is staggered after benefitting from this exploit. Upon using this exploit, the target is immune to this exploit for one round.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "8BPI6H6tXuyO6pty",
+  "_id": "eEpA19V9r8FZDVt4",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!eEpA19V9r8FZDVt4"
+}

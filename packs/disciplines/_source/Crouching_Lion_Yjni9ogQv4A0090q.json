@@ -1,0 +1,58 @@
+{
+  "name": "Crouching Lion",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You move with a strange grace, befuddling your enemies. While maintaining this stance, any Roaring Mouse maneuvers with durations greater than instantaneous last for 1 round longer than normal (including the duration of effects or conditions imparted by these maneuvers). This increases by 1 additional round for every 6 initiator levels you have. The maneuver must be performed while you are in this stance, and if you leave it, this effect immediately ends. In addition, any creature you hit with a melee weapon (including natural weapons) becomes tricked for a number of rounds equal to your initiation modifier. This stance's effect resolves after other effects relating to the attack (such as strikes or weapon properties).</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "QaBYZp0Gm2efmdpH",
+  "_id": "Yjni9ogQv4A0090q",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Yjni9ogQv4A0090q"
+}

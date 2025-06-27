@@ -1,0 +1,128 @@
+{
+  "name": "Leaden Hyena",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Morale and discipline are what define a fighting force, moreso than strength or skill-at-arms. If the foe’s will to persevere can be broken, then even the most powerful opponents can be reduced to withered, complacent submissives. The first practitioners of the Leaden Hyena discipline realized this fact in the youth of their society, and this knowledge enabled them to shatter the order of all who crossed then and thus attain victory against far mightier foes. Disciples learned to turn their enemies against themselves, bringing down their ranks from within. Learning from their example, the style of the Leaden Hyena has developed among enforcers, sentinels, tricksters, and cads everywhere as a way to distort their foes’ grip on victory.</p><p><strong>Associated Skill</strong>: Bluff</p><p><strong>Associated Weapon Groups</strong>: Hammers, light blades, and spears </p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": true,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "tPmkoh1K1UICEDNJ",
+  "_id": "68OhotMLXhslMhhx",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!68OhotMLXhslMhhx"
+}

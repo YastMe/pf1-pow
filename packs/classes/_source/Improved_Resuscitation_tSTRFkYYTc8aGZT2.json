@@ -1,0 +1,130 @@
+{
+  "folder": "WmexsBAO9koEkQJ2",
+  "type": "feat",
+  "name": "Improved Resuscitation",
+  "system": {
+    "description": {
+      "value": "<p>At 14th level, the medic's ability to stave off the death of her allies broaches on the supernatural. Once per week, she can use raise dead as a spell-like ability, with a caster level equal to her medic initiator level.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": 1,
+      "per": "week",
+      "autoDeductChargesCost": "",
+      "maxFormula": "1",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "sp",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "showInCombat": false
+  },
+  "_id": "tSTRFkYYTc8aGZT2",
+  "img": "icons/magic/life/heart-hand-gold-green-light.webp",
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0a47b5ceb91172cdd545a946c2f06880ec5c0896"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf1",
+    "systemVersion": "11.3",
+    "createdTime": 1745751841879,
+    "modifiedTime": 1745751890850,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "exportSource": null
+  },
+  "_key": "!items!tSTRFkYYTc8aGZT2"
+}

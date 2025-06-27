@@ -1,0 +1,58 @@
+{
+  "name": "Two for One",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One or two creatures<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You're so generous, you give you foes plenty of attention. When you initiate this strike, you may make two attacks. You may make both against one creature or one each against two creatures. Exploit: You may make two attacks each against two creatures. Both creatures you target must have the tricked condition in order to use this exploit against them.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "Tj2qXLPoDjO7CQ9f",
+  "_id": "v7WUD79CJEH0OY2H",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!v7WUD79CJEH0OY2H"
+}

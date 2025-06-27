@@ -1,0 +1,58 @@
+{
+  "name": "Dastardâ€™s Blades",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Leaden Hyena Maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>You disquiet your target around its allies, taking the opportunity to launch your weapon deep into a vulnerable point. For 1 round, you gain +[[5d6]] dice of sneak attack, as the rogue class feature. In addition, any creature that you attack that is adjacent to one of their allies is considered flat-footed against your attacks.</p>"
+    },
+    "discipline": "Leaden Hyena",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "bz87d8PjhPcIPToR",
+  "_id": "8X0wueTBsy8SkJFX",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!8X0wueTBsy8SkJFX"
+}

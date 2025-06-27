@@ -1,0 +1,30 @@
+.maneuversummary {
+	display: flex;
+	flex-flow: row nowrap;
+	gap: 3px;
+}
+
+.over {
+	border: 1px solid var(--color-shadow-primary);
+	color: var(--color-shadow-primary);
+}
+
+.maneuvernotready {
+	text-decoration: line-through;
+	color: var(--pf1-tan);
+}
+
+.accordion {
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+	overflow: hidden;
+	max-height: 0px;
+	gap: 3px;
+}
+
+.buttons-trigger {
+	position: absolute;
+	bottom: 3px;
+}

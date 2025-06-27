@@ -1,0 +1,58 @@
+{
+  "name": "Foment Helplessness",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Leaden Hyena Maneuver<br /><strong>Range</strong>: Close (25 ft + 5 ft/level)<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>Mocking your opponent's feeble efforts, you instill within them a great deal of self-doubt that hampers their combat abilities. Make a Bluff check against the target against their opposed Sense Motive check or their AC, whichever is higher. On a success, any morale bonuses that the target possesses instead become penalties of equal amount, and any harmless spells that are affecting the target lose their effect for one round.</p>"
+    },
+    "discipline": "Leaden Hyena",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "XeAdG5OPp8jgmdPy",
+  "_id": "Rg1JJvl04i7BTcCq",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Rg1JJvl04i7BTcCq"
+}

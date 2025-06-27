@@ -1,0 +1,26 @@
+{
+  "name": "9th level",
+  "folder": "Ht7i6iiIiSk5WN4Q",
+  "_id": "ku5XrppfpykmG8ID",
+  "type": "Item",
+  "sorting": "a",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "fa00a1daf2a7138d5ec3f9bf67a69c0ddc84bde7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743483,
+    "modifiedTime": 1750270743483,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "description": "",
+  "color": null,
+  "_key": "!folders!ku5XrppfpykmG8ID"
+}

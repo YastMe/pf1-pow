@@ -1,0 +1,58 @@
+{
+  "name": "Mantis Shrimp Retaliation",
+  "img": "icons/magic/water/water-jet-wave-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Surging Shark maneuvers <br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>With a swift strike, you anticipate your foe’s attack before they even complete it. You may initiate this counter in response to a melee attack. Make a Swim check against the attack roll. If successful, you may make an attack against them before they go through with their attack. If you hit, you deal an additional [[4d6]] damage and the enemy loses the attack. This counter can be used even against natural 20s.</p><p>Call of the Deep: This counter works against ranged attacks and your melee attack can reach the attacker regardless of distance. Additionally, if the counter attack hits the target gains the off-balance condition.</p>"
+    },
+    "discipline": "Surging Shark",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "gRW4KU4pKFAgu1St",
+  "_id": "xr5liTyTDOctZreV",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270747251,
+    "modifiedTime": 1750270747251,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!xr5liTyTDOctZreV"
+}

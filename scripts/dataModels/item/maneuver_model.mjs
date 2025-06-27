@@ -14,6 +14,9 @@ export class ManeuverModel extends ManeuverItemModel {
             saveType: new fields.StringField({ initial: "None" }),
             saveEffect: new fields.StringField({ initial: "See text" }),
             defaultAttack: new fields.ObjectField({ type: "attack", required: false, initial: undefined }),
+			ready: new fields.BooleanField({ initial: false }),
+			granted: new fields.BooleanField({ initial: false }),
+			stanceActive: new fields.BooleanField({ initial: false })		
         };
         this.addDefaultSchemaFields(schema);
         return schema;

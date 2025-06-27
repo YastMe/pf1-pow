@@ -1,0 +1,58 @@
+{
+  "name": "Hungry Jaws",
+  "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>Discipline: Brutal Crocodile (Stance) Your bare hands lash out, snagging the target in your clutches. Any attacks you make with discipline weapons gain the Grab property (see Pathfinder Bestiary page 301). In addition, you gain the constrict ability, dealing [[1d6]] + your strength modifier points of bludgeoning damage every round that you maintain a grapple. If you already possess the constrict ability from another source or are already dealing damage as part of maintaining a grapple, you instead deal [[1d6]] additional damage when using such abilities.</p>"
+    },
+    "discipline": "Brutal Crocodile",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "No save",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "g6uEEGo6yW3UGpuw",
+  "_id": "6uDLcjkKMVr05x7C",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270723083,
+    "modifiedTime": 1750270723083,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!6uDLcjkKMVr05x7C"
+}

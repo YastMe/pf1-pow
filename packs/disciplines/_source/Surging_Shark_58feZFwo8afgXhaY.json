@@ -1,0 +1,128 @@
+{
+  "name": "Surging Shark",
+  "img": "icons/magic/water/water-jet-wave-blue.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>The sea holds many mysteries for those who live above the water. Many wonders lie beneath the waves, both beautiful and horrifying. But what seems to surprise the surface-dwellers the most is that those aquatic beings have their own styles of fighting, specifically suited to their liquid environment. The most famous of these styles is Surging Shark. Originally developed by the merfolk, this style has spread far, even being adapted and taught by surface dwellers.</p><p>Though it is just as powerful on land as other martial disciplines, Surging Shark shows its true power when used by a native of the ocean’s depths in their element. Utilizing the water in ways most air-breathing creatures cannot fathom, this discipline can turn what should be an even match into a one-sided beat down. Many tales of expert surface warriors defeated by aquatic novices have spread, and the wise give this unique discipline the respect it deserves on its home turf.</p><p><strong>Associated Skill</strong>: Swim.</p><p><strong>Associated Weapon Groups</strong>: Natural, spears, and thrown.</p><p><strong>Call of the Deep: </strong>Many maneuvers of the Surging Shark discipline have additional, or different, effects if the creature that initiates them has the aquatic or water subtypes and is currently underwater. These effects are marked “Call of the Deep” in the maneuver. If a Surging Shark maneuver is initiated by a non-aquatic creature that can breathe underwater, then they may choose whether or not to utilize its call of the deep each time they initiate that maneuver.</p><p><strong>Locked: </strong>Several Surging Shark maneuvers and related abilities allow you to lock your target. You may only lock creatures within your melee reach (including that of reach weapons or other effects that extend your reach). Locking a creature does not provoke attacks of opportunity, and even though it is not an attack, it is treated as a melee attack for the purposes of targeting, line of effect, miss chances, and ending an invisibility spell or similar effects. Attempting to lock or drag a creature ends any Stealth you have, though you can still use Stealth after you've locked a creature (if you are otherwise able to do so while observed, such as by having the hide in plain sight ability or making a successful Bluff check). Similarly, locked creatures can use Stealth against you if they have a means to do so, through successfully hiding from you using Stealth does not end the lock.</p><p>A creature targeted by a character’s lock must succeed at a Reflex save (DC 10 + 1/2 your highest initiator level + your Strength modifier or highest initiation modifier, whichever is higher) or become locked. Locking counts as a Surging Shark maneuver for the purposes of abilities or effects that increase a maneuver's save DC, and the DC is increased by +2 for using a discipline weapon as part of the attempt, as normal. If you can substitute another ability modifier for melee attack rolls or CMB checks (such as through the Weapon Finesse or Agile Maneuvers feats, or the soulknife’s Focused Offense blade skill), you may use that ability instead of your Strength or initiation modifier for determining your lock save DC.</p><p>Once you’ve locked a creature, they cannot voluntarily move from their space without escaping the lock (see below). If you lock another creature that is flying or otherwise midair, they remain in the air and do not fall. As this is an ability that hinders movement, creatures under the effects of a freedom of movement spell or slip the bonds power cannot be locked. You can end the lock as a free action, and it automatically ends if the locked creature is no longer within your reach.</p><p>You can move freely as long as each creature you’ve locked remains within your reach, or can drag creatures when you move by moving at half speed. If your movement takes place during a maneuver, you can drag creatures by halving the distance you would normally move (to a minimum of 5 feet, even if halving it would result in a lower distance). You must still follow all the restrictions of your movement (such as where you can move, or where you must end your movement).</p><p>When dragging a creature, they move in the same direction as you, relative to your spaces (even if that movement takes them to a harmful location). If you would drag them into a space they cannot enter (such as a wall or that of another creature), you must either relinquish your lock on them, change direction, or stop moving. Otherwise, you can freely drag them along with you, regardless of your relative sizes or location. The movement of dragged creatures does not provoke attacks of opportunity, and your movement does not provoke attacks of opportunity from creatures you’re dragging. If you would drag a creature into a space that can’t support them or a hazardous location (such as the air for a nonflying creature or a pit of lava), they may make a saving throw to escape the lock (see below). If they succeed, they are not dragged, escape the lock, and fall prone in their space.</p><p>On its turn, a creature can attempt to escape your lock whenever it tries to move. In order to do so, the creature must succeed at a Reflex save with the same DC as when they were locked. A creature can use their Strength instead of their Dexterity on this saving throw (but not the one to evade the initial lock). Success indicates that the locked creature escapes and can move freely; failure means they remain locked, though their action is still spent (and are treated as having moved, for the purposes of taking 5-foot steps). Teleportation effects allow a creature to automatically escape your lock, as do effects that cause you to no longer have the creature within your reach. A creature that does not attempt to move during their turn can make a Reflex save against the lock as a free action at the end of that turn. You cannot lock a creature in the same turn that it escaped your lock.</p><p>If you become helpless, all of your locked creatures are released.</p><p><strong>What is Lock?</strong> Similarly to mechanics like hit points, armor class, and attack rolls, there is some amount of necessary abstraction required to make lock function. In the default description of Surging Shark maneuvers, locking is implied to be a strong grip or hold, but the exact specifics of a character’s lock depends on the player, the GM, and the situation. It may be that a character literally wrestles the targets, that they use their reach and skill with a blade to keep their targets from moving freely, or even potentially that their targets are forced into stillness through sheer killing intent. In some cases, a particular explanation for locking a creature may warrant a Will save instead of a Reflex save, at the GM’s option. Even in such a case, however, locking is not a mind-affecting ability.</p><p>Regardless of how they’re doing it, however, a character can lock as many creatures as they are able to reach (provided they have the actions to do so). </p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": true,
+      "umd": false
+    }
+  },
+  "folder": "HvEwqznqcTEagGtU",
+  "_id": "58feZFwo8afgXhaY",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270747251,
+    "modifiedTime": 1750270747251,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!58feZFwo8afgXhaY"
+}

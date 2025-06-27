@@ -1,0 +1,58 @@
+{
+  "name": "Incite Betrayal",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Close (25 ft + 5 ft/level)<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: 1 round.</p><h2>Description</h2><p>Spurring the target into a fit of rage, you send them against their own ally. One creature within range must make a Will save (DC 11 + your initiation modifier). On a failure, the target takes its next action to make an attack against one creature of your choosing.</p>"
+    },
+    "discipline": "Leaden Hyena",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "sbdyFFm9e0wprCOk",
+  "_id": "K5x4VhN8ucPh2wQ6",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!K5x4VhN8ucPh2wQ6"
+}

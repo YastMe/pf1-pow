@@ -1,0 +1,62 @@
+{
+  "name": "Repurpose Power",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Mangled Gear Maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>As energy flows towards you, you attempt to redirect it into your equipment. When you would be damaged by an effect which deals any sort of energy damage, you may attempt a Disable Device check. The amount of energy damage is reduced by the result of your Disable Device roll, and for every 5 points of damage negated in this way one object on your person which uses charges gains a single charge.</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "5bOUmmEo97IBeVSS",
+  "_id": "Tg42qp3CX9cRCPjz",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "414cd1ce1b1277a527763c1f3f45147d3c0c5f51"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Tg42qp3CX9cRCPjz"
+}

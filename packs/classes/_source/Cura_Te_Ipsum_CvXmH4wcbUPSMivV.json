@@ -1,0 +1,130 @@
+{
+  "folder": "WmexsBAO9koEkQJ2",
+  "type": "feat",
+  "name": "Cura Te Ipsum",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 3th level, the medic's martial training enhances her ability to defend herself while she ensures the health and safety of her allies. Whenever the medic initiates a strike maneuver she gains a +1 insight bonus on Reflex and Will saves until the start of her next turn. This bonus increases by +1 at 7th level and again at every four levels thereafter.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "ex",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "showInCombat": false
+  },
+  "_id": "CvXmH4wcbUPSMivV",
+  "img": "icons/magic/defensive/shield-barrier-glowing-triangle-teal.webp",
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1fe7d644c19112521a5fd5412d2e9f42e8bf0901"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf1",
+    "systemVersion": "11.3",
+    "createdTime": 1745751566285,
+    "modifiedTime": 1745751890850,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "exportSource": null
+  },
+  "_key": "!items!CvXmH4wcbUPSMivV"
+}

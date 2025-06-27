@@ -14,7 +14,7 @@
     "description": {
       "value": "<p><strong>Prerequisite(s)</strong>: Three cursed razor maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>This cruel and unusual strike traps its victims in a waking nightmare. Make a melee attack. If it hits, it deals weapon damage as normal plus 4 points of damage to the target's Intelligence, Wisdom, and Charisma scores. At the beginning of each of your turns thereafter, the target must succeed at a Will save (DC 18 + your initiation modifier) or take an additional 4 points of damage to its Intelligence, Wisdom, and Charisma scores. A successful save or the creature's death ends this effect.</p>"
     },
-    "discipline": "Black Seraph",
+    "discipline": "Cursed Razor",
     "initTime": {
       "units": "standard",
       "value": 1
@@ -41,10 +41,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "10.8",
+    "systemVersion": "11.6",
     "coreVersion": "12.331",
     "createdTime": 1732991529449,
-    "modifiedTime": 1736076969747,
+    "modifiedTime": 1750270829590,
     "lastModifiedBy": "jI6iseAymTC0jkXd",
     "compendiumSource": null,
     "duplicateSource": null

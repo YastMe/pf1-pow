@@ -1,0 +1,62 @@
+{
+  "name": "Failsafe Reserves",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Mangled Gear Maneuvers<br /><strong>Range</strong>: personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You shield yourself against effects which would disrupt the normal function of your equipment. While in this stance, your equipment never suffers any sort of glitching or mishaps from failing a skill check, and its effects cannot be suppressed by abilities such as Antimagic Field, Antitech Field, or even more powerful abilities such as Mage's Disjunction. This ability is considered an extraordinary ability.</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "AGTy7yckmXlEgXiu",
+  "_id": "GiEHDekZfeRsfhVr",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "f394261c1f39a66e8a3e173da1a1f5021dd04f49"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!GiEHDekZfeRsfhVr"
+}

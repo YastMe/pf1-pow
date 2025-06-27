@@ -14,7 +14,7 @@
     "description": {
       "value": "<p><strong>Prerequisite(s)</strong>: Two cursed razor maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Your vicious strike afflicts your victims with a curse of rot. Make a melee attack. If it hits, it deals weapon damage as normal plus an additional [[4d6]] points of damage, and the target becomes cursed. In addition, a struck target must succeed at a Fortitude save (DC 15 + your initiation modifier) at the start of each of its turns for a number of rounds equal to your initiation modifier or take an additional [[2d6]] points of damage as its body begins to decay and slough off in putrid clumps.</p>"
     },
-    "discipline": "Black Seraph",
+    "discipline": "Cursed Razor",
     "initTime": {
       "units": "standard",
       "value": 1
@@ -41,10 +41,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "10.8",
+    "systemVersion": "11.6",
     "coreVersion": "12.331",
     "createdTime": 1732991310869,
-    "modifiedTime": 1736076969747,
+    "modifiedTime": 1750270868249,
     "lastModifiedBy": "jI6iseAymTC0jkXd",
     "compendiumSource": null,
     "duplicateSource": null

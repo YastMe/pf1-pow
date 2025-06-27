@@ -1,0 +1,130 @@
+{
+  "folder": "WmexsBAO9koEkQJ2",
+  "type": "feat",
+  "name": "Medic's Training",
+  "system": {
+    "description": {
+      "value": "<p>Early on in her career, a medic quickly learns to assess the battlefield in order to prioritize the needs of her allies against the dangers that her enemies present. Once per round as a free action (even if it is not her turn) the medic can assess the health of her allies. The medic is able to determine their current hit points, any conditions (including poisons or diseases) affecting them, and the duration of these conditions. As part of using this ability, the medic may also make a Heal check to assess the current health and condition of her opponents. She rolls her Heal check once and uses it for each opponent, comparing it to a DC of 10 + the opponent in question's CR. Failing this check against an opponent prevents the medic from assessing that opponent's health for one round.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "ex",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "showInCombat": false
+  },
+  "_id": "UkIil1vuoBGH5Ziu",
+  "img": "icons/skills/targeting/target-glowing-yellow.webp",
+  "effects": [],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "992ef353331cb7a126f476c7d1998fddaa20eccc"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf1",
+    "systemVersion": "11.3",
+    "createdTime": 1745749926278,
+    "modifiedTime": 1745751890850,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "exportSource": null
+  },
+  "_key": "!items!UkIil1vuoBGH5Ziu"
+}

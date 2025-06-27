@@ -1,0 +1,58 @@
+{
+  "name": "Vicegrip Snap",
+  "img": "icons/magic/water/water-jet-wave-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Surging Shark maneuvers<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Your grip is swift and unyielding. Make an attack. If it hits, it deals damage as normal and you may attempt to lock the target. If used on a creature that is already locked by you, this boost deals an additional [[4d6]] damage.</p>"
+    },
+    "discipline": "Surging Shark",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "9MNRSClcZzRfpXAr",
+  "_id": "3GOCjo1Y8NvFRkbe",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270747251,
+    "modifiedTime": 1750270747251,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!3GOCjo1Y8NvFRkbe"
+}

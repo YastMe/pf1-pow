@@ -1,3 +1,5 @@
+import { DisciplineFilter, ManeuverLevelFilter, ManeuverTypeFilter } from "./maneuver-filter.mjs";
+
 const commonFilters = pf1.applications.compendiumBrowser.filters.common;
 
 class ManeuverFilter extends pf1.applications.compendiumBrowser.filters.BaseFilter {
@@ -8,7 +10,7 @@ class ManeuverFilter extends pf1.applications.compendiumBrowser.filters.BaseFilt
 export class ManeuverBrowser extends pf1.applications.compendiumBrowser.CompendiumBrowser {
 	static documentName = "Item";
 	static typeName = "PF1-PathOfWar.Maneuvers.Plural";
-	static filterClasses = [commonFilters.TagFilter, ManeuverFilter];
+	static filterClasses = [commonFilters.TagFilter, ManeuverFilter, DisciplineFilter, ManeuverTypeFilter, ManeuverLevelFilter];
 }
 
 export function maneuverBrowser(event) {

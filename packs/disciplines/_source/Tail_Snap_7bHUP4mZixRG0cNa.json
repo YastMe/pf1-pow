@@ -1,0 +1,58 @@
+{
+  "name": "Tail Snap",
+  "img": "icons/magic/water/water-jet-wave-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>With a swift movement, you knock your foe away. You may initiate this counter in response to a melee attack. Make a Swim check against your attacker's CMD. If you succeed, their attack is negated and they are pushed back as though you had bull rushed them, using your Swim check as the bull rush result. Call of the Deep: You may also initiate this counter in response to a ranged attack.</p>"
+    },
+    "discipline": "Surging Shark",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "pBupMOpK8P3KZQ1J",
+  "_id": "7bHUP4mZixRG0cNa",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270747251,
+    "modifiedTime": 1750270747251,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!7bHUP4mZixRG0cNa"
+}

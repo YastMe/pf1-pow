@@ -1,0 +1,58 @@
+{
+  "name": "Trapping Jaws",
+  "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Brutal Crocodile Maneuver<br /><strong>Range</strong>: Melee<br /><strong>Target</strong>: Attacking Creature<br /><strong>Duration</strong>: Initiated grapple</p><h2>Description</h2><p>Discipline: Brutal Crocodile (Counter) You snag your opponent in the midst of their attack, refusing to let go. When a creature makes a melee attack roll against you, you may initiate this counter to make a grapple check against the target. On a success, the creature's attack is negated, and you begin grappling the target. While grappling the creature, you deal [[2d6]] points of damage each round that you maintain the grapple (this stacks with any damage you may deal with constrict).</p>"
+    },
+    "discipline": "Brutal Crocodile",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "No save",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "lRBvaXaotkMLH0w1",
+  "_id": "KMbdcIBngvStSXpT",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270723083,
+    "modifiedTime": 1750270723083,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!KMbdcIBngvStSXpT"
+}

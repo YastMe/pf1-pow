@@ -14,7 +14,7 @@
     "description": {
       "value": "<p><strong>Prerequisite(s)</strong>: Four cursed razor maneuvers<br /><strong>Range</strong>: Close (25ft. + 5ft. every 2 initiator levels)<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>The ultimate expression of your grim power, you wrap your enemies in shadow, plunge your blade into the darkness, striking them down with tenebrous copies of your weapon. When you initiate this strike, all opponents within range must succeed at a Reflex save (DC 19 + your initiation modifier) or become immobilized by shadows; all their movement speeds are reduced to 0 for a number of rounds equal to your initiation modifier. Creatures in flight drop to the ground and take falling damage as normal if they cannot hover. In addition, make a melee attack roll as part of this maneuver and compare it to the AC of all creatures within range. Each creature hit by the attack roll takes weapon damage as normal plus an additional [[10d6]] points of damage. If a target is cursed, this strike’s additional damage increases to [[12d8]].</p>"
     },
-    "discipline": "Black Seraph",
+    "discipline": "Cursed Razor",
     "initTime": {
       "units": "standard",
       "value": 1
@@ -41,10 +41,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "10.8",
+    "systemVersion": "11.6",
     "coreVersion": "12.331",
     "createdTime": 1732991311163,
-    "modifiedTime": 1736076969747,
+    "modifiedTime": 1750270823562,
     "lastModifiedBy": "jI6iseAymTC0jkXd",
     "compendiumSource": null,
     "duplicateSource": null

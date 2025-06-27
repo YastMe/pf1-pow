@@ -1,0 +1,58 @@
+{
+  "name": "Riot of Despair",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Leaden Hyena Maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You become the incarnation of your foes' ruin, bringing down upon them all the mistakes that they have made and driving them back. While in this stance, all enemies within 30 feet are incapable of gaining the benefits of morale bonuses, and automatically fail any checks that they make to stabilize. In addition, enemies with 30 feet of you take an additional [[1d6]] points of damage from all attacks for every ally of theirs that has been reduced to 0 hit points in this encounter.</p>"
+    },
+    "discipline": "Leaden Hyena",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "1Ze0KDloWTG93BYU",
+  "_id": "FpaWS1NzaITS2YIW",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!FpaWS1NzaITS2YIW"
+}

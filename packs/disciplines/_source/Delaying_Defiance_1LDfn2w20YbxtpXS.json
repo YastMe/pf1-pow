@@ -1,0 +1,62 @@
+{
+  "name": "Delaying Defiance",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Close (25 feet + 5 feet/2 levels)<br /><strong>Target</strong>: One effect<br /><strong>Duration</strong>: see text</p><h2>Description</h2><p>As a surge of energy is unleashed, you suppress its effects for a brief duration. You may perform this counter when a spell effect would be created or when a creature uses an item (not a weapon) which would have some sort of magical or other effect. The effect you target is delayed, and activates in 1 rounds rather than immediately. This does not shorten the duration of the effect, just pushes it forwards in time.</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "EYQnIPitkoy02UAF",
+  "_id": "1LDfn2w20YbxtpXS",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "12a41021bb8040d8ed30542be77a6c5be0ca6e70"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!1LDfn2w20YbxtpXS"
+}

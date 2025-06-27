@@ -1,0 +1,58 @@
+{
+  "name": "Cackling Mockery",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Leaden Hyena Maneuver<br /><strong>Range</strong>: Close (25 ft + 5 ft/level)<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>You steel yourself against an attack and laugh off the injury, forcing the target to press the assault against you in spite of themself. When you initiate this counter, you gain DR 20/- against the next attack that hits you. If such an attack hits, make a Bluff check opposed by the target's Sense Motive check or their AC, whichever is higher. On a success, the target must attack only you next round. You may initiate this counter in response to an adjacent ally being attacked, causing the attack to automatically hit you instead if you are in reach of the attack (this activates the DR and other effects as normal).</p>"
+    },
+    "discipline": "Leaden Hyena",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "XeAdG5OPp8jgmdPy",
+  "_id": "0oc0jcV55FmApDp6",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!0oc0jcV55FmApDp6"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Gorgonops' Jaws",
+  "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Brutal Crocodile Maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>Discipline: Brutal Crocodile (Stance) As you assume a fighting position, your hands tense, prepared to unleash your nightmarish wrestling skills on your victim as soon as your hands take hold. While you maintain this stance, any attacks that you make with discipline weapons gain the grab ability. In addition any time that you initiate a grapple with another creature, you may initiate a maneuver with the [G] descriptor as a free action once per round.</p>"
+    },
+    "discipline": "Brutal Crocodile",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "No save",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "NFPnKizSRPc2KSBB",
+  "_id": "PtdmXh5pRwoS4IOB",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270723083,
+    "modifiedTime": 1750270723083,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!PtdmXh5pRwoS4IOB"
+}

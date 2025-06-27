@@ -1,0 +1,58 @@
+{
+  "name": "Snatching Talons",
+  "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Initiated grapple</p><h2>Description</h2><p>Discipline: Brutal Crocodile (Strike) You adeptly tear through your foe's defenses and begin crushing them in your hands. Initiate a grapple attempt against the target, which does not provoke an attack of opportunity. On a success, you deal [[1d8]] points of damage to the target, and deal [[1d8]] points of damage every time you maintain a grapple. This damage stacks with that from the constrict special ability.</p>"
+    },
+    "discipline": "Brutal Crocodile",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "No save",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "g6uEEGo6yW3UGpuw",
+  "_id": "JvXbn3MF73zMA5eT",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270723083,
+    "modifiedTime": 1750270723083,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!JvXbn3MF73zMA5eT"
+}

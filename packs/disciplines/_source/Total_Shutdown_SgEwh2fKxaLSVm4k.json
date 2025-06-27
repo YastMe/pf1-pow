@@ -1,0 +1,62 @@
+{
+  "name": "Total Shutdown",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Four Mangled Gear Maneuvers<br /><strong>Range</strong>: melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>Your attack sends a powerful energy field coursing through the target, rendering their equipment and enhancements ineffectual. Make an attack roll against a creature. On a success, the target is treated as if they and any of their equipment had failed their saves against an area Mage's Disjunction spell, an area Unravel Psionics power, and an area Technological Rapture power (but never as if they had rolled a natural 1). The duration of these effects is 1 round rather than the normal duration.</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 9,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "ku5XrppfpykmG8ID",
+  "_id": "SgEwh2fKxaLSVm4k",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "fd65f6102e1bc0fcde734f5cfe1344fdb417d5ca"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!SgEwh2fKxaLSVm4k"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Brutal Misdirection",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Leaden Hyena Maneuvers<br /><strong>Range</strong>: Close (25 ft + 5 ft/level)<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Before your foe can put down their weapon, you deceive them into attacking another target. When a creature makes an attack roll, charges, or casts a spell, you may make a Bluff check against the target's opposed Sense Motive check or their AC, whichever is higher. On a success, you choose one creature in range of the attacker to be the target of the attack, charge, or spell (if it is an area spell, the spellcaster must target an area that includes the target creature).</p>"
+    },
+    "discipline": "Leaden Hyena",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "bz87d8PjhPcIPToR",
+  "_id": "sao6KbTnG00Wz8Q9",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!sao6KbTnG00Wz8Q9"
+}

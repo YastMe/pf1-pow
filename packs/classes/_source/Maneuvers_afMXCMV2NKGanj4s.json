@@ -1,0 +1,130 @@
+{
+  "folder": "WmexsBAO9koEkQJ2",
+  "type": "feat",
+  "name": "Maneuvers",
+  "system": {
+    "description": {
+      "value": "<p>Maneuvers: A medic begins her career with knowledge of five martial maneuvers. The disciplines available to her are @UUID[Compendium.pf1-pow.disciplines.Item.kIjji0d1sKyzUGC8]{Broken Blade}, @UUID[Compendium.pf1-pow.disciplines.Item.rC95GZKffPpnoJib]{Iron Tortoise}, @UUID[Compendium.pf1-pow.disciplines.Item.5EVWqiUTgaPwgm8s]{Golden Lion}, @UUID[Compendium.pf1-pow.disciplines.Item.HnUsOFIY8vzGre52]{Steel Serpent}, and @UUID[Compendium.pf1-pow.disciplines.Item.00PY24jPHILXoYHK]{Tempest Gale}.</p><p>Once she knows a maneuver, she must ready it before she can use it (see maneuvers readied, below). A maneuver usable by a medic is considered an extraordinary ability unless otherwise noted in its description. Her maneuvers are not affected by spell resistance, and she do not provoke attacks of opportunity when she initiates one. She learns additional maneuvers at higher levels, as shown on <strong>Table 1-1: Medic</strong>. The medic must meet a maneuver's prerequisite to learn it.</p><p>Upon reaching 4th level, and at every even numbered initiator level thereafter (6th, 8th, 10th, and so on, the medic can choose to learn a new maneuver in place of one she already knows. In effect, she loses the old maneuver in exchange for the new one. She can choose a new maneuver of any level she likes, as long as she observes the restriction on the highest-level maneuvers she knows; the medic need not replace the old maneuver with a maneuver of the same level. She can swap only a single maneuver at any given level. A medic's initiation modifier is Wisdom.</p><h3>Editor's Note: Discipline Exchanges</h3><p>@UUID[Compendium.pf1-pow.disciplines.Item.YKyesqqDVNSpFBgN]{Fool's Errand}, <strong>Mangled Gear</strong>, @UUID[Compendium.pf1-pow.disciplines.Item.5w0wMZgWK1wxiZwL]{Radiant Dawn}, <strong>Roaring Mouse</strong>, <strong>Surging Shark</strong>: Any character of any class can access any of these disciplines by trading one of their available disciplines for one of the listed disciplines. If they do, they gain its associated skill as a class skill.</p><p><strong>Leaden</strong> <strong>Hyena</strong>: Any character of any class which has access to Golden Lion may gain Leaden Hyena in exchange for any one martial discipline they possess. They gain Bluff as a class skill.</p><p><strong>Sagitta</strong> <strong>Stellaris</strong>: Any class that has access to the Solar Wind or Tempest Gale discipline may trade any one of their disciplines known from that class for access to the Sagitta Stellaris discipline, gaining Knowledge (geography) as a class skill.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "showInCombat": false
+  },
+  "_id": "afMXCMV2NKGanj4s",
+  "img": "icons/weapons/staves/staff-nature-spiral.webp",
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ead306a9209fac691d85e7bd7182455013d0648d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf1",
+    "systemVersion": "11.3",
+    "createdTime": 1743935123456,
+    "modifiedTime": 1745751890850,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "exportSource": null
+  },
+  "_key": "!items!afMXCMV2NKGanj4s"
+}

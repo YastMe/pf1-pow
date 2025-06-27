@@ -1,0 +1,250 @@
+{
+  "folder": "k4B6Y1N3UwckYOGM",
+  "type": "class",
+  "name": "Harbinger",
+  "system": {
+    "description": {
+      "value": "<p>Like rumors of war or plague-ridden winds, harbingers move through battlefields and leave only ruin and sorrow in their wake. Empowered from within by a deep connection to sorrow, grief, and wrath, harbingers channel their negative emotions into a supernatural fighting style that is strange and terrifying to behold. Some accept the darker urges within themselves but leash them, making their wrath serve as a hound might—and others embrace the violence within, becoming killers without restraint or pity.</p><p><strong>Hit Die</strong>: d8.</p><p><strong>Role</strong>: Control. Harbingers command the battlefield with a combination of superior mobility and debilitating strikes, determining when and how they want to engage and targeting weak enemies while shutting stronger ones out of the battle. Their spread of supernatural maneuvers gives harbingers access to magical and unusual abilities that can shift the tide of battle in their favor.</p><p><strong>Alignment</strong>: Any. Though harbingers are marked by their darker urges they are not utterly defined by them, and many brave and noble souls succeed in staring into the abyss until the abyss averts its gaze. It is true that many Harbingers skew towards evil and/or chaos, but nothing stops a harbinger from turning their power to altruistic ends.</p><p><strong>Starting Age</strong>: Intuitive.</p><p><strong>Starting Wealth</strong>: 4d6 × 10 gp (average 140 gp.) In addition, each character begins play with an outfit worth 10 gp or less.</p><p><strong>Class Skills</strong>: The harbinger’s class skills are Acrobatics (Dex), Autohypnosis (Wis), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Fly (Dex), Heal (Wis), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (local) (Int), Knowledge (martial) (Int), Knowledge (nobility) (Int), Knowledge (religion) (Int), Linguistics (Int), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), Stealth (Dex), and Survival (Wis).</p><p><strong>Skill Ranks per Level</strong>: 4 + Int modifier.</p><h1>Class Features</h1><table><tbody><tr><th><p>Level</p></th><th><p>Base Attack Bonus</p></th><th><p>Fort Save</p></th><th><p>Ref Save</p></th><th><p>Will Save</p></th><th><p>Special</p></th><th><p>Maneuvers</p><p>Known</p></th><th><p>Maneuvers</p><p>Readied</p></th><th><p>Stances</p><p>Known</p></th></tr><tr><td><p>1st</p></td><td><p>+0</p></td><td><p>+2</p></td><td><p>+0</p></td><td><p>+2</p></td><td><p>Accursed will (attack rolls), dark claim, ill tidings</p></td><td><p>5</p></td><td><p>3</p></td><td><p>1</p></td></tr><tr><td><p>2nd</p></td><td><p>+1</p></td><td><p>+3</p></td><td><p>+0</p></td><td><p>+3</p></td><td><p>Dark focus (1 discipline)</p></td><td><p>6</p></td><td><p>4</p></td><td><p>2</p></td></tr><tr><td><p>3rd</p></td><td><p>+2</p></td><td><p>+3</p></td><td><p>+1</p></td><td><p>+3</p></td><td><p>Grim news (1/encounter)</p></td><td><p>7</p></td><td><p>4</p></td><td><p>2</p></td></tr><tr><td><p>4th</p></td><td><p>+3</p></td><td><p>+4</p></td><td><p>+1</p></td><td><p>+4</p></td><td><p>Massacre (1/encounter)</p></td><td><p>7</p></td><td><p>4</p></td><td><p>2</p></td></tr><tr><td><p>5th</p></td><td><p>+3</p></td><td><p>+4</p></td><td><p>+1</p></td><td><p>+4</p></td><td><p>Elusive shadow</p></td><td><p>8</p></td><td><p>5</p></td><td><p>3</p></td></tr><tr><td><p>6th</p></td><td><p>+4</p></td><td><p>+5</p></td><td><p>+2</p></td><td><p>+5</p></td><td><p>Dark focus (bonus feat)</p></td><td><p>8</p></td><td><p>5</p></td><td><p>3</p></td></tr><tr><td><p>7th</p></td><td><p>+5</p></td><td><p>+5</p></td><td><p>+2</p></td><td><p>+5</p></td><td><p>Sorcerous deception</p></td><td><p>9</p></td><td><p>5</p></td><td><p>3</p></td></tr><tr><td><p>8th</p></td><td><p>+6/+1</p></td><td><p>+6</p></td><td><p>+2</p></td><td><p>+6</p></td><td><p>Ill intentions</p></td><td><p>9</p></td><td><p>6</p></td><td><p>3</p></td></tr><tr><td><p>9th</p></td><td><p>+6/+1</p></td><td><p>+6</p></td><td><p>+3</p></td><td><p>+6</p></td><td><p>Grim news (movement mode) 2/encounter</p></td><td><p>10</p></td><td><p>6</p></td><td><p>4</p></td></tr><tr><td><p>10th</p></td><td><p>+7/+2</p></td><td><p>+7</p></td><td><p>+3</p></td><td><p>+7</p></td><td><p>Accursed will (damage), dark focus (2 disciplines), massacre 2/encounter</p></td><td><p>10</p></td><td><p>6</p></td><td><p>4</p></td></tr><tr><td><p>11th</p></td><td><p>+8/+3</p></td><td><p>+7</p></td><td><p>+3</p></td><td><p>+7</p></td><td><p>Black omen</p></td><td><p>11</p></td><td><p>7</p></td><td><p>5</p></td></tr><tr><td><p>12th</p></td><td><p>+9/+4</p></td><td><p>+8</p></td><td><p>+4</p></td><td><p>+8</p></td><td><p>Bleak prophecy</p></td><td><p>11</p></td><td><p>7</p></td><td><p>5</p></td></tr><tr><td><p>13th</p></td><td><p>+9/+4</p></td><td><p>+8</p></td><td><p>+4</p></td><td><p>+8</p></td><td><p>Dark murmur</p></td><td><p>12</p></td><td><p>7</p></td><td><p>5</p></td></tr><tr><td><p>14th</p></td><td><p>+10/+5</p></td><td><p>+9</p></td><td><p>+4</p></td><td><p>+9</p></td><td><p>Dark focus (adaptation)</p></td><td><p>12</p></td><td><p>8</p></td><td><p>5</p></td></tr><tr><td><p>15th</p></td><td><p>+11/+6/+1</p></td><td><p>+9</p></td><td><p>+5</p></td><td><p>+9</p></td><td><p>Grim news (movement mode) 3/encounter</p></td><td><p>13</p></td><td><p>8</p></td><td><p>6</p></td></tr><tr><td><p>16th</p></td><td><p>+11/+6/+1</p></td><td><p>+10</p></td><td><p>+5</p></td><td><p>+10</p></td><td><p>Massacre 3/encounter</p></td><td><p>13</p></td><td><p>8</p></td><td><p>6</p></td></tr><tr><td><p>17th</p></td><td><p>+12/+7/+2</p></td><td><p>+10</p></td><td><p>+5</p></td><td><p>+10</p></td><td><p>Rumors of war</p></td><td><p>14</p></td><td><p>9</p></td><td><p>6</p></td></tr><tr><td><p>18th</p></td><td><p>+13/+8/+3</p></td><td><p>+11</p></td><td><p>+6</p></td><td><p>+11</p></td><td><p>Voices in the dark</p></td><td><p>14</p></td><td><p>9</p></td><td><p>7</p></td></tr><tr><td><p>19th</p></td><td><p>+14/+9/+4</p></td><td><p>+11</p></td><td><p>+6</p></td><td><p>+11</p></td><td><p>Whispers of atrocity</p></td><td><p>15</p></td><td><p>9</p></td><td><p>7</p></td></tr><tr><td><p>20th</p></td><td><p>+15/+10/+5</p></td><td><p>+12</p></td><td><p>+6</p></td><td><p>+12</p></td><td><p>Dark focus (supremacy)</p></td><td><p>16</p></td><td><p>10</p></td><td><p>7</p></td></tr></tbody></table>",
+      "instructions": ""
+    },
+    "tags": [
+      "Initiator"
+    ],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "classAssociations": [
+        {
+          "name": "Accursed Will",
+          "uuid": "Compendium.pf1-pow.classes.Item.vIQbDX0bwa6eZHVD",
+          "level": 1
+        },
+        {
+          "name": "Dark Claim",
+          "uuid": "Compendium.pf1-pow.classes.Item.IvpJ2c2aZbH62xA2",
+          "level": 1
+        },
+        {
+          "name": "Ill Tidings",
+          "uuid": "Compendium.pf1-pow.classes.Item.oB5REmCZbu4OTG08",
+          "level": 1
+        },
+        {
+          "name": "Maneuvers",
+          "uuid": "Compendium.pf1-pow.classes.Item.PSyO3HUgaxFnlN35",
+          "level": 1
+        },
+        {
+          "name": "Maneuvers Readied",
+          "uuid": "Compendium.pf1-pow.classes.Item.MKaYmf9icpJMefm5",
+          "level": 1
+        },
+        {
+          "name": "Stances Known",
+          "uuid": "Compendium.pf1-pow.classes.Item.q2sZTReliWaUxFYo",
+          "level": 1
+        },
+        {
+          "name": "Dark Focus",
+          "uuid": "Compendium.pf1-pow.classes.Item.2mFz5NEjjf2MyEWX",
+          "level": 2
+        },
+        {
+          "name": "Grim News",
+          "uuid": "Compendium.pf1-pow.classes.Item.bbSukoIgs5mvpEtM",
+          "level": 3
+        },
+        {
+          "name": "Massacre",
+          "uuid": "Compendium.pf1-pow.classes.Item.449SCBWDRjkp0c06",
+          "level": 4
+        },
+        {
+          "name": "Elusive Shadow",
+          "uuid": "Compendium.pf1-pow.classes.Item.Q5LnYJi4CUzGFUKs",
+          "level": 5
+        },
+        {
+          "name": "Sorcerous Deception",
+          "uuid": "Compendium.pf1-pow.classes.Item.lfx9Gg4c0mTtc6wY",
+          "level": 7
+        },
+        {
+          "name": "Ill Intentions",
+          "uuid": "Compendium.pf1-pow.classes.Item.gxhYW7zQ26DCzEXf",
+          "level": 8
+        },
+        {
+          "name": "Black Omen",
+          "uuid": "Compendium.pf1-pow.classes.Item.Bk3wEVkukpgjZ8Wf",
+          "level": 11
+        },
+        {
+          "name": "Bleak Prophecy",
+          "uuid": "Compendium.pf1-pow.classes.Item.WdsENkNKafegVAnV",
+          "level": 12
+        },
+        {
+          "name": "Dark Murmur",
+          "uuid": "Compendium.pf1-pow.classes.Item.aSWiYNAWubTNNLwW",
+          "level": 13
+        },
+        {
+          "name": "Rumors of War",
+          "uuid": "Compendium.pf1-pow.classes.Item.FIKp7mMaUXeMdoVf",
+          "level": 17
+        },
+        {
+          "name": "Voices in the Dark",
+          "uuid": "Compendium.pf1-pow.classes.Item.231BTxOTx4Z3W1SA",
+          "level": 18
+        },
+        {
+          "name": "Whispers of Atrocity",
+          "uuid": "Compendium.pf1-pow.classes.Item.JnsusERkHD6etri1",
+          "level": 19
+        }
+      ]
+    },
+    "tag": "",
+    "armorProf": [
+      "lgt",
+      "shl"
+    ],
+    "weaponProf": [
+      "simple",
+      "martial"
+    ],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "high"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "wealth": "4d6 * 10",
+    "alignment": "",
+    "classSkills": {
+      "acr": true,
+      "apr": false,
+      "art": false,
+      "ahp": true,
+      "blf": true,
+      "clm": true,
+      "ckg": false,
+      "crf": false,
+      "dip": true,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": true,
+      "han": false,
+      "hea": true,
+      "int": true,
+      "kar": true,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": true,
+      "kmt": true,
+      "kna": false,
+      "kno": true,
+      "kpl": false,
+      "kre": true,
+      "lin": true,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": true,
+      "rid": false,
+      "sen": true,
+      "slt": false,
+      "spl": true,
+      "ste": true,
+      "sur": true,
+      "swm": false,
+      "umd": false
+    },
+    "customHD": "",
+    "casting": {
+      "type": ""
+    },
+    "maneuverProgression": {
+      "classType": "class",
+      "type": "regular"
+    }
+  },
+  "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "1vXar0r0abA4FiDV": 3,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d0bf92d765ea3beefd3ddab7d3a461354b5b3dbe",
+      "sourceId": "Compendium.yastmes-missing-content.classes.Item.aYfIKhbw7Wt01mB5"
+    },
+    "pf1spheres": {
+      "casterProgression": ""
+    },
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1743933913120,
+    "modifiedTime": 1750957244007,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "_id": "qFa80zpXGqGSILOK",
+  "sort": 0,
+  "_key": "!items!qFa80zpXGqGSILOK"
+}

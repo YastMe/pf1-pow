@@ -14,7 +14,7 @@
     "description": {
       "value": "<p><strong>Prerequisite(s)</strong>: One cursed razor maneuver<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Creatures struck down by this curse find themselves slowed as though in a nightmare, unable to escape their pursuers. Make a melee attack. If it hits, it deals weapon damage as normal, and the target must succeed at a Will save (DC 13 + your initiation modifier) or become cursed and staggered for a number of rounds equal to your initiator level. In addition, a target that fails its save takes a -1 penalty on attack rolls, Reflex saves, and to its AC, and moves at half its normal speed for the same duration.</p>"
     },
-    "discipline": "Black Seraph",
+    "discipline": "Cursed Razor",
     "initTime": {
       "units": "standard",
       "value": 1
@@ -41,10 +41,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "10.8",
+    "systemVersion": "11.6",
     "coreVersion": "12.331",
     "createdTime": 1732991342243,
-    "modifiedTime": 1736076969747,
+    "modifiedTime": 1750270881552,
     "lastModifiedBy": "jI6iseAymTC0jkXd",
     "compendiumSource": null,
     "duplicateSource": null

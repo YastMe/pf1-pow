@@ -50,7 +50,7 @@
                 "counter": "Contraataque",
                 "strike": "Ataque",
                 "stance": "Postura",
-				"untyped": "Sin tipo",
+                "untyped": "Sin tipo",
                 "text": "Ver texto"
             },
             "SaveType": "Tirada de salvación",
@@ -66,11 +66,35 @@
                 "half": "Mitad",
                 "negate": "Niega",
                 "text": "Ver texto"
-            }
+            },
+            "Levels": {
+                "1": "Nivel 1",
+                "2": "Nivel 2",
+                "3": "Nivel 3",
+                "4": "Nivel 4",
+                "5": "Nivel 5",
+                "6": "Nivel 6",
+                "7": "Nivel 7",
+                "8": "Nivel 8",
+                "9": "Nivel 9"
+            },
+            "NewManeuver": "Nueva maniobra",
+            "DC": {
+                "Base": "CD base de salvación",
+                "Discipline": "CD con arma de disciplina"
+            },
+            "Recover": "Recuperar maniobra",
+            "RecoverSuccess": "Recuperada",
+            "RecoverFailure": "No se puede recuperar",
+            "UseFailure": "No hay suficientes usos restantes para",
+            "NotReady": "no está preparada o concedida"
         },
         "Stances": {
             "Single": "Postura",
-            "Plural": "Posturas"
+            "Plural": "Posturas",
+            "StanceActive": "Activa",
+            "StanceInactive": "Inactiva",
+            "StanceLimit": "Desactivar límite de posturas activas"
         },
         "Skills": {
             "kmt": "Saber (Marcial)",
@@ -81,7 +105,8 @@
             "Single": "Uso",
             "Plural": "Usos",
             "Max": "Usos máximos",
-            "Current": "Usos restantes"
+            "Current": "Usos restantes",
+            "Cost": "Costo de aguante"
         },
         "HasUses": "Tiene límite de usos",
         "FeatTypes": {
@@ -90,10 +115,46 @@
                 "Single": "Disciplina marcial"
             }
         },
-		"Browse": "Buscar Maniobras",
-		"Attributes": {
-			"maneuverAttr": "Modificador de Iniciador"
-		},
-		"duoPartner": "Compañero de Duo"
+        "Browse": "Buscar maniobras",
+        "Attributes": {
+            "Strength": "Fuerza",
+            "Dexterity": "Destreza",
+            "Constitution": "Constitución",
+            "Intelligence": "Inteligencia",
+            "Wisdom": "Sabiduría",
+            "Charisma": "Carisma",
+            "maneuverAttr": "Modificador de iniciación",
+            "maneuverAttrTooltip": "@maneuverAttr"
+        },
+        "duoPartner": "Compañero de dúo",
+        "InitLevel": {
+            "Single": "Nivel de iniciador",
+            "Total": "Nivel total de iniciador"
+        },
+        "TabName": "Sendero de Guerra",
+        "Sparker": "Dote Chispa de Inspiración",
+        "MartiallyTrained": "Dote Entrenamiento Marcial",
+        "MaxManeuverLevel": "Nivel más alto de maniobra conocida",
+        "Stamina": {
+            "Total": "Aguante total",
+            "SecondaryTotal": "Aguante secundario total",
+            "Remaining": "Aguante restante",
+            "Pool": "Reserva de aguante",
+            "SecondaryPool": "Reserva secundaria",
+            "From": "Reserva usada: ",
+            "MaxManeuverKnown": {
+                "Text": "Máx. maniobras conocidas",
+                "Over": "Conoces más maniobras que el máximo permitido."
+            },
+            "MaxManeuverPrepared": {
+                "Text": "Máx. maniobras preparadas",
+                "Over": "Has preparado más maniobras que el máximo permitido."
+            },
+            "UseFailure": "No tienes suficiente aguante para usar",
+            "UseFatigue": "No puedes gastar puntos de aguante estando fatigado, exhausto o inconsciente.",
+            "Fatigue": "¡Te quedaste sin aguante! Ahora estás fatigado hasta recuperar al menos 1 punto de aguante.",
+            "Exhaustion": "¡Te quedaste sin aguante en tu reserva secundaria! Ahora estás exhausto hasta recuperar al menos 1 punto en la reserva secundaria.",
+            "BypassFatigue": "Dote Superar los Límites"
+        }
     }
 }

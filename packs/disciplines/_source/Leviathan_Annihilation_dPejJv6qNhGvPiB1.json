@@ -1,0 +1,58 @@
+{
+  "name": "Leviathan Annihilation",
+  "img": "icons/magic/water/water-jet-wave-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Surging Shark maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: None<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>With a mighty swing, you hit your target with overwhelming force that even shreds mighty sea vessels like they were paper. Make a melee attack. If it hits, you deal an additional [[8d6]] damage and the target is automatically locked. The target needs to make a Fortitude save (DC 18 + initiation modifier) or take an additional [[8d6]] damage and be stunned for 1 round. Objects must still make this save. Call of the Deep: The melee attack from this maneuver can be made at Close range (25 feet + 5 feet/2 levels). When a sea vessel or creature of Gargantuan size or larger fails it's saving throw against this maneuver it instead takes [[20d8]] damage that ignores hardness and DR.</p>"
+    },
+    "discipline": "Surging Shark",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "Negates",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "oODKYgzODcnOCfxZ",
+  "_id": "dPejJv6qNhGvPiB1",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270747251,
+    "modifiedTime": 1750270747251,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!dPejJv6qNhGvPiB1"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Into the Earth",
+  "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Brutal Crocodile Maneuver<br /><strong>Range</strong>: Melee<br /><strong>Target</strong>: Creature you are grappling<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Discipline: Brutal Crocodile (Strike) You slam your prey down at your feet, dealing substantial injury from the force of your throw. The target is released from the grapple, but is immediately knocked prone and takes [[2d10]] points of damage.</p>"
+    },
+    "discipline": "Brutal Crocodile",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "No save",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "lRBvaXaotkMLH0w1",
+  "_id": "CFzaCaBAu06lEQ20",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270723083,
+    "modifiedTime": 1750270723083,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!CFzaCaBAu06lEQ20"
+}

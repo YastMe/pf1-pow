@@ -1,0 +1,58 @@
+{
+  "name": "Isolating Blow",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Leaden Hyena Maneuvers<br /><strong>Range</strong>: Melee or Ranged<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>The agonizing ringing of your weapons in your opponent halts them from listening to or communicating with their allies. Make an attack roll against a creature. On a successful hit, the attack deals an additional [[6d6]] points of the damage and the target must make a Will save (DC 15 + your initiation modifier). On a failed save, the target cannot communicate with allies for one turn, meaning that it cannot understand what anyone else is saying nor can anyone understand what they are saying (this effect includes empathic connection such as telepathy). This does not interfere with the verbal components for spellcasting.</p>"
+    },
+    "discipline": "Leaden Hyena",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "bz87d8PjhPcIPToR",
+  "_id": "ixY0yUddG8WaQGlt",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!ixY0yUddG8WaQGlt"
+}

@@ -1,0 +1,150 @@
+{
+  "type": "class",
+  "name": "Epilektoi",
+  "system": {
+    "description": {
+      "value": "<p>Like an oracle, an epilektoi (the term is both singular and plural) is a mortal imbued with divine power. However, where an oracle is a master of divine magic, an epilektoi focuses their attention on martial prowess. Though rare, epilektoi are instantly recognizable on the battlefield, as they are often the warriors still standing after taking so many blows they're more wound than flesh, or stuck with so many arrows they look like a macabre pincushion. These unstoppable adepts are the epitome of the term “chosen one.”</p><p><strong>Special</strong>: As their powers are influenced by their faith, all epilektoi must focus their worship upon a divine source. While the vast majority of epilektoi revere a specific deity, a small number dedicate themselves to a divine concept worthy of devotion—such as battle, death, justice, or knowledge—free of a deific abstraction. (Work with your GM if you prefer this path to selecting a specific deity.)</p><p><strong>Alignment</strong>: An epilektoi's alignment must be within one step of their deity's, either along the law/chaos axis or the good/evil axis</p><p><strong>Hit Die</strong>: d12</p><p><strong>Class Skills</strong>: The Epilektoi's class skills are Acrobatics (Dex), Autohypnosis (Wis), Craft (Int), Diplomacy (Cha), Heal (Wis), Intimidate (Cha), Knowledge (local) (Int), Knowledge (martial) (Int), Knowledge (nobility) (Int), Knowledge (religion) (Int), Perform (Cha), Perception (Wis), Profession (Wis), Ride (Dex), Sense Motive (Wis), Spellcraft (Int), Survival (Wis), and Swim (Str).</p><p><strong>Skill Ranks Per Level</strong>: 4 + Int modifier</p><h1>Class Features</h1><table><tbody><tr><th><p>Level</p></th><th><p>Base Attack Bonus</p></th><th><p>Fort Save</p></th><th><p>Ref Save</p></th><th><p>Will Save</p></th><th><p>Special</p></th><th><p>Maneuvers</p><p>Known</p></th><th><p>Maneuvers</p><p>Readied</p></th><th data-colwidth=\"60\"><p>Stances</p><p>Known</p></th></tr><tr><td><p>1st</p></td><td><p>+1</p></td><td><p>+2</p></td><td><p>+0</p></td><td><p>+2</p></td><td><p>Aura, battle prayer, delayed damage pool</p></td><td><p>6</p></td><td><p>4 (2)</p></td><td data-colwidth=\"60\"><p>1</p></td></tr><tr><td><p>2nd</p></td><td><p>+2</p></td><td><p>+3</p></td><td><p>+0</p></td><td><p>+3</p></td><td><p>Implacability</p></td><td><p>7</p></td><td><p>5 (2)</p></td><td data-colwidth=\"60\"><p>2</p></td></tr><tr><td><p>3rd</p></td><td><p>+3</p></td><td><p>+3</p></td><td><p>+1</p></td><td><p>+3</p></td><td><p>Aligned disciplines, bonus feat, will of the gods</p></td><td><p>8</p></td><td><p>5 (2)</p></td><td data-colwidth=\"60\"><p>2</p></td></tr><tr><td><p>4th</p></td><td><p>+4</p></td><td><p>+4</p></td><td><p>+1</p></td><td><p>+4</p></td><td><p>Implacability</p></td><td><p>8</p></td><td><p>5 (2)</p></td><td data-colwidth=\"60\"><p>2</p></td></tr><tr><td><p>5th</p></td><td><p>+5</p></td><td><p>+4</p></td><td><p>+1</p></td><td><p>+4</p></td><td><p>Patient counterpoint</p></td><td><p>9</p></td><td><p>6 (3)</p></td><td data-colwidth=\"60\"><p>3</p></td></tr><tr><td><p>6th</p></td><td><p>+6/+1</p></td><td><p>+5</p></td><td><p>+2</p></td><td><p>+5</p></td><td><p>Implacability</p></td><td><p>9</p></td><td><p>6 (3)</p></td><td data-colwidth=\"60\"><p>3</p></td></tr><tr><td><p>7th</p></td><td><p>+7/+2</p></td><td><p>+5</p></td><td><p>+2</p></td><td><p>+5</p></td><td><p>Bonus feat</p></td><td><p>10</p></td><td><p>6 (3)</p></td><td data-colwidth=\"60\"><p>3</p></td></tr><tr><td><p>8th</p></td><td><p>+8/+3</p></td><td><p>+6</p></td><td><p>+2</p></td><td><p>+6</p></td><td><p>Implacability</p></td><td><p>10</p></td><td><p>7 (4)</p></td><td data-colwidth=\"60\"><p>3</p></td></tr><tr><td><p>9th</p></td><td><p>+9/+4</p></td><td><p>+6</p></td><td><p>+3</p></td><td><p>+6</p></td><td><p>Aligned defense</p></td><td><p>11</p></td><td><p>7 (4)</p></td><td data-colwidth=\"60\"><p>4</p></td></tr><tr><td><p>10th</p></td><td><p>+10/+5</p></td><td><p>+7</p></td><td><p>+3</p></td><td><p>+7</p></td><td><p>Implacability</p></td><td><p>11</p></td><td><p>7 (4)</p></td><td data-colwidth=\"60\"><p>4</p></td></tr><tr><td><p>11th</p></td><td><p>+11/+6/+1</p></td><td><p>+7</p></td><td><p>+3</p></td><td><p>+7</p></td><td><p>Bonus feat</p></td><td><p>12</p></td><td><p>8 (5)</p></td><td data-colwidth=\"60\"><p>5</p></td></tr><tr><td><p>12th</p></td><td><p>+12/+7/+2</p></td><td><p>+8</p></td><td><p>+4</p></td><td><p>+8</p></td><td><p>Implacability</p></td><td><p>12</p></td><td><p>8 (5)</p></td><td data-colwidth=\"60\"><p>5</p></td></tr><tr><td><p>13th</p></td><td><p>+13/+8/+3</p></td><td><p>+8</p></td><td><p>+4</p></td><td><p>+8</p></td><td><p>Intervention</p></td><td><p>13</p></td><td><p>8 (5)</p></td><td data-colwidth=\"60\"><p>5</p></td></tr><tr><td><p>14th</p></td><td><p>+14/+9/+4</p></td><td><p>+9</p></td><td><p>+4</p></td><td><p>+9</p></td><td><p>Implacability</p></td><td><p>13</p></td><td><p>9 (6)</p></td><td data-colwidth=\"60\"><p>5</p></td></tr><tr><td><p>15th</p></td><td><p>+15/+10/+5</p></td><td><p>+9</p></td><td><p>+5</p></td><td><p>+9</p></td><td><p>Bonus feat</p></td><td><p>14</p></td><td><p>9 (6)</p></td><td data-colwidth=\"60\"><p>6</p></td></tr><tr><td><p>16th</p></td><td><p>+16/+11/+6/+1</p></td><td><p>+10</p></td><td><p>+5</p></td><td><p>+10</p></td><td><p>Implacability</p></td><td><p>14</p></td><td><p>9 (6)</p></td><td data-colwidth=\"60\"><p>6</p></td></tr><tr><td><p>17th</p></td><td><p>+17/+12/+7/+2</p></td><td><p>+10</p></td><td><p>+5</p></td><td><p>+10</p></td><td><p>Deific counter</p></td><td><p>15</p></td><td><p>10 (7)</p></td><td data-colwidth=\"60\"><p>6</p></td></tr><tr><td><p>18th</p></td><td><p>+18/+13/+8/+3</p></td><td><p>+11</p></td><td><p>+6</p></td><td><p>+11</p></td><td><p>Implacability</p></td><td><p>16</p></td><td><p>10 (7)</p></td><td data-colwidth=\"60\"><p>7</p></td></tr><tr><td><p>19th</p></td><td><p>+19/+14/+9/+4</p></td><td><p>+11</p></td><td><p>+6</p></td><td><p>+11</p></td><td><p>Bonus feat</p></td><td><p>17</p></td><td><p>10 (7)</p></td><td data-colwidth=\"60\"><p>7</p></td></tr><tr><td><p>20th</p></td><td><p>+20/+15/+10/+5</p></td><td><p>+12</p></td><td><p>+6</p></td><td><p>+12</p></td><td><p>Deific implacability</p></td><td><p>18</p></td><td><p>11 (8)</p></td><td data-colwidth=\"60\"><p>7</p></td></tr></tbody></table><p></p><h1>Ex-Epilektoi</h1><p>An epilektoi who grossly violates the code of conduct required by their deity or strays too far from their deity's alignment loses all maneuvers and class features, except for bonus feats, armor and shield proficiencies, and proficiency with simple and martial weapons. They cannot thereafter gain levels as an epilektoi of that god until they atone for their deeds (see the atonement spell description). An epilektoi can also serve a new deity when they atone. If they do, they choose new disciplines and maneuvers for any alignment aspects that changed during their conversion.</p>",
+      "instructions": ""
+    },
+    "tags": [
+      "Initiator"
+    ],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "tag": "",
+    "armorProf": [
+      "lgt",
+      "med",
+      "hvy",
+      "shl",
+      "twr"
+    ],
+    "weaponProf": [
+      "simple",
+      "martial",
+      "Deity's Favored Weapon"
+    ],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "base",
+    "level": 1,
+    "hd": 12,
+    "hp": 12,
+    "bab": "high",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "high"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "wealth": "",
+    "alignment": "",
+    "classSkills": {
+      "acr": true,
+      "apr": false,
+      "art": false,
+      "ahp": true,
+      "blf": false,
+      "clm": false,
+      "crf": true,
+      "dip": true,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": true,
+      "int": true,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": true,
+      "kmt": true,
+      "kna": false,
+      "kno": true,
+      "kpl": false,
+      "kre": true,
+      "lin": false,
+      "lor": false,
+      "per": true,
+      "prf": true,
+      "pro": true,
+      "rid": true,
+      "sen": true,
+      "slt": false,
+      "spl": true,
+      "ste": false,
+      "sur": true,
+      "swm": true,
+      "umd": false
+    },
+    "customHD": "",
+    "casting": {
+      "type": ""
+    },
+    "maneuverProgression": {
+      "classType": "class",
+      "type": "granted"
+    }
+  },
+  "_id": "sueYnaTIug0y8XJq",
+  "img": "systems/pf1/icons/skills/light_04.jpg",
+  "effects": [],
+  "folder": "k4B6Y1N3UwckYOGM",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1746913635445,
+    "modifiedTime": 1750957224367,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "_key": "!items!sueYnaTIug0y8XJq"
+}

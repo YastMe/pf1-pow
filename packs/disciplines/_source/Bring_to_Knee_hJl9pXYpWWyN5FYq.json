@@ -1,0 +1,58 @@
+{
+  "name": "Bring to Knee",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Leaden Hyena Maneuver<br /><strong>Range</strong>: Melee or Ranged<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: See text</p><h2>Description</h2><p>Striking a low blow against your opponent, you take them off their feet and dispose of their fighting ability temporarily. Make an attack roll against a creature. On a successful hit, the target is knocked prone and must make a Fortitude save (DC 14 + your initiation modifier). On a successful save they are staggered for 1 round. On a failure, all of the creature's movement speeds are reduced to 0 for a number of rounds equal to your initiation modifier. becomes staggered for a number of rounds equal to your initiation modifier.</p>"
+    },
+    "discipline": "Leaden Hyena",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "Partial",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "XeAdG5OPp8jgmdPy",
+  "_id": "hJl9pXYpWWyN5FYq",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!hJl9pXYpWWyN5FYq"
+}

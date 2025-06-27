@@ -1,127 +1,144 @@
 {
-	"id": "pf1-pow",
-	"title": "Path of War for PF1e",
-	"version": "1.3",
-	"relationships": {
-		"systems": [
-			{
-				"id": "pf1",
-				"type": "system",
-				"compatibility": {
-					"minimum": "10",
-					"verified": "11.2"
-				}
-			}
-		],
-		"requires": [
-			{
-				"id": "lib-wrapper",
-				"type": "module"
-			}
-		]
-	},
-	"compatibility": {
-		"minimum": "12",
-		"verified": "12"
-	},
-	"languages": [
-		{
-			"lang": "en",
-			"name": "English",
-			"path": "lang/en.json",
-			"flags": {}
-		},
-		{
-			"lang": "es",
-			"name": "Español",
-			"path": "lang/es.json",
-			"flags": {}
-		}
-	],
-	"esmodules": [
-		"scripts/path-of-war.mjs"
-	],
-	"documentTypes": {
-		"Item": {
-			"maneuver": {
-				"htmlFields": [
-					"description.value"
-				],
-				"filePathFields": {
-					"img": [
-						"IMAGE"
-					]
-				}
-			}
-		}
-	},
-	"authors": [
-		{
-			"name": "YastMe",
-			"discord": "YastMe"
-		}
-	],
-	"packFolders": [
-		{
-			"name": "Path of War",
-			"packs": [
-				"disciplines",
-				"feats",
-				"traits",
-				"macros"
-			],
-			"color": "#777777",
-			"folders": []
-		}
-	],
-	"packs": [
-		{
-			"name": "disciplines",
-			"label": "Disciplines",
-			"path": "packs/disciplines",
-			"type": "Item",
-			"system": "pf1",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
-		},
-		{
-			"name": "macros",
-			"label": "Macros",
-			"path": "packs/macros",
-			"type": "Macro",
-			"system": "pf1",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
-		},
-		{
-			"name": "traits",
-			"label": "Traits",
-			"path": "packs/traits",
-			"type": "Item",
-			"system": "pf1",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
-		},
-		{
-			"name": "feats",
-			"label": "Feats",
-			"path": "packs/feats",
-			"type": "Item",
-			"system": "pf1",
-			"ownership": {
-				"PLAYER": "OBSERVER",
-				"ASSISTANT": "OWNER"
-			}
-		}
-	],
-	"bugs": "https://github.com/YastMe/pf1-pow/issues",
-	"url": "https://github.com/YastMe/pf1-pow",
-	"manifest": "https://github.com/YastMe/pf1-pow/releases/download/1.3/module.json",
-	"download": "https://github.com/YastMe/pf1-pow/releases/download/1.3/1.3.zip"
+  "id": "pf1-pow",
+  "title": "Path of War for PF1e",
+  "version": "1.4",
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf1",
+        "type": "system",
+        "compatibility": {
+          "minimum": "10",
+          "verified": "11.2"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "scripts/path-of-war.mjs"
+  ],
+  "styles": [
+	"styles/styles.css"
+  ],
+  "documentTypes": {
+    "Item": {
+      "maneuver": {
+        "htmlFields": [
+          "description.value"
+        ],
+        "filePathFields": {
+          "img": [
+            "IMAGE"
+          ]
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "YastMe",
+      "discord": "YastMe",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Path of War",
+      "packs": [
+		"classes",
+        "disciplines",
+        "feats",
+        "traits",
+        "macros"
+      ],
+      "color": "#777777",
+      "folders": []
+    }
+  ],
+  "packs": [
+    {
+      "name": "disciplines",
+      "label": "Disciplines",
+      "path": "packs/disciplines",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "traits",
+      "label": "Traits",
+      "path": "packs/traits",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf1"
+    }
+  ],
+  "bugs": "https://github.com/YastMe/pf1-pow/issues",
+  "url": "https://github.com/YastMe/pf1-pow",
+  "manifest": "https://github.com/YastMe/pf1-pow/releases/download/1.3.1/module.json",
+  "download": "https://github.com/YastMe/pf1-pow/releases/download/1.3.1/1.3.1.zip"
 }

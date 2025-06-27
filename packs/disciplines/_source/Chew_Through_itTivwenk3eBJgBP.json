@@ -1,0 +1,58 @@
+{
+  "name": "Chew Through",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>A snip here, a cut there, and soon your opponent's defenses are in shambles. Make a melee attack. If successful, you deal damage as normal and the target is tricked for a number of rounds equal to your initiation modifier. Additionally, this strike gains an extra effect of your choice. The target must make a Reflex save (DC 15 + initiation modifier) or: Lose their natural armor bonus to AC for 1 round. Lose their armor and shield bonus to AC for 1 round. Exploit: The target gains a -4 on their saving throws for 1 round, including the save against this strike.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "Negates",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "wDMP0AbL8DlnE4rF",
+  "_id": "itTivwenk3eBJgBP",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!itTivwenk3eBJgBP"
+}

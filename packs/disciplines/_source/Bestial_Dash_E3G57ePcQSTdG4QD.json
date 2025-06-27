@@ -1,0 +1,58 @@
+{
+  "name": "Bestial Dash",
+  "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Discipline: Brutal Crocodile (Strike) Prey in hand, the initiator rushes across the battlefield. Make a move action using your standard movement speed as opposed to your diminished grappled speed. This movement provokes attack of opportunity as normal. Creatures you are grappling move with you, maintaining the same relative position to you all throughout the movement. If a grappled creature would end its turn in the same space as another creature or object or would collide with an object or creature in a way that would stop it being moved, both entities take [[2d10]] damage.</p>"
+    },
+    "discipline": "Brutal Crocodile",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "No save",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "0CsZFSbgxGRxsLEY",
+  "_id": "E3G57ePcQSTdG4QD",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270723083,
+    "modifiedTime": 1750270723083,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!E3G57ePcQSTdG4QD"
+}

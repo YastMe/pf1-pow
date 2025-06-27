@@ -1,0 +1,58 @@
+{
+  "name": "Disrupting Jaws",
+  "img": "icons/magic/water/water-jet-wave-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Surging Shark maneuvers <br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You may initiate this boost after having made a successful attack that dealt damage against a locked target. The target immediately takes an additional [[6d6]] damage and loses concentration on any spells or other magical effects. This damage is considered to be injury damage for the purposes of concentration checks and lasts for 1 round. </p>"
+    },
+    "discipline": "Surging Shark",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "gRW4KU4pKFAgu1St",
+  "_id": "IX7GwpDUI2M0U7ZF",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270747251,
+    "modifiedTime": 1750270747251,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!IX7GwpDUI2M0U7ZF"
+}

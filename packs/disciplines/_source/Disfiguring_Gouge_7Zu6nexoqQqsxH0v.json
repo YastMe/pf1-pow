@@ -1,0 +1,58 @@
+{
+  "name": "Disfiguring Gouge",
+  "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Brutal Crocodile Maneuvers<br /><strong>Range</strong>: Melee<br /><strong>Target</strong>: Creature you are grappling<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Discipline: Brutal Crocodile (Strike) Burrowing your weapon into their face, you inflict severe injury upon your foe's countenance. This maneuver deals [[4d10]] damage to the grappled creature alongside [[1d8]] Charisma damage. In addition, the target must make a Fortitude save (DC 16 + your initiation modifier) or become permanently blinded.</p>"
+    },
+    "discipline": "Brutal Crocodile",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Text",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "nsSBjWKo9QEhfAuG",
+  "_id": "7Zu6nexoqQqsxH0v",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270723083,
+    "modifiedTime": 1750270723083,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!7Zu6nexoqQqsxH0v"
+}

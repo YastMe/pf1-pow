@@ -1,0 +1,58 @@
+{
+  "name": "All According to Plan",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 1 Roaring Mouse maneuver<br /><strong>Range</strong>: Close (25 ft. + 5ft./2 levels)<br /><strong>Target</strong>: One or more allies<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You set up a brilliant plan for your allies to execute. Select a number of allies up to your initiation modifier within range. They may make a single attack against any one creature with the tricked condition that they threaten. Ranged attackers may make an attack against any tricked creature within Close range of you.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "FYZOifIbIONB7obm",
+  "_id": "BjU5ySaFWxRlIIz8",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!BjU5ySaFWxRlIIz8"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Rat in a Cage",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>You show your foes just what it's like being helpless and alone. Make a melee attack. If successful, you deal an additional [[4d6]] damage. Additionally, make an Escape Artist check with a DC equal to the target's CMD. If successful, your foe is entangled and rooted to their current position and cannot move for [[1d4]] rounds. Exploit: The target cannot treat any creature as an ally for a number of rounds equal to your initiation modifier. You do not need to succeed at the Escape Artist check to use this exploit.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "wDMP0AbL8DlnE4rF",
+  "_id": "gCHRx0yOODnVbtoV",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!gCHRx0yOODnVbtoV"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Stance of Sown Mistrust",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Leaden Hyena Maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You distill away any sense of camaraderie or trust that your foes possess, replacing it with dread. Enemies within 30 feet of you are no longer treated as allies to other creatures and can't provide or benefit from flanking, use or benefit from Teamwork feats or aid another actions, or allow other creatures to move through their space. Any spell or effect that requires a willing target fails if used on an affected creature, and even harmless effects require an attack roll (if applicable) and require affected creatures to attempt a saving throw to resist their effects (if a save is allowed).</p>"
+    },
+    "discipline": "Leaden Hyena",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "CvAJ7FHVk9EFlCyV",
+  "_id": "yN3dmv9SXutmxHXA",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!yN3dmv9SXutmxHXA"
+}

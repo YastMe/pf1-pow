@@ -1,0 +1,26 @@
+{
+  "name": "Mystic",
+  "sorting": "a",
+  "folder": "jue4EIseroc5nauv",
+  "type": "Item",
+  "_id": "ER1Mcdlpe7t77gpT",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "64ae43704c326559c42252d274730b9437e19967"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.5",
+    "createdTime": null,
+    "modifiedTime": 1746913445440,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "_key": "!folders!ER1Mcdlpe7t77gpT"
+}

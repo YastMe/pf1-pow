@@ -1,0 +1,58 @@
+{
+  "name": "Magebreaker",
+  "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Brutal Crocodile Maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: one round</p><h2>Description</h2><p>Discipline: Brutal Crocodile (Boost) Some disciples of the Brutal Crocodile have learned pseudo-arcane techniques so as to handle supernaturally tenacious foes. Upon initiating this maneuver, you treat any creatures that you are grappling or that you grapple this turn as if they were under the effects of an Antimagic Field until the end of your next turn. This maneuver is a supernatural ability rather than an extraordinary one.</p>"
+    },
+    "discipline": "Brutal Crocodile",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "No save",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "xJKkWpyKhLdq2CrC",
+  "_id": "77GoIYsdgRUdNKc0",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270723083,
+    "modifiedTime": 1750270723083,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!77GoIYsdgRUdNKc0"
+}

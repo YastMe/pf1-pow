@@ -14,7 +14,7 @@
     "description": {
       "value": "<p><strong>Prerequisite(s)</strong>: One cursed razor maneuver<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>This vicious strike preys upon the weak and persecuted. Make a melee attack. If it hits, it deals weapon damage as normal plus an additional [[2d6]] points of damage, and the target must succeed at a Reflex save (DC 13 + your initiation modifier) or be knocked prone. If the target is flanked (either by you or by other creatures), this strike's additional damage increases to [[4d6]].</p>"
     },
-    "discipline": "Black Seraph",
+    "discipline": "Cursed Razor",
     "initTime": {
       "units": "standard",
       "value": 1
@@ -41,10 +41,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "10.8",
+    "systemVersion": "11.6",
     "coreVersion": "12.331",
     "createdTime": 1732991283012,
-    "modifiedTime": 1736076969747,
+    "modifiedTime": 1750270884375,
     "lastModifiedBy": "jI6iseAymTC0jkXd",
     "compendiumSource": null,
     "duplicateSource": null

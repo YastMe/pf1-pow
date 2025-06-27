@@ -14,7 +14,7 @@
     "description": {
       "value": "<p><strong>Prerequisite(s)</strong>: Two cursed razor maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: Self<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>This malevolent aura robs its victims of their supernatural edges and interferes with their oaths. While you maintain this stance, opponents within 30 feet of you lose the benefits of any anarchic, axiomatic, insight, profane, or sacred bonuses they possess (they regain the benefits of these bonuses when they leave the area or you assume a different stance). In addition, any creature you hit with a melee weapon (including natural weapons) becomes cursed for a number of rounds equal to your initiation modifier. This stance's effect resolves after other effects relating to the attack (such as strikes or weapon properties). </p>"
     },
-    "discipline": "Black Seraph",
+    "discipline": "Cursed Razor",
     "initTime": {
       "units": "swift",
       "value": 1
@@ -41,10 +41,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "10.8",
+    "systemVersion": "11.6",
     "coreVersion": "12.331",
     "createdTime": 1732991388945,
-    "modifiedTime": 1736076969747,
+    "modifiedTime": 1750270854350,
     "lastModifiedBy": "jI6iseAymTC0jkXd",
     "compendiumSource": null,
     "duplicateSource": null

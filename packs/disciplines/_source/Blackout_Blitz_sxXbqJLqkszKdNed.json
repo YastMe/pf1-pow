@@ -1,0 +1,62 @@
+{
+  "name": "Blackout Blitz",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Mangled Gear Maneuvers<br /><strong>Range</strong>: melee or ranged attacks, see text<br /><strong>Target</strong>: objects within range, see text<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>You rush across the battlefield with tools in hand, tearing apart anything in your way. Make a number of sunder attempts equal to the number of attacks you could make in a full attack, using a Disable Device check in place of an attack roll for each sunder attempt. These sunder attempts do not provoke attacks of opportunity. After each attempt you make, you may move 5 feet without provoking attacks of opportunity.</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "aTnRr1n0lSBP2EDq",
+  "_id": "sxXbqJLqkszKdNed",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "7e778277e308844308639ba759a73cae6ec0be17"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!sxXbqJLqkszKdNed"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "The World’s Greatest Trick",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 3 Roaring Mouse maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>This is it, it doesn't get any better than this. Make an attack. If it hits, you deal damage as normal plus [[7d6]] additional damage and they are tricked for a number of rounds equal to your initiation modifier. Additionally, make an Escape Artist check against the foe's CMD. If successful, the foe is subject to every condition that you could inflict by the dirty trick maneuver (normally limited to blinded, dazzled, deafened, entangled, shaken, or sickened; though other abilities may add other conditions), using the result of your Escape Artist check as your CMB roll when determining the duration and other effects of the dirty tricks, plus an additional effect of your choice. The target makes an attack against a creature of your choice. They must be able to attack the creature without moving. This attack deals damage as normal plus an additional [[4d6]] damage. The target deals damage to themself as if they attacked with a weapon they are wielding plus an additional [[2d6]] damage and they are knocked prone. These effects occur before the target is subject to the dirty trick conditions. Exploit: The target must make a Will save (DC 18 + initiation modifier) or be confused as long as the dirty tricks conditions would last. A successful save reduces this confusion to one round. Upon using this exploit, the foe is immune to this exploit for seven rounds.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "Text",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "4l2YPLVKbMHWZWIH",
+  "_id": "HfAhwczNurPVOU5t",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!HfAhwczNurPVOU5t"
+}

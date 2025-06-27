@@ -1,0 +1,62 @@
+{
+  "name": "Redirect Energy",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Mangled Gear Maneuvers<br /><strong>Range</strong>: close (25 feet + 5 feet/2 levels)<br /><strong>Target</strong>: see text<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Sensing an oncoming attack, you steer it towards another target. When a creature casts a spell or makes an attack roll, you may force the target to make a Reflex save. If they fail, you may choose to have the effect target any target or location within its eligible range. Although this ability does not automatically identify the effect you are altering, it does give you a sense of its range and what targets it is capable of affecting.</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Negates",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "AGTy7yckmXlEgXiu",
+  "_id": "lMFCGQgRu1mcZg5x",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "724d8b69ab589475a5388b4ff7a9d0599f211a81"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!lMFCGQgRu1mcZg5x"
+}

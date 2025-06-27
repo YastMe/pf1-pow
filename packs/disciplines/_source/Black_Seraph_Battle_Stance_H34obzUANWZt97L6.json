@@ -33,7 +33,7 @@
     "changes": [],
     "contextNotes": [],
     "sources": [],
-    "maneuverType": "Boost"
+    "maneuverType": "Stance"
   },
   "folder": "vFOY4tQoHiF3QRVY",
   "_id": "H34obzUANWZt97L6",
@@ -41,10 +41,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "10.8",
+    "systemVersion": "11.6",
     "coreVersion": "12.331",
     "createdTime": 1732991230904,
-    "modifiedTime": 1736076969747,
+    "modifiedTime": 1750964887754,
     "lastModifiedBy": "jI6iseAymTC0jkXd",
     "compendiumSource": null,
     "duplicateSource": null

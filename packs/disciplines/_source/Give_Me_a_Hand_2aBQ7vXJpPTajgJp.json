@@ -1,0 +1,58 @@
+{
+  "name": "Give Me a Hand",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: One round</p><h2>Description</h2><p>You know how to gang up on your enemies, using your allies to your advantage. Upon initiating this boost, you and your allies are considered to be flanking any foe so long as you are adjacent to them, regardless of your actual position. Additionally, if your ally is maintaining a Roaring Mouse stance, you both gain a +2 bonus on attacks against the foe that you are flanking.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "QaBYZp0Gm2efmdpH",
+  "_id": "2aBQ7vXJpPTajgJp",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!2aBQ7vXJpPTajgJp"
+}

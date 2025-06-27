@@ -1,0 +1,130 @@
+{
+  "folder": "WmexsBAO9koEkQJ2",
+  "type": "feat",
+  "name": "Medic's Expertise",
+  "system": {
+    "description": {
+      "value": "<p>As the medic gains experience, she picks up various useful tricks to help her be more effective at the job of saving her friends. At first level, the medic learns two expertises, and she learns a new expertise at second level and every even numbered level thereafter. Medic's expertise that apply to her use of her triage ability are marked with an asterisk (*).</p><h2>Medic Expertises</h2><ul><li><p>@UUID[Compendium.pf1-pow.classes.Item.FQym1kiI9oehyscg]{Agile Runner} *</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.mUZfLBr7nbKLYrWS]{Bolstering Treatment} *</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.eg0Y07FGPcXtGK5d]{Careful Healer} *</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.UI34jZ9UBy1i71AL]{Combat Training}</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.Cu3o0UyvO7PPaqQp]{Developed Immunity}</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.qam5mpo1N9fhID63]{Doctor's Advice}</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.IZSsD96tgb45m0Vf]{Emboldening Boost}</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.pVKxswid9Y2ZYs6Y]{First Responder} *</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.PRgbStXwal1bcB3c]{Fortifying Touch} *</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.9m2BhEE3eFZOQTTg]{Invigorating Touch} *</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.LptpHyqPzDWpNnQj]{Martial Healer} *</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.A5tmdnllK0NebeVe]{Miracle Surgeon}</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.Tr4hYJ58Q7hd6KEr]{Neutralize Poison} *</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.VMdVXpGUD43Y0II7]{Poison Knowledge} *</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.CVIDfKDbRUibtKcB]{Recovering Touch} *</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.lZNDnyz5lUpMlblY]{Recovering Touch, Improved} *</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.brgPzAcCup9KRc7z]{Regroup} *</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.6kdCTTNq9sCpsKa0]{Revitalizing Touch} *</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.vfoL8qD3V6ngdDjX]{Treat Curse} *</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.eZQPi4bM1IWoXsjG]{Treat Disease} *</p></li><li><p>@UUID[Compendium.pf1-pow.classes.Item.v48eNTuF3RTZp9Tp]{Wrathful Healing} *</p></li></ul>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "showInCombat": false
+  },
+  "_id": "1jefVGmka4KQoPYT",
+  "img": "icons/magic/life/ankh-shadow-green.webp",
+  "effects": [],
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ab5499eb52d0745a306e40eae87a410805fdbb64"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf1",
+    "systemVersion": "11.3",
+    "createdTime": 1745750481947,
+    "modifiedTime": 1745751890850,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "exportSource": null
+  },
+  "_key": "!items!1jefVGmka4KQoPYT"
+}

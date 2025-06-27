@@ -1,0 +1,58 @@
+{
+  "name": "Meteoric Suplex",
+  "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Brutal Crocodile Maneuvers<br /><strong>Range</strong>: Melee, see text<br /><strong>Target</strong>: See text<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Discipline: Brutal Crocodile (Strike) Lunging from the ground at high speed, you slam your target into the dirt, injuring any unfortunate enough to stand in the way. You must be grappling a creature to initiate this maneuver. Make a charge attack against a creature within charge range of you, ignoring any difficult terrain between you. This attack deals [[10d10]] damage to the target as well as the grappled creature on a successful hit. In addition, any creatures within 15 feet of where you end your charge take [[2d10]] damage (Reflex save for half, DC 17 + your initiation modifier).</p>"
+    },
+    "discipline": "Brutal Crocodile",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Half",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "EeOaPrrCjnmgVVmC",
+  "_id": "q9G0tbzAO9eucaRL",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270723083,
+    "modifiedTime": 1750270723083,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!q9G0tbzAO9eucaRL"
+}

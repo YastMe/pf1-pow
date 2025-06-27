@@ -1,0 +1,58 @@
+{
+  "name": "Crab Cruncher",
+  "img": "icons/magic/water/water-jet-wave-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Surging Shark maneuvers<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You crush your foe with mighty blows, rending flesh and holding them fast. When you initiate this maneuver you can make two attacks at your full attack bonus. Each attack deals an additional [[3d6]] damage. If both attacks hit you make an additional attack at your highest attack bonus that deals [[4d10]] additional damage and automatically locks the target.</p>"
+    },
+    "discipline": "Surging Shark",
+    "initTime": {
+      "units": "nonaction",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "f9MAArIBaoqgid16",
+  "_id": "3YWvE6Gb4ago5T9G",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270747251,
+    "modifiedTime": 1750270747251,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!3YWvE6Gb4ago5T9G"
+}

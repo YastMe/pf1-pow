@@ -1,0 +1,225 @@
+{
+  "folder": "k4B6Y1N3UwckYOGM",
+  "type": "class",
+  "name": "Medic",
+  "system": {
+    "description": {
+      "value": "<p>While everyone would love the opportunity to receive the healing magics of the great churches, genius alchemists or noble paladins, the service of such heroes is a rare and valuable thing. Not everyone can afford the cost of such potent magics. For the rest of the world, natural healers great and small service those who are in need of care. On the battlefield, where wounds, disease and death run rampant, the ones who answer this call are known as medics. These brave warriors possess a keen wisdom and insight into the healing arts, which they use to aid their brothers on the field of combat. Though a medic's hands can heal, they are no slouches in combat, and their strength in arms can rival any warrior.</p><p><strong>Adventures</strong>: Medics often begin their adventuring careers alongside friends or companions whom they've known for some time. The medic's natural concern for others leads them to follow those important to them, to ensure their survival. Other medics may have begun their careers in the military, and thus adventure as part of special missions set out by their commanders. Still others are simply mercenary, offering their services to whomever provides the coin.</p><p><strong>Characteristics</strong>: The nature of a medic's job requires a calm, forceful demeanor. Medics cannot be ones to shy away from gore, filth, or horror of any kind and they do not rattle easily. This calm and dedicated personality often makes them a reliable companion.</p><p><strong>Alignment</strong>: Any. Medics work to heal wounds and sickness, but they are not always driven by a moral compulsion to do good. Some are greedy and charge high but fair prices for their services. Others revel in the pain and suffering of battle and take their time exploring the wounds they seek to heal with little thought for the suffering of their patients.</p><p><strong>Religion</strong>: Those medics who do believe in gods tend to favor gods of knowledge, medicine or community. Medics who began their careers as military personnel may choose to worship gods of war or glory. Whether or not a medic is particularly religious is a gamble though. While many look upon the acts of gods and their chosen faithful to draw strength, still others spit at the mention of gods and blame them for the messes that medics feel they must clean up.</p><p><strong>Background</strong>: Many medics could have made fine clergymen or intellectuals, but due to their station or upbringing these options were not available to them. More commonly though, the role of medic is one that is thrust upon them. Someone needed to step up and do the job, and they quickly find a talent for the dirty work of treating wounds.</p><p><strong>Races</strong>: Medics are common among many different races and all walks of life. They are more common among militaristic cultures, and cultures that are antagonistic towards magic. Thus, races such as humans, orcs, hobgoblins and maenads often produce medics.</p><p><strong>Other</strong> <strong>Classes</strong>: The nature of a medic's job makes them fast friends and allies with many different classes. Though they tend to be looked down upon by holierthan-thou clerics and the occasional haughty wizard, few are truly willing to turn down the aid of a medic when in need.</p><p><strong>Role</strong>: Medics perform damage control for their parties. A medic's job on the battlefield is often frantic as they must quickly prioritize their allies needs in order to best keep everyone alive. Some medics do this by performing emergency healing on allies, while others act to stop problems before they arise through proactive engagement.</p><p><strong>Abilities</strong>: Wisdom is the primary ability score that concerns medics as it determines the strength of their maneuvers and many aspects of their healing ability. Constitution and Dexterity are also important to medics as they help keep the medic in the fight and thus help them protect their allies.</p><p><strong>Starting Age</strong>: Self-Taught.</p><p><strong>Starting Wealth</strong>: 5d6 × 10 gp (average 140 gp.) In addition, each character begins play with an outfit worth 10 gp or less.</p><p><strong>Hit Die</strong>: d8.</p><p><strong>Class Skills</strong>: The medic's class skills are Acrobatics (Dex), Appraise (Int), Bluff (Cha), Craft (Int), Diplomacy (Cha), Heal (Wis), Knowledge (Martial) (Int), Knowledge (Nature) (Int), Knowledge (Nobility), Perception (Wis), Profession (Wis), Sense Motive (Wis), and Sleight of Hand (Dex).</p><p><strong>Skill Ranks per Level</strong>: 4 + Int modifier.</p><h1>Class Features</h1><table><tbody><tr><th data-colwidth=\"102\"><p>Level</p></th><th><p>Base Attack Bonus</p></th><th><p>Fort Save</p></th><th><p>Ref Save</p></th><th><p>Will Save</p></th><th><p>Special</p></th><th><p style=\"text-align:center\">Maneuvers</p><p style=\"text-align:center\">Known</p></th><th><p>Maneuvers</p><p>Readied</p></th><th><p>Stances</p><p>Known</p></th></tr><tr><td data-colwidth=\"102\"><p>1st</p></td><td><p>+0</p></td><td><p>+2</p></td><td><p>+0</p></td><td><p>+2</p></td><td><p>Medic's training, triage 3/encounter, medic's expertise (2)</p></td><td><p>5</p></td><td><p>3</p></td><td><p>1</p></td></tr><tr><td data-colwidth=\"102\"><p>2nd</p></td><td><p>+1</p></td><td><p>+3</p></td><td><p>+0</p></td><td><p>+3</p></td><td><p>Improved treatment, medic's expertise</p></td><td><p>6</p></td><td><p>4</p></td><td><p>2</p></td></tr><tr><td data-colwidth=\"102\"><p>3rd</p></td><td><p>+2</p></td><td><p>+3</p></td><td><p>+1</p></td><td><p>+3</p></td><td><p>Cura te ipsum +1</p></td><td><p>7</p></td><td><p>4</p></td><td><p>2</p></td></tr><tr><td data-colwidth=\"102\"><p>4th</p></td><td><p>+3</p></td><td><p>+4</p></td><td><p>+1</p></td><td><p>+4</p></td><td><p>Medic's expertise, triage 4/encounter</p></td><td><p>7</p></td><td><p>4</p></td><td><p>2</p></td></tr><tr><td data-colwidth=\"102\"><p>5th</p></td><td><p>+3</p></td><td><p>+4</p></td><td><p>+1</p></td><td><p>+4</p></td><td><p>Improved triage</p></td><td><p>8</p></td><td><p>5</p></td><td><p>3</p></td></tr><tr><td data-colwidth=\"102\"><p>6th</p></td><td><p>+4</p></td><td><p>+5</p></td><td><p>+2</p></td><td><p>+5</p></td><td><p>Guardian of life 1/day, medic's expertise</p></td><td><p>8</p></td><td><p>5</p></td><td><p>3</p></td></tr><tr><td data-colwidth=\"102\"><p>7th</p></td><td><p>+5</p></td><td><p>+5</p></td><td><p>+2</p></td><td><p>+5</p></td><td><p>Cura te ipsum +2, triage 5/encounter</p></td><td><p>9</p></td><td><p>5</p></td><td><p>3</p></td></tr><tr><td data-colwidth=\"102\"><p>8th</p></td><td><p>+6/+1</p></td><td><p>+6</p></td><td><p>+2</p></td><td><p>+6</p></td><td><p>Medic's expertise</p></td><td><p>9</p></td><td><p>6</p></td><td><p>3</p></td></tr><tr><td data-colwidth=\"102\"><p>9th</p></td><td><p>+6/+1</p></td><td><p>+6</p></td><td><p>+3</p></td><td><p>+6</p></td><td><p>Resuscitation</p></td><td><p>10</p></td><td><p>6</p></td><td><p>4</p></td></tr><tr><td data-colwidth=\"102\"><p>10th</p></td><td><p>+7/+2</p></td><td><p>+7</p></td><td><p>+3</p></td><td><p>+7</p></td><td><p>Triage 6/encounter, improved triage, medic's expertise</p></td><td><p>10</p></td><td><p>6</p></td><td><p>4</p></td></tr><tr><td data-colwidth=\"102\"><p>11th</p></td><td><p>+8/+3</p></td><td><p>+7</p></td><td><p>+3</p></td><td><p>+7</p></td><td><p>Cura te ipsum +3</p></td><td><p>11</p></td><td><p>7</p></td><td><p>5</p></td></tr><tr><td data-colwidth=\"102\"><p>12th</p></td><td><p>+9/+4</p></td><td><p>+8</p></td><td><p>+4</p></td><td><p>+8</p></td><td><p>Guardian of life 2/day, medic's expertise</p></td><td><p>11</p></td><td><p>7</p></td><td><p>5</p></td></tr><tr><td data-colwidth=\"102\"><p>13th</p></td><td><p>+9/+4</p></td><td><p>+8</p></td><td><p>+4</p></td><td><p>+8</p></td><td><p>Triage 7/encounter</p></td><td><p>12</p></td><td><p>7</p></td><td><p>5</p></td></tr><tr><td data-colwidth=\"102\"><p>14th</p></td><td><p>+10/+5</p></td><td><p>+9</p></td><td><p>+4</p></td><td><p>+9</p></td><td><p>Medic's expertise, improved resuscitation</p></td><td><p>12</p></td><td><p>8</p></td><td><p>5</p></td></tr><tr><td data-colwidth=\"102\"><p>15th</p></td><td><p>+11/+6/+1</p></td><td><p>+9</p></td><td><p>+5</p></td><td><p>+9</p></td><td><p>Cura te ipsum +4, improved triage</p></td><td><p>13</p></td><td><p>8</p></td><td><p>6</p></td></tr><tr><td data-colwidth=\"102\"><p>16th</p></td><td><p>+12/+7/+2</p></td><td><p>+10</p></td><td><p>+5</p></td><td><p>+10</p></td><td><p>Medic's expertise, triage 8/encounter</p></td><td><p>13</p></td><td><p>8</p></td><td><p>6</p></td></tr><tr><td data-colwidth=\"102\"><p>17th</p></td><td><p>+12/+7/+2</p></td><td><p>+10</p></td><td><p>+5</p></td><td><p>+10</p></td><td><p>Greater resuscitation</p></td><td><p>14</p></td><td><p>9</p></td><td><p>6</p></td></tr><tr><td data-colwidth=\"102\"><p>18th</p></td><td><p>+13/+8/+3</p></td><td><p>+11</p></td><td><p>+6</p></td><td><p>+11</p></td><td><p>Guardian of life 3/day, medic's expertise</p></td><td><p>15</p></td><td><p>9</p></td><td><p>7</p></td></tr><tr><td data-colwidth=\"102\"><p>19th</p></td><td><p>+14/+9/+4</p></td><td><p>+11</p></td><td><p>+6</p></td><td><p>+11</p></td><td><p>Cura te ipsum +5, triage 9/encounter</p></td><td><p>15</p></td><td><p>9</p></td><td><p>7</p></td></tr><tr><td data-colwidth=\"102\"><p>20th</p></td><td><p>+15/+10/+5</p></td><td><p>+12</p></td><td><p>+6</p></td><td><p>+12</p></td><td><p>Master medic, medic's expertise</p></td><td><p>16</p></td><td><p>10</p></td><td><p>7</p></td></tr></tbody></table>",
+      "instructions": ""
+    },
+    "tags": [
+      "Initiator"
+    ],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "classAssociations": [
+        {
+          "name": "Maneuvers",
+          "uuid": "Compendium.pf1-pow.classes.Item.afMXCMV2NKGanj4s",
+          "level": 1
+        },
+        {
+          "name": "Maneuvers Readied",
+          "uuid": "Compendium.pf1-pow.classes.Item.hpgsYYVXocu2q6lt",
+          "level": 1
+        },
+        {
+          "name": "Medic's Expertise",
+          "uuid": "Compendium.pf1-pow.classes.Item.1jefVGmka4KQoPYT",
+          "level": 1
+        },
+        {
+          "name": "Medic's Training",
+          "uuid": "Compendium.pf1-pow.classes.Item.UkIil1vuoBGH5Ziu",
+          "level": 1
+        },
+        {
+          "name": "Stances Known",
+          "uuid": "Compendium.pf1-pow.classes.Item.F8oQpXoCyNF0copy",
+          "level": 1
+        },
+        {
+          "name": "Triage",
+          "uuid": "Compendium.pf1-pow.classes.Item.czLeWy0F6SypeeVU",
+          "level": 1
+        },
+        {
+          "name": "Improved Treatment",
+          "uuid": "Compendium.pf1-pow.classes.Item.216W8cfYmAtj1Tlk",
+          "level": 2
+        },
+        {
+          "name": "Cura Te Ipsum",
+          "uuid": "Compendium.pf1-pow.classes.Item.CvXmH4wcbUPSMivV",
+          "level": 3
+        },
+        {
+          "name": "Improved Triage",
+          "uuid": "Compendium.pf1-pow.classes.Item.3bjDosCq0lsNB0Fn",
+          "level": 5
+        },
+        {
+          "name": "Guardian of Life",
+          "uuid": "Compendium.pf1-pow.classes.Item.bDykfI63NsXiUSWG",
+          "level": 6
+        },
+        {
+          "name": "Resuscitation",
+          "uuid": "Compendium.pf1-pow.classes.Item.qZSKevqUedr9Z2yl",
+          "level": 9
+        },
+        {
+          "name": "Improved Resuscitation",
+          "uuid": "Compendium.pf1-pow.classes.Item.tSTRFkYYTc8aGZT2",
+          "level": 14
+        },
+        {
+          "name": "Greater Resuscitation",
+          "uuid": "Compendium.pf1-pow.classes.Item.EeB4aRgedFkfI3nO",
+          "level": 17
+        },
+        {
+          "name": "Master Medic",
+          "uuid": "Compendium.pf1-pow.classes.Item.VD5e7cmtIxlzj6v1",
+          "level": 20
+        }
+      ]
+    },
+    "tag": "",
+    "armorProf": [
+      "lgt",
+      "med",
+      "shl"
+    ],
+    "weaponProf": [
+      "simple",
+      "martial"
+    ],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "high"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "wealth": "5d6 * 10",
+    "alignment": "",
+    "classSkills": {
+      "acr": true,
+      "apr": true,
+      "art": false,
+      "ahp": false,
+      "blf": true,
+      "clm": false,
+      "crf": true,
+      "dip": true,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": true,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": true,
+      "kna": true,
+      "kno": true,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": true,
+      "prf": false,
+      "pro": true,
+      "rid": false,
+      "sen": true,
+      "slt": true,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "customHD": "",
+    "casting": {
+      "type": ""
+    },
+    "maneuverProgression": {
+      "classType": "class",
+      "type": "regular"
+    }
+  },
+  "_id": "ifq9ULUIpYOrKyos",
+  "img": "icons/magic/life/cross-yellow-green.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e6819f45df09e05189465198598d509c177c74ce"
+    },
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1743934440761,
+    "modifiedTime": 1750957249130,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "_key": "!items!ifq9ULUIpYOrKyos"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Poisoned Will",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Leaden Hyena Maneuvers<br /><strong>Range</strong>: Melee or Ranged<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>War is the ultimate desecration of one's mind, and as the bloodshed continues a victim only becomes more unstable. Make an attack roll against a creature. On a success, the target takes [[10d6]] additional points of damage alongside 2 points of Wisdom bleed. This Wisdom bleed can be stopped with a successful Diplomacy check (DC 10 + your initiator level), and any ability that you possess that increases the DC of bleed effects increases this DC.</p>"
+    },
+    "discipline": "Leaden Hyena",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "W4rWFuOZrQ6hWTYo",
+  "_id": "wdW8yuSOs3wfYebV",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!wdW8yuSOs3wfYebV"
+}

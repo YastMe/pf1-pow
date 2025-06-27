@@ -1,0 +1,58 @@
+{
+  "name": "Cornered Rat",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: Two or more creatures<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You show your true ferocity when backed into a corner. You may initiate this counter whenever you are threatened by at least two opponents. Make an Escape Artist check and compare it to the AC of each opponent threatening you, up to a number of opponents equal to your initiation modifier. If successful, you may deal damage as if you hit them with a normal melee attack and each target is tricked for a number of rounds equal to your initiation modifier. Additionally, you may perform one of the following actions against every opponent you hit. You may perform a different action against each target if you wish. Perform a dirty trick, using the result of your Escape Artist check as your CMB roll when determining the duration and other effects of the dirty tricks. Knock the foe prone. Perform a disarm or steal maneuver, using the result of your Escape Artist check as your CMB roll when determining the effects of the disarm or steal maneuver.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "FYZOifIbIONB7obm",
+  "_id": "QuAy73DSLPyAzRga",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!QuAy73DSLPyAzRga"
+}

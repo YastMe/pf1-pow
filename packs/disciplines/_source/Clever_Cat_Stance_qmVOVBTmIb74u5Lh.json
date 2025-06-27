@@ -1,0 +1,58 @@
+{
+  "name": "Clever Cat Stance",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 2 Roaring Mouse maneuvers<br /><strong>Range</strong>: Personal (see text)<br /><strong>Target</strong>: You (see text)<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>Your movements set your foes on edge, distracting them and preventing them from using their abilities to the fullest. As long as you maintain this stance, you and all allies within Close range (25 feet + 5 feet per 2 initiator levels) gain a bonus equal to your initiation modifier to AC, skill checks, and on saving throws against attacks and effects from tricked enemies. Alternatively, you can enter a reversed version of this stance. If you do so, your tricked foes within range suffer a penalty equal to your initiation modifier on AC, skill checks, and saving throws. If you exploit a foe while they are affected by this stance, the penalty does not end until the exploit is complete. You may reverse or revert this stance's effects with a swift action, as if taking a different stance. If you do so, the previous effect immediately ends.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "DwDVOnEEdjuMgSyT",
+  "_id": "qmVOVBTmIb74u5Lh",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!qmVOVBTmIb74u5Lh"
+}

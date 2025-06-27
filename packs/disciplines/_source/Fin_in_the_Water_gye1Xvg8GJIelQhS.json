@@ -1,0 +1,58 @@
+{
+  "name": "Fin in the Water",
+  "img": "icons/magic/water/water-jet-wave-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Surging Shark maneuvers<br /><strong>Range</strong>: 60 feet<br /><strong>Target</strong>: All enemies within 60 feet<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>You know how to move with the terrifying grace of a shark, raising its fin out of the water to inflict fear upon those who see their inevitable doom coming towards them. When initiating this boost you may move up to twice your speed and make a Swim check. Treat this Swim check as a demoralize attempt against every enemy creature in range. If successful, the creatures are panicked instead of shaken. Call of the Deep: The concealment of the water aids you in inflicting absolute horror upon those you intend to hunt and kill. While in the water your targets are frozen in terror and gain the cowering condition instead of panicked.</p>"
+    },
+    "discipline": "Surging Shark",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "oODKYgzODcnOCfxZ",
+  "_id": "gye1Xvg8GJIelQhS",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270747251,
+    "modifiedTime": 1750270747251,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!gye1Xvg8GJIelQhS"
+}

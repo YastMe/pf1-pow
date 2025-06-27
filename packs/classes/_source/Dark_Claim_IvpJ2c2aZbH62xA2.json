@@ -1,0 +1,144 @@
+{
+  "folder": "1HjWEg0AH3wNng0J",
+  "type": "feat",
+  "name": "Dark Claim",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 1st level, a harbinger gains the ability to reach out with her sorcerous malice, marking foes as her own. As a swift action, the harbinger may Claim an opponent that she can see (including with special senses such as blindsense or tremorsense) within close range (25 feet + 5 feet per 2 harbinger levels) for a number of rounds equal to 1/2 her class level (minimum 1 round). A harbinger can have a maximum number of creatures Claimed equal to her harbinger initiation modifier (minimum 1), and may not Claim a creature she has already Claimed until or unless the Claim expires. Claimed creatures using the Withdraw action to leave a square threatened by the harbinger provoke attacks of opportunity from her.</p><p>In addition, the harbinger automatically knows the position of creatures she has Claimed. Any opponent the harbinger cannot see still has total concealment (50% miss chance) against her, and the harbinger still suffers the normal miss chance when attacking creatures that have concealment. The harbinger is still denied her Dexterity bonus to her AC against attacks from Claimed creatures she cannot see.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "charges",
+      "autoDeductChargesCost": "",
+      "maxFormula": "1 + @abilities.int.total",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "su",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "ckg": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "_id": "IvpJ2c2aZbH62xA2",
+  "img": "icons/magic/death/undead-skeleton-worn-blue.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1vXar0r0abA4FiDV": 3,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4dbbe2bd99d10f8a4102b09f8899a4691b508853"
+    },
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    },
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf1",
+    "systemVersion": "11.3",
+    "createdTime": 1743933917239,
+    "modifiedTime": 1743933917239,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "exportSource": null
+  },
+  "_key": "!items!IvpJ2c2aZbH62xA2"
+}

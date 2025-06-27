@@ -1,0 +1,58 @@
+{
+  "name": "Stance of the Frenzied Shark",
+  "img": "icons/magic/water/water-jet-wave-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Surging Shark maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You become a dweller of the deep, swift, powerful, unstoppable. None can escape your grasp, nor the bite of your weapons. Whenever you make a melee attack against a creature you may make a second attack using the first attack's modifier with a -5 penalty. This second attack is not considered to be part of a strike, nor does it gain any additional damage from strikes. This second attack does not trigger the eﬀect of this stance. Additionally, creatures you hit are automatically locked.</p>"
+    },
+    "discipline": "Surging Shark",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "oODKYgzODcnOCfxZ",
+  "_id": "xOsZBu9M1z5nAO82",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270747251,
+    "modifiedTime": 1750270747251,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!xOsZBu9M1z5nAO82"
+}

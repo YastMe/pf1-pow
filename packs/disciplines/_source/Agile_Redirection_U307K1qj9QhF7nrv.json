@@ -1,0 +1,58 @@
+{
+  "name": "Agile Redirection",
+  "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee<br /><strong>Target</strong>: Attacking Creature<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>Discipline: Brutal Crocodile (Counter) You turn a foe's momentum against them and shove them across the field. When a foe makes a melee attack against you, make a Climb check opposed by their attack roll. If your result exceeds theirs, the attack is completely negated, and you may move the target 10 feet in any direction of your choice (this movement provokes attack of opportunity).</p>"
+    },
+    "discipline": "Brutal Crocodile",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "No save",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "0CsZFSbgxGRxsLEY",
+  "_id": "U307K1qj9QhF7nrv",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270723083,
+    "modifiedTime": 1750270723083,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!U307K1qj9QhF7nrv"
+}

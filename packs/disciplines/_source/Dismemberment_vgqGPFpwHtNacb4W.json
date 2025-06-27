@@ -1,0 +1,58 @@
+{
+  "name": "Dismemberment",
+  "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Brutal Crocodile Maneuvers<br /><strong>Range</strong>: Melee<br /><strong>Target</strong>: Creature you are grappling<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Discipline: Brutal Crocodile (Strike) Roaring furiously, you rip one the limbs from your grapple target, causing blood to come gushing from the wound. Choose either a grappled creature's arm or leg. You are treated as if you had succeeded at a called shot maneuver on the target and had dealt a debilitating blow to the limb and the target had failed their save by 5 or more. In addition, the target takes [[3d6]] points of bleed damage until a creature makes a Heal check (DC = 17 + your initiation modifier) to close the wound. Even if a creature lacks discernible arms or legs, you may still use this maneuver upon them to inflict the bleed damage, although the maneuver has no other effects.</p>"
+    },
+    "discipline": "Brutal Crocodile",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "EeOaPrrCjnmgVVmC",
+  "_id": "vgqGPFpwHtNacb4W",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270723083,
+    "modifiedTime": 1750270723083,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!vgqGPFpwHtNacb4W"
+}

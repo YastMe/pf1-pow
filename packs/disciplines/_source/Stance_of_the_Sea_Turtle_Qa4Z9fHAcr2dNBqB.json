@@ -1,0 +1,58 @@
+{
+  "name": "Stance of the Sea Turtle",
+  "img": "icons/magic/water/water-jet-wave-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You have learned breathing exercises and special movements to emulate amphibious creatures. While maintaining this stance, you can hold your breath for a number of minutes equal to your Constitution score. At initiator level 5th, this increases to 10 minutes times your Constitution score. At initiator level 10th, it increases to a number of hours equal to your Constitution score. Additionally, you gain a swim speed equal to your base speed. Unlike most swim speeds, this does not grant you a +8 racial bonus to the Swim skill. Call of the Deep: Instead of a swim speed, you gain a land speed of 30 feet, or half your swim speed, whichever is greater. You may hold your breath outside of the water just as an air-breathing creature can hold their breath underwater. Unlike most call of the deep abilities, this may be used while not underwater.</p>"
+    },
+    "discipline": "Surging Shark",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "8uPfHrIWVJJ4HdGI",
+  "_id": "Qa4Z9fHAcr2dNBqB",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270747251,
+    "modifiedTime": 1750270747251,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Qa4Z9fHAcr2dNBqB"
+}

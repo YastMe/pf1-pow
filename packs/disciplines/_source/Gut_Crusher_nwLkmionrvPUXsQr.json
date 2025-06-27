@@ -1,0 +1,58 @@
+{
+  "name": "Gut Crusher",
+  "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Brutal Crocodile Maneuvers<br /><strong>Range</strong>: Melee<br /><strong>Target</strong>: Creature you are grappling.<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>Discipline: Brutal Crocodile (Strike) You smash your opponent in several vulnerable areas, dealing [[3d12]] damage to the target. The target must succeed at a Fortitude save (DC 15 + your initiation modifier) or become unable to perform any actions save for trying to escape the grapple for one round. You may release the target from the grapple when you initiate this maneuver. If you do, a target which failed their save instead becomes nauseated for 1 round.</p>"
+    },
+    "discipline": "Brutal Crocodile",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "Partial",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "xr3Y0lJT8ALG4omm",
+  "_id": "nwLkmionrvPUXsQr",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270723083,
+    "modifiedTime": 1750270723083,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!nwLkmionrvPUXsQr"
+}

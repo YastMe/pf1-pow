@@ -1,0 +1,26 @@
+{
+  "name": "1st level",
+  "folder": "Ht7i6iiIiSk5WN4Q",
+  "_id": "j8hWKm5rKqSrKT4m",
+  "type": "Item",
+  "sorting": "a",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "6392ef1f975862128391210430707c435f1a48e4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743483,
+    "modifiedTime": 1750270743483,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "description": "",
+  "color": null,
+  "_key": "!folders!j8hWKm5rKqSrKT4m"
+}

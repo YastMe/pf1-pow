@@ -1,0 +1,62 @@
+{
+  "name": "Mangled Gear Stance",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Mangled Gear Maneuver<br /><strong>Range</strong>: 30-foot radius centered on you.<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You activate a signal which makes the usage of equipment or magic difficult. All creatures and objects within the are take a -5 penalty on concentration checks as well as to the DCs to dispel any effects upon them. In addition, all items which use magic or advanced technology are treated as timeworn technological items, rolling on the appropriate glitch table each time they are used (use the pharmaceutical glitch table for spell trigger or spell completion items). Your own equipment is unaffected by this stance.</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "5bOUmmEo97IBeVSS",
+  "_id": "GPqXYKc9337b0G1f",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "3d135e8aec0afe784ba0fbbb5956085ef44d4a59"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!GPqXYKc9337b0G1f"
+}

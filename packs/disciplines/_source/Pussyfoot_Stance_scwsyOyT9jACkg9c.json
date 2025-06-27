@@ -1,0 +1,58 @@
+{
+  "name": "Pussyfoot Stance",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 1 Roaring Mouse maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You are always just out of sight, striking where your foes least expect it. While maintaining this stance you can share the space of allies. Doing so does not incur the normal penalties for sharing space on either you or your ally. While doing so, you gain concealment (20% miss chance) against opponents and count as flanking with that ally. This concealment allows you to use Stealth and other abilities that depend on concealment, so long as that ally is visible and not using Stealth themself. If your ally is also maintaining a Roaring Mouse stance, your concealment cannot be pierced by effects that allow foes to ignore concealment. Finally, regardless of whether you are sharing space with an ally, any foes hit by your attacks are tricked for a number of rounds equal to your initiation modifier.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "Tj2qXLPoDjO7CQ9f",
+  "_id": "scwsyOyT9jACkg9c",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!scwsyOyT9jACkg9c"
+}

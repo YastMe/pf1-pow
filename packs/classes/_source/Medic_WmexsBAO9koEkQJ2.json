@@ -1,0 +1,26 @@
+{
+  "name": "Medic",
+  "sorting": "a",
+  "folder": "jue4EIseroc5nauv",
+  "type": "Item",
+  "_id": "WmexsBAO9koEkQJ2",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "7fb2458a2446d37d295b7e5f3758c6f40a581d7e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!WmexsBAO9koEkQJ2"
+}

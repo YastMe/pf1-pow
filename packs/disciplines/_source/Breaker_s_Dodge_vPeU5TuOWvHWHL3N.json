@@ -1,0 +1,62 @@
+{
+  "name": "Breaker’s Dodge",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: melee or ranged attack<br /><strong>Target</strong>: one object used by a creature to attack you<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>As a foe raises their weaponry, you intercept their attack by going after their equipment. When a creature makes an attack roll against you, you may make a sunder check against the weapon they are using. If you succeed, the attack misses and the weapon takes sunder damage as normal.</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "EYQnIPitkoy02UAF",
+  "_id": "vPeU5TuOWvHWHL3N",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "4915995ecc6b2a4df0fe5676e68992cac3bf2a10"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!vPeU5TuOWvHWHL3N"
+}

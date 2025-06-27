@@ -1,0 +1,145 @@
+{
+  "folder": "1HjWEg0AH3wNng0J",
+  "type": "feat",
+  "name": "Maneuvers",
+  "system": {
+    "description": {
+      "value": "<p>A harbinger begins her career with knowledge of five martial maneuvers. The disciplines available to her are @UUID[Compendium.pf1-pow.disciplines.Item.t7dc9BTqmRiWG1Pl]{Cursed Razor}, @UUID[Compendium.pf1-pow.disciplines.Item.fAQ8OZBXpU5k2DzQ]{Riven Hourglass}, @UUID[Compendium.pf1-pow.disciplines.Item.VxMY717aKl0DWAVq]{Scarlet Throne}, @UUID[Compendium.pf1-pow.disciplines.Item.CjIJ03BoTVc0DoJ8]{Shattered Mirror}, and @UUID[Compendium.pf1-pow.disciplines.Item.hOIaMOPYuNWvfiCy]{Veiled Moon}.</p><p>Once the harbinger knows a maneuver, she must ready it before she can use it (see Maneuvers Readied, below). A maneuver usable by harbingers is considered an extraordinary ability unless otherwise noted in it or its discipline’s description. A harbinger’s maneuvers are not affected by spell resistance, and she does not provoke attacks of opportunity when she initiates one.</p><p>The harbinger learns additional maneuvers at higher levels, as indicated on Table 1-1: Harbinger. A harbinger must meet a maneuver’s prerequisite to learn it. See the Systems and Use page for more details on how maneuvers are used.</p><p>Upon reaching 4th level, and at every even numbered initiator level thereafter (6th, 8th, 10th, and so on), the harbinger can choose to learn a new maneuver in place of one she already knows. In effect, she loses the old maneuver in exchange for the new one. She can choose a new maneuver of any level she likes, as long as she observes the restriction on the highest-level maneuvers she knows; the harbinger need not replace the old maneuver with a maneuver of the same level. She can swap only a single maneuver at any given level. A harbinger’s initiation modifier is Intelligence.</p><h3>Editor's Note: Discipline Exchanges</h3><p>@UUID[Compendium.pf1-pow.disciplines.Item.YKyesqqDVNSpFBgN]{Fool's Errand}, <strong>Mangled Gear</strong>, @UUID[Compendium.pf1-pow.disciplines.Item.5w0wMZgWK1wxiZwL]{Radiant Dawn}, <strong>Roaring Mouse</strong>, <strong>Surging Shark</strong>: Any character of any class can access any of these disciplines by trading one of their available disciplines for one of the listed disciplines. If they do, they gain its associated skill as a class skill.</p><p>@UUID[Compendium.pf1-pow.disciplines.Item.v8mRfoRJwdNqR2bP]{Unquiet Grave}: Harbingers may exchange access to one of their martial disciplines for access to the Unquiet Grave discipline. They gain Knowledge (religion) as a class skill if they didn’t already have it.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "ckg": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "showInCombat": false
+  },
+  "_id": "PSyO3HUgaxFnlN35",
+  "img": "icons/magic/death/weapon-sword-skull-purple.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1vXar0r0abA4FiDV": 3,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "67b2eb3c924daf4e40acc90e5afd004e967b07d1"
+    },
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    },
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf1",
+    "systemVersion": "11.3",
+    "createdTime": 1743933917239,
+    "modifiedTime": 1743934190742,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "exportSource": null
+  },
+  "_key": "!items!PSyO3HUgaxFnlN35"
+}

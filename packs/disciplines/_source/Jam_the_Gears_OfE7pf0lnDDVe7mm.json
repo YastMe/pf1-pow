@@ -1,0 +1,62 @@
+{
+  "name": "Jam the Gears",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: melee or ranged attack<br /><strong>Target</strong>: one creature or object<br /><strong>Duration</strong>: see text</p><h2>Description</h2><p>Your attack inhibits the movement of some crucial component in a machine, arcane pattern, or even a creature's body. Make an attack against the target. On a hit, the attack deals [[2d6]] additional points of damage. If the target is a creature, it must succeed on a Fortitude save or be staggered for 1 round. If the target is an object, it must make a Fortitude save or be locked in its current position for 1 round/level. Locked vehicles cannot move, while locked ranged weapons cannot be fired and locked weapons which expend charges act as if they were powered off. Other pieces of equipment may also be affected in various ways at GM's discretion.</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "Negates",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "EYQnIPitkoy02UAF",
+  "_id": "OfE7pf0lnDDVe7mm",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "0f92cb0963f93d1c35046d148a546062ee772da6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!OfE7pf0lnDDVe7mm"
+}

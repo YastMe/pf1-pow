@@ -1,0 +1,58 @@
+{
+  "name": "Event Horizon",
+  "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "discipline": "Brutal Crocodile",
+    "level": 9,
+    "initTime": {
+      "value": 1,
+      "units": "standard"
+    },
+    "saveType": "Reflex",
+    "saveEffect": "Partial",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "description": {
+      "value": "<p><strong>Prerequisites</strong>: Four Brutal Crocodile Maneuvers<br /><strong>Range</strong>: Melee<br /><strong>Target</strong>: Creatures you are grappling<br /><strong>Duration</strong>: see text</p><h2>Description</h2><p>Your grappling abilities operate in more than three dimensions, enabling you to restrain your targets by bending the physical universe itself. All creatures you are grappling must make a Reflex save or be banished to the Astral Plane. Failure indicates that the target is shifted body and all into the Astral Plane and may not return to the Material Plane for one hour. If a foe has no way to return to the Material Plane after this duration has expired, it is effectively stranded and must find its own way back to its world. Those that succeed on their save have remain on the Astral Plane for only a single round before returning to their previous position. While in the Astral Plane, the target is tethered to his body at the location he occupied before being pushed into the Astral Plane with a silver cord as normal (per astral projection). You may pull targets you have sent to the Astral Plane with this maneuver back into your world as a standard action. When a creature is pulled back or returns after having succeeded at a saving throw, they appear in a square adjacent to you and you may attempt to grapple them again as an immediate action.</p>"
+    },
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "sMkA16kMzOjkKJgh",
+  "_id": "kiVv23GcE5OFvpy0",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270723083,
+    "modifiedTime": 1750270723083,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!kiVv23GcE5OFvpy0"
+}

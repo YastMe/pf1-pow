@@ -1,0 +1,58 @@
+{
+  "name": "Anaconda's Coils",
+  "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee<br /><strong>Target</strong>: Creature you are grappling<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Discipline: Brutal Crocodile (Boost) In a flash, you pounce on your opponent and slam them into the ground, pressing all of your weight on top of them. When you initiate this boost, make a Climb check. If the result exceeds the target's CMD, you immediately pin the creature.</p>"
+    },
+    "discipline": "Brutal Crocodile",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "No save",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "0CsZFSbgxGRxsLEY",
+  "_id": "YhHxT2hiYdg1ACzb",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270723083,
+    "modifiedTime": 1750270723083,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!YhHxT2hiYdg1ACzb"
+}

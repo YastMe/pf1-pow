@@ -1,0 +1,58 @@
+{
+  "name": "Bonebreaker Riposte",
+  "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Brutal Crocodile Maneuver<br /><strong>Range</strong>: Melee<br /><strong>Target</strong>: Attacking Creature<br /><strong>Duration</strong>: 1 round/level</p><h2>Description</h2><p>Discipline: Brutal Crocodile (Counter) When faced with an attacker, you have learned that your best hope is to incapacitate them, preventing them from further assaults. When a creature makes a melee attack roll against you, you may initiate this counter to make a Climb check against the creature's attack roll. On a success, the creature's attack is negated, and it cannot for any purpose use the limb it used to make the attack for the duration of this maneuver.</p>"
+    },
+    "discipline": "Brutal Crocodile",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "No save",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "xJKkWpyKhLdq2CrC",
+  "_id": "6eYytAPEeoIfiPIH",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270723083,
+    "modifiedTime": 1750270723083,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!6eYytAPEeoIfiPIH"
+}

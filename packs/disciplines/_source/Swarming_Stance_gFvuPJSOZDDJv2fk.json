@@ -1,0 +1,58 @@
+{
+  "name": "Swarming Stance",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 2 Roaring Mouse maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You have absolutely no regard for personal space, especially your foe's. While maintaining this stance, you can share the space of any opponent whose size differs from yours and can enter their space without provoking an attack of opportunity. Doing so does not incur the normal penalties for sharing space on you, however, it does incur these penalties on your opponent (for reference, the standard penalties are -4 to attack and AC) even if you or your opponent is small enough that they would not normally incur any penalties for sharing space. While doing so, any opponent whose space you are sharing is considered to be flanked by you as long as one of your allies is threatening them. Your opponent is considered to have any Betrayal feats you possess, and you may use them as an abettor. If your opponent is also maintaining a Roaring Mouse stance, however, they may use you as an abettor for any Betrayal feats you possess, though they do not know what those feats are unless they have seen them in action. If your opponent moves, you may stay within their space so long as the movement does not exceed your maximum movement. Any movement made to stay with your opponent subtracts from your maximum movement on your turn.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "wDMP0AbL8DlnE4rF",
+  "_id": "gFvuPJSOZDDJv2fk",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!gFvuPJSOZDDJv2fk"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Rat Takes the Cat",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 2 Roaring Mouse maneuvers<br /><strong>Range</strong>: Close (25 ft. + 5ft./2 levels)<br /><strong>Target</strong>: One creature within range<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>With a simple technique, you flip the world upside down. You may initiate this counter upon any creature within range (including yourself) becoming subject to an effect which grants a saving throw. For one round, the target may make saving throws using whichever save they prefer, and gaining any special effects related to that save (such as the evasion ability) when they do so. This is a supernatural maneuver. Exploit: Choose one enemy in range and make an Escape Artist check against their CMD. You may affect that enemy with this maneuver, and they must use their worst save when making saving throws. They only gain the effects of special abilities (such as evasion) if the save they are making is the normal one for the effect to which they are subjected. For example, a foe using their Reflex save against a poison would not gain evasion, but one who was making a Reflex save against a fireball spell would. Upon using this exploit, the target is immune to this exploit for four rounds. Special: If a creature is ever subjected to both the normal and exploit effects of this maneuver, the two cancel each other out unless the difference in initiator level between the two initiators is greater than 4. In that case, the effect of the higher level initiator overwhelms the other.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "wDMP0AbL8DlnE4rF",
+  "_id": "zqvxbdJi1ZwHRpUN",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!zqvxbdJi1ZwHRpUN"
+}

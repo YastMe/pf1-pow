@@ -1,0 +1,62 @@
+{
+  "name": "Optimum Performance",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Mangled Gear Maneuver<br /><strong>Range</strong>: close (25 feet + 5 feet/2 levels)<br /><strong>Target</strong>: One weapon<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>You create an energy field around a weapon which enables it to perform to its greatest potential. The weapon deals an additional +[[2d6]] damage on the next hit and ignores damage reduction and hardness.</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "5bOUmmEo97IBeVSS",
+  "_id": "KCczapFqLkqYC0Ib",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "5442813356e33da8b8a2a05efc321d4e381ddbe0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!KCczapFqLkqYC0Ib"
+}

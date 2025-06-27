@@ -1,0 +1,58 @@
+{
+  "name": "Shrimp Snap",
+  "img": "icons/magic/water/water-jet-wave-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Melee or ranged attack<br /><strong>Target</strong>: One or two creatures<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Like a crab, you snap forward and hold on tight. Make two attacks. If they hit, they deal damage as normal. Choose one creature who was hit and make a lock attempt against that creature. Call of the Deep: You may attempt to lock two creatures instead of one, if you hit both.</p>"
+    },
+    "discipline": "Surging Shark",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "8uPfHrIWVJJ4HdGI",
+  "_id": "Ru7qpPpSiqZ6ZCb8",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270747251,
+    "modifiedTime": 1750270747251,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Ru7qpPpSiqZ6ZCb8"
+}

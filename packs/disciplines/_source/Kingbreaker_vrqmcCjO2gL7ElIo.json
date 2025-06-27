@@ -1,0 +1,58 @@
+{
+  "name": "Kingbreaker",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Leaden Hyena Maneuvers<br /><strong>Range</strong>: see text<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: 1 round/level</p><h2>Description</h2><p>Few things rattle an army quite like seeing one of their own struck down, and you capitalize upon this fact ruthlessly. When a creature is struck by one of your attacks, you may initiate this boost to cause the creature and all of its allies within 30 feet to become wracked with discomfort. The target creature and its allies suffer a -4 penalty to AC and to all d20 rolls for one round/level.</p>"
+    },
+    "discipline": "Leaden Hyena",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "W4rWFuOZrQ6hWTYo",
+  "_id": "vrqmcCjO2gL7ElIo",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!vrqmcCjO2gL7ElIo"
+}

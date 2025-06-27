@@ -1,0 +1,130 @@
+{
+  "folder": "ER1Mcdlpe7t77gpT",
+  "type": "feat",
+  "name": "Maneuvers",
+  "system": {
+    "description": {
+      "value": "<p>A mystic begins her career with knowledge of seven martial maneuvers. The disciplines available to her are Elemental Flux, Mithral Current, Riven Hourglass, Shattered Mirror, Solar Wind, and Veiled Moon.</p><p>Once the mystic knows a maneuver, she must ready it before she can use it (see Maneuvers Readied). A maneuver usable by mystics is considered an extraordinary ability unless otherwise noted in it or its discipline's description. A mystic's maneuvers are not affected by spell resistance, and she does not provoke attacks of opportunity when she initiates one.</p><p>The mystic learns additional maneuvers at higher levels, as indicated on Table: Mystic. A mystic must meet a maneuver's prerequisite to learn it. See Systems and Use for more details on how maneuvers are used.</p><p>Upon reaching initiator level 4th, and at every even numbered initiator level thereafter (6th, 8th, 10th, and so on), the mystic can choose to learn a new maneuver in place of one she already knows. In effect, she loses the old maneuver in exchange for the new one. She can choose a new maneuver of any level she likes, as long as she observes the restriction on the highest-level maneuvers she knows; the mystic need not replace the old maneuver with a maneuver of the same level. She can swap only a single maneuver at any given level. A mystic's initiation modifier is Wisdom.</p><h3>Editor's Note: Discipline Exchanges</h3><p>@UUID[Compendium.pf1-pow.disciplines.Item.YKyesqqDVNSpFBgN]{Fool's Errand}, <strong>Mangled Gear</strong>, @UUID[Compendium.pf1-pow.disciplines.Item.5w0wMZgWK1wxiZwL]{Radiant Dawn}, <strong>Roaring Mouse</strong>, <strong>Surging Shark</strong>: Any character of any class can access any of these disciplines by trading one of their available disciplines for one of the listed disciplines. If they do, they gain its associated skill as a class skill.</p><p><strong>Sagitta Stellaris</strong>: Any class that has access to the Solar Wind or Tempest Gale discipline may trade any one of their disciplines known from that class for access to the Sagitta Stellaris discipline, gaining Knowledge (geography) as a class skill.</p><p>@UUID[Compendium.pf1-pow.disciplines.Item.v8mRfoRJwdNqR2bP]{Unquiet Grave}: This class may exchange access to any one of their martial disciplines for access to the Unquiet Grave discipline. They gain Knowledge (religion) as a class skill if they didn't already have it.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "showInCombat": false
+  },
+  "_id": "VXaxcmgX1WBmjmfZ",
+  "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fe11a3f21f2dded74e85b9f8b10a49182d7b219b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf1",
+    "systemVersion": "11.5",
+    "createdTime": 1746913445381,
+    "modifiedTime": 1746913445381,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "exportSource": null
+  },
+  "_key": "!items!VXaxcmgX1WBmjmfZ"
+}

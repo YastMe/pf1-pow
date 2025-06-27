@@ -1,0 +1,62 @@
+{
+  "name": "Keep the Flame Alive",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Mangled Gear Maneuvers<br /><strong>Range</strong>: personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>You produce a constant outflow of energy from your body, keeping your equipment in peak shape. While in this stance, items of any sort that you use do not have their charges depleted if you use them. This stance does not function for items whose caster or manifester level exceed half your initiator level.</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance"
+  },
+  "folder": "bvn9G4ALKmETTEqb",
+  "_id": "EP3qvNrekQdn4jf6",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "98fb898080ac8cfa30f45c40f1655f24da5f7a8e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!EP3qvNrekQdn4jf6"
+}

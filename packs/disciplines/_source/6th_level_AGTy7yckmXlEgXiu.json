@@ -1,0 +1,26 @@
+{
+  "name": "6th level",
+  "folder": "Ht7i6iiIiSk5WN4Q",
+  "_id": "AGTy7yckmXlEgXiu",
+  "type": "Item",
+  "sorting": "a",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "21b4561d5c5574567b355f87b93b34c6bd249ec4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743483,
+    "modifiedTime": 1750270743483,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "description": "",
+  "color": null,
+  "_key": "!folders!AGTy7yckmXlEgXiu"
+}

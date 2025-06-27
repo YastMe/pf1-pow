@@ -1,0 +1,58 @@
+{
+  "name": "Conviction Breaker",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Leaden Hyena Maneuvers<br /><strong>Range</strong>: Melee or Ranged<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: 1 round (see text)</p><h2>Description</h2><p>Tearing through your opponent with untamed voracity and sadism, you hammer out a rhythm that continually weakens their resolve. Make a full attack against the target, with each successful strike forcing them to make a Will save (DC 16 + your initiation modifier) or be shaken for 1 round. These penalties stack on top of each other, evolving to frightened and panicked as normal. If a target is already panicked, any failed Will save extends the duration of panicked by 1 round.</p>"
+    },
+    "discipline": "Leaden Hyena",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Text",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "CvAJ7FHVk9EFlCyV",
+  "_id": "8f910HJQtLBrw6aF",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!8f910HJQtLBrw6aF"
+}

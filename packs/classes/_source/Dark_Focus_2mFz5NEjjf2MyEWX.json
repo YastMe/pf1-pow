@@ -1,0 +1,144 @@
+{
+  "folder": "1HjWEg0AH3wNng0J",
+  "type": "feat",
+  "name": "Dark Focus",
+  "system": {
+    "description": {
+      "value": "<p>Though all Harbingers tap into violence and sorrow, they inevitably specialize in a method of combat that calls to them deep within themselves. At 2nd level, a harbinger selects one discipline she has access to from her harbinger levels to be her dark focus. She gains a +1 bonus on attack and damage rolls when initiating strikes and counters from her dark focus discipline. The bonus to attack and damage rolls increases by +1 at 5th level and every four levels thereafter. In addition, she gains a +1 bonus to the save DCs of maneuvers from her dark focus discipline.</p><p>At 6th level, the harbinger gains either Advanced Study or Discipline Focus in her dark focus discipline as a bonus feat, even if she does not meet the prerequisites. In the case of Advanced Study, both maneuvers selected must be from her dark focus discipline.</p><p>At 10th level, the harbinger selects a second discipline as her dark focus in addition to her original dark focus discipline. She does not gain an additional bonus feat, although the other bonuses from her dark focus class feature apply to the second discipline as well.</p><p>At 14th level, the harbinger’s dedication bears violent fruit. She may expend a readied maneuver to spontaneously initiate any maneuver she knows from her dark focus disciplines that is one or more levels lower than the expended maneuver, regardless of whether or not she has the dark focus maneuver readied. The initiation action of the spontaneously initiated maneuver is unchanged.</p><p>At 20th level, the harbinger treats all maneuvers from her dark focus disciplines as being readied at the beginning of each encounter, in addition to her normal pool of readied maneuvers.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "ex",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "ckg": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "_id": "2mFz5NEjjf2MyEWX",
+  "img": "icons/magic/unholy/hand-fire-skeleton-pink.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1vXar0r0abA4FiDV": 3,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b2549ac97e2aead43f766767605e8a0edfd1cad5"
+    },
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    },
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf1",
+    "systemVersion": "11.3",
+    "createdTime": 1743933917239,
+    "modifiedTime": 1743933917239,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "exportSource": null
+  },
+  "_key": "!items!2mFz5NEjjf2MyEWX"
+}

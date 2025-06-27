@@ -1,0 +1,144 @@
+{
+  "folder": "1HjWEg0AH3wNng0J",
+  "type": "feat",
+  "name": "Grim News",
+  "system": {
+    "description": {
+      "value": "<p>Like a ghost or a rumor, the harbinger moves with supernatural acumen. Starting at 3rd level, a harbinger can move up to her speed as a swift action once per encounter. She can use this ability twice per encounter at 9th level, and three times per encounter at 15th level.</p><p>At 9th level and again at 15th level, the harbinger selects one of the following abilities. One made, her choice is permanent and cannot be changed.</p><ul><li><p>Dark Wings: The harbinger gains a fly speed equal to her base land speed, with good maneuverability. This flight is supernatural in nature; though the harbinger may develop wings or another form of evident propulsion, she flies through supernatural acumen alone.</p></li><li><p>Omenwalk: The harbinger gains the ability to teleport up to her speed as a move action. The harbinger does not need line of effect or line of sight to her destination, although she still provokes attacks of opportunity for leaving a threatened square when using this ability.</p></li><li><p>Spider’s Boon: The harbinger gains a climb speed equal to her base land speed. In addition, she develops a sticky grip that aids her in battle, granting her a +4 racial bonus on grapple checks and to her CMD.</p></li><li><p>Water Dweller: The harbinger gains a swim speed equal to her base land speed. In addition, the harbinger no longer needs to breathe and becomes immune to inhaled poisons.</p></li></ul>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "su",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "ckg": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "_id": "bbSukoIgs5mvpEtM",
+  "img": "icons/magic/unholy/orb-swirling-teal.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1vXar0r0abA4FiDV": 3,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ffa62d0c770ef5770779e39e7c7255b55c0e5678"
+    },
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    },
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf1",
+    "systemVersion": "11.3",
+    "createdTime": 1743933917239,
+    "modifiedTime": 1743933917239,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "exportSource": null
+  },
+  "_key": "!items!bbSukoIgs5mvpEtM"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Herding Cats",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 4 Roaring Mouse maneuvers<br /><strong>Range</strong>: Close (25 ft. + 5ft./2 levels)<br /><strong>Target</strong>: Allies within range<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>You have reached the pinnacle of mastery for the Roaring Mouse. Your skill and cunning helps your allies work as though they were of the same mind. Upon initiating this maneuver, each of your allies (not including yourself) within range can take a full round's worth of actions. They cannot use these actions to initiate 9th level maneuvers, cast 9th level spells, manifest 9th level powers, or use similar abilities that work on a 1-9 level scale. A creature cannot benefit from the effects of this maneuver more than once per round, regardless of the source. This maneuver cannot be recovered by any method other than by utilizing your class-specific recovery method (such as a warder's defensive focus, or a mystic recovering because they have no withheld maneuvers), and cannot be recovered during the full round's worth of actions granted by herding cats. Special: As long as you are recovering this maneuver, you may use a special recovery method instead of your normal recovery method, taking a full-round action to recover a number of maneuvers equal to your initiation modifier (minimum 2), healing all allies (including yourself) within range for 50 hit points, and granting them a bonus to AC, attack and damage rolls, saving throws, and skill checks equal to your initiation modifier until the start of your next turn. This is a supernatural maneuver.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 9,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "3a2dHN9i7XD1vdJi",
+  "_id": "e0JBvUqiYDtQ1nuz",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!e0JBvUqiYDtQ1nuz"
+}

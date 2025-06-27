@@ -1,0 +1,58 @@
+{
+  "name": "Riptide Slash",
+  "img": "icons/magic/water/water-jet-wave-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Surging Shark maneuvers<br /><strong>Range</strong>: 30 feet<br /><strong>Target</strong>: None<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Area: 30 foot line With a single stroke, you create a deadly current that shreds flesh and shears bone. The initiator creates a 30 foot line that deals [[6d6]] + initiator level (max +20) damage to all foes within the area of effect. Foes within the area may make a Reflex save (DC 15 + initiation modifier) for half damage. Those who fail their save are also knocked off-balance. Call of the Deep: When a creature fails its save against this maneuver, they are also pushed to the end of the line. Each creature that fails takes an additional [[1d6]] damage for every creature that failed before them (starting at the creature closest to the initiator) as they slam into one another while being pushed back.</p>"
+    },
+    "discipline": "Surging Shark",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "Half",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "9MNRSClcZzRfpXAr",
+  "_id": "OFvtAxHz6yFAvbEQ",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270747251,
+    "modifiedTime": 1750270747251,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!OFvtAxHz6yFAvbEQ"
+}

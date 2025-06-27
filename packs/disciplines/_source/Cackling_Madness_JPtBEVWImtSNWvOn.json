@@ -1,0 +1,58 @@
+{
+  "name": "Cackling Madness",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Leaden Hyena Maneuvers<br /><strong>Range</strong>: 40 feet<br /><strong>Target</strong>: All creatures<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>With raving madness that deprives even hardened soldiers of their wits, you turn the oncoming tide of opponents against each other. Make a Bluff check as part of performing this maneuver, opposed by a Sense Motive check or AC of each creature within range, whichever is higher. Any creature whose check you beat must make an attack against a creature of your choice within reach to the best of their ability.</p>"
+    },
+    "discipline": "Leaden Hyena",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "yKXmpkj2iGVHcqlj",
+  "_id": "JPtBEVWImtSNWvOn",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!JPtBEVWImtSNWvOn"
+}

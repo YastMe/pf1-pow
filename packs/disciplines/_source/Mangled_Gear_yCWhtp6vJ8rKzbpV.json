@@ -1,0 +1,131 @@
+{
+  "name": "Mangled Gear",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>From arcane artificers whose study goes beyond magical technique to the junkyard scrappers who cobble together an armory from mechanical refuse, understanding of equipment and machinery is a valued asset to any in the face of conflict. Whether to bring out the best in their own tools or force out the worst in their foes’, disciples of the Mangled Gear interact heavily with equipment in combat, frequently earning the mantles of “battle tinker” or “steelscrapper”. Nicknames aside, many a force benefits greatly from the aid of a Mangled Gear discipline, whose mechanical alterations both magical and technological can make an incredible difference in the face of a well-armed enemy.</p><p><strong>Associated Skill</strong>: Disable Device</p><p><strong>Associated Weapon Groups</strong>: Firearms, hammers, and light blades</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": true,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "Ht7i6iiIiSk5WN4Q",
+  "_id": "yCWhtp6vJ8rKzbpV",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    },
+    "scene-packer": {
+      "hash": "74979eb31122e0b23134a983d666bfb991539dec"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!yCWhtp6vJ8rKzbpV"
+}

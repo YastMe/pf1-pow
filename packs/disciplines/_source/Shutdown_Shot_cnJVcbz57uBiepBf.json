@@ -1,0 +1,62 @@
+{
+  "name": "Shutdown Shot",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: melee or ranged attack<br /><strong>Target</strong>: one creature<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>You unleash a burst of energy with your attack which renders their magical and mechanical abilities ineffectual. Make an attack roll against a creature. If it hits, the attack deals [[1d6]] additional damage and the target must succeed on a Fortitude save or lose the ability to cast spells, manifest powers, or use items they have to manually activate (such as spell completion items or items that use charges) for 1 round.</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "Negates",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "EYQnIPitkoy02UAF",
+  "_id": "cnJVcbz57uBiepBf",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "208536507c8f555439ab31d53960d201c4ce55a1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!cnJVcbz57uBiepBf"
+}

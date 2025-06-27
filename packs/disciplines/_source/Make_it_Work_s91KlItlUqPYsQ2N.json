@@ -1,0 +1,62 @@
+{
+  "name": "Make it Work",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>With a sudden surge of supernatural inspiration, you find a workaround to the faults of any equipment you carry. You automatically succeed on the next Use Magic Device check you make. Alternatively, if you use a piece of timeworn technology and roll for a glitch, you may expend this boost before seeing the result to cause the item to instead function normally. This boost does not work for checks involving items whose caster or manifester level is greater than your initiator level.</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "j8hWKm5rKqSrKT4m",
+  "_id": "s91KlItlUqPYsQ2N",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "4fef1d17d73e34c3dd0023caa6f30e02b8ef7079"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!s91KlItlUqPYsQ2N"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Expertises",
+  "sorting": "a",
+  "folder": "WmexsBAO9koEkQJ2",
+  "type": "Item",
+  "_id": "skX1veKfaU9aRmzP",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "0efd6c06fbefc02d5a8d2fcb7bde723b2aeb58f9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!skX1veKfaU9aRmzP"
+}

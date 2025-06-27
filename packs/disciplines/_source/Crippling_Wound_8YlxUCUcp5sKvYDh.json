@@ -1,0 +1,58 @@
+{
+  "name": "Crippling Wound",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Leaden Hyena Maneuvers<br /><strong>Range</strong>: Melee or Ranged<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Inflicting a massive and strategically-placed wound, you leave your target pouring blood as they become increasingly weaker. Make an attack roll against a creature, dealing [[8d6]] damage and [[2d6]] bleed damage on a successful hit. The bleeding can be cured by a Heal check (DC 15 + your initiator level) or by magical healing. However, any attempting to magically Heal the creature must make a caster level check (DC equal to the Heal check DC) or have the spell fail to stop the bleeding. For every round that the bleeding persists, the target suffers a cumulative -1 penalty on attack rolls, AC, and saving throws.</p>"
+    },
+    "discipline": "Leaden Hyena",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "yKXmpkj2iGVHcqlj",
+  "_id": "8YlxUCUcp5sKvYDh",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270741715,
+    "modifiedTime": 1750270741715,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!8YlxUCUcp5sKvYDh"
+}

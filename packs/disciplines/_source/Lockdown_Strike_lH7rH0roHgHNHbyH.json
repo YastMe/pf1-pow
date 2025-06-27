@@ -1,0 +1,62 @@
+{
+  "name": "Lockdown Strike",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Mangled Gear Maneuvers<br /><strong>Range</strong>: melee or ranged attack<br /><strong>Target</strong>: one creature or object<br /><strong>Duration</strong>: 1 round/level</p><h2>Description</h2><p>You channel a disruptive burst of energy through your attack, either rendering a piece of equipment or a creature's body nonfunctional. Make an attack or sunder attempt which does not provoke an attack of opportunity. Either way, it deals [[6d6]] additional points of damage. If an object is targeted, it is rendered nonfunctional for the duration of this maneuver. If a creature is struck, it must succeed on a Fortitude save or be paralyzed for the duration of this maneuver. This affects creatures which are normally immune to paralysis, but creatures are allowed a new save every round to escape paralysis.</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Negates",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "AGTy7yckmXlEgXiu",
+  "_id": "lH7rH0roHgHNHbyH",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "87f980867716431993ca7f13e38e20ca6e139b39"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!lH7rH0roHgHNHbyH"
+}

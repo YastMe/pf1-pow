@@ -14,7 +14,7 @@
     "description": {
       "value": "<p><strong>Prerequisite(s)</strong>: Two cursed razor maneuvers<br /><strong>Range</strong>: Long (400′ + 40/level)<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>With a savage curse and a lunge, you teleport your enemy into your weapon. When you initiate this strike, the target must succeed at a Will save (DC 16 + your initiation modifier) or be teleported to an unoccupied space within your melee reach of your choice that is not difficult terrain. If you successfully teleport your target, make a melee attack. If it hits, it deals weapon damage as normal plus an additional [[8d6]] points of damage. </p>"
     },
-    "discipline": "Black Seraph",
+    "discipline": "Cursed Razor",
     "initTime": {
       "units": "standard",
       "value": 1
@@ -41,10 +41,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "10.8",
+    "systemVersion": "11.6",
     "coreVersion": "12.331",
     "createdTime": 1732991540503,
-    "modifiedTime": 1736076969747,
+    "modifiedTime": 1750270848434,
     "lastModifiedBy": "jI6iseAymTC0jkXd",
     "compendiumSource": null,
     "duplicateSource": null

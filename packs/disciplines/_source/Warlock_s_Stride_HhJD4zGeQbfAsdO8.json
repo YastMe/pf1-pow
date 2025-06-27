@@ -14,7 +14,7 @@
     "description": {
       "value": "<p><strong>Prerequisite(s)</strong>: One cursed razor maneuver<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: Self<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>Like ill news you travel swiftly, leaving woe and heartbreak in your wake. After initiating this boost, your movement speeds are doubled until the start of your next turn, and you create a cursed aura in every square you leave while under the effect of this boost. Creatures entering or passing through a cursed aura must succeed at a Will save (DC 14 + your initiation modifier) or take a -4 penalty on attack rolls and skill checks for a number of rounds equal to your initiation modifier. In addition, creatures that fail their saves also become cursed and their movement speeds are reduced by 15 feet for the same duration. Cursed auras created by your movement vanish after one round. </p>"
     },
-    "discipline": "Black Seraph",
+    "discipline": "Cursed Razor",
     "initTime": {
       "units": "swift",
       "value": 1
@@ -41,10 +41,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "10.8",
+    "systemVersion": "11.6",
     "coreVersion": "12.331",
     "createdTime": 1732991541240,
-    "modifiedTime": 1736076969747,
+    "modifiedTime": 1750270873808,
     "lastModifiedBy": "jI6iseAymTC0jkXd",
     "compendiumSource": null,
     "duplicateSource": null

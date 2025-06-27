@@ -1,0 +1,62 @@
+{
+  "name": "Energized Doom",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Mangled Gear Maneuvers<br /><strong>Range</strong>: Close (25 feet + 5 feet/2 levels)<br /><strong>Target</strong>: One weapon<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>You overload a weapon with energy, causing it to consume energy at an unusual speed but become much more potent. Any time a creature makes an attack with the weapon, it consumes twice as many charges as it would normally (if the weapon does not use charges, it instead deals [[1d6]] points of damage to you every time you attack with it). If an attack with the weapon deals damage, the damage is doubled (this does not double damage from sources of precision damage such as critical hits or sneak attack, but doubles damage from all other sources).</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "AGTy7yckmXlEgXiu",
+  "_id": "p6K2pjEV4YDZ95IK",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "4ea94c7abe4bfc0129505d72e9563f47b322f32b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!p6K2pjEV4YDZ95IK"
+}

@@ -1,0 +1,231 @@
+{
+  "folder": "k4B6Y1N3UwckYOGM",
+  "type": "class",
+  "name": "Mystic",
+  "system": {
+    "description": {
+      "value": "<p>Born with an untamed magical power buried deep within his soul, the mystic is a warrior who, much like a sorcerer, is filled with untapped energies. This power however, is too primal and unstable, and is difficult to be formed effectively into a spell. By following a martial medium to tame this energy, the mystic is able to shape his wild power into martial maneuvers and this allows him to discover the deeper mysteries of his own inborn power.</p><p><strong>Adventures</strong>: Most mystics adventure to stretch the limits of their powers, learning to master the mysteries within their souls. Some do it to express their power in ways that suit their ethics, for good or for ill, and others travel to find others like themselves, to study and train with and hope to eventually learn more about why they are the way they are.</p><p><strong>Characteristics</strong>: Mystics tend to be a very introspective lot, wielding a power so foreign to most with an intuitive sense of understanding. Many mystics follow ascetic lifestyles, hoping that the order and abstaining of life's vices will help them control their power. Others embrace their wild energies and move with the moment, pausing to reflect at the end of the day as to what drives their motivations.</p><p><strong>Alignment</strong>: Any. Mystics do not follow any ethical or moral path, and choose their own destiny. Some cling to lawful alignments to master their powers, and others embrace chaotic alignments to freely express their talents.</p><p><strong>Religion</strong>: Mystics who follow religion often find their faith with gods of battle, nature, magic, or freedom.</p><p><strong>Background</strong>: Mystics universally have one thing in common, and that's a magical creature or magic-using being in their near family history. This power is an inherited consequence of such relation, and while it is not widely understood why it has chosen to manifest in such a way, the mystic's wild power is usually an expression of this relation's own power. Mystics are born, and must train to master their energies.</p><p><strong>Races</strong>: Any member of any race could be a mystic, provided they had the ancestry and proper training available. Most commonly they are of the human, elven, and gnome races. Among monster races, kobolds and their draconic bloodlines are among the first and foremost experts in the realm of mysticism, and many fey or elemental blooded creatures as well.</p><p><strong>Other</strong> <strong>Classes</strong>: Mystics tend to chafe with sorcerers around, as they see each other as failed expressions of the other. Otherwise, mystics find the most in common with rangers and monks for either their freedom or their discipline. Wizards find them interesting and enjoy studying their powers, and martially inclined characters find them to be steady and useful allies.</p><p><strong>Role</strong>: A mystic will often find themselves in the role of both striker and party supporter. The glyphs they manifest will aid themselves and their allies, as their animus builds power and strength. Not as hardy as other warriors, however, mystics will find themselves needing the protection of their more robust allies from time to time.</p><p><strong>Abilities</strong>: Wisdom is the primary attribute for the mystic, and this determines factors of their class features, maneuver saving throws, and their animus. As martial characters, a good Strength or Dexterity will help their ability to fight and a good Constitution score helps with their otherwise modest hit points.</p><p><strong>Starting</strong> <strong>Age</strong>: Intuitive.</p><p><strong>Starting</strong> <strong>Wealth</strong>: 4d6 × 10 gp (average 140 gp.) In addition, each character begins play with an outfit worth 10 gp or less.</p><p>Hit <strong>Die</strong>: d8.</p><p><strong>Class</strong> <strong>Skills</strong>: The mystic's class skills are Acrobatics (Dex), Autohypnosis (Wis), Craft (Int), Intimidate (Cha), Knowledge (all) (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), Stealth (Dex), and Use Magic Device (Cha).</p><p><strong>Skill</strong> <strong>Ranks</strong> <strong>per</strong> <strong>Level</strong>: 4 + Int modifier.</p><h1>Class Features</h1><table><tbody><tr><th data-colwidth=\"102\"><p>Level</p></th><th><p>Base Attack Bonus</p></th><th><p>Fort Save</p></th><th><p>Ref Save</p></th><th><p>Will Save</p></th><th><p>Special</p></th><th><p style=\"text-align:center\">Maneuvers</p><p style=\"text-align:center\">Known</p></th><th><p>Maneuvers</p><p>Readied</p></th><th><p>Stances</p><p>Known</p></th></tr><tr><td data-colwidth=\"102\"><p>1st</p></td><td><p>+0</p></td><td><p>+0</p></td><td><p>+0</p></td><td><p>+2</p></td><td><p>Animus, blade meditation, elemental attunement</p></td><td><p>7</p></td><td><p>5 (2)</p></td><td><p>1</p></td></tr><tr><td data-colwidth=\"102\"><p>2nd</p></td><td><p>+1</p></td><td><p>+0</p></td><td><p>+0</p></td><td><p>+3</p></td><td><p>Bonus feat, arcane defense +1</p></td><td><p>8</p></td><td><p>5 (2)</p></td><td><p>2</p></td></tr><tr><td data-colwidth=\"102\"><p>3rd</p></td><td><p>+2</p></td><td><p>+1</p></td><td><p>+1</p></td><td><p>+3</p></td><td><p>Elemental glyph (I)</p></td><td><p>9</p></td><td><p>6 (3)</p></td><td><p>2</p></td></tr><tr><td data-colwidth=\"102\"><p>4th</p></td><td><p>+3</p></td><td><p>+1</p></td><td><p>+1</p></td><td><p>+4</p></td><td><p>Mystic artifice</p></td><td><p>10</p></td><td><p>6 (3)</p></td><td><p>2</p></td></tr><tr><td data-colwidth=\"102\"><p>5th</p></td><td><p>+3</p></td><td><p>+1</p></td><td><p>+1</p></td><td><p>+4</p></td><td><p>Withstand spell</p></td><td><p>11</p></td><td><p>6 (3)</p></td><td><p>3</p></td></tr><tr><td data-colwidth=\"102\"><p>6th</p></td><td><p>+4</p></td><td><p>+2</p></td><td><p>+2</p></td><td><p>+5</p></td><td><p>Instant enlightenment 1/day, arcane defense +2</p></td><td><p>12</p></td><td><p>7 (4)</p></td><td><p>3</p></td></tr><tr><td data-colwidth=\"102\"><p>7th</p></td><td><p>+5</p></td><td><p>+2</p></td><td><p>+2</p></td><td><p>+5</p></td><td><p>Bonus feat</p></td><td><p>13</p></td><td><p>7 (4)</p></td><td><p>3</p></td></tr><tr><td data-colwidth=\"102\"><p>8th</p></td><td><p>+6/+1</p></td><td><p>+2</p></td><td><p>+2</p></td><td><p>+6</p></td><td><p>Elemental glyph (II)</p></td><td><p>14</p></td><td><p>7 (4)</p></td><td><p>3</p></td></tr><tr><td data-colwidth=\"102\"><p>9th</p></td><td><p>+6/+1</p></td><td><p>+3</p></td><td><p>+3</p></td><td><p>+6</p></td><td><p>Quell magic</p></td><td><p>15</p></td><td><p>8 (5)</p></td><td><p>4</p></td></tr><tr><td data-colwidth=\"102\"><p>10th</p></td><td><p>+7/+2</p></td><td><p>+3</p></td><td><p>+3</p></td><td><p>+7</p></td><td><p>Instant enlightenment 2/day</p></td><td><p>15</p></td><td><p>8 (5)</p></td><td><p>4</p></td></tr><tr><td data-colwidth=\"102\"><p>11th</p></td><td><p>+8/+3</p></td><td><p>+3</p></td><td><p>+3</p></td><td><p>+7</p></td><td><p>Arcane defense +3</p></td><td><p>16</p></td><td><p>8 (5)</p></td><td><p>5</p></td></tr><tr><td data-colwidth=\"102\"><p>12th</p></td><td><p>+9/+4</p></td><td><p>+4</p></td><td><p>+4</p></td><td><p>+8</p></td><td><p>Bonus feat</p></td><td><p>16</p></td><td><p>9 (6)</p></td><td><p>5</p></td></tr><tr><td data-colwidth=\"102\"><p>13th</p></td><td><p>+9/+4</p></td><td><p>+4</p></td><td><p>+4</p></td><td><p>+8</p></td><td><p>Elemental glyph (III)</p></td><td><p>17</p></td><td><p>9 (6)</p></td><td><p>5</p></td></tr><tr><td data-colwidth=\"102\"><p>14th</p></td><td><p>+10/+5</p></td><td><p>+4</p></td><td><p>+4</p></td><td><p>+9</p></td><td><p>Instant enlightenment 3/day</p></td><td><p>17</p></td><td><p>9 (6)</p></td><td><p>5</p></td></tr><tr><td data-colwidth=\"102\"><p>15th</p></td><td><p>+11/+6/+1</p></td><td><p>+5</p></td><td><p>+5</p></td><td><p>+9</p></td><td><p>Font of animus</p></td><td><p>18</p></td><td><p>10 (7)</p></td><td><p>6</p></td></tr><tr><td data-colwidth=\"102\"><p>16th</p></td><td><p>+12/+7/+2</p></td><td><p>+5</p></td><td><p>+5</p></td><td><p>+10</p></td><td><p>Arcane defense +4</p></td><td><p>18</p></td><td><p>10 (7)</p></td><td><p>6</p></td></tr><tr><td data-colwidth=\"102\"><p>17th</p></td><td><p>+12/+7/+2</p></td><td><p>+5</p></td><td><p>+5</p></td><td><p>+10</p></td><td><p>Bonus feat</p></td><td><p>19</p></td><td><p>10 (7)</p></td><td><p>6</p></td></tr><tr><td data-colwidth=\"102\"><p>18th</p></td><td><p>+13/+8/+3</p></td><td><p>+6</p></td><td><p>+6</p></td><td><p>+11</p></td><td><p>Instant enlightenment 4/day</p></td><td><p>19</p></td><td><p>11 (8)</p></td><td><p>7</p></td></tr><tr><td data-colwidth=\"102\"><p>19th</p></td><td><p>+14/+9/+4</p></td><td><p>+6</p></td><td><p>+6</p></td><td><p>+11</p></td><td><p>Elemental glyph (IV)</p></td><td><p>20</p></td><td><p>11 (8)</p></td><td><p>7</p></td></tr><tr><td data-colwidth=\"102\"><p>20th</p></td><td><p>+15/+10/+5</p></td><td><p>+6</p></td><td><p>+6</p></td><td><p>+12</p></td><td><p>Glyph mastery, arcane defense +5</p></td><td><p>21</p></td><td><p>12 (9)</p></td><td><p>7</p></td></tr></tbody></table>",
+      "instructions": ""
+    },
+    "tags": [
+      "Initiator"
+    ],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "classAssociations": [
+        {
+          "name": "Animus",
+          "uuid": "Compendium.pf1-pow.classes.Item.K60C2CeLtPdXst4K",
+          "level": 1
+        },
+        {
+          "name": "Blade Meditation",
+          "uuid": "Compendium.pf1-pow.classes.Item.kU8bTcJ7y6TJu5tL",
+          "level": 1
+        },
+        {
+          "name": "Elemental Attunement",
+          "uuid": "Compendium.pf1-pow.classes.Item.QKllUjPCcBtZsntV",
+          "level": 1
+        },
+        {
+          "name": "Maneuvers",
+          "uuid": "Compendium.pf1-pow.classes.Item.VXaxcmgX1WBmjmfZ",
+          "level": 1
+        },
+        {
+          "name": "Maneuvers Readied/Granted",
+          "uuid": "Compendium.pf1-pow.classes.Item.tzSoufat518O2uK5",
+          "level": 1
+        },
+        {
+          "name": "Stances Known",
+          "uuid": "Compendium.pf1-pow.classes.Item.qhRrwgIgg6izm0dD",
+          "level": 1
+        },
+        {
+          "name": "Arcane Defense",
+          "uuid": "Compendium.pf1-pow.classes.Item.dbOEiiHTIzNnC5m9",
+          "level": 2
+        },
+        {
+          "name": "Bonus Feat",
+          "uuid": "Compendium.pf1-pow.classes.Item.jSX5yiDTDeDO2GN0",
+          "level": 2
+        },
+        {
+          "name": "Elemental Glyph",
+          "uuid": "Compendium.pf1-pow.classes.Item.7xW3A7gs2BUkcCBL",
+          "level": 3
+        },
+        {
+          "name": "Mystic Artifice",
+          "uuid": "Compendium.pf1-pow.classes.Item.qPRSx7NfJK1CQo8P",
+          "level": 4
+        },
+        {
+          "name": "Whitstand Spell",
+          "uuid": "Compendium.pf1-pow.classes.Item.eMQY8rog11cNMVK3",
+          "level": 5
+        },
+        {
+          "name": "Instant Enlightment",
+          "uuid": "Compendium.pf1-pow.classes.Item.xFtsSYanAD2LcdDp",
+          "level": 6
+        },
+        {
+          "name": "Quell Magic",
+          "uuid": "Compendium.pf1-pow.classes.Item.e3iu61ptq9x5uvwU",
+          "level": 9
+        },
+        {
+          "name": "Font of Animus",
+          "uuid": "Compendium.pf1-pow.classes.Item.9GYKZWA7qAxH5o1C",
+          "level": 15
+        },
+        {
+          "name": "Glyph Mastery",
+          "uuid": "Compendium.pf1-pow.classes.Item.VchWyk1H8BZqjEtK",
+          "level": 20
+        }
+      ]
+    },
+    "tag": "",
+    "armorProf": [
+      "lgt",
+      "shl"
+    ],
+    "weaponProf": [
+      "simple",
+      "martial",
+      "Katana",
+      "Wakizashi"
+    ],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "low"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "wealth": "4d6 * 10",
+    "alignment": "",
+    "classSkills": {
+      "acr": true,
+      "apr": false,
+      "art": false,
+      "ahp": true,
+      "blf": false,
+      "clm": false,
+      "crf": true,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": true,
+      "kar": true,
+      "kdu": true,
+      "ken": true,
+      "kge": true,
+      "khi": true,
+      "klo": true,
+      "kmt": true,
+      "kna": true,
+      "kno": true,
+      "kpl": true,
+      "kre": true,
+      "lin": false,
+      "lor": false,
+      "per": true,
+      "prf": true,
+      "pro": true,
+      "rid": false,
+      "sen": true,
+      "slt": false,
+      "spl": true,
+      "ste": true,
+      "sur": false,
+      "swm": false,
+      "umd": true
+    },
+    "customHD": "",
+    "casting": {
+      "type": ""
+    },
+    "maneuverProgression": {
+      "classType": "class",
+      "type": "granted"
+    }
+  },
+  "_id": "0pqbhyA8q71WTmXy",
+  "img": "icons/skills/melee/blood-slash-foam-red.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4e02ddb8114fa89a4e4efbb745127805c780c215"
+    },
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1745752120364,
+    "modifiedTime": 1750957237572,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "_key": "!items!0pqbhyA8q71WTmXy"
+}

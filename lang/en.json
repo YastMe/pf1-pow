@@ -66,11 +66,55 @@
 				"half": "Half",
 				"negate": "Negates",
 				"text": "See text"
-			}
+			},
+			"Levels": {
+				"1": "Level 1",
+				"2": "Level 2",
+				"3": "Level 3",
+				"4": "Level 4",
+				"5": "Level 5",
+				"6": "Level 6",
+				"7": "Level 7",
+				"8": "Level 8",
+				"9": "Level 9",
+				"Mismatch": "Maneuvers over maximum level known"
+			},
+			"NewManeuver": "New Maneuver",
+			"DC": {
+				"Base": "Base Save DC",
+				"Discipline": "Save DC with Discipline Weapon"
+			},
+			"Recover": "Recover Maneuver",
+			"RecoverAll": "Recover All Maneuvers",
+			"RecoverSuccess": "Recovered",
+			"RecoverFailure": "Can't recover",
+			"UseFailure": "There's not enough uses left for",
+			"NotReady": "is not a readied or granted maneuver",
+			"ProgressionTypes": {
+				"none": "None",
+				"class": "Class",
+				"archetype": "Archetype",
+				"section": "Maneuver progression",
+				"classType": "Progression type",
+				"type": "Maneuver Type"
+			},
+			"GrantTypes": {
+				"regular": "Readied",
+				"granted": "Readied + Granted"
+			},
+			"Granted": "Maneuver granted",
+			"NotGranted": "Maneuver not granted",
+			"Grant": "Grant Maneuver",
+			"GrantAll": "Grant All Maneuvers",
+			"ToggleAllGranted": "Toggle All Grants",
+			"GrantDialogue": "Trigger Grant Dialogue"
 		},
 		"Stances": {
 			"Single": "Stance",
-			"Plural": "Stances"
+			"Plural": "Stances",
+			"StanceActive": "Active",
+			"StanceInactive": "Inactive",
+			"StanceLimit": "Disable limit for active stances"
 		},
 		"Skills": {
 			"kmt": "Knowledge (Martial)",
@@ -81,7 +125,8 @@
 			"Single": "Use",
 			"Plural": "Uses",
 			"Max": "Maximum uses",
-			"Current": "Uses left"
+			"Current": "Uses left",
+			"Cost": "Stamina cost"
 		},
 		"HasUses": "Has use limit",
 		"FeatTypes": {
@@ -92,8 +137,46 @@
 		},
 		"Browse": "Browse Maneuvers",
 		"Attributes": {
-			"maneuverAttr": "Initiator Modifier"
+			"Strength": "Strength",
+			"Dexterity": "Dexterity",
+			"Constitution": "Constitution",
+			"Intelligence": "Intelligence",
+			"Wisdom": "Wisdom",
+			"Charisma": "Charisma",
+			"maneuverAttr": "Initiation Modifier",
+			"maneuverAttrTooltip": "@maneuverAttr"
 		},
-		"duoPartner": "Duo Partner"
+		"duoPartner": "Duo Partner",
+		"InitLevel": {
+			"Single": "Initiator Level",
+			"Total": "Total Initiator Level"
+		},
+		"TabName": "Path of War",
+		"Sparker": "Spark of Inspiration Feat",
+		"MartiallyTrained": "Martial Training Feat",
+		"MaxManeuverLevel": "Highest Level Maneuver Known",
+		"Stamina": {
+			"Total": "Total Stamina",
+			"SecondaryTotal": "Total Secondary Stamina",
+			"Remaining": "Remaining Stamina",
+			"Pool": "Stamina Pool",
+			"SecondaryPool": "Secondary Pool",
+			"From": "Stamina pool used: ",
+			"MaxManeuverKnown": {
+				"Text": "Max. maneuvers known",
+				"Over": "You know more maneuvers than your maximum."
+			},
+			"MaxManeuverPrepared": {
+				"Text": "Max. maneuvers prepared",
+				"Over": "You have prepared more maneuvers than your maximum."
+			},
+			"UseFailure": "You don't have enough stamina left to use",
+			"UseFatigue": "You can't spend stamina points while fatigued, exhausted or unconscious.",
+			"Fatigue": "You ran out of stamina! You are now fatigued until you recover at least 1 stamina point.",
+			"Exhaustion": "You ran out of stamina on your secondary stamina pool! You are now exhausted until you recover at least 1 stamina point on your secondary stamina pool.",
+			"BypassFatigue": "Push the Limits feat"
+		},
+		"ShowOverrides": "Show Overrides",
+		"Cancel": "Cancel"
 	}
 }

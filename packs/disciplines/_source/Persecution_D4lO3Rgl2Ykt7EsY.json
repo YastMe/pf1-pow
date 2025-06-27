@@ -20,7 +20,7 @@
       "value": 1
     },
     "level": 4,
-    "saveEffect": "No save",
+    "saveEffect": "Half",
     "saveType": "None",
     "uses": {
       "per": "charges",
@@ -41,10 +41,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "10.8",
+    "systemVersion": "11.6",
     "coreVersion": "12.331",
     "createdTime": 1732991395012,
-    "modifiedTime": 1736076969747,
+    "modifiedTime": 1750270874936,
     "lastModifiedBy": "jI6iseAymTC0jkXd",
     "compendiumSource": null,
     "duplicateSource": null

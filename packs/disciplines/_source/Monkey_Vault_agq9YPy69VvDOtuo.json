@@ -1,0 +1,58 @@
+{
+  "name": "Monkey Vault",
+  "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Brutal Crocodile Maneuver<br /><strong>Range</strong>: Melee<br /><strong>Target</strong>: You and one creature or object<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>Discipline: Brutal Crocodile (Boost) Snagging an opponent, you use them as a base as you vault over or around them. Make a Climb check against the foe's CMD. If successful, you may move to any square adjacent to the target, and the target is considered to be flat-footed until the end of your next turn.</p>"
+    },
+    "discipline": "Brutal Crocodile",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "No save",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "lRBvaXaotkMLH0w1",
+  "_id": "agq9YPy69VvDOtuo",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270723083,
+    "modifiedTime": 1750270723083,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!agq9YPy69VvDOtuo"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Sick Trick",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 3 Roaring Mouse maneuvers<br /><strong>Range</strong>: Melee attack<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>You hit ‘em where it hurts, keeping your foes gasping in pain. Make an attack. If it hits, you deal damage as normal plus [[6d6]] additional damage and the target is tricked for a number of rounds equal to your initiation modifier. In addition, the target must make a Fortitude save (DC 17 + initiation modifier) or be nauseated for three rounds. If the target succeeds, they are merely sickened instead. Exploit: The target is stunned if they fail the save, or staggered if they succeed. Upon using this exploit, the foe is immune to this exploit for six rounds.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Partial",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike"
+  },
+  "folder": "RLX4YVKVj2Ial2l5",
+  "_id": "RI8npPObadR1a2mU",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!RI8npPObadR1a2mU"
+}

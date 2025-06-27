@@ -14,7 +14,7 @@
     "description": {
       "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Invoking the basic laws of fortune and punishment, you curse a creature that attempts to harm you. You can initiate this counter in response to being targeted by an attack, ability, maneuver, power, or spell. The creature targeting you must succeed at a Will save (DC 12 + your initiation modifier) or become cursed and take a -4 penalty on all d20 rolls for [[1d4]] rounds.</p>"
     },
-    "discipline": "Black Seraph",
+    "discipline": "Cursed Razor",
     "initTime": {
       "units": "immediate",
       "value": 1
@@ -41,10 +41,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "10.8",
+    "systemVersion": "11.6",
     "coreVersion": "12.331",
     "createdTime": 1732991225599,
-    "modifiedTime": 1736076969747,
+    "modifiedTime": 1750270788715,
     "lastModifiedBy": "jI6iseAymTC0jkXd",
     "compendiumSource": null,
     "duplicateSource": null

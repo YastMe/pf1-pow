@@ -1,0 +1,130 @@
+{
+  "folder": "ER1Mcdlpe7t77gpT",
+  "type": "feat",
+  "name": "Animus",
+  "system": {
+    "description": {
+      "value": "<p>A mystic's martial prowess is in part fueled by a reservoir of roiling, turbulent energy within her soul, and the passion and danger of combat causes this arcane energy to overflow outwards. This power, called animus, waxes and wanes with a mystic's use of her maneuvers in battle. Outside combat, a mystic has no animus to spend, but her inner power can still be used for more subtle arcane arts. Her levels in mystic count as arcane spellcaster levels for the purposes of qualifying for prerequisites (such as those of item creation feats or the Arcane Strike feat), and if a mystic ever develops arcane spellcasting from another class, she may add her mystic level to her levels in that class to determine her overall caster level for the purposes of item creation feats.</p><p>When a mystic enters combat, she gains an animus pool equal to 1 + her mystic initiation modifier (minimum 1) at the start of her first turn, and adds one point of animus to her animus pool at the start of each of her turns thereafter. Her animus pool persists for one minute after the last enemy combatant is defeated or the encounter otherwise ends. At the end of any round in which the mystic initiates a maneuver, she adds an additional point of animus to her pool. Certain abilities, such as some class features, maneuvers, and feats, require the mystic to expend points of animus to use.</p><p>The primal power of animus can be used in several ways—the foremost of which is the augmentation of maneuvers. A mystic can spend points of animus to augment her maneuvers in the following ways, depending on her class level. If the mystic has the ability to augment her maneuvers in other ways, such as from another class feature or the maneuver itself, this cannot be combined with the augments granted by her animus class feature; she must choose which augmentation type to use when initiating the maneuver.</p><p>Starting at 1st level, a mystic can spend a single point of animus to augment a maneuver as part of that maneuver's initiation action to apply one of the following effects to it (if applicable):</p><ul><li><p>Enhance Maneuver: For each point of animus spent, the mystic adds a cumulative +2 insight bonus to all d20 rolls made (including attack rolls, combat maneuver checks, and skill checks) when initiating that maneuver (maximum of three animus may be spent on this augmentation); if the maneuver allows the user to make multiple attacks, then this bonus only applies to the first attack.</p></li><li><p>Increase DC: For each point of animus spent, the save DC of that maneuver increases by 1.</p></li></ul><p>When the mystic reaches 4th level, she can spend up to two points of animus on maneuver augmentation, rather than one, and she gains access to the following additional augmentations:</p><ul><li><p>Anima Burn: The mystic adds 1/2 her class level to damage rolls made during that maneuver. This augment costs two points of animus, and can only be applied once to a given maneuver.</p></li><li><p>Increase Potency: For each point of animus spent, the mystic may ignore 10 points of energy resistance or 5 points of damage reduction.</p></li></ul><p>When the mystic reaches 9th level, she can spend up to three points of animus on maneuver augmentation, and gains access to the following additional augmentation:</p><ul><li><p>Animus Rush: The mystic make move up to her base movement speed as part of the initiation action for the maneuver before initiating the strike. This is a teleportation effect and the mystic must clearly see her destination. This augmentation costs three points of animus.</p></li><li><p>Increase Range: The mystic may target a creature within 30 feet with a strike that normally uses a melee attack. Resolve the strike normally, as if the targeted creature was within the mystic's melee reach. This augmentation costs two points of animus.</p></li></ul><p>At 13th level, a mystic can spend up to four points of animus on maneuver augmentation, and at 19th level, she can spend up to five points of animus per augmentation.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "su",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "showInCombat": false
+  },
+  "_id": "K60C2CeLtPdXst4K",
+  "img": "icons/magic/unholy/beams-impact-pink.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "173c4013c35b2e86de5f6355f776de071458de25"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf1",
+    "systemVersion": "11.5",
+    "createdTime": 1746913445381,
+    "modifiedTime": 1746913445381,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "exportSource": null
+  },
+  "_key": "!items!K60C2CeLtPdXst4K"
+}

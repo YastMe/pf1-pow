@@ -1,0 +1,58 @@
+{
+  "name": "Breath Bandit",
+  "img": "icons/magic/water/water-jet-wave-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Surging Shark maneuver<br /><strong>Range</strong>: 20 feet<br /><strong>Target</strong>: None<br /><strong>Duration</strong>: Instantaneous</p><h2>Description</h2><p>Area: 20 foot diameter burst You draw air from those around you, stealing the vital force for yourself. All foes within the area of this boost must make a Fortitude save (DC 14 + initiation modifier) or they lose and you gain a number of rounds of air equal to twice your initiation modifier. You may distribute these rounds of air to your allies within the area as you see fit. A creature who fails their save against this boost while having no rounds of air left is treated as having failed a Constitution save against drowning or suffocation. Stealing air has no effect on water-breathing creatures underwater, nor air-breathing creatures above water. This is a supernatural maneuver. Call of the Deep: Instead of stealing rounds of air, you may temporarily steal a water-breathing creature's ability to breathe underwater. They immediately gain a number of rounds of air equal to twice their Constitution modifier. This effect lasts for a number of rounds equal to your initiation modifier. If they run out of air, they begin to drown. If a creature under this effect fails their save against this boost again, you may steal these rounds of air as normal. If you have the ability to use call of the deep effects above water, you may use this to prevent an air-breathing creature from breathing, potentially causing them to suffocate.</p>"
+    },
+    "discipline": "Surging Shark",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "Negates",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "IVwUPtVIuGrO1epb",
+  "_id": "ckaN4WC6yDz4D6NJ",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270747251,
+    "modifiedTime": 1750270747251,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!ckaN4WC6yDz4D6NJ"
+}

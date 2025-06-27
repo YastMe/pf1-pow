@@ -1,0 +1,58 @@
+{
+  "name": "Scatter",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 2 Roaring Mouse maneuvers<br /><strong>Range</strong>: Close (25 ft. + 5ft./2 levels)<br /><strong>Target</strong>: Allies within range<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>With a wink and a nod, your allies activate a secret formation. When you initiate this boost, allies within range may move up to their speed as a free action, even if it isn't their turn. After this movement is complete, if an ally affected by this boost is maintaining a Roaring Mouse stance, they may make an attack or initiate a strike with an initiation action of 1 standard action, so long as the attack or strike targets a creature with the tricked condition. A creature cannot benefit from the effects of this boost more than once per round, regardless of the source.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost"
+  },
+  "folder": "DwDVOnEEdjuMgSyT",
+  "_id": "tGn1os5iFGW5tpsU",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!tGn1os5iFGW5tpsU"
+}

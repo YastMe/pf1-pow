@@ -1,0 +1,58 @@
+{
+  "name": "Magnificent Bastard",
+  "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: 3 Roaring Mouse maneuvers<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Instantaneous (see text)</p><h2>Description</h2><p>You magnificent bastard, you read them like a book! You may initiate this counter upon being targeted by an attack or having to make a save as the result of an effect originating from a tricked foe. Make an Escape Artist check against the attack roll or caster level (or similar level) of the foe. If successful, the attack or effect is negated for you and rebounds upon the tricked foe. If the effect requires a save, the foe is treated as though they failed the save. If the attack was a critical threat, the foe takes the critical damage. Unlike most counters, this maneuver can even negate a natural 20. Exploit: All variable, numeric effects of the rebounded attack or effect are maximized, inflicting the maximum amount of damage, lasting the maximum number of rounds, and so on, as appropriate. Upon using this exploit, the foe is immune to this exploit for six rounds.</p>"
+    },
+    "discipline": "Roaring Mouse",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "RLX4YVKVj2Ial2l5",
+  "_id": "MokljiiYbqfAS9iR",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270745427,
+    "modifiedTime": 1750270745427,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!MokljiiYbqfAS9iR"
+}

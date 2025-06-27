@@ -1,0 +1,62 @@
+{
+  "name": "Fearsome Backfire",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Mangled Gear Maneuvers<br /><strong>Range</strong>: Close (25 feet + 5 feet/2 levels)<br /><strong>Target</strong>: one object or creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>Area: 30 foot-radius centered on target. Sensing the eldritch or electrical energies at work, you quickly disrupt them to violently harm their user. Whenever a creature casts a spell, manifests a power, or uses an item, you may perform this counter and make a Disable Device check opposed by the CMD of the caster, manifester, or wielder of the item. On a success, you cause the item to not only fail to work but also to explode violently in a 30-foot radius, dealing [[1d6]] damage per initiator level to the target and all creatures within the area (Reflex save half).</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Half",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "nHCgzs42m2sEl8OC",
+  "_id": "F9zg3Dxwo8W4dUBU",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "7907578619686db12096342ef501dd46b245720f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!F9zg3Dxwo8W4dUBU"
+}

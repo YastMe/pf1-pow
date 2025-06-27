@@ -14,7 +14,7 @@
     "description": {
       "value": "<p><strong>Prerequisite(s)</strong>: Two cursed razor maneuvers<br /><strong>Range</strong>: See text<br /><strong>Target</strong>: One creature<br /><strong>Duration</strong>: Instant</p><h2>Description</h2><p>With a snarled curse you level vengeance at your enemy. You can initiate this counter whenever you are struck by an attack or when you fail a saving throw against a maneuver, power, psi-like ability, spell, or spell- like ability. This counter cannot be initiated in response to failing a save against a harmless effect. The creature originating the attack or effect suffers all damage and effects inflicted upon you, just as if they'd targeted themselves. This maneuver only duplicates the effects you suffered on the creature, not the entire effect.</p>"
     },
-    "discipline": "Black Seraph",
+    "discipline": "Cursed Razor",
     "initTime": {
       "units": "immediate",
       "value": 1
@@ -41,10 +41,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "10.8",
+    "systemVersion": "11.6",
     "coreVersion": "12.331",
     "createdTime": 1732991304228,
-    "modifiedTime": 1736076969747,
+    "modifiedTime": 1750270857283,
     "lastModifiedBy": "jI6iseAymTC0jkXd",
     "compendiumSource": null,
     "duplicateSource": null

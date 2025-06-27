@@ -1,0 +1,22 @@
+{
+  "name": "5th level",
+  "folder": "MDnNZD3nFGhyS56k",
+  "_id": "xr3Y0lJT8ALG4omm",
+  "type": "Item",
+  "sorting": "a",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270722957,
+    "modifiedTime": 1750270722957,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "description": "",
+  "color": null,
+  "_key": "!folders!xr3Y0lJT8ALG4omm"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Conductive Retaliation",
+  "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Mangled Gear Maneuver<br /><strong>Range</strong>: close (25 feet + 5 feet/2 levels)<br /><strong>Target</strong>: see text<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>As an energy attack comes towards you, you manipulate the energy to fire it back at your assailant. When you are targeted by a ranged touch attack or any other effect which would fire a non-solid projectile (such as laser weapons or other energy weapons), make a Disable Device check opposed by the attack roll of the effect. If you succeed, the attack turns on a target of your choice within range, targeting their AC and on a hit dealing damage as if they had been originally targeted (spell resistance still applies).</p>"
+    },
+    "discipline": "Mangled Gear",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter"
+  },
+  "folder": "nJa8UIV7ebgRJQ9q",
+  "_id": "jc5T7PmT9jSlkOyr",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "9496f029e1895a67aa2654978849c8390568720a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf1",
+    "systemVersion": "11.6",
+    "createdTime": 1750270743609,
+    "modifiedTime": 1750270743609,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!jc5T7PmT9jSlkOyr"
+}
