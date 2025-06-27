@@ -1,3 +1,4 @@
+
 pf1-pow
 =======
 
@@ -12,13 +13,24 @@ It includes the necessary Item types for a fully fledged implementation of the M
 * Recover Maneuver: Like the previous macro, but this time recovers a use and the dropdown menu only shows maneuvers that aren't at full capacity.
 * Recover all Maneuvers: This macro recovers all of the maneuvers the character had expended. Like the previous macros, only works when a token is selected or, by default, with the player's selected character.
 
+**The functionalities previously only accessible via Macros are now integrated into the Character Sheet**
+
 The module also includes the following changes to the character sheet: 
 * Added Autohypnosis (Wis, Trained only) to Skills tab.
 * Added Knowledge (Martial) (Int, Trained only) to Skills tab.
-* Added Path of War row to Combat tab.
+* Added Path of War tab to house maneuvers and stances, as well as other relevant information.
 * Added Martial Disciplines row to Features tab.
 
 Plus, the module now includes a Maneuver Browser button both in the Compendiums tab on the sidebar and the Path of War row inside the Combat tab on a character's sheet.
+
+How to enable the Path of War tab:
+===
+Either
+- Add a class from the module to the relevant actor.
+- Add any of the Martial Training feats to the relevant actor.
+- Add the Combat Training Trait to the relevant actor.
+- Edit an existing class, the Details tab now has a selector for maneuver progression.
+- Activate the toggle for the Sparking subsystem on the Settings tab of the actor's sheet.
 
 License
 =======
@@ -35,9 +47,17 @@ For the full license, see the [LICENSE](https://github.com/YastMe/pf1-pow/blob/m
 
 ### Content sources
 
-*   [Path of War](https://www.drivethrurpg.com/en/product/135308/path-of-war)
-*   [Path of War Expanded](https://www.drivethrurpg.com/en/product/177763/path-of-war-expanded)
-*   [Divergent Paths: Fool's Errand](https://www.drivethrurpg.com/en/product/208645/divergent-paths-fools-errand)
-*   [Divergent Paths: Rajah](https://www.drivethrurpg.com/en/product/220762)
-*   [d20PFSRD](https://www.d20pfsrd.com)
-*   [Library of Metzofitz](https://metzo.miraheze.org)
+ 1.  Dreamscarred Press
+	 - [Path of War](https://www.drivethrurpg.com/en/product/135308/path-of-war)
+	 - [Path of War Expanded](https://www.drivethrurpg.com/en/product/177763/path-of-war-expanded)
+	 - [Divergent Paths: Fool's Errand](https://www.drivethrurpg.com/en/product/208645/divergent-paths-fools-errand)
+	 - [Divergent Paths: Rajah](https://www.drivethrurpg.com/en/product/220762)
+	 - [Lords of the Night](https://www.drivethrurpg.com/en/product/148871/lords-of-the-night)
+2.   Moonhand Press
+	 - [Akasha Reshaped: Path of Enlightenment ](https://www.drivethrurpg.com/en/product/361495/akasha-reshaped-path-of-enlightenment)
+	 - [Akasha Reshaped: Moon and Tides](https://www.drivethrurpg.com/en/product/352984/akasha-reshaped-moon-and-tides)
+3.  Lost Spheres Publishing
+	- [Codex of Blood: Parasites and Paragons](https://www.drivethrurpg.com/en/product/318476/codex-of-blood-parasites-paragons)
+4. General Sources
+	 - [d20PFSRD](https://www.d20pfsrd.com)
+	 - [Library of Metzofitz](https://metzo.miraheze.org)
