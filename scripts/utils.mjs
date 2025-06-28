@@ -113,6 +113,8 @@ export function onGetRollData(doc, rollData) {
 
 			else
 				initLevel = 0;
+			if (initLevel > actor.system.attributes.hd.total)
+				initLevel = actor.system.attributes.hd.total;
 			rollData.initLevel = initLevel;
 
 			rollData.maxManeuverLevel = martiallyTrained ? Math.min(Math.min(9, Math.ceil(initLevel / 2)), 6) : Math.min(9, Math.ceil(initLevel / 2));
