@@ -137,11 +137,15 @@ function registerConfig() {
 		sort: 10000
 	};
 
-	CONFIG.PF1.buffTargets["powModifier"] = {
-		label: "PF1-PathOfWar.Attributes.maneuverAttr",
-		category: "misc",
-		/* 		sort: 1_000,
-		 */
+	// Add Stance as a buff subtype
+	CONFIG.PF1.buffTypes["stance"] = "PF1-PathOfWar.Stances.Single";
+	pf1.config.sheetSections.buffs.stance = {
+		label: "PF1-PathOfWar.Stances.Plural",
+		filters: [{ type: "buff", subTypes: ["stance"] }],
+		interface: { create: true, actions: true, types: false },
+		create: { type: "buff", system: { subType: "stance" } },
+		browse: { category: "buffs", buffType: ["stance"] },
+		sort: 10000
 	};
 }
 
