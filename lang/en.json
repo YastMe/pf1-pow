@@ -180,7 +180,11 @@
 		"ShowOverrides": "Show Overrides",
 		"Cancel": "Cancel",
 		"Conditions": {
-			"locked": "Locked"
+			"claimed": "Claimed",
+			"cursed": "Cursed",
+			"locked": "Locked",
+			"offBalanced": "Off-balance",
+			"tricked": "Tricked"
 		}
 	}
 }

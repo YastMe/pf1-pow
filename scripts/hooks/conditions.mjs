@@ -2,10 +2,11 @@ import { MODULE_ID } from "../_moduleId.mjs";
 
 
 export function registerConditions(registry) {
-	registerLocked(registry);
+	registerClaimed(registry);
 	registerCursed(registry);
-	registerTricked(registry);
+	registerLocked(registry);
 	registerOffBalanced(registry);
+	registerTricked(registry);
 }
 
 function registerLocked(registry) {
@@ -40,5 +41,12 @@ function registerOffBalanced(registry) {
 			changes: [{ formula: -2, target: "ac", operator: "add", type: "untyped" }],
 			flags: ["loseDexToAc"]
 		},
+	});
+}
+
+function registerClaimed(registry) {
+	registry.register(MODULE_ID, "claimed", {
+		name: "PF1-PathOfWar.Conditions.claimed",
+		texture: "modules/pf1-pow/assets/icons/claimed.png",
 	});
 }
