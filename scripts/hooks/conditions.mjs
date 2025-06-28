@@ -3,7 +3,11 @@ import { MODULE_ID } from "../_moduleId.mjs";
 
 export function registerConditions(registry) {
 	registerLocked(registry);
+	registerCursed(registry);
+	registerTricked(registry);
+	registerOffBalanced(registry);
 }
+
 function registerLocked(registry) {
 	registry.register(MODULE_ID, "locked", {
 		name: "PF1-PathOfWar.Conditions.locked",
@@ -14,3 +18,27 @@ function registerLocked(registry) {
 	});
 }
 
+function registerCursed(registry) {
+	registry.register(MODULE_ID, "cursed", {
+		name: "PF1-PathOfWar.Conditions.cursed",
+		texture: "modules/pf1-pow/assets/icons/cursed.png",
+	});
+}
+
+function registerTricked(registry) {
+	registry.register(MODULE_ID, "tricked", {
+		name: "PF1-PathOfWar.Conditions.tricked",
+		texture: "modules/pf1-pow/assets/icons/tricked.png",
+	});
+}
+
+function registerOffBalanced(registry) {
+	registry.register(MODULE_ID, "off-balanced", {
+		name: "PF1-PathOfWar.Conditions.offBalanced",
+		texture: "modules/pf1-pow/assets/icons/off-balanced.png",
+		mechanics: {
+			changes: [{ formula: -2, target: "ac", operator: "add", type: "untyped" }],
+			flags: ["loseDexToAc"]
+		},
+	});
+}
