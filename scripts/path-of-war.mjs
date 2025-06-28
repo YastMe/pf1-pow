@@ -7,6 +7,7 @@ import { initHook } from "./hooks/init.mjs";
 import { setupHook } from "./hooks/setup.mjs";
 import { injectManeuverButton, onGetRollData, handleJumpingToSummary } from "./utils.mjs";
 import { startCombatHook, turnHook } from "./hooks/combat.mjs";
+import { registerConditions } from "./hooks/conditions.mjs";
 
 export const TEMPLATES = {
 	"pf1-pow": "modules/pf1-pow/templates/actor/pf1-pow.hbs", // Path of War tab template
@@ -98,3 +99,8 @@ Hooks.on("combatStart", () => {
 Hooks.on("combatTurnChange", (combat, prior, current) => {
 	turnHook(combat, prior, current);
 });
+
+Hooks.on("pf1RegisterConditions", (registry, _model) => {
+  registerConditions(registry);
+});
+

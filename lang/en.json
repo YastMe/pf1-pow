@@ -178,6 +178,9 @@
 			"BypassFatigue": "Push the Limits feat"
 		},
 		"ShowOverrides": "Show Overrides",
-		"Cancel": "Cancel"
+		"Cancel": "Cancel",
+		"Conditions": {
+			"locked": "Locked"
+		}
 	}
 }
