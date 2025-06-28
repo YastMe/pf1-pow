@@ -39,7 +39,7 @@ function registerOffBalanced(registry) {
 		texture: "modules/pf1-pow/assets/icons/off-balanced.png",
 		mechanics: {
 			changes: [{ formula: -2, target: "ac", operator: "add", type: "untyped" }],
-			flags: ["loseDexToAc"]
+			flags: ["loseDexToAC"]
 		},
 	});
 }
