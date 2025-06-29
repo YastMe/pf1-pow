@@ -316,12 +316,11 @@ function injectPathofWarTab(app, html, currentActor) {
 
 function addControlHandlers(app, html) {
 	const { actor } = app;
-	const localize = game.i18n.localize;
 	const items = html.find(".maneuver-control");
 
 	const forceTab = () => app._forceShowManeuverTab = true;
 	const createNewManeuver = () => {
-		const baseName = localize("PF1-PathOfWar.Maneuvers.NewManeuver");
+		const baseName = game.i18n.localize("PF1-PathOfWar.Maneuvers.NewManeuver");
 		const n = actor.items.filter(i => i.type === "pf1-pow.maneuver" && i.name.startsWith(baseName)).length;
 		const name = n ? `${baseName} (${n})` : baseName;
 
