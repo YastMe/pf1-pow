@@ -185,6 +185,7 @@
 			"locked": "Locked",
 			"offBalanced": "Off-balance",
 			"tricked": "Tricked"
-		}
+		},
+		"IgnoreNonInitiatorClasses": "Ignore non-initiator classes"
 	}
 }

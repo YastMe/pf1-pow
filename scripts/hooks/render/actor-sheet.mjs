@@ -32,6 +32,7 @@ export function renderActorHook(data, app, html) {
 			}
 		}
 		injectStanceLimitCheckbox(app, html, actor);
+		injectIgnoreNonInitiatorClassesCheckbox(app, html, actor);
 		injectPathofWarTab(app, html, actor);
 		injectManeuverBrowserButton(app, html);
 		addControlHandlers(app, html, data);
@@ -273,6 +274,23 @@ function injectStanceLimitCheckbox(app, html, currentActor) {
 	controls.append(label);
 }
 
+function injectIgnoreNonInitiatorClassesCheckbox(app, html, currentActor) {
+	let controls = html.find(".pf1-pow-div .stacked")[0];
+	const checkbox = document.createElement("input");
+	checkbox.type = "checkbox";
+	checkbox.name = `flags.${MODULE_ID}.ignoreNonInitiatorClasses`;
+	checkbox.id = checkbox.name;
+	const label = document.createElement("label");
+	label.append(checkbox);
+	label.append(game.i18n.localize("PF1-PathOfWar.IgnoreNonInitiatorClasses"));
+	label.classList.add("checkbox");
+	if (!currentActor.flags[MODULE_ID] || !currentActor.flags[MODULE_ID].ignoreNonInitiatorClasses)
+		currentActor.setFlag(MODULE_ID, "ignoreNonInitiatorClasses", false);
+	if (currentActor.flags[MODULE_ID].ignoreNonInitiatorClasses)
+		checkbox.checked = true;
+	controls.append(label);
+}
+
 function injectBypassFatigueCheckbox(app, html, currentActor) {
 	let controls = html.find(".pf1-pow-div .stacked")[0];
 	const checkbox = document.createElement("input");
@@ -396,22 +414,16 @@ async function updateMartialTrainingLevel(actor) {
 	const martialTrainingFeats = actor.items.filter((item) => MARTIAL_TRAINING_IDS.includes(item._source._stats.compendiumSource))
 	let index = 0;
 	const combatTrainingTrait = actor.items.find(i => i._source._stats.compendiumSource === COMBAT_TRAINING_TRAIT);
-	if (combatTrainingTrait) {
+	if (combatTrainingTrait)
 		actor.setFlag(MODULE_ID, "combatTrainingTrait", true);
-		index++;
-	}
 	else
 		actor.setFlag(MODULE_ID, "combatTrainingTrait", false);
 	if (martialTrainingFeats.length > 0) {
-		for (let feat of martialTrainingFeats) {
-			if (MARTIAL_TRAINING_IDS.indexOf(feat._source._stats.compendiumSource) > index) {
+		for (let feat of martialTrainingFeats)
+			if (MARTIAL_TRAINING_IDS.indexOf(feat._source._stats.compendiumSource) > index)
 				index = MARTIAL_TRAINING_IDS.indexOf(feat._source._stats.compendiumSource);
-			}
-		}
 		actor.setFlag(MODULE_ID, "martialTrainingLevel", index + 1);
 	}
-	else {
+	else
 		actor.setFlag(MODULE_ID, "martialTrainingLevel", 0);
-	}
-
 }

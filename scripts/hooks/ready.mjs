@@ -5,10 +5,8 @@ import { ManeuverBrowser } from "../compendiumBrowser/maneuver-browser.mjs";
 export function readyHook() {
 	console.log(`${MODULE_ID} | Ready`);
 	registerManeuverBrowser();
-	if (game.users.activeGM === game.user) {
+	if (game.users.activeGM === game.user)
 		migrateOldActors();
-		showWelcomeDialog();
-	}
 }
 
 /**
@@ -81,36 +79,5 @@ function addSkillIfMissing(actor, skillKey, skillData) {
 			}
 		});
 		console.log(`${MODULE_ID} | Added ${skillData.name} to ${actor.name}`);
-	}
-}
-
-/**
- * Displays a welcome dialog to users who have installed the module for the first time.
- * The dialog introduces the module's features and provides instructions for setup.
- *
- * The dialog is only shown once per user by setting a flag (`flags.pf1pow`) on the user.
- */
-function showWelcomeDialog() {
-	if (!game.users.current.flags.pf1pow) {
-		new Dialog({
-			title: 'Path of War for Pathfinder 1e',
-			content: `
-            <p>Hello! Thank you for installing Path of War for Pathfinder 1e.</p>
-            <p>This module includes the necessary Item and Feat types for you to create your own Martial Disciplines and Maneuvers, alongside an empty Martial Discipline to help guide in the creation of new ones.</p>
-            <p>It also includes four different Macros to make your usage of the system a bit easier. While not all of them are necessary for play, they offer Quality of Life improvements that players and GM alike will enjoy!</p>
-            <p>To start using the system, the macro "Set Initiation Modifier" should be called whenever a new character sheet is added. This will help you set up the relevant stats depending on the character's class.</p>
-            <p>For players, it is configured to target your assigned character. For GMs, a token will need to be selected for the macro to work on the desired character.</p>
-            <p>The rest of the Macros are quite self-explanatory, you can find all of the content in the relevant Compendiums</p>
-            <br>
-            `,
-			buttons: {
-				yes: {
-					icon: '<i class="fas fa-check"></i>',
-					label: `Close, don't show again`,
-					default: 'yes'
-				}
-			}
-		}).render(true);
-		game.users.current.update({ "flags.pf1pow": true });
 	}
 }

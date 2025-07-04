@@ -81,6 +81,7 @@ export function onGetRollData(doc, rollData) {
 				rollData.duoPartner = game.actors.get(foundry.utils.parseUuid(duoPartner).id) || null;
 			const sparker = actor.getFlag(MODULE_ID, 'sparker') || false;
 			const martiallyTrained = actor.getFlag(MODULE_ID, 'martialTrainingLevel');
+			const combatTrainingTrait = actor.getFlag(MODULE_ID, 'combatTrainingTrait') || false;
 
 			// Initiator Level //
 			let initLevel = 0;
@@ -96,12 +97,11 @@ export function onGetRollData(doc, rollData) {
 			}
 			rollData.maneuversGranted = maneuversGranted;
 			if (initClasses.length > 0 && !sparker) {
-				for (const c of initClasses) {
+				for (const c of initClasses)
 					initLevel += c.system.level || 0;
-				}
-				for (const c of notInitClasses) {
-					initLevel += c.system.level / 2 || 0;
-				}
+				if (!actor.getFlag(MODULE_ID, 'ignoreNonInitiatorClasses'))
+					for (const c of notInitClasses)
+						initLevel += c.system.level / 2 || 0;
 				initLevel = Math.floor(initLevel);
 			}
 			else if (sparker) {
@@ -163,6 +163,14 @@ export function onGetRollData(doc, rollData) {
 				maneuversPrepared = maneuversPrepared;
 			}
 
+			if (actor.getFlag(MODULE_ID, 'combatTrainingTrait')) {
+				maxManeuversKnown += 1;
+				maxManeuversPrepared += 1;
+				if (initLevel == 0) {
+					rollData.initLevel = 1;
+					rollData.maxManeuverLevel = 1;
+				}
+			}
 			let maneuversOverMaxLevel = 0;
 			actor.items.forEach(item => {
 				if (item.type === "pf1-pow.maneuver" && item.system.level > rollData.maxManeuverLevel) {
@@ -170,10 +178,6 @@ export function onGetRollData(doc, rollData) {
 				}
 			});
 			rollData.maneuversOverMaxLevel = maneuversOverMaxLevel;
-			if (actor.getFlag(MODULE_ID, 'combatTrainingTrait')) {
-				maxManeuversKnown += 1;
-				maxManeuversPrepared += 1;
-			}
 			rollData.maneuversPrepared = maneuversPrepared;
 			rollData.maxManeuversPrepared = maxManeuversPrepared;
 			rollData.maneuversKnown = maneuversKnown;
