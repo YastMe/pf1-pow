@@ -77,7 +77,8 @@
 				"7": "Level 7",
 				"8": "Level 8",
 				"9": "Level 9",
-				"Mismatch": "Maneuvers over maximum level known"
+				"Mismatch": "Maneuvers over maximum level known",
+				"Single": "Level"
 			},
 			"NewManeuver": "New Maneuver",
 			"DC": {
