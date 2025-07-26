@@ -126,24 +126,26 @@
 				<div class="item-name">
 					<a class="item-image maneuver-control" style="background-image: url({{item.img}});"
 						data-tooltip="PF1.DisplayInChat" name="display" id="{{item.id}}"></a>
-					<h4{{#unless item.system.ready}} {{#unless (eq item.system.maneuverType "Stance"
-						)}}class="maneuvernotready" {{/unless}}{{/unless}}>
-						{{item.name}}
+					<a class="maneuver-control" name="maneuverName" id="{{item.id}}">
+						<h4 class="{{#unless item.system.ready}} {{#unless (eq item.system.maneuverType 'Stance')}}
+					maneuvernotready {{/unless}}{{/unless}}">
+							{{item.name}}
 						</h4>
-						{{#if item.system.ready}}
-						{{#if @root.actor._rollData.maneuversGranted}}
-						<a class="maneuver-control item-control item-granted"
-							data-tooltip="{{localize 'PF1-PathOfWar.Maneuvers.Granted'}}" name="grant" id="{{item.id}}">
-							{{#if item.system.granted}}
-							<i class="fa-solid fa-lightbulb"
-								data-tooltip="{{localize 'PF1-PathOfWar.Maneuvers.Granted'}}"></i>
-							{{else}}
-							<i class="fa-regular fa-lightbulb"
-								data-tooltip="{{localize 'PF1-PathOfWar.Maneuvers.NotGranted'}}"></i>
-							{{/if}}
-						</a>
+					</a>
+					{{#if item.system.ready}}
+					{{#if @root.actor._rollData.maneuversGranted}}
+					<a class="maneuver-control item-control item-granted"
+						data-tooltip="{{localize 'PF1-PathOfWar.Maneuvers.Granted'}}" name="grant" id="{{item.id}}">
+						{{#if item.system.granted}}
+						<i class="fa-solid fa-lightbulb"
+							data-tooltip="{{localize 'PF1-PathOfWar.Maneuvers.Granted'}}"></i>
+						{{else}}
+						<i class="fa-regular fa-lightbulb"
+							data-tooltip="{{localize 'PF1-PathOfWar.Maneuvers.NotGranted'}}"></i>
 						{{/if}}
-						{{/if}}
+					</a>
+					{{/if}}
+					{{/if}}
 				</div>
 
 				{{#unless actor.flags.pf1-pow.sparker}}
@@ -222,12 +224,31 @@
 					style="flex-basis:15%">
 					<span>{{item.system.discipline}}</span>
 				</div>
-
 				<div class="item-controls" style="flex-basis: 7%;">
 					<a class="maneuver-control item-control item-edit" data-tooltip="PF1.EditItem" name="edit"
 						id="{{item.id}}"><i class="fa-solid fa-edit"></i></a>
 					<a class="maneuver-control item-control item-delete" data-tooltip="PF1.DeleteItem" name="delete"
 						id="{{item.id}}"><i class="fa-solid fa-trash"></i></a>
+				</div>
+				<div class="identified accordion hidden" id="maneuver-summary-{{item.id}}">
+					<div class="description identified">
+						<div class="spell-description">
+							<p>
+								<strong>{{localize
+									"PF1-PathOfWar.Disciplines.Single"}}</strong> {{item.system.discipline}}
+								<strong>{{localize
+									"PF1-PathOfWar.Maneuvers.Levels.Single"}}</strong> {{item.system.level}} 
+								<br>
+								<strong>{{localize
+									"PF1-PathOfWar.initTime"}}</strong> {{item.system.initTime.value}}
+								{{capitalize
+								item.system.initTime.units}} 
+							</p>
+						</div>
+						<div class="description-body">
+							{{{cleanDice item.system.description.value}}}
+						</div>
+					</div>
 				</div>
 			</li>
 			{{/if}}

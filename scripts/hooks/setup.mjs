@@ -51,4 +51,7 @@ export function setupHook() {
 		});
 		return maneuvers;
 	});
+	Handlebars.registerHelper('cleanDice', function (haystack) {
+		return haystack.replaceAll('[', '').replaceAll(']', '');
+	});
 }

@@ -312,7 +312,7 @@ function injectBypassFatigueCheckbox(app, html, currentActor) {
 function injectPathofWarTab(app, html, currentActor) {
 	const { actor } = app;
 
-	if (actor._rollData?.initLevel > 0) {
+	if (actor._rollData?.initLevel > 0 || actor.flags[MODULE_ID]?.sparker) {
 		const tabSelector = html.find("a[data-tab=skills]");
 		const artsTab = document.createElement("a");
 		artsTab.classList.add("item");
@@ -376,6 +376,15 @@ function addControlHandlers(app, html) {
 					configDiv.style.maxHeight = (configDiv.style.maxHeight && configDiv.style.maxHeight !== "0px")
 						? "0px"
 						: `${configDiv.scrollHeight}px`;
+				},
+				maneuverName: () => {
+					const descriptionDiv = $(`#maneuver-summary-${maneuver.id}`)[0];
+					descriptionDiv.classList.toggle("hidden");
+					descriptionDiv.style.maxHeight = (descriptionDiv.style.maxHeight && descriptionDiv.style.maxHeight !== "0px")
+						? "0px"
+						: `${descriptionDiv.scrollHeight}px`;
+					descriptionDiv.classList.toggle("item-summary");
+					forceTab();
 				}
 			};
 			actionMap[action]?.();
