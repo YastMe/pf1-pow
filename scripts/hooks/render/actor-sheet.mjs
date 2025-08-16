@@ -374,16 +374,24 @@ function addControlHandlers(app, html) {
 				showConfig: () => {
 					const configDiv = html.find(".maneuver-control-buttons")[0];
 					configDiv.style.maxHeight = (configDiv.style.maxHeight && configDiv.style.maxHeight !== "0px")
-						? "0px"
+						? "0"
 						: `${configDiv.scrollHeight}px`;
+					configDiv.classList.toggle("accordion", "open");
+					forceTab();
 				},
 				maneuverName: () => {
 					const descriptionDiv = $(`#maneuver-summary-${maneuver.id}`)[0];
-					descriptionDiv.classList.toggle("hidden");
 					descriptionDiv.style.maxHeight = (descriptionDiv.style.maxHeight && descriptionDiv.style.maxHeight !== "0px")
 						? "0px"
 						: `${descriptionDiv.scrollHeight}px`;
-					descriptionDiv.classList.toggle("item-summary");
+					const isOpen = descriptionDiv.classList.contains("open");
+					if (isOpen) {
+						setTimeout(() => {
+							descriptionDiv.classList.toggle("open");
+						}, 300);
+					} else {
+						descriptionDiv.classList.toggle("open");
+					}
 					forceTab();
 				}
 			};

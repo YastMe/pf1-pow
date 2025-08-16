@@ -203,7 +203,7 @@ export class ManeuverItem extends pf1.documents.item.ItemPF {
 		const { uses, ready, granted, maneuverType } = this.system;
 
 		if (this.actor.flags[MODULE_ID]?.sparker) {
-			if ((this.actor._rollData.conditions.fatigued && !this.actor.flags[MODULE_ID].bypassFatigue) || (this.actor._rollData.conditions.exhausted || this.actor_rollData.conditions.unconscious)) {
+			if ((this.actor._rollData.conditions.fatigued && !this.actor.flags[MODULE_ID].bypassFatigue) || (this.actor._rollData.conditions.exhausted || this.actor._rollData.conditions.unconscious)) {
 				ui.notifications.warn(`${game.i18n.localize("PF1-PathOfWar.Stamina.UseFatigue")}`);
 				return;
 			}
@@ -245,6 +245,12 @@ export class ManeuverItem extends pf1.documents.item.ItemPF {
 		if (uses.value < uses.max && ready) {
 			this.update({ "system.uses.value": uses.value + 1 });
 			this.actor.sheet._forceShowManeuverTab = true;
+			if (this.actor.flags[MODULE_ID]?.duoPartner) {
+				const duoPartnerManeuver = this.actor._rollData.duoPartner.items.find(item => item.name === this.name);
+				if (duoPartnerManeuver) {
+					duoPartnerManeuver.update({ "system.uses.value": duoPartnerManeuver.system.uses.value + 1 });
+				}
+			}
 		}
 	}
 
@@ -253,6 +259,12 @@ export class ManeuverItem extends pf1.documents.item.ItemPF {
 		if (uses.value < uses.max && ready) {
 			this.update({ "system.uses.value": uses.value + 1 });
 			ui.notifications.info(`${game.i18n.localize("PF1-PathOfWar.Maneuvers.RecoverSuccess")} ${this.name}`);
+			if (this.actor.flags[MODULE_ID]?.duoPartner) {
+				const duoPartnerManeuver = this.actor._rollData.duoPartner.items.find(item => item.name === this.name);
+				if (duoPartnerManeuver) {
+					duoPartnerManeuver.update({ "system.uses.value": duoPartnerManeuver.system.uses.value + 1 });
+				}
+			}
 		} else {
 			ui.notifications.warn(`${game.i18n.localize("PF1-PathOfWar.Maneuvers.RecoverFailure")} ${this.name}`);
 		}

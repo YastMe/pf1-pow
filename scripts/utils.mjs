@@ -10,7 +10,7 @@ import { maneuverBrowser } from "./compendiumBrowser/maneuver-browser.mjs";
  * @param {JQuery} html - The jQuery-wrapped HTML element where the button will be injected.
  */
 export function injectManeuverButton(html) {
-	const footer = html.find(".directory-footer");
+	const footer = $("section.action-buttons") || html.find(".directory-footer")
 	const button = document.createElement("button");
 	button.type = "button";
 	button.dataset.category = "maneuver";
@@ -127,7 +127,10 @@ export function onGetRollData(doc, rollData) {
 				if (item.type === "pf1-pow.maneuver") {
 					if (item.system.ready && item.system.maneuverType !== "Stance")
 						maneuversPrepared += 1;
-					maneuversKnown += 1;
+					if (sparker && item.system.maneuverType !== "Stance")
+						maneuversKnown += 1;
+					else if (!sparker)
+						maneuversKnown += 1;
 				}
 			});
 			if (sparker) {
