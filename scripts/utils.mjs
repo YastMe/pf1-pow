@@ -10,7 +10,7 @@ import { maneuverBrowser } from "./compendiumBrowser/maneuver-browser.mjs";
  * @param {JQuery} html - The jQuery-wrapped HTML element where the button will be injected.
  */
 export function injectManeuverButton(html) {
-	const footer = $("section.action-buttons") || html.find(".directory-footer")
+	const footer = html?.find(".directory-footer") || $("section.action-buttons");
 	const button = document.createElement("button");
 	button.type = "button";
 	button.dataset.category = "maneuver";
