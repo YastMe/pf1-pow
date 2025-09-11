@@ -58,6 +58,8 @@ For the full license, see the [LICENSE](https://github.com/YastMe/pf1-pow/blob/m
 	 - [Akasha Reshaped: Moon and Tides](https://www.drivethrurpg.com/en/product/352984/akasha-reshaped-moon-and-tides)
 3.  Lost Spheres Publishing
 	- [Codex of Blood: Parasites and Paragons](https://www.drivethrurpg.com/en/product/318476/codex-of-blood-parasites-paragons)
-4. General Sources
+4. Legendary Games
+	- [Legendary Classes: Sagitta Stellaris](https://www.drivethrurpg.com/en/product/390618/legendary-classes-sagitta-stellaris)
+6. General Sources
 	 - [d20PFSRD](https://www.d20pfsrd.com)
 	 - [Library of Metzofitz](https://metzo.miraheze.org)
