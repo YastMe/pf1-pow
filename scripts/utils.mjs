@@ -150,7 +150,12 @@ export function onGetRollData(doc, rollData) {
 					if (item.system.ready && item.system.maneuverType !== "Stance")
 						maneuversPrepared += 1;
 					maneuversKnown += 1;
+					if (sparker && item.system.maneuverType !== "Stance")
+						maneuversKnown += 1;
+					else if (!sparker)
+						maneuversKnown += 1;
 				}
+
 			});
 			if (sparker) {
 				maxManeuversPrepared = Math.floor(initLevel / 2) + 2;
