@@ -15,6 +15,8 @@ const MARTIAL_TRAINING_IDS = [
 
 const COMBAT_TRAINING_TRAIT = "Compendium.pf1-pow.traits.Item.jTkem5O4Xu0MdirH"
 
+const ADVANCED_STUDY_FEAT = "Compendium.pf1-pow.feats.Item.3qsj6IGc9IS2WY95"
+
 export function renderActorHook(data, app, html) {
 	const actor = data.actor;
 	if (actor.flags?.core?.sheetClass !== "pf1alt.AltActorSheetPFCharacter") {
@@ -423,10 +425,15 @@ async function updateMartialTrainingLevel(actor) {
 	const martialTrainingFeats = actor.items.filter((item) => MARTIAL_TRAINING_IDS.includes(item._source._stats.compendiumSource))
 	let index = 0;
 	const combatTrainingTrait = actor.items.find(i => i._source._stats.compendiumSource === COMBAT_TRAINING_TRAIT);
+	const advancedStudyFeat = actor.items.find(i => i._source._stats.compendiumSource === ADVANCED_STUDY_FEAT);
 	if (combatTrainingTrait)
 		actor.setFlag(MODULE_ID, "combatTrainingTrait", true);
 	else
 		actor.setFlag(MODULE_ID, "combatTrainingTrait", false);
+	if (advancedStudyFeat)
+		actor.setFlag(MODULE_ID, "advancedStudyFeat", true);
+	else
+		actor.setFlag(MODULE_ID, "advancedStudyFeat", false);
 	if (martialTrainingFeats.length > 0) {
 		for (let feat of martialTrainingFeats)
 			if (MARTIAL_TRAINING_IDS.indexOf(feat._source._stats.compendiumSource) > index)

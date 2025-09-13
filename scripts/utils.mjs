@@ -10,17 +10,29 @@ import { maneuverBrowser } from "./compendiumBrowser/maneuver-browser.mjs";
  * @param {JQuery} html - The jQuery-wrapped HTML element where the button will be injected.
  */
 export function injectManeuverButton(html) {
-	const footer = html?.find(".directory-footer") || $("section.action-buttons");
+	let footer;
+	if (html && typeof html.find === "function") {
+		footer = html.find(".directory-footer");
+		if (footer.length > 0) {
+			footer = footer[0];
+		} else {
+			footer = $("section.action-buttons")[0];
+		}
+	} else {
+		footer = $("section.action-buttons")[0];
+	}
+	if (!footer) return; // Prevent errors if footer is not found
 	const button = document.createElement("button");
 	button.type = "button";
 	button.dataset.category = "maneuver";
 	button.classList.add("compendium", "maneuver");
 	button.innerText = game.i18n.localize("PF1-PathOfWar.Browse");
-	footer.append(button);
+	footer.appendChild(button);
 	button.addEventListener("click", maneuverBrowser);
-	if (footer.children.length % 2 == 0)
+	if (footer.children.length % 2 === 0)
 		button.classList.add("colspan-2");
 }
+
 
 export function handleJumpingToSummary() {
 	libWrapper.register(MODULE_ID, 'pf1.applications.actor.ActorSheetPF.prototype._focusTabByItem', function (wrapped, item) {
@@ -82,19 +94,22 @@ export function onGetRollData(doc, rollData) {
 			const sparker = actor.getFlag(MODULE_ID, 'sparker') || false;
 			const martiallyTrained = actor.getFlag(MODULE_ID, 'martialTrainingLevel');
 			const combatTrainingTrait = actor.getFlag(MODULE_ID, 'combatTrainingTrait') || false;
+			const advancedStudyFeat = actor.getFlag(MODULE_ID, 'advancedStudyFeat') || false;
 
 			// Initiator Level //
 			let initLevel = 0;
 			let classes = Array.from(actor.items).filter(item => item.type === "class");
 			let notInitClasses = classes.filter(c => c.system.maneuverProgression?.classType === "none" || c.system.maneuverProgression?.classType === "" || !c.system.maneuverProgression?.classType);
 			let initClasses = classes.filter(c => !notInitClasses.includes(c));
+			let maxLevelInitClass = 0;
 			let maneuversGranted = false;
 			for (const c of initClasses) {
-				if (c.system?.maneuverProgression?.type === "granted") {
+				if (c.system.level > maxLevelInitClass)
+					maxLevelInitClass = c;
+				if (c.system?.maneuverProgression?.type === "granted")
 					maneuversGranted = true;
-					break;
-				}
 			}
+			const archetypeInitiator = maxLevelInitClass?.system?.maneuverProgression?.classType === "archetype";
 			rollData.maneuversGranted = maneuversGranted;
 			if (initClasses.length > 0 && !sparker) {
 				for (const c of initClasses)
@@ -117,7 +132,14 @@ export function onGetRollData(doc, rollData) {
 				initLevel = actor.system.attributes.hd.total;
 			rollData.initLevel = initLevel;
 
-			rollData.maxManeuverLevel = martiallyTrained ? Math.min(Math.min(9, Math.ceil(initLevel / 2)), 6) : Math.min(9, Math.ceil(initLevel / 2));
+			if (martiallyTrained)
+				rollData.maxManeuverLevel = Math.min(Math.min(9, Math.ceil(initLevel / 2)), 6);
+			else if (archetypeInitiator && advancedStudyFeat)
+				rollData.maxManeuverLevel = Math.min(9, Math.ceil(initLevel / 2));
+			else if (archetypeInitiator)
+				rollData.maxManeuverLevel = Math.min(6, Math.ceil(initLevel / 2));
+			else
+				rollData.maxManeuverLevel = Math.min(9, Math.ceil(initLevel / 2));
 
 			let maneuversPrepared = 0;
 			let maneuversKnown = 0;
@@ -127,10 +149,7 @@ export function onGetRollData(doc, rollData) {
 				if (item.type === "pf1-pow.maneuver") {
 					if (item.system.ready && item.system.maneuverType !== "Stance")
 						maneuversPrepared += 1;
-					if (sparker && item.system.maneuverType !== "Stance")
-						maneuversKnown += 1;
-					else if (!sparker)
-						maneuversKnown += 1;
+					maneuversKnown += 1;
 				}
 			});
 			if (sparker) {
@@ -166,7 +185,7 @@ export function onGetRollData(doc, rollData) {
 				maneuversPrepared = maneuversPrepared;
 			}
 
-			if (actor.getFlag(MODULE_ID, 'combatTrainingTrait')) {
+			if (combatTrainingTrait) {
 				maxManeuversKnown += 1;
 				maxManeuversPrepared += 1;
 				if (initLevel == 0) {
