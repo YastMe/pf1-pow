@@ -1,0 +1,62 @@
+{
+  "name": "Localized Wormhole Trail",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Sagitta Stellaris maneuvers<br /><strong>Range</strong>: ranged attack, [Trail] 90 ft.<br /><strong>Target</strong>: one creature<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>Your attack reweaves physical space. Make a 90 ft. trail ranged attack. If it hits, it deals weapon damage as normal plus an additional [[5d6]] points of damage, and the creature hit is affected as if they entered the trail. Whenever an ally enters a space in the trail, you may teleport them to any other space in the trail without needing an action. When an enemy enters the trail, they must make a will save (DC 15 + your initiation modifier) or be teleported to any other space in the trail of your choice, as long as it isn't an inherently dangerous space for them.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "ylgVV7JGCXc2LKiW",
+  "_id": "s7mviLwoDsN4oXgR",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!s7mviLwoDsN4oXgR"
+}

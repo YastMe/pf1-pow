@@ -1,0 +1,62 @@
+{
+  "name": "Lucent Flashback",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Sagitta Stellaris maneuver<br /><strong>Range</strong>: medium (100 ft. + 10 ft./level)<br /><strong>Target</strong>: None<br /><strong>Duration</strong>: 1 round<br /><strong>Area:</strong> 10-ft.-radius burst </p><h2>Description</h2><p>You gather a mote of volatile star-energy in your hand and fling it into the fray where it bursts in a concentrated wave of light, vibrations and radiation. Each creature in the area becomes flat-footed against the next attack made against them and must make a reflex save (DC 10 + one-half your initiator level + your initiation modifier) or take [[2d6]] force damage and have their senses overloaded. A creature has a -2 penalty to this saving throw if you have hit them with a ranged attack this turn. When overloaded, a creature cannot make attacks of opportunity, cannot see any of your trails, and all senses except smell, hearing and touch cannot perceive anything more than 15 feet away from them: they are also flat-footed against all attacks from outside this range. A creature can use a move action to refocus and remove all effects of being overloaded from themselves, but otherwise all effects end after 1 round. You may move up to 10 feet without provoking attacks of opportunity after using this maneuver.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "Text",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "c3XW0mERvKayv04x",
+  "_id": "4EpLQrorRMVlF5fV",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!4EpLQrorRMVlF5fV"
+}

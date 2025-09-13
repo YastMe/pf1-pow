@@ -1,0 +1,62 @@
+{
+  "name": "Threading the Tapestry of Fate",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Sagitta Stellaris maneuvers<br /><strong>Range</strong>: ranged attack<br /><strong>Target</strong>: one creature<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>Striking an enemy at the meridian of their cosmic alignment, you rewrite their entire immediate destiny. You can initiate this counter in response to an enemy targeting one or more creatures or an area with any effect, including attacks, area-of-effect abilities, spells, and spell-like abilities. Make a ranged attack against that creature. If it hits, it deals weapon damage as normal, and the creature can no longer choose their intended targets for that ability for the rest of that round. The creature must then make a will save (DC 18 + your initiation modifier). If it fails, you may teleport the creature to any space of your choice within 60 ft., and then force it to choose a new target (or targets) of your choice, subject to the original targeting requirements, but treating its other allies as enemies and its enemies as allies. If they were making a full attack action, you can choose all the targets for its attacks that turn. If it was an ability that affected an area, you choose the area. Spells with a personal range can instead be cast with a range of touch. When a creature fails their save against this  maneuver, you may choose to forgo any concentration checks they may have needed to make as a result of taking damage from it.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "46TwdiKPKmUTjGeM",
+  "_id": "fWZrRIzzGRXD48Qw",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!fWZrRIzzGRXD48Qw"
+}

@@ -1,0 +1,161 @@
+{
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757766489336,
+    "modifiedTime": 1757766494851,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "img": "systems/pf1/icons/feats/deadly-stroke.jpg",
+  "name": "Bonus Feat (Warder)",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level and every 5th level thereafter, a warder receives a bonus combat or teamwork feat. She must meet all prerequisites for these feats.</p>",
+      "instructions": ""
+    },
+    "tags": [
+      "Prestige Feature"
+    ],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [
+      {
+        "type": "untyped",
+        "_id": "Ls0OQIQL",
+        "operator": "add",
+        "priority": 0,
+        "target": "bonusFeats",
+        "formula": "max(0, floor((@classes.warder.level - 3) / 5) + 1)"
+      }
+    ],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": [
+        "Crimson Templar"
+      ]
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "ckg": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "sources": [
+      {
+        "id": "PZO9474",
+        "pages": "8"
+      }
+    ],
+    "class": "warder",
+    "showInCombat": false
+  },
+  "type": "feat",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "42d072a32f22f7635b2f4ccc0a0d5858a1053d53"
+    },
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    }
+  },
+  "folder": "sxV5xzdjvGAHduBl",
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_id": "omMfyO6LwnSnNEM1",
+  "sort": 900000,
+  "_key": "!items!omMfyO6LwnSnNEM1"
+}

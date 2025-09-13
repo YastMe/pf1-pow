@@ -1,0 +1,175 @@
+{
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p><strong>Risk</strong></p><p>The warlord makes a Fortitude or Will save against a non-harmless extraordinary ability, maneuver, power, spell, spell-like or supernatural ability ability. Unlike other gambits, unbreakable gambit can be activated as an immediate action.</p><p></p><p><strong>Reward</strong></p><p>The warlord regains a number of hit points equal to three times his warlord initiation modifier.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [
+      {
+        "name": "Use",
+        "activation": {
+          "unchained": {
+            "cost": 1,
+            "type": "nonaction"
+          },
+          "cost": 1,
+          "type": "immediate"
+        },
+        "actionType": "heal",
+        "_id": "sInO3ftFrhq1btDg",
+        "uses": {},
+        "powerAttack": {
+          "damageBonus": 2,
+          "critMultiplier": 1
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "3 * @abilities.cha.mod"
+            }
+          ]
+        },
+        "ability": {
+          "critRange": 20,
+          "critMult": 2
+        },
+        "ammo": {
+          "type": "none"
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "ex",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "ckg": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "class": "warlord",
+    "showInCombat": false
+  },
+  "name": "Unbreakable Gambit",
+  "img": "icons/skills/melee/unarmed-punch-fist-blue.webp",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "0105cdfb67860089a1ee2eff011612d71c45014c"
+    },
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757766010065,
+    "modifiedTime": 1757766010065,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "folder": "6GaLQCIUwv9RyAVe",
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_id": "402UVosSUVjoQbSq",
+  "sort": 0,
+  "_key": "!items!402UVosSUVjoQbSq"
+}

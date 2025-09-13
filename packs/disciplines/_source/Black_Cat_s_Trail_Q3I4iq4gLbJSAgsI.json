@@ -1,0 +1,62 @@
+{
+  "name": "Black Cat's Trail",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: ranged attack, [Trail] 90 ft.<br /><strong>Target</strong>: one creature<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>Your attack traces a path of tragedy and misfortune that curses those who cross it, who can then either fulfill the curse on their own terms or suffer the consequences. Make a 90-foot trail ranged attack. If it hits, it deals weapon damage as normal plus an additional [[1d6]] points of damage, and the creature hit is affected as if they entered the trail. Enemies entering the trail are marked with a sigil, becoming cursed as long as they are marked. Whenever a marked enemy makes an attack roll, saving throw, or concentration check, they may choose to activate the sigil to suffer a -4 penalty to their roll, and remove the sigil. Activating this sigil deos not require an action. If a sigil-marked creature's turn ends and they still carry the sigil, they must make a Will save (DC 12 + your initiation modifier), activating the sigil with the -4 penalty to this save; if they fail, they are dazed until the end of their next turn. A creature automatically passes this save if they did not take a standard or full-round action on their turn.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "hz6uvDYLNXM7ItG6",
+  "_id": "Q3I4iq4gLbJSAgsI",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Q3I4iq4gLbJSAgsI"
+}

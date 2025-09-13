@@ -29,6 +29,7 @@
             "primalFury": "Primal Fury",
             "radiantDawn": "Radiant Dawn",
             "rivenHourglass": "Riven Hourglass",
+            "sagittaStellaris": "Sagitta Stellaris",
             "scarletThrone": "Scarlet Throne",
             "shatteredMirror": "Shattered Mirror",
             "silverCrane": "Silver Crane",
@@ -76,7 +77,9 @@
                 "6": "Nivel 6",
                 "7": "Nivel 7",
                 "8": "Nivel 8",
-                "9": "Nivel 9"
+                "9": "Nivel 9",
+                "Mismatch": "Maniobras sobre el nivel máximo conocido",
+                "Single": "Nivel"
             },
             "NewManeuver": "Nueva maniobra",
             "DC": {
@@ -84,10 +87,30 @@
                 "Discipline": "CD con arma de disciplina"
             },
             "Recover": "Recuperar maniobra",
+            "RecoverAll": "Recuperar todas las maniobras",
             "RecoverSuccess": "Recuperada",
             "RecoverFailure": "No se puede recuperar",
             "UseFailure": "No hay suficientes usos restantes para",
-            "NotReady": "no está preparada o concedida"
+            "NotReady": "no está preparada o concedida",
+            "ProgressionTypes": {
+                "none": "Ninguno",
+                "class": "Clase",
+                "archetype": "Arquetipo",
+                "section": "Progresión de maniobras",
+                "classType": "Tipo de progresión",
+                "type": "Tipo de maniobra"
+            },
+            "GrantTypes": {
+                "regular": "Preparada",
+                "granted": "Preparada + Concedida"
+            },
+            "Granted": "Maniobra concedida",
+            "NotGranted": "Maniobra no concedida",
+            "Grant": "Conceder maniobra",
+            "GrantAll": "Conceder todas las maniobras",
+            "GrantTitle": "Elegir maniobras a conceder",
+            "ToggleAllGranted": "Alternar todas las concesiones",
+            "GrantDialogue": "Activar diálogo de concesión"
         },
         "Stances": {
             "Single": "Postura",
@@ -155,6 +178,16 @@
             "Fatigue": "¡Te quedaste sin aguante! Ahora estás fatigado hasta recuperar al menos 1 punto de aguante.",
             "Exhaustion": "¡Te quedaste sin aguante en tu reserva secundaria! Ahora estás exhausto hasta recuperar al menos 1 punto en la reserva secundaria.",
             "BypassFatigue": "Dote Superar los Límites"
-        }
+        },
+        "ShowOverrides": "Mostrar anulaciones",
+        "Cancel": "Cancelar",
+        "Conditions": {
+            "claimed": "Reclamado",
+            "cursed": "Maldito",
+            "locked": "Bloqueado",
+            "offBalanced": "Desequilibrado",
+            "tricked": "Engañado"
+        },
+        "IgnoreNonInitiatorClasses": "Ignorar clases no iniciadoras"
     }
 }

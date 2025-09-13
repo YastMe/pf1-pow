@@ -1,0 +1,62 @@
+{
+  "name": "Heaven's Binding Trail",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Sagitta Stellaris maneuver<br /><strong>Range</strong>: ranged attack, [Trail] 90 ft.<br /><strong>Target</strong>: one creature<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>Your attack leaves a translucent trail of dusty streams behind it, which threaten to solidify and bind those who cross them. Make a 90-foot trail ranged attack. If it hits, it deals weapon damage as normal plus an additional [[2d6]] points of damage, and the creature hit is affected as if they entered the trail. In addition, enemies entering the trail automatically become entangled until the end of their next turn - a successful reflex save (DC 13 + your initiation modifier) lets the creature ignore the speed reduction of this instance of the condition, but still take all other penalties. When an attacking ally hits an adjacent affected enemy that failed their save, that ally may choose to have the binds solidify further and prevent the enemy from voluntarily moving from their space while the condition remains. As normal, if an enemy enters the trail and fails their save mid-movement, the reduced speed applies immediately to the movement they are making - if they have already moved more than their reduced speed allows, they must stop.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "Partial",
+    "saveType": "Reflex",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "Slk2MpdR36wXvg3f",
+  "_id": "37VA92yuXrUoA6kU",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!37VA92yuXrUoA6kU"
+}

@@ -1,0 +1,142 @@
+{
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>A warder begins her career with knowledge of five martial maneuvers. The disciplines available to her are @UUID[Compendium.pf1-pow.disciplines.Item.kIjji0d1sKyzUGC8]{Broken Blade}, @UUID[Compendium.pf1-pow.disciplines.Item.5EVWqiUTgaPwgm8s]{Golden Lion}, @UUID[Compendium.pf1-pow.disciplines.Item.rC95GZKffPpnoJib]{Iron Tortoise}, @UUID[Compendium.pf1-pow.disciplines.Item.N997mVQYWzddzRRe]{Primal Fury}, and either @UUID[Compendium.pf1-pow.disciplines.Item.vquvLnu9Yb9iFE03]{Eternal Guardian} or @UUID[Compendium.pf1-pow.disciplines.Item.ddjbDqrEFnnh11tS]{Piercing Thunder} to her list of available disciplines. If she does not have that discipline's associated skill as a class skill, she gains it as a class skill.</p><p>Once she knows a maneuver, she must ready it before she can use it (see Maneuvers Readied, below). A maneuver usable by warders is considered an extraordinary ability unless otherwise noted in its description. Her maneuvers are not affected by spell resistance, and she does not provoke attacks of opportunity when she initiates one. She learns additional maneuvers at higher levels, as shown on Table: The Warder. The warder must meet a maneuver's prerequisites to learn it. See the Systems and Use chapter.</p><p>Upon reaching initiator level 4th, and at every even numbered initiator level thereafter (6th, 8th, 10th, and so on), the warder can choose to learn a new maneuver in place of one she already knows. In effect, the warder loses the old maneuver in exchange for the new one. The warder need not replace the old maneuver with a maneuver of the same level. She can choose a new maneuver of any level she likes, as long as she observes her restriction on the highest-level maneuvers she knows. The warder can swap only a single maneuver at any given level. A warder's initiation modifier is Intelligence.</p><p></p><h2>Editor's Note: Discipline Exchanges</h2><p>@UUID[Compendium.pf1-pow.disciplines.Item.YKyesqqDVNSpFBgN]{Fool's Errand}, <strong>Mangled Gear</strong>, @UUID[Compendium.pf1-pow.disciplines.Item.5w0wMZgWK1wxiZwL]{Radiant Dawn}, <strong>Roaring Mouse</strong>, <strong>Surging Shark</strong>: Any character of any class can access any of these disciplines by trading one of their available disciplines for one of the listed disciplines. If they do, they gain its associated skill as a class skill.</p><p>@UUID[Compendium.pf1-pow.disciplines.Item.v8mRfoRJwdNqR2bP]{Unquiet Grave}: Harbingers may exchange access to one of their martial disciplines for access to the Unquiet Grave discipline. They gain Knowledge (religion) as a class skill if they didn’t already have it</p><p><strong>Sagitta Stellaris</strong>: Any class that has access to the Solar Wind or Tempest Gale discipline may trade any one of their disciplines known from that class for access to the Sagitta Stellaris discipline, gaining Knowledge (geography) as a class skill.</p><p><strong>Leaden Hyena</strong>: Any character of any class which has access to Golden Lion may gain Leaden Hyena in exchange for any one martial discipline they possess. They gain Bluff as a class skill.</p><p>@UUID[Compendium.pf1-pow.disciplines.Item.WZV15kQ5IlTQWzGI]{Brutal Crocodile}: Any character of any class which has access to Primal Fury may gain Brutal Crocodile in exchange for any one martial discipline they possess. They gain Climb as a class skill.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false,
+      "ckg": false
+    },
+    "class": "warder",
+    "showInCombat": false
+  },
+  "name": "Maneuvers",
+  "img": "systems/pf1/icons/feats/tower-shield-proficiency.jpg",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "36a74b94131cd03a285c39f9fb801a259854fa0d"
+    },
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757766481647,
+    "modifiedTime": 1757766494851,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "folder": "sxV5xzdjvGAHduBl",
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_id": "pwYuJqtXVhaYEMUj",
+  "sort": 1000000,
+  "_key": "!items!pwYuJqtXVhaYEMUj"
+}

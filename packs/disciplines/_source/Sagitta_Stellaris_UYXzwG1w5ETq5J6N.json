@@ -1,0 +1,22 @@
+{
+  "name": "Sagitta Stellaris",
+  "folder": null,
+  "_id": "UYXzwG1w5ETq5J6N",
+  "type": "Item",
+  "sorting": "a",
+  "sort": 1100000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "modifiedTime": 1757763957844
+  },
+  "description": "",
+  "color": null,
+  "_key": "!folders!UYXzwG1w5ETq5J6N"
+}

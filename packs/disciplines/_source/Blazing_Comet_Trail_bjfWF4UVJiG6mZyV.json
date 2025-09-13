@@ -1,0 +1,62 @@
+{
+  "name": "Blazing Comet Trail",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: ranged attack, [Trail] 90 ft.<br /><strong>Target</strong>: one creature<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>Imbued with the light of the heavens, your arrow sears a path across the battlefield where it flew. Make a 90-foot trail ranged attack. If it hits, it deals weapon damage as normal, and the creature hit is affected as if they entered the trail. Enemies entering the trail take force damage equal to your initiation modifier. The damage increases by your initiation modifier every 5 levels past 1st (total damage of double your initiation modifier at 6th level, triple at 11th level, and so on).</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "F4WCsAl1ezczYUZZ",
+  "_id": "bjfWF4UVJiG6mZyV",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!bjfWF4UVJiG6mZyV"
+}

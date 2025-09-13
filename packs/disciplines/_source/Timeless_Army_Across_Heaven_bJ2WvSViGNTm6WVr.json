@@ -1,0 +1,62 @@
+{
+  "name": "Timeless Army Across Heaven",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Four Sagitta Stellaris maneuvers<br /><strong>Range</strong>: ranged attack, [Trail] 400 ft.<br /><strong>Target</strong>: see text<br /><strong>Duration</strong>: instantaneous, and permanent</p><h2>Description</h2><p>You understand the most innate divine might of the cosmos, and for a tiny fraction of eternity you can call on its aid. Your attack creates a legion of phantasmal soldiers in its wake, translucent forms in the shapes of bodies that are illuminated by fierce star-like points of light within them, connecting with each other with lambent paths to form unknown constellations. Make a 400-foot trail ranged attack. If it hits, it deals weapon damage as normal. The trail from this maneuver then becomes filled with intangible images of the Stellaris Army. Whenever an enemy enters the trail, starts their turn within 60 feet of any space in the trail, or moves into that range for the first time on their turn, the Stellaris Army opens fire on them with slings and arrows of outrageous fortune, unless you command them not to. This deals [[3d6]] damage of a type of your choice that cannot be reduced, negated or avoided in any way. Damage dealt by the Stellaris Army cannot be healed unless by effects with an initiator or caster level higher than your own initiator level, or unless you allow it to be healed.  When you are within 60 feet of the trail, once per round as a free action on your turn you can designate a 15-footradius burst originating from any other point within 60 feet of it. The Stellaris Army concentrates fire on that area, immediately dealing another [[3d6]] damage to all enemies and objects in the area, and treating all creatures in the area as if they entered a trail from any Sagitta Stellaris [trail] strike of your choice up to 5th level, even strikes you do not know. This is an instantaneous effect that does not create an additional trail, and if it requires a save DC, the DC becomes 19 + your initiation modifier. You can give the Stellaris Army instructions to attack or ignore certain types of creatures, based on visual information. Treat the Army as if they had truesight for their judgement, but they cannot communicate any information to others. The Army can see and fire into any overlapping planes to hit creatures in range, and by default they do not fire on unconscious creatures unless instructed otherwise. Unlike other [trail] maneuvers, this trail does not expire until you create it again, die, dismiss it as a free action, lose knowledge of the maneuver, or replace it in your readied maneuvers list when readying maneuvers again. Its effect triggers once per round per valid creature as long as it persists, rather than only once per creature. It does not end when you create a different trail with another maneuver. If another ability refers to your active trail when you have two trails this way, you choose one of the two trails for the ability's purpose when you use it, or once per round on your turn. Extensions of this trail's area created by other abilities are not permanent, and last until the start of your next turn. You can never have more than one trail with this maneuver's effect at once - if you would have multiple trails with this effect for any reason, all immediately end except for the newest instance.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 9,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "1f2paDKOYsZKVU4N",
+  "_id": "bJ2WvSViGNTm6WVr",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!bJ2WvSViGNTm6WVr"
+}

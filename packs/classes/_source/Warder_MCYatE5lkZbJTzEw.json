@@ -1,0 +1,220 @@
+{
+  "folder": "k4B6Y1N3UwckYOGM",
+  "type": "class",
+  "name": "Warder",
+  "system": {
+    "description": {
+      "value": "<p>Protective and disciplined warriors, warders are fighting men and women who use their knowledge of warfare, tactics, and strategy combined with superior combat training to accomplish their goals in defending others. Their intellect guides them through battle, and their skill at arms achieves their success.</p><p><strong>Adventures:</strong> Warders adventure to further their employer's missions, to serve on battlefields as protectors and champions, or to protect those that they care about. Some warders adventure to forge kingdoms of their own, battle tyranny, fight others of their kind for honor, or to live simply and by their own code.</p><p><strong>Characteristics:</strong> Warders are always protective of people they deem in their care, be it a superior, their friends, or fellow soldiers of fortune. Many warders are proud, intelligent individuals who study tactics and maps as well while training daily with their associates to better suit their style towards their defense.</p><p><strong>Alignment:</strong> Any, but most are lawful; the moral portion of their alignment is either up to them or their inclusion in their sect.</p><p><strong>Religion:</strong> Many warders are religious, often following gods of war, chivalry, and sacrifice. Some follow gods of tyranny or justice, and others follow gods that stand for the good of their race.</p><p><strong>Background:</strong> Warders find their place in their society based upon their line of adventuring. Some warders are regarded with great respect as leaders and guardians while others are feared and hated for their tyrannical ways. Many are respected and treated well in the hopes that if trouble comes, the warder will come to help those who showed them kindness.</p><p><strong>Races:</strong> Nearly all humanoid races have warders amongst them. Dwarves, half-orcs, and humans make up the larger majority of warders in more civilized society, but there are a minority of halflings and gnomes that guard their kind from harm. While elves possess the tactical prowess to make great warders, their fragile bodies are often not enough for the physical rigors of the profession. While some warders are restrictive to whom they'll share their secrets, it's largely agreed that the more monstrous races tend to be excluded. Hobgoblins, of the monstrous races, are by far the largest exception to that stereotype.</p><p><strong>Other Classes:</strong> Warders get on well with those of a more orderly and martial bent, naturally befriending paladins, monks, and fighters. Rogues and warders don't exactly see eye to eye, while rangers and sorcerers might find a warder's presence restrictive. Wizards and warders appreciate many of their shared facets in learning, and warders widely recognize the importance of clerics in both martial and spiritual matters.</p><p><strong>Role:</strong> Defender. Warders are natural guardians and protectors of the weaker members of the party, and are the ones who can take the most damage on the front line. They also double as being coordinators on the battlefield, helping their teammates and providing support for them both defensively and offensively.</p><p><strong>Abilities:</strong> Strength and Constitution are prime attributes for warders, ruling over the majority of their combat prowess. Intelligence also plays a big role in their day to day life, as it is both their primary initiation attribute and aids in their more mundane skills.</p><p><strong>Starting Wealth</strong>: 5d6 x 10 gp (average 175 gp).</p><p><strong>Starting Age:</strong> Self-Taught</p><p><strong>Hit Die:</strong> d12</p><p><strong>Class Skills: </strong>The warder's class skills (and the key ability for each skill) are: Acrobatics (Dex), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Handle Animal (Cha), Intimidate (Cha), Knowledge (history) (Int), Knowledge (martial) (Int), Knowledge (nobility and royalty) (Int), Profession (Wis), Ride (Dex), Survival (Wis), and Swim (Str).</p><p><strong>Skill Ranks per Level:</strong> 4 + Int modifier</p><h1>Class Features</h1><table><tbody><tr><th><p>Level</p></th><th><p>Base Attack Bonus</p></th><th><p>Fort Save</p></th><th><p>Ref Save</p></th><th><p>Will Save</p></th><th><p>Special</p></th><th><p>Maneuvers</p><p>Known</p></th><th><p>Maneuvers</p><p>Readied</p></th><th><p>Stances</p><p>Known</p></th></tr><tr><td><p>1st</p></td><td><p>+1</p></td><td><p>+2</p></td><td><p>+0</p></td><td><p>+2</p></td><td><p>Defensive focus, aegis +1 (10 ft.)</p></td><td><p>5</p></td><td><p>3</p></td><td><p>1</p></td></tr><tr><td><p>2nd</p></td><td><p>+2</p></td><td><p>+3</p></td><td><p>+0</p></td><td><p>+3</p></td><td><p>Armiger's mark</p></td><td><p>6</p></td><td><p>4</p></td><td><p>2</p></td></tr><tr><td><p>3rd</p></td><td><p>+3</p></td><td><p>+3</p></td><td><p>+1</p></td><td><p>+3</p></td><td><p>Bonus feat</p></td><td><p>7</p></td><td><p>4</p></td><td><p>2</p></td></tr><tr><td><p>4th</p></td><td><p>+4</p></td><td><p>+4</p></td><td><p>+1</p></td><td><p>+4</p></td><td><p>Tactical acumen</p></td><td><p>7</p></td><td><p>4</p></td><td><p>2</p></td></tr><tr><td><p>5th</p></td><td><p>+5</p></td><td><p>+4</p></td><td><p>+1</p></td><td><p>+4</p></td><td><p>Extended defense 1/day, aegis +2</p></td><td><p>8</p></td><td><p>5</p></td><td><p>3</p></td></tr><tr><td><p>6th</p></td><td><p>+6/+1</p></td><td><p>+5</p></td><td><p>+2</p></td><td><p>+5</p></td><td><p>Clad in steel, improved aegis (20 ft.)</p></td><td><p>8</p></td><td><p>5</p></td><td><p>3</p></td></tr><tr><td><p>7th</p></td><td><p>+7/+2</p></td><td><p>+5</p></td><td><p>+2</p></td><td><p>+5</p></td><td><p>Adaptive tactics</p></td><td><p>9</p></td><td><p>5</p></td><td><p>3</p></td></tr><tr><td><p>8th</p></td><td><p>+8/+3</p></td><td><p>+6</p></td><td><p>+2</p></td><td><p>+6</p></td><td><p>Extended defense 2/day, bonus feat</p></td><td><p>9</p></td><td><p>6</p></td><td><p>3</p></td></tr><tr><td><p>9th</p></td><td><p>+9/+4</p></td><td><p>+6</p></td><td><p>+3</p></td><td><p>+6</p></td><td><p>Improved armiger's mark, aegis +3</p></td><td><p>10</p></td><td><p>6</p></td><td><p>4</p></td></tr><tr><td><p>10th</p></td><td><p>+10/+5</p></td><td><p>+7</p></td><td><p>+3</p></td><td><p>+7</p></td><td><p>Improved defensive focus</p></td><td><p>10</p></td><td><p>6</p></td><td><p>4</p></td></tr><tr><td><p>11th</p></td><td><p>+11/+6/+1</p></td><td><p>+7</p></td><td><p>+3</p></td><td><p>+7</p></td><td><p>Extended defense 3/day</p></td><td><p>11</p></td><td><p>7</p></td><td><p>5</p></td></tr><tr><td><p>12th</p></td><td><p>+12/+7/+2</p></td><td><p>+8</p></td><td><p>+4</p></td><td><p>+8</p></td><td><p>Stalwart, greater aegis (30 ft.)</p></td><td><p>11</p></td><td><p>7</p></td><td><p>5</p></td></tr><tr><td><p>13th</p></td><td><p>+13/+8/+3</p></td><td><p>+8</p></td><td><p>+4</p></td><td><p>+8</p></td><td><p>Bonus feat, aegis +4</p></td><td><p>12</p></td><td><p>7</p></td><td><p>5</p></td></tr><tr><td><p>14th</p></td><td><p>+14/+9/+4</p></td><td><p>+9</p></td><td><p>+4</p></td><td><p>+9</p></td><td><p>Extended defense 4/day</p></td><td><p>12</p></td><td><p>8</p></td><td><p>5</p></td></tr><tr><td><p>15th</p></td><td><p>+15/+10/+5</p></td><td><p>+9</p></td><td><p>+5</p></td><td><p>+9</p></td><td><p>Steel defense</p></td><td><p>13</p></td><td><p>8</p></td><td><p>6</p></td></tr><tr><td><p>16th</p></td><td><p>+16/+11/+6/+1</p></td><td><p>+10</p></td><td><p>+5</p></td><td><p>+10</p></td><td><p>Greater armiger's mark</p></td><td><p>13</p></td><td><p>8</p></td><td><p>6</p></td></tr><tr><td><p>17th</p></td><td><p>+17/+12/+7/+2</p></td><td><p>+10</p></td><td><p>+5</p></td><td><p>+10</p></td><td><p>Extended defense 5/day, aegis +5</p></td><td><p>14</p></td><td><p>9</p></td><td><p>6</p></td></tr><tr><td><p>18th</p></td><td><p>+18/+13/+8/+3</p></td><td><p>+11</p></td><td><p>+6</p></td><td><p>+11</p></td><td><p>Bonus feat</p></td><td><p>15</p></td><td><p>9</p></td><td><p>7</p></td></tr><tr><td><p>19th</p></td><td><p>+19/+14/+9/+4</p></td><td><p>+11</p></td><td><p>+6</p></td><td><p>+11</p></td><td><p>Born of steel</p></td><td><p>15</p></td><td><p>9</p></td><td><p>7</p></td></tr><tr><td><p>20th</p></td><td><p>+20/+15/+10/+5</p></td><td><p>+12</p></td><td><p>+6</p></td><td><p>+12</p></td><td><p>Deathless defenses</p></td><td><p>16</p></td><td><p>10</p></td><td><p>7</p></td></tr></tbody></table>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "classAssociations": [
+        {
+          "name": "Adaptive Tactics",
+          "uuid": "Compendium.pf1-pow.classes.Item.ddE02MZ5xZtV3dak",
+          "level": 1
+        },
+        {
+          "name": "Aegis",
+          "uuid": "Compendium.pf1-pow.classes.Item.YEoF2y9jjNgMdfg0",
+          "level": 1
+        },
+        {
+          "name": "Defensive Focus",
+          "uuid": "Compendium.pf1-pow.classes.Item.mBNsxR9Cc2uPzUxa",
+          "level": 1
+        },
+        {
+          "name": "Maneuvers",
+          "uuid": "Compendium.pf1-pow.classes.Item.pwYuJqtXVhaYEMUj",
+          "level": 1
+        },
+        {
+          "name": "Maneuvers Readied",
+          "uuid": "Compendium.pf1-pow.classes.Item.qbYm7UfeYpSNsNYm",
+          "level": 1
+        },
+        {
+          "name": "Stances Known",
+          "uuid": "Compendium.pf1-pow.classes.Item.jU121jcGYEjahMXY",
+          "level": 1
+        },
+        {
+          "name": "Armiger's Mark",
+          "uuid": "Compendium.pf1-pow.classes.Item.L9rTsWgfa72R0Deh",
+          "level": 2
+        },
+        {
+          "name": "Bonus Feat (Warder)",
+          "uuid": "Compendium.pf1-pow.classes.Item.omMfyO6LwnSnNEM1",
+          "level": 3
+        },
+        {
+          "name": "Tactical Acumen",
+          "uuid": "Compendium.pf1-pow.classes.Item.Eg3Bybr2HZDYL8ye",
+          "level": 4
+        },
+        {
+          "name": "Extended Defense",
+          "uuid": "Compendium.pf1-pow.classes.Item.9Ot9kUUBqTdrADRf",
+          "level": 5
+        },
+        {
+          "name": "Clad in Steel",
+          "uuid": "Compendium.pf1-pow.classes.Item.mUPcfe942MDVzzRx",
+          "level": 6
+        },
+        {
+          "name": "Stalwart",
+          "uuid": "Compendium.pf1-pow.classes.Item.PMcvPRLKK8ewUV1Z",
+          "level": 12
+        },
+        {
+          "name": "Steel Defense",
+          "uuid": "Compendium.pf1-pow.classes.Item.GPT0kgmvk4xuQv75",
+          "level": 15
+        },
+        {
+          "name": "Born of Steel",
+          "uuid": "Compendium.pf1-pow.classes.Item.jPxhgKFJlIrEdh9u",
+          "level": 19
+        },
+        {
+          "name": "Deathless Defenses",
+          "uuid": "Compendium.pf1-pow.classes.Item.tUZTlLcexYXzGKZb",
+          "level": 20
+        }
+      ],
+      "supplements": [
+        {
+          "uuid": "Compendium.pf1.feats.Item.h9nHYLxXvIXBTmup"
+        }
+      ]
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "base",
+    "level": 1,
+    "hd": 12,
+    "hp": 12,
+    "bab": "high",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "high"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "wealth": "5d6*10",
+    "alignment": "",
+    "classSkills": {
+      "acr": true,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": true,
+      "clm": true,
+      "crf": true,
+      "dip": true,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": true,
+      "hea": false,
+      "int": true,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": true,
+      "klo": false,
+      "kmt": true,
+      "kna": false,
+      "kno": true,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": true,
+      "rid": true,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": true,
+      "swm": true,
+      "umd": false
+    },
+    "customHD": "",
+    "maneuverProgression": {
+      "classType": "class",
+      "type": "regular"
+    },
+    "casting": {
+      "type": ""
+    }
+  },
+  "_id": "MCYatE5lkZbJTzEw",
+  "img": "icons/equipment/shield/heater-steel-segmented-purple.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757766244266,
+    "modifiedTime": 1757766662584,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "_key": "!items!MCYatE5lkZbJTzEw"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Celestial Warning",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: medium (100 ft. + 10 ft./level)<br /><strong>Target</strong>: one creature<br /><strong>Duration</strong>: 1 turn</p><h2>Description</h2><p>As a warden of the night sky, you fire an arrow destined to strike those who stray onto the wrong path. You may initiate this counter at any time while a creature you can see within range is taking their turn, as long as they have not already moved more than half their speed. If the creature moves more than half their speed that turn(not including forced movement), or takes any further movement from the charge action after you initiate this counter, you may immediately make a ranged weapon attack against them with a wielded weapon, that automatically hits and deals damage as normal. Alternatively, you may make a ranged trip attempt against them instead of an attack: this is rolled as normal, and does not automatically succeed. Either option takes place during the target's movement, potentially interrupting it. After you initiate this counter, the target creature becomes aware of its effects, and may choose to stop any willing movement, including stopping partway through a charge.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "F4WCsAl1ezczYUZZ",
+  "_id": "KCoqyBIppJ9VaRvt",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!KCoqyBIppJ9VaRvt"
+}

@@ -1,0 +1,149 @@
+{
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 2nd level, a warder is trained in how best to control her enemies and how they behave in battle, urging them to throw their all against the warder's indomitable armor and unyielding shield. With a sharp blade, a clever taunt, or something that otherwise attracts her foe, the warder can direct the attention of enemies towards himself. Whenever the warder attacks a foe in combat and inflict at least 1 point of damage, as a free action she may mark them as her foe (he may even mark a foe during an attack of opportunity and may make the free action to do so, even though it is not her turn) and attempt to continue to force them to engage the warder only. The target is aware of being marked, and the mark remains for a number of rounds equal to her warder initiation modifier (minimum of 1). Marked targets suffer a -4 penalty to attack rolls against foes that are not the warder, and arcane spellcasters suffer an increase in arcane spell failure of 10% + 1% per two warder levels until the mark expires. The warder may only maintain a number of marks equal to 3 + her warder initiation modifier at a time, and she may make a number of marks per day equal to 1/2 warder level + warder initiation modifier. At 8th level, this penalty increases to -6, and it increases again to -8 at 16th level. This ability functions on creatures with an Intelligence score of 1 or more, allowing her to mark animals and other beasts as well as sentient beings, but not mindless creatures such as skeletons. Multiple armiger's marks overlap (do not stack).</p><p>At 9th level, the warder may expend two uses of her armiger's mark to make a grand challenge to all enemies within a 30 ft. radius and mark them with her words alone. Creatures affected must make a Will save (DC 10 + 1/2 warder level + warder initiation modifier) against the warder's mark ability or suffer the penalties of being marked for a number of rounds equal to her warder initiation modifier. This does not count against her normal marking limit. This is a language-dependent ability and does not effect creatures of less than 1 Intelligence.</p><p>At 16th level, the armiger's mark improves to allow her to recover an expended maneuver whenever she reduces a marked opponent's hit points to 0 or less (this can only trigger once per marked opponent).</p><p></p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "",
+      "maxFormula": "floor(.5 * @classes.warder.level) + @abilities.int.mod",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": [
+        {
+          "uuid": ".Item.yxOzYV9QnJlNPGhQ"
+        },
+        {
+          "uuid": ".Item.uySURYoC4HhdOi9q"
+        }
+      ]
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "ex",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "ckg": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "class": "warder",
+    "showInCombat": false
+  },
+  "name": "Armiger's Mark",
+  "img": "systems/pf1/icons/feats/deafening-critical.jpg",
+  "effects": [],
+  "folder": "sxV5xzdjvGAHduBl",
+  "flags": {
+    "scene-packer": {
+      "hash": "669b48e31ddf5158989ce6a07532ca346eb11733"
+    },
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757766488475,
+    "modifiedTime": 1757766494851,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_id": "L9rTsWgfa72R0Deh",
+  "sort": 200000,
+  "_key": "!items!L9rTsWgfa72R0Deh"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Equinox",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Sagitta Stellaris maneuver<br /><strong>Range</strong>: see text<br /><strong>Target</strong>: see text<br /><strong>Duration</strong>: see text</p><h2>Description</h2><p>Trusting fate and fortune to guide your arrow, you launch it into the sky to fall at the perfect moment. You may initiate this counter at any time, including on your turn as a swift action. Make a Knowledge (geography) check, and record the result. You launch one thrown weapon or piece of ammunition upwards when initiating this maneuver, which cannot be retrieved until it triggers or otherwise ends. Once before the start of your next turn, as a free action that can be taken at any time when a weapon attack is made within medium range of you (100 ft. + 10 ft./level), you may trigger the maneuver to make the projectile fall at that instant and attempt to interrupt the attack, even if you are unconscious or unable to act at the time. If the result of your Knowledge (geography) check equals or exceeds the attack roll, the attack is negated and the attacker is flat-footed against the next attack made against them within 1 round. You instinctively know whether an attack is able to be negated by the result of your knowledge check after the attack roll is made. The projectile used lands in a space of your choice adjacent to the user of the triggering attack, or adjacent to you if the duration ends without any trigger, unless you have another ability that would return it to you.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "Slk2MpdR36wXvg3f",
+  "_id": "BEpNbG6NSsyuDgLN",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!BEpNbG6NSsyuDgLN"
+}

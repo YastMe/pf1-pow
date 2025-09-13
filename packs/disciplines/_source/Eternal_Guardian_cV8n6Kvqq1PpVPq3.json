@@ -4,15 +4,20 @@
   "_id": "cV8n6Kvqq1PpVPq3",
   "type": "Item",
   "sorting": "a",
-  "sort": 0,
+  "sort": 1600000,
   "flags": {},
   "_stats": {
     "systemId": "pf1",
     "systemVersion": "10.8",
-    "coreVersion": "11.315",
+    "coreVersion": "13.347",
     "createdTime": 1732991192042,
-    "modifiedTime": 1736076968758,
-    "lastModifiedBy": "jI6iseAymTC0jkXd"
+    "modifiedTime": 1757763957844,
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
   },
+  "description": "",
+  "color": null,
   "_key": "!folders!cV8n6Kvqq1PpVPq3"
 }

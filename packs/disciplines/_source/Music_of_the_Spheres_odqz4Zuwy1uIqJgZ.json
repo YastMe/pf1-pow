@@ -1,0 +1,62 @@
+{
+  "name": "Music of the Spheres",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Sagitta Stellaris maneuver<br /><strong>Range</strong>: ranged attack<br /><strong>Target</strong>: one creature, and allies in 100 ft.<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>Your attack empowers your allies with cosmic alacrity. Make a ranged attack. If it hits, it deals weapon damage as normal plus an additional [[6d6]] points of damage, then all allies within 100 feet of the struck target may immediately move any amount of distance, using any mix of their movement modes (such as climbing, jumping or flight) without provoking attacks of opportunity. However, each ally must maintain the same distance to the target at all times during this movement. An ally engaged in melee with the target may treat their original space as still occupied by themselves for the purposes of flanking the target until the end of their next turn. This can allow an ally to flank with themselves. Any ally's movement cannot exceed one lap around the target, and they cannot willingly double back on their previous path during it.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "c3XW0mERvKayv04x",
+  "_id": "odqz4Zuwy1uIqJgZ",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!odqz4Zuwy1uIqJgZ"
+}

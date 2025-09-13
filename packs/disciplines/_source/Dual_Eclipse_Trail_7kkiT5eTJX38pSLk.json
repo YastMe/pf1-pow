@@ -1,0 +1,62 @@
+{
+  "name": "Dual Eclipse Trail",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Sagitta Stellaris maneuvers<br /><strong>Range</strong>: ranged attack, [Trail] 90 ft.<br /><strong>Target</strong>: one creature<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>Your attack blurs the boundaries of seen and unseen by manipulating both light and shadow. Make a 90-foot-trail ranged attack. If it hits, it deals weapon damage as normal plus an additional [[4d6]] points of damage, and the creature hit is affected as if they entered the trail. Whenever an ally moves into a space in the trail for the first time, they become invisible (as the spell invisibility) until they take an action that would break the spell or the trail expires. When an enemy enters the trail, they must make a will save (DC 15 + your initiation modifier) or be blinded for 1 round. If an enemy has additional types of sight (blindsight, touchsight, truesight, etc), they make the save with a +3 resistance bonus, but on failure lose all types of sight for the duration.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "ylgVV7JGCXc2LKiW",
+  "_id": "7kkiT5eTJX38pSLk",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!7kkiT5eTJX38pSLk"
+}

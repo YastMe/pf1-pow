@@ -59,7 +59,48 @@
     "simple": false,
     "summons": false,
     "disabled": false,
-    "classSkills": []
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "showInCombat": false
   },
   "folder": null,
   "_id": "2ATr8B0H7MIfu5sW",
@@ -67,17 +108,28 @@
   "flags": {
     "pf1": {
       "migration": "11.1"
+    },
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
     }
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "11.1",
-    "coreVersion": "12.331",
+    "systemVersion": "11.6",
+    "coreVersion": "13.345",
     "createdTime": 1732991568056,
-    "modifiedTime": 1739654663692,
-    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "modifiedTime": 1749253768242,
+    "lastModifiedBy": "oE9BJEfdSoakc5t3",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "sort": 0,
   "ownership": {

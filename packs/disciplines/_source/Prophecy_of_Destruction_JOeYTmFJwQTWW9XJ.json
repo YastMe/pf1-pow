@@ -1,0 +1,62 @@
+{
+  "name": "Prophecy of Destruction",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Sagitta Stellaris maneuvers<br /><strong>Range</strong>: medium (100 ft. + 10 ft./level)<br /><strong>Target</strong>: None<br /><strong>Duration</strong>: until your next turn</p><h2>Description</h2><p>Area: one 10-ft. cube With a word of doom and a gesture, you take aim at a specific point of the battlefield and foretell havoc upon it. Choose a 10 ft. cube in range. While this boost is active, any enemy that enters or begins its turn in the area is cursed, and all enemies are subject to the effects of a dimensional anchor spell while they remain in the area. When your next turn begins, the cube implodes. Choose one creature that is still in the designated area. Space twists around them, violently launching the creature up to 5 feet per initiator level in any direction of your choice. Until the end of that turn, they remain floating at the end of that movement, you ignore miss chances for all your ranged attacks against them, you treat any d20 roll made as part of your attack rolls against them as a natural 5 if it would be lower, and when you take a full attack action or use a [Rain] strike as a full-round action, you may make two additional ranged attacks at your highest base attack bonus that target only this creature. After they stop floating, they may fall and take falling damage as normal. Any creature that is in the designated area when you initiate this boost is aware of the area's dimensions and the imminent dangers of staying within it, but the area is not considered inherently dangerous for other purposes.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "ylgVV7JGCXc2LKiW",
+  "_id": "JOeYTmFJwQTWW9XJ",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!JOeYTmFJwQTWW9XJ"
+}

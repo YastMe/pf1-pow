@@ -374,24 +374,16 @@ function addControlHandlers(app, html) {
 				showConfig: () => {
 					const configDiv = html.find(".maneuver-control-buttons")[0];
 					configDiv.style.maxHeight = (configDiv.style.maxHeight && configDiv.style.maxHeight !== "0px")
-						? "0"
+						? "0px"
 						: `${configDiv.scrollHeight}px`;
-					configDiv.classList.toggle("accordion", "open");
-					forceTab();
 				},
 				maneuverName: () => {
 					const descriptionDiv = $(`#maneuver-summary-${maneuver.id}`)[0];
+					descriptionDiv.classList.toggle("hidden");
 					descriptionDiv.style.maxHeight = (descriptionDiv.style.maxHeight && descriptionDiv.style.maxHeight !== "0px")
 						? "0px"
 						: `${descriptionDiv.scrollHeight}px`;
-					const isOpen = descriptionDiv.classList.contains("open");
-					if (isOpen) {
-						setTimeout(() => {
-							descriptionDiv.classList.toggle("open");
-						}, 300);
-					} else {
-						descriptionDiv.classList.toggle("open");
-					}
+					descriptionDiv.classList.toggle("item-summary");
 					forceTab();
 				}
 			};
@@ -413,7 +405,7 @@ function addControlHandlers(app, html) {
 			const maneuvers = actor.items.filter(i => i.type === "pf1-pow.maneuver");
 
 			const actions = {
-				grantDialogue: () => (forceTab(), grantDialogue(app)),
+				grantDialogue: () => (forceTab(), grantDialogue(actor)),
 				grantAll: () => (maneuvers.filter(m => m.system.maneuverType !== "Stance").forEach(m => m.grantSilent()), forceTab()),
 				recoverAll: () => (maneuvers.filter(m => m.system.maneuverType !== "Stance").forEach(m => m.recoverManeuverSilent()), forceTab()),
 				toggleAllGranted: () => {

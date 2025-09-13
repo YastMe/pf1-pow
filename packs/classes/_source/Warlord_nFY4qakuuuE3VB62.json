@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "jue4EIseroc5nauv",
+  "name": "Warlord",
+  "color": null,
+  "sorting": "a",
+  "_id": "nFY4qakuuuE3VB62",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!nFY4qakuuuE3VB62"
+}

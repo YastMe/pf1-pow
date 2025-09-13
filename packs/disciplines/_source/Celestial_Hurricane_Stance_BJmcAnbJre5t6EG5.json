@@ -1,0 +1,62 @@
+{
+  "name": "Celestial Hurricane Stance",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Sagitta Stellaris maneuver<br /><strong>Range</strong>: personal<br /><strong>Target</strong>: you<br /><strong>Duration</strong>: stance</p><h2>Description</h2><p>The stars in the night sky number thousands and thousands; a scale that your hail of arrows can only hope to emulate. While you maintain this stance, whenever you make a ranged attack, you also automatically fire two small astral missiles. These astral missiles have a range equal to the maximum range of the triggering attack, and hit their target unerringly for [[1d4]] force damage each, but cannot be aimed at the triggering attack's target. Otherwise, these missiles may all share the same target. In addition, your attacks create an aura of dangerous motes of energy that orbit around you: once per turn when an enemy moves within 5 feet of you or makes a melee attack against you, you may immediately make them take [[2d6]] force damage. The aura is disabled for 1 round if you make any melee attacks of your own, as they disrupt the patterns of energy. At initiator level 11th, and again at 17th, you may fire one additional missile with each attack, and the force damage against nearby enemies increases by [[2d6]]. Strikes with the [Rain] descriptor made as a full-round action create double the amount of missiles on their first attack (further attacks create the normal number).  In addition, you increase the range of all your [Trails] by 20 feet.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "Slk2MpdR36wXvg3f",
+  "_id": "BJmcAnbJre5t6EG5",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!BJmcAnbJre5t6EG5"
+}

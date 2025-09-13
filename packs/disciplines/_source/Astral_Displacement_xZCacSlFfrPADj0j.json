@@ -1,0 +1,62 @@
+{
+  "name": "Astral Displacement",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: personal<br /><strong>Target</strong>: self<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>Your insight of the heavens tells you how to be where you need to be, and how to not be where you shouldn't. You can initiate this counter in response to a melee or ranged attack being made against you. Make a Knowledge (geography) check, using your opponent's attack roll as the DC . If you succeed, the attack is negated. Additionally, if successful and you have an active trail, you may teleport to any space in it within 20 ft. at the end of that turn.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "hz6uvDYLNXM7ItG6",
+  "_id": "xZCacSlFfrPADj0j",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!xZCacSlFfrPADj0j"
+}

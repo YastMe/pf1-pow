@@ -1,0 +1,142 @@
+{
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At his core, the warlord is a warrior who relies on both skill and daring; without this he is but any other combatant. By setting himself to danger, does his true skill shine, or so the motto of the warlord goes. At 1st level, a warlord selects two gambits from the gambits available to warlords. At 4th level and every four levels thereafter, a warlord selects an additional gambit to learn. Any gambit that would normally use the warlord’s Charisma modifier to determine its effects instead uses his warlord initiation modifier, if it is a different ability. These gambits allow the warlord to recover maneuvers. Due to their reliance on the stresses of combat to bring out the best of the warlord, gambits cannot be used outside combat.</p><p>A gambit has two aspects: a risk and a reward. A gambit’s risk describes an action the warlord must take in order to play the gambit. The warlord begin a gambit as a swift action, then performs the gambit’s risk action. He may add half his warlord initiation modifier as a luck bonus on any d20 rolls made while performing this action (such as the Acrobatics check of an acrobatic gambit, or the attack roll of a brave gambit). The warlord only gets this bonus if he spent the swift or immediate action required to begin the gambit; if taking the actions normally, he gains no additional benefits. If the warlord initiates a maneuver as part of a gambit, he cannot recover that maneuver when the gambit is completed (even if it’s his only expended maneuver).</p><p>If the warlord succeeds at his gambit’s risk, he recovers a number of expended maneuvers equal to his warlord initiation modifier (minimum 1) and gains the reward listed in the gambit’s description. Allies who would gain a benefit from the gambit’s reward must be within 60 feet of the warlord and able to see him perform the gambit’s risk. If the warlord fails his gambit (such as missing the charge attack of a brave gambit, or failing the saving throw of an unbreakable gambit), he suffers the gambit’s rake, recovering only a single expended maneuver and taking a –2 penalty on all d20 rolls for one round.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "ex",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "ckg": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "class": "warlord",
+    "showInCombat": false
+  },
+  "name": "Warlord’s Gambit",
+  "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "9214a5a84ffac09cc7c504fd637e5d5ad7d17d90"
+    },
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757765946458,
+    "modifiedTime": 1757765946458,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "folder": "nFY4qakuuuE3VB62",
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_id": "AHbyWgkN00ToxkCM",
+  "sort": 0,
+  "_key": "!items!AHbyWgkN00ToxkCM"
+}

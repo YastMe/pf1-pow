@@ -1,0 +1,62 @@
+{
+  "name": "Celestrial Orrery Stance",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Sagitta Stellaris maneuvers<br /><strong>Range</strong>: personal<br /><strong>Target</strong>: you<br /><strong>Duration</strong>: stance</p><h2>Description</h2><p>You channel visions of the entire cosmos through yourself, projecting the stars around you. While in this stance, you are surrounded by a glowing, translucent rendition of the night sky, overlaid with arcane and astronomical diagrams of your knowledge that you can consult at a moment's notice, to guide the movements of every ally on the battlefield. You gain a +4 insight bonus to initiative, and a fly speed equal to your base speed, with perfect maneuverability. You can draw trails through empty spaces you have neither line of sight nor line of effect to. Your [Trail] strikes can negate the effects of cover when approaching targets from a direction where it would not apply, and even potentially target creatures behind total cover (but they would still be subject to total concealment if you cannot see the target). Once per round as a free action on your turn, you can grant up to two allies in medium range (100 ft. + 10 ft./lvl) the ability to immediately fly 10 feet in any direction without using their action. Alternatively, you can grant one ally in range the ability to fly in a straight line directly away from a creature of their choice until they are out of its threatened area. Neither of these movement options provoke attacks of opportunity. In addition, you increase the range of all your [Trails] by 20 feet.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "ylgVV7JGCXc2LKiW",
+  "_id": "dNSLu5G7SKJXGomj",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!dNSLu5G7SKJXGomj"
+}

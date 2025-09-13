@@ -1,0 +1,62 @@
+{
+  "name": "Gravity Well",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Sagitta Stellaris maneuvers<br /><strong>Range</strong>: ranged attack<br /><strong>Target</strong>: one creature<br /><strong>Duration</strong>: instantaneous, and 1 round</p><h2>Description</h2><p>You fire a sudden shot that drastically increases the target's gravity towards selective objects. You can initiate this counter in response to an attack being made against you or an ally by a creature you can see. Make a ranged attack against that creature. If it hits, it deals weapon damage as normal, the creature is pushed 20 feet. in any direction you choose except directly towards you, and for 1 round, whenever an enemy within 100 feet. of the struck creature makes a ranged attack (including attacks made by the creature itself ), there is a 50% chance that the ranged attack is instead redirected and resolved against the affected creature, using the same attack roll without any modifications (such as from cover or range increments). Whenever an attack is redirected towards the affected creature, subtract 10% from the redirection chance - the effect ends early if the chance reaches 0%. This effect is obvious to all creatures in range while it is active. If you successfully used this counter in response to an enemy ranged attack, the triggering attack is also subject to the redirection chance. Enemy [Trail] strikes ignore this redirection chance.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 5,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "ylgVV7JGCXc2LKiW",
+  "_id": "4whRWI0SGahWLpJZ",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!4whRWI0SGahWLpJZ"
+}

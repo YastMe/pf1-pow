@@ -1,0 +1,62 @@
+{
+  "name": "Aurora Fortress Trail",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Sagitta Stellaris maneuvers<br /><strong>Range</strong>: ranged attack, [Trail] 90 ft.<br /><strong>Target</strong>: one creature<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>Your attack leaves a translucent rainbow trail of light behind that holds back the enemy. Make a 90 ft. trail ranged attack. If it hits, it deals weapon damage as normal plus an additional [[5d6]] points of damage. Each empty space in the trail is then filled in with a 5-foot cube-shaped cube wall of force, as the spell, except with hardness equal to your initiator level, and 1 hit point. These cubes last as long as the trail does, or until destroyed. As part of any movement, a creature can make a strength check (DC 16 + your initiation modifier) to force through the wall and move through it at half speed for that turn, destroying any cubes it passes through. This Strength check can be made once per separate action. Allies that enter the trail's area (assuming a cube of force doesn't block them) are coated with a thin force barrier, gaining DR/- equal to your initiator level against the first attack that hits them afterwards. Cubes of force only appear in the original path of the projectile and the associated spaces extending above and below it. Any other ability that would expand the effective area of your trails (such as the Sagitta Stellaris Spotlight feat) does not create more cubes of force, but still grants DR in the new areas. However, effects such as the Sagitta Stellaris Shift feat that change an existing traced trail to this one would cause cubes of force to be created in the original path of the trail as normal. Any effect like disintegrate which would destroy a wall of force destroys every cube simultaneously, even if they aren't contiguous.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "ZstjOgiJHXvpY5he",
+  "_id": "sW1SGenM4TPsNAaB",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!sW1SGenM4TPsNAaB"
+}

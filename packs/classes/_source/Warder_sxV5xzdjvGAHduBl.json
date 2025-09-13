@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "jue4EIseroc5nauv",
+  "name": "Warder",
+  "color": null,
+  "sorting": "a",
+  "_id": "sxV5xzdjvGAHduBl",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!sxV5xzdjvGAHduBl"
+}

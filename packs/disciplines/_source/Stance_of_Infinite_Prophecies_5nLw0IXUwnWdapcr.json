@@ -1,0 +1,62 @@
+{
+  "name": "Stance of Infinite Prophecies",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Sagitta Stellaris maneuvers<br /><strong>Range</strong>: personal<br /><strong>Target</strong>: you<br /><strong>Duration</strong>: stance</p><h2>Description</h2><p>By briefly committing to dozens of attack plans and then receiving scattered future visions of their outcomes, you can assess a creature's defenses before you even act. Once per round in combat as a free action, you may focus on a creature you can see or have line of effect to. For the next round, you ignore any percentage-based miss chances it has against your attacks, and you can immediately learn one of the following about the creature: • Its armor class and CMD • Its bonus to a saving throw against an effect your party has access to, or the answer to which of its saving throws has the lowest bonus • Exact details on two categories out of its DR, resistances, immunities, spell resistance, or vulnerabilities • The trigger and intent of a readied action it is currently holding • The presence of any abilities to react to being attacked, and their source (the martial disciplines it knows counters from, schools of magic it knows immediate action spells from, etc) This foresight is extremely narrow, and does not tell you anything else you may notice on actually attacking them. Effects that guard from divination (such as the nondetection spell), or the creature being an invalid target (such as an illusion), may cause this assessment to fail completely. You learn that it failed, but not the reason why, and do not ignore the creature's miss chances. At 16th initiator level, effects that protect from divination do not stop this effect from working unless they also guard against the discern location spell. In addition, when in this stance you can focus to gain a perfect glance into an immediate future possibility. As a free action, you activate this ability and declare you are looking into the future, and continue taking your turn as normal. At the end of that turn, you must choose to either accept that future, in which case gameplay carries on, or avoid that future, which undoes all outcomes and consequences since you declared this ability's activation. All actions and resources spent, damage done, and any other events and effects that occurred during that time are reversed, and nobody remembers they happened except you, and then you take the remainder of your turn again. You can make this decision even if dead or unable to act. Once you activate this ability, you cannot use it again until you spend 10 minutes on your class' method to ready maneuvers (even if you do not change any of your maneuvers readied). This applies even if you decided to not undo any events. When activated outside of combat, you instead decide whether to revert the future after 1 round, allowing you enough time to see the immediate consequences of your actions.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "ZstjOgiJHXvpY5he",
+  "_id": "5nLw0IXUwnWdapcr",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!5nLw0IXUwnWdapcr"
+}

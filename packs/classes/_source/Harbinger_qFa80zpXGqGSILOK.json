@@ -237,12 +237,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf1",
     "systemVersion": "11.6",
     "createdTime": 1743933913120,
     "modifiedTime": 1750957244007,
-    "lastModifiedBy": "jI6iseAymTC0jkXd"
+    "lastModifiedBy": "jI6iseAymTC0jkXd",
+    "exportSource": null
   },
   "_id": "qFa80zpXGqGSILOK",
   "sort": 0,

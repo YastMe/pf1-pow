@@ -1,0 +1,62 @@
+{
+  "name": "Reading the Tapestry of Fate",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Sagitta Stellaris maneuvers<br /><strong>Range</strong>: medium (100 ft. + 10 ft./level)<br /><strong>Target</strong>: one creature<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>You see through the fortune of an enemy and divine their fate. A creature you choose within range must make a will save (DC 16 + your initiation modifier), with a -2 penalty if you hit them with a ranged attack this turn. If they fail, they must immediately commit to a general plan of what they intend to do on their next turn (choice of maneuvers, spells, or abilities to use, who they plan to target, roughly what they will move towards, and any objects they will interact with), and you learn their plan. If on their turn they deviate from that plan of their own volition (as opposed to new circumstances making their plan impossible), they are staggered and take a -4 penalty to all d20 rolls they make for 1 round as the backlash from defying fate affects them. Creatures taking this penalty must also make concentration checks to cast defensively for 1 round whenever they try to cast spells, use spell-like abilities, or equivalent, losing the action if the check fails.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "Negates",
+    "saveType": "Will",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "ZstjOgiJHXvpY5he",
+  "_id": "WDVI67CmOYpTmOhX",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!WDVI67CmOYpTmOhX"
+}

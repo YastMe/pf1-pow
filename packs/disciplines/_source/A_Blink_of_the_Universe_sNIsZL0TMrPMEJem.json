@@ -1,0 +1,62 @@
+{
+  "name": "A Blink of the Universe",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Sagitta Stellaris maneuvers<br /><strong>Range</strong>: ranged attack, [Trail] 120 ft.<br /><strong>Target</strong>: None</p><h2>Description</h2><p>Imbued in your strike is the immutable fate of the universe, the ordinant song by which the greatest stars in the cosmos live and one day die. Make a 120-foot trail ranged attack: if it hits, it deals weapon damage as normal. Immediately after the trail is drawn, it shines fiercely and erupts in a fleeting but brilliant supernova: creatures and objects in the trail's area take [[6d6]] force damage and become flatfooted for 1 round. A creature that was directly hit by the trail strike is also blinded for 1 round and automatically fails their next reflex save against this trail. At the end of your turn, the radiance of the trail fades and darkens, pulling light and space into it as it collapses into the form of a black hole. Whenever an enemy starts their turn within 20 ft. of an unoccupied space in the trail, they must make a Reflex save (DC 18 + your initiation modifier) or be pulled 20 feet in a straight line towards the closest such space - colliding with a stationary obstacle will stop this movement. An enemy that starts their turn in the trail must also make this reflex save: on failure they are treated as having entered the trail even though they didn't move. Enemies and objects that enter the trail are crushed by the immense gravity, taking [[6d6]] magical bludgeoning damage, and are pinned until the start of your next turn. This trail uses your own combat maneuver bonus and combat maneuver defense for interactions with the pinned condition. A successful Fortitude save (DC 18 + your initiation modifier, affects objects) halves the damage and negates the pinned condition. When within 20 feet of the trail, any creature's movement in a direction entirely away from it costs double, and enemies cannot take the 5-foot step action.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 8,
+    "saveEffect": "Half",
+    "saveType": "Special",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "46TwdiKPKmUTjGeM",
+  "_id": "sNIsZL0TMrPMEJem",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!sNIsZL0TMrPMEJem"
+}

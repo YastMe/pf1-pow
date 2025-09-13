@@ -113,12 +113,13 @@
   "_stats": {
     "systemId": "pf1",
     "systemVersion": "11.3",
-    "coreVersion": "12.331",
+    "coreVersion": "13.345",
     "createdTime": 1732991557720,
     "modifiedTime": 1742069919477,
     "lastModifiedBy": "jI6iseAymTC0jkXd",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "sort": 0,
   "ownership": {

@@ -1,0 +1,142 @@
+{
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 2nd level, the warlord’s innate charisma allows his very presence to aid and assist not only himself but his allies as well, just by his being around. Adopting a presence is a move-equivalent action, and only one presence may be maintained at any given time. At 7th level, the warlord is capable of adopting a presence as a free action.</p><ul class=\"my-2 list-disc px-6 border-box flow-root\"><li><p class=\"mt-4 first:mt-0\"><em>Indomitable Presence</em>: At 2nd level, the warlord shines as a beacon to his allies on the field of battle, inspiring them to fight with him to their last breath. All allies within 30-ft. of his position gain the benefits of the @UUID[Compendium.pf1.feats.Item.O0e0UCim27GPKFuW]{Die Hard} feat, and may add his warlord initiation modifier to Fortitude saves versus death effects, fatigue or exhaustion effects, or poison effects as a morale bonus.</p></li><li><p class=\"mt-4 first:mt-0\"><em>Rallying Presence</em>: The sight of a warlord on the battlefield is enough to strengthen the hearts and wills of those who fight beside him in battle. At 5th level, the warlord may add his warlord initiation modifier as a morale bonus to Will saves versus fear, death effect, or compulsion effects to all allies within 30-ft. of his position. If the warlord maintaining this presence becomes cowed, frightened, panicked or falls prey to a hostile mind-affecting ability (such as one that would stun or daze him), compulsion or death effect, this presence immediately ends.</p></li><li><p class=\"mt-4 first:mt-0\"><em>Victorious Presence</em>: The preternatural skill at arms that a warlord of at this level possesses is enough to win any battle. At 9th level, any foe that the warlord brings to 0 or fewer hit points in battle immediately fuels his hunger for the win, granting him and his allies within 30-ft. of his position the character’s class level plus his warlord initiation modifier in temporary hit points. These hit points endure until they are lost or until the end of the encounter, whichever occurs first. Damage inflicted on the warlord is deducted from his temporary hit points first before being deducted from his normal hit point total.</p></li></ul><p><strong>New Tactical Presences</strong> – When a warlord gains a new tactical presence (including by taking the @UUID[Compendium.pf1-pow.feats.Item.3fUtMD4oB486L9GU]{Extra Presence} feat), he can gain select of the following instead:</p><ul class=\"my-2 list-disc ml-6 border-box flow-root\"><li><p class=\"mt-4 first:mt-0\"><em>Warning Presence:</em> The instructions given by the wary warlord help his allies defend themselves against sudden surprises. Allies within 30 feet of the warlord gain a bonus equal to the warlord’s initiation modifier on Reflex saves against traps and to their AC during a surprise round. In addition, the warlord can designate one of his allies to act in a surprise round, even if they normally would not be able to. A warlord must be at least 2nd level to select this presence.</p></li><li><p class=\"mt-4 first:mt-0\"><em>Taskmaster’s Presence:</em> The warlord is a driving master, be it cruelly with a whip or kindly with encouragement. Allies within 30 feet of the warlord gain the benefits of the @UUID[Compendium.pf1.feats.Item.ehqx8txNRGMaNOPt]{Endurance} feat and gain a morale bonus on saving throws against fatigue, disease, compulsion effects, and sleep effects equal to the warlord’s initiation modifier. If the warlord is participating in a Craft or Profession check made by one of his allies, he can add his warlord initiation modifier as a morale bonus on that check. A warlord must be at least 5th level to select this presence.</p></li><li><p class=\"mt-4 first:mt-0\"><em>Gladiator’s Presence:</em> The warlord has seen some scraps in his day, and he knows how to inspire his allies through some tough moments too. Allies within 30 feet of the warlord gain a morale bonus on combat maneuver checks and to their CMD equal to the warlord’s initiation modifier. In addition, those allies do not provoke attacks of opportunity when making combat maneuver attempts. A warlord must be at least 9th level to select this presence.</p></li></ul>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "ex",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "ckg": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "class": "warlord",
+    "showInCombat": false
+  },
+  "name": "Tactical Presence",
+  "img": "icons/skills/melee/sword-twirl-orange.webp",
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "b3ffc2d71d155a09db6c3e9f27302e290a6e4f00"
+    },
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757765948093,
+    "modifiedTime": 1757765948093,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "folder": "nFY4qakuuuE3VB62",
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_id": "1hcXKJ1x2Amqi8XW",
+  "sort": 0,
+  "_key": "!items!1hcXKJ1x2Amqi8XW"
+}

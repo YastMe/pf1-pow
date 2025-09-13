@@ -1,0 +1,62 @@
+{
+  "name": "Aligned with Prediction",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: personal<br /><strong>Target</strong>: self<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>You have pondered keenly on the movements of the stars, and the metaphors they hold for the myriad futures: there is little that you haven't anticipated. You may activate this counter when initiative is rolled, after the results are revealed, even if you are flat-footed. You roll your initiative again and may then choose to take the new result. If you do not choose to take the new result, instead of expending this maneuver you may immediately replace it on your list of readied maneuvers with another maneuver you know but have not readied, which can be expended and recovered for the rest of the encounter as normal. This replacement maneuver is readied when you gain it (and granted, if you use granted maneuver recovery). The replacement maneuver's level cannot exceed half your highest maneuver level known. At the end of the encounter, you replace the chosen maneuver with aligned with prediction again on your readied maneuvers list. Alternately, you may activate this counter immediately before the start of one of your turns. This allows you to replace it with another maneuver known as above, but gives no bonuses to your initiative.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "immediate",
+      "value": 1
+    },
+    "level": 2,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Counter",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "hz6uvDYLNXM7ItG6",
+  "_id": "7lpCeGzcdbQNyOgv",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!7lpCeGzcdbQNyOgv"
+}

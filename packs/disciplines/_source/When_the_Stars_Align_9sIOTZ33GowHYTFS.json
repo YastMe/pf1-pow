@@ -1,0 +1,62 @@
+{
+  "name": "When the Stars Align",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Two Sagitta Stellaris maneuvers<br /><strong>Range</strong>: medium (100 ft. + 10 ft./level)<br /><strong>Target</strong>: see text<br /><strong>Duration</strong>: up to one hour/level</p><h2>Description</h2><p>You fire a shot into the sky as you whisper a prophecy, beckoning it to strike true when it is fulfilled. When you initiate this strike, you make a ranged attack. Instead of rolling, you name a condition, which must include details on how to choose a target. For example, ‘the next time someone casts a spell, target the caster', or ‘if someone dies in the middle of dinner at the tavern, target the bartender.'  Beginning from the start of your next turn until one hour per initiator level has passed, after the stated condition happens within medium range of where you initiated the maneuver (100 ft. + 10 ft./level), the attack resolves against the designated target, hitting automatically and dealing an  additional [[4d6]] points of damage. At that moment, you become aware that it has triggered, and exactly where the struck creature was. No line of effect is needed to the target as long as any possible winding path can be found from your original position to theirs. The triggering action completely resolves before the attack hits, so this maneuver can't damage a creature to interrupt spells with casting action of a standard action or less, or similar actions.  You can only maintain one active instance of this maneuver at a time: if you initiate it again, it makes any existing effect end. If you lose knowledge of the maneuver, or replace it in your readied maneuvers list when choosing readied maneuvers again, any active instance of this maneuver ends.  You use up one non-creature thrown weapon or piece of ammunition when initiating this strike, which cannot be retrieved until the strike triggers or otherwise ends. The weapon or ammunition used lands in a random space adjacent to the target, or in the space you were in when you initiated the strike if it ended without triggering, unless you have another ability that would return it to you. If excessively complicated or convoluted conditions are prescribed, the strike immediately fails and has no effect. If the condition could be triggered by obscured information (such as due to lies or stealth), it uses 10 + your knowledge (geography) skill modifier in place of any relevant skills (such as sense motive or perception) and is treated as observing the event from 5 feet away with all your senses to determine judgement on if it triggers. The maneuver's magic makes its own judgement and does not tell you any of this other observed information.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "standard",
+      "value": 1
+    },
+    "level": 6,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "ZstjOgiJHXvpY5he",
+  "_id": "9sIOTZ33GowHYTFS",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!9sIOTZ33GowHYTFS"
+}

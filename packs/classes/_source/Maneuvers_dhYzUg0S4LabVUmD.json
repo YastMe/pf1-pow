@@ -1,0 +1,141 @@
+{
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>A warlord begins his career with knowledge of six martial maneuvers. The disciplines available to him are @UUID[Compendium.pf1-pow.disciplines.Item.5EVWqiUTgaPwgm8s]{Golden Lion}, @UUID[Compendium.pf1-pow.disciplines.Item.N997mVQYWzddzRRe]{Primal Fury}, @UUID[Compendium.pf1-pow.disciplines.Item.VxMY717aKl0DWAVq]{Scarlet Throne}, @UUID[Compendium.pf1-pow.disciplines.Item.6shvb4nSUubZzgrB]{Solar Wind}, @UUID[Compendium.pf1-pow.disciplines.Item.NIUTMkUTLdDmAKpy]{Thrashing Dragon}, and either @UUID[Compendium.pf1-pow.disciplines.Item.ddjbDqrEFnnh11tS]{Piercing Thunder} or @UUID[Compendium.pf1-pow.disciplines.Item.00PY24jPHILXoYHK]{Tempest Gale}. If he does not have that discipline's associated skill as a class skill, he gains it as a class skill.</p><p>Once he knows a maneuver, he must ready it before he can use it (see Maneuvers Readied, below). A maneuver usable by warlords is considered an extraordinary ability unless otherwise noted in its description. His maneuvers are not affected by spell resistance, and he do not provoke attacks of opportunity when he initiates one. He learns additional maneuvers at higher levels, as shown on Table 1-3: The Warlord. The warlord must meet a maneuver's prerequisite to learn it. See the Systems and Use chapter for more information.</p><p>Upon reaching initiator level 4th, and at every even numbered initiator level thereafter (6th, 8th, 10th, and so on), the warlord can choose to learn a new maneuver in place of one he already knows. In effect, the warlord loses the old maneuver in exchange for the new one. He can choose a new maneuver of any level he likes, as long as he observes his restriction on the highest-level maneuvers he knows. The warlord need not replace the old maneuver with a maneuver of the same level. The warlord can swap only a single maneuver at any given level. A warlord's initiation modifier is Charisma.</p><p></p><h2>Editor's Note: Discipline Exchanges</h2><p>@UUID[Compendium.pf1-pow.disciplines.Item.YKyesqqDVNSpFBgN]{Fool's Errand}, <strong>Mangled Gear</strong>, @UUID[Compendium.pf1-pow.disciplines.Item.5w0wMZgWK1wxiZwL]{Radiant Dawn}, <strong>Roaring Mouse</strong>, <strong>Surging Shark</strong>: Any character of any class can access any of these disciplines by trading one of their available disciplines for one of the listed disciplines. If they do, they gain its associated skill as a class skill.</p><p>@UUID[Compendium.pf1-pow.disciplines.Item.v8mRfoRJwdNqR2bP]{Unquiet Grave}: Harbingers may exchange access to one of their martial disciplines for access to the Unquiet Grave discipline. They gain Knowledge (religion) as a class skill if they didn’t already have it</p><p><strong>Sagitta Stellaris</strong>: Any class that has access to the Solar Wind or Tempest Gale discipline may trade any one of their disciplines known from that class for access to the Sagitta Stellaris discipline, gaining Knowledge (geography) as a class skill.</p><p><strong>Leaden Hyena</strong>: Any character of any class which has access to Golden Lion may gain Leaden Hyena in exchange for any one martial discipline they possess. They gain Bluff as a class skill.</p><p>@UUID[Compendium.pf1-pow.disciplines.Item.WZV15kQ5IlTQWzGI]{Brutal Crocodile}: Any character of any class which has access to Primal Fury may gain Brutal Crocodile in exchange for any one martial discipline they possess. They gain Climb as a class skill.</p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "classFeat",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": false,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    },
+    "class": "warlord",
+    "showInCombat": false
+  },
+  "name": "Maneuvers",
+  "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+  "effects": [],
+  "folder": "nFY4qakuuuE3VB62",
+  "flags": {
+    "scene-packer": {
+      "hash": "f67ce53c88a0a3508eb380891b94374617e24029"
+    },
+    "lilhelper": {
+      "item": {
+        "hideAttacks": false,
+        "autoPowerAttack": false,
+        "keen": false,
+        "skipDialog": 0,
+        "rollmodeOverride": "",
+        "rollOverride": ""
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757765941008,
+    "modifiedTime": 1757765941008,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_id": "dhYzUg0S4LabVUmD",
+  "sort": 0,
+  "_key": "!items!dhYzUg0S4LabVUmD"
+}

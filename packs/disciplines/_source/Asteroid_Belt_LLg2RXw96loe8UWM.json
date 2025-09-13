@@ -1,0 +1,62 @@
+{
+  "name": "Asteroid Belt",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: Personal<br /><strong>Target</strong>: You<br /><strong>Duration</strong>: Stance</p><h2>Description</h2><p>Attuning yourself to the cosmos, you emulate a special gravitational field around your body that lets your possessions orbit around you. When you enter this stance, you may draw out any number of objects in your possession that you can carry in one hand (to a maximum of 10 lbs. each) and have them start to circle around your body. Despite their lazy drifting, they are unexpectedly secure: these objects move with you when you do, and still count as attended and fastened for targeting or steal combat maneuvers, and count towards your encumbrance.  You may retrieve any item in orbit around you as a free action, and any ammunition or weapon (including thrown weapons) you make ranged attacks with returns to your orbit at the start of your next turn. Pulling an unattended object within your natural reach into your orbit is a free action and does not need any free limbs. At 6th initiator level, weapons and fired ammunition instead return immediately after the attack resolves, and you gain the benefits of the Deflect Arrow feat, adding the projectiles of negated attacks to your orbit unless there is an effect that would say otherwise.  Ammunition used while this stance is active is not destroyed as part of the attack, but if it would have been destroyed, it still loses any magical properties it had. Objects automatically stow themselves into containers on your person however you choose whenever you willingly leave this stance. In addition, while in this stance you may use mage hand as a spell-like ability at will, with caster level equal to your initiator level.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "Half",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "F4WCsAl1ezczYUZZ",
+  "_id": "LLg2RXw96loe8UWM",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!LLg2RXw96loe8UWM"
+}

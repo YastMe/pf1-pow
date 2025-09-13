@@ -1,0 +1,62 @@
+{
+  "name": "Omniscience Trace",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Sagitta Stellaris maneuvers<br /><strong>Range</strong>: unlimited<br /><strong>Target</strong>: one creature<br /><strong>Duration</strong>: 1 round</p><h2>Description</h2><p>There is nowhere in the universe, or even the multiverse, that is outside the range of your marksmanship. When you initiate this boost, choose a creature that you can currently see or have seen within the last round, including indirect viewing such as via the Scrying spell. The next ranged attack you make this turn can target that creature no matter where they are: after being fired, the attack tears open a portal within 30 ft. of you that fills an unoccupied 5-foot space and is linked to an identical portal that appears in a random unoccupied space that is adjacent to the target and has line of effect to it, where the attack continues out of and targets the enemy. You may make the attack roll for this attack three times and take the highest result. The portals persist for 1 round, but you may dismiss them earlier as an immediate action. Creatures that can see through one portal can also see anything that they would be able to see if they were inside the space of the other portal: if you can see the target through the portals, your attack does not take any penalties for being unable to see the target when the attack was made. Any creature that enters the space of one portal is teleported to an eligible space of their choice adjacent to the other portal as a free action. Ranged attacks, spells, and other targeted effects can be aimed through a portal, entering it and continuing out of the linked portal in a direction of the user's choice, totaling the distance travelled towards one portal and out the other for range and range increments. [Trail] strikes that enter a portal continue being drawn after emerging from the other portal as normal. However, melee attacks, threatened areas, auras, area effects, unattended objects, and environmental effects such as heat, air, water, and gravity do not cross over between portals. This maneuver has no effect if either portal would be created in an area where teleportation is barred, if there are no eligible spaces for a portal to appear, or if the target is under the nondetection spell or similar effect that hides their location from divination magic. Otherwise, this maneuver's range even extends to other planes, as long as either portal would not be created in an area where planar travel is barred. At 16th initiator level, effects that protect from divination do not stop this maneuver from working unless they also guard against the discern location spell.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "MIIAMCXokAbp94yq",
+  "_id": "D9aTwrpfcoRWhPaR",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!D9aTwrpfcoRWhPaR"
+}

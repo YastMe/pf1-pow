@@ -1,0 +1,129 @@
+{
+  "name": "Sagitta Stellaris",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Back in the time before history, when warriors shaped the land and rulers shone like the sun, the attentions of priests and scholars were focused on more distant pursuits. The night sky, the stars, the way the paths of every constellation governed the fate of man and housed the wills of the divine - after a myriad dusks of meditation, astronomy and study alike, the ancient sages would discover the first sparks of what would evolve into the Sagitta Stellaris discipline. Just as there is purpose to the path of every comet, they sought to imbue that will into their arrows, weaving fate into steel to have every projectile fly true. It wasn’t just about where the arrow landed: each curve was an omen, and every path an orbit. To an archer of Sagitta Stellaris, each battlefield is a microcosm of another part of the night sky.</p><p>All Sagitta Stellaris stances and maneuvers have origins in divine magic, and are considered supernatural abilities. </p><p><strong>Associated Skill</strong>: Knowledge (geography)</p><p><strong>Associated Weapons</strong>: bows, crossbows, firearms, and thrown.</p><p><strong>Accessing the Discipline</strong>: Any class that has access to the Solar Wind or Tempest Gale discipline may trade any one of their disciplines known from that class for access to the Sagitta Stellaris discipline, gaining Knowledge (geography) as a class skill. The discipline that they trade out does not need to be Solar Wind or Tempest Gale.</p><p><strong>Advanced Interactions: </strong>There are various more narrow situations that can come up using the Trail and Rain rules, but aren’t necessary to learn to know how they work and use them during common play. These less-common cases are detailed in <a href=\"https://libraryofmetzofitz.fandom.com/wiki/Systems_and_Use#Trails_and_Rain:_Specific_Rules_Clarifications\">Systems and Use</a>.</p><p><strong>New Rule (Trail)</strong>: Strikes with the [Trail] descriptor use projectiles to draw out paths on the battlefield. Each [Trail] shot starts from where the attack originates, is given a range in feet, and then can be controlled to fly freely for that amount of distance. When it enters its target’s space, the ranged attack is resolved as normal, and the projectile stops, even if it had distance remaining. Despite the angle the attack may approach from, the target’s cover from you still applies against it, as it is difficult to keep track of the target’s movements behind obstacles.</p><p>In every space the projectile passes through or enters, including the originating space and target’s space, it leaves a visible trail of lingering divine magic, even if the attack missed. Creatures entering any space in this trail are subject to the consequences described in the strike the first time they enter the trail - unless otherwise stated, an individual creature can never be subject to the effect of entering a trail more than once for each trail made. This trail lasts until the start of your next turn, or until you use another [Trail] strike, whichever comes first.</p><p>After being drawn, each space of a trail extends upwards and downwards by an amount equal to one extra 5-foot space in both directions per two initiator levels but does not extend through total cover. Use your highest initiator level to determine this range. Creating a trail on top of a stationary creature does not apply the trail’s effect to them, unless they later move into another affected space. Forced movement into a trail will trigger its effects, and a trail is not considered inherently dangerous terrain.</p><p><strong>New Rule</strong> <strong>(Rain)</strong>: Ranged strikes with the [Rain] descriptor have an affinity for being chained into certain types of additional attacks.</p><p>If you are at least 6th initiator level, and possess any abilities or effects that would allow you to make additional ranged attacks as part of a full attack (such as the Rapid Shot feat, or using a haste spell, but not the normal iterative attacks you would get from base attack bonus), you may apply a limited number of them to your [Rain] strike as if it was a full-attack action. You may make a maximum total of one extra attack at 6th level, plus one additional attack for every 5 initiator levels after 6th, as long as you have the ability to make that many extra attacks normally</p><p>To make these extra attacks, you increase the maneuver’s initiation time from a standard action to a full round action, then resolve the strike as normal before making extra attacks up to the allowed limit. If using these extra attacks would usually apply any penalties to the rest of a full attack action (such as Rapid Shot’s -2 penalty to attack rolls), these penalties are also applied to the strike attack.</p><p>You may use your base attack bonus in place of your initiator level for determining the number of attacks you can make with the [Rain] descriptor. </p>",
+      "instructions": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "martialDiscipline",
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "disabled": false,
+    "classSkills": {
+      "acr": false,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": false,
+      "crf": false,
+      "dip": false,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": false,
+      "hea": false,
+      "int": false,
+      "kar": false,
+      "kdu": false,
+      "ken": false,
+      "kge": true,
+      "khi": false,
+      "klo": false,
+      "kmt": false,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": false,
+      "prf": false,
+      "pro": false,
+      "rid": false,
+      "sen": false,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": false,
+      "swm": false,
+      "umd": false
+    }
+  },
+  "folder": "UYXzwG1w5ETq5J6N",
+  "_id": "DcjwK9S9MBgm2p3f",
+  "effects": [],
+  "flags": {
+    "pf1": {
+      "migration": "11.1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!DcjwK9S9MBgm2p3f"
+}

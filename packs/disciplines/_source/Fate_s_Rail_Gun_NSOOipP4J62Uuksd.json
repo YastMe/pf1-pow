@@ -1,0 +1,62 @@
+{
+  "name": "Fate's Rail Gun",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Sagitta Stellaris maneuvers<br /><strong>Range</strong>: ranged attack<br /><strong>Target</strong>: one creature (see text)<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>Every journey on the rail of fate has an end. You rewrite an enemy's destiny to make that end happen now. Make a single ranged attack. You do not need to see a target or have line of effect to it, and the attack ignores miss chances. Your ranged attack automatically blasts a hole the size of the projectile through any intervening object or barrier with hardness less than 50 without stopping. All creatures except you and the target within 10 ft. of the path of the attack must make a Reflex save (DC 17 + your initiation modifier) or be pushed 15 feet away from it, and fall prone if not airborne. If they are directly within the line of fire, they instead take [[10d6]] damage on a failed save, and half on a success. All unattended large or smaller objects in range are pushed automatically.  If the attack hits the main target, they take damage as normal plus an additional [[14d6]] points of damage, and must make three Fortitude saves in a row (DC 17 + your initiation modifier, affects objects), automatically passing the remaining saves once they succeed on any. If they fail one save, they are stunned for 1 round. If they fail two saves, they are stunned and paralyzed for 1 round. If they fail all three, they explode and die. The third fortitude save is a death effect.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Text",
+    "saveType": "Special",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "MIIAMCXokAbp94yq",
+  "_id": "NSOOipP4J62Uuksd",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!NSOOipP4J62Uuksd"
+}

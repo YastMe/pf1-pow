@@ -1,0 +1,62 @@
+{
+  "name": "Slivers of a Shattered Star",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: None<br /><strong>Range</strong>: personal<br /><strong>Target</strong>: you<br /><strong>Duration</strong>: stance</p><h2>Description</h2><p>Your projectiles carry the explosive energy of a destroyed star within them - but it manifests as fate rather than force. While you maintain this stance, all your ranged attacks have their range increment increased by 10 feet, and once per attack they may change direction in mid-air in any empty space of their path, determining cover and line of effect to their target from the space they changed direction in. This does not negate total concealment against targets you cannot see. When a non-trail attack changes course, it leaves behind an insubstantial mote of energy that remains in that space for 1 round or until claimed. An ally in a mote's space may claim the mote as a free action, gaining a +10-foot sacred bonus to their speed (which stacks with itself, and immediately applies to any current movement), and a +1 sacred bonus to their attack and damage rolls for 1 round (this bonus does not stack). The bonus to attack and damage increases by 1 at 6th initiator level and again every 6 levels after. [Trail] strikes made when in this stance instead are drawn as normal but have their maximum range increased by 15 feet and can create their mote within any space in the trail, determining cover from the mote's position.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 1,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Stance",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "F4WCsAl1ezczYUZZ",
+  "_id": "Sh4W1gLDbGp2FtsM",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!Sh4W1gLDbGp2FtsM"
+}

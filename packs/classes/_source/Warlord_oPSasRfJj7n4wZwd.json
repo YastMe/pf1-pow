@@ -1,0 +1,228 @@
+{
+  "folder": "k4B6Y1N3UwckYOGM",
+  "type": "class",
+  "name": "Warlord",
+  "system": {
+    "description": {
+      "value": "<p>Dynamos on the field of combat, warlords walk the line of victory and ruin through their determination to achieve glory. Where some may talk tactics, the warlord dives in. Where some may fight in strategic units, the warlord shines alone as an inspirational beacon on the field of combat; to be a warlord is to be a lord of war.</p><p><strong>Adventures:</strong> Warlords adventure for many reasons, but one reason that will always be prominent is the desire to test their skill against the world's most dangerous opponents, to show their strength to themselves and to the world. Others may do this for profit, others for fun, others for revenge, but it is always certain that a warlord seeks the glory and honor only a battle well-fought can bring.</p><p><strong>Characteristics:</strong> Brash arrogance and an irrepressible nature are hallmarks of the warlord. A devil-may-care warrior, many warlords are as fearless as they are fierce, and they both love life and live their lives to the fullest. Hedonists in some extreme cases, the warlord is drawn to combat as a moth to the flame.</p><p><strong>Alignment:</strong> Any. Warlords can come from any and all ethical backgrounds, though they do tend more towards a chaotic alignment. Lawfully aligned warlords are rarer, and tend to compose their impulses through strict discipline.</p><p><strong>Religion:</strong> While not overly religious, some warlords follow gods of war and battle with temperaments similar to their own.</p><p><strong>Background:</strong> Warlords come from families with strong warrior traditions, from barbaric tribes and from academies that produce the strongest warriors. One thing that sets them apart is their reckless nature and the inspirational presence they possess.</p><p><strong>Races:</strong> Humans and half-elves are prominent warlord races due to both possessing an impetuous nature. Half-orcs become very fearsome warlords in their own right, and dwarves are known for their ferocity when defending their homes.</p><p><strong>Other Classes:</strong> Warlords get on well with fighters, rangers, and barbarians as their martial nature makes them amicable, but paladins and warders tend to chafe under their recklessness. Wizards and especially bards and sorcerers get on quite well with them, and clerics find them to be tolerable.</p><p><strong>Role:</strong> Striker. As a very aggressive class, the warlord seeks to bring martial power to the field in the form of overwhelming force and ferocity. Additionally, warlords make excellent leaders, as they provide some passive benefits from their class features as well as active benefits from discipline choices and their gambits.</p><p><strong>Abilities:</strong> Strength and Charisma are incredibly important to a warlord, as without Strength the warlord is weaker in combat and without Charisma many of his abilities will not function, as Charisma is the warlord's primary initiation attribute. Constitution is important for vital hit points. Intelligence and Dexterity take up the bottom of importance, for both skill points and defense (or ranged combat).</p><p><strong>Hit Die:</strong> d10</p><p><strong>Starting Wealth</strong>: 5d6 x 10 gp (average 175 gp).</p><p><strong>Starting Age:</strong> Self-Taught</p><p><strong>Class Skills:</strong> The warlord's class skills (and the key ability for each skill) are: Acrobatics (Dex), Climb (Str), Craft (Int), Diplomacy (Cha), Handle Animal (Cha), Intimidate (Cha), Knowledge (engineering) (Int), Knowledge (history) (Int), Knowledge (martial) (Int), Perception (Wis), Profession (Wis), Ride (Dex), Sense Motive (Wis), Survival (Wis), Swim (Str).</p><p><strong>Skill Ranks per Level:</strong> 4 + Int modifier</p><h1>Class Features</h1><table><tbody><tr><th><p>Level</p></th><th><p>Base Attack Bonus</p></th><th><p>Fort Save</p></th><th><p>Ref Save</p></th><th><p>Will Save</p></th><th><p>Special</p></th><th><p>Maneuvers</p><p>Known</p></th><th><p>Maneuvers</p><p>Readied</p></th><th><p>Stances</p><p>Known</p></th></tr><tr><td><p>1st</p></td><td><p>+1</p></td><td><p>+2</p></td><td><p>+0</p></td><td><p>+0</p></td><td><p>Warlord's gambit, gambit (2), bonus feat</p></td><td><p>6</p></td><td><p>4</p></td><td><p>1</p></td></tr><tr><td><p>2nd</p></td><td><p>+2</p></td><td><p>+3</p></td><td><p>+0</p></td><td><p>+0</p></td><td><p>Tactical presence (indomitable)</p></td><td><p>7</p></td><td><p>5</p></td><td><p>2</p></td></tr><tr><td><p>3rd</p></td><td><p>+3</p></td><td><p>+3</p></td><td><p>+1</p></td><td><p>+1</p></td><td><p>Warleader, force of personality</p></td><td><p>8</p></td><td><p>5</p></td><td><p>2</p></td></tr><tr><td><p>4th</p></td><td><p>+4</p></td><td><p>+4</p></td><td><p>+1</p></td><td><p>+1</p></td><td><p>Tactical flanker, gambit</p></td><td><p>8</p></td><td><p>5</p></td><td><p>2</p></td></tr><tr><td><p>5th</p></td><td><p>+5</p></td><td><p>+4</p></td><td><p>+1</p></td><td><p>+1</p></td><td><p>Tactical presence (rallying), battle prowess +1</p></td><td><p>9</p></td><td><p>6</p></td><td><p>3</p></td></tr><tr><td><p>6th</p></td><td><p>+6/+1</p></td><td><p>+5</p></td><td><p>+2</p></td><td><p>+2</p></td><td><p>Dual boost 1/day, bonus feat</p></td><td><p>9</p></td><td><p>6</p></td><td><p>3</p></td></tr><tr><td><p>7th</p></td><td><p>+7/+2</p></td><td><p>+5</p></td><td><p>+2</p></td><td><p>+2</p></td><td><p>Tactical presence (free action)</p></td><td><p>10</p></td><td><p>6</p></td><td><p>3</p></td></tr><tr><td><p>8th</p></td><td><p>+8/+3</p></td><td><p>+6</p></td><td><p>+2</p></td><td><p>+2</p></td><td><p>Tactical assistance, gambit</p></td><td><p>10</p></td><td><p>7</p></td><td><p>3</p></td></tr><tr><td><p>9th</p></td><td><p>+9/+4</p></td><td><p>+6</p></td><td><p>+3</p></td><td><p>+3</p></td><td><p>Tactical presence (victorious)</p></td><td><p>11</p></td><td><p>7</p></td><td><p>4</p></td></tr><tr><td><p>10th</p></td><td><p>+10/+5</p></td><td><p>+7</p></td><td><p>+3</p></td><td><p>+3</p></td><td><p>Bonus feat</p></td><td><p>11</p></td><td><p>7</p></td><td><p>4</p></td></tr><tr><td><p>11th</p></td><td><p>+11/+6/+1</p></td><td><p>+7</p></td><td><p>+3</p></td><td><p>+3</p></td><td><p>Dual tactical presence</p></td><td><p>12</p></td><td><p>8</p></td><td><p>5</p></td></tr><tr><td><p>12th</p></td><td><p>+12/+7/+2</p></td><td><p>+8</p></td><td><p>+4</p></td><td><p>+4</p></td><td><p>Battle prowess +2, dual boost 2/day, gambit</p></td><td><p>12</p></td><td><p>8</p></td><td><p>5</p></td></tr><tr><td><p>13th</p></td><td><p>+13/+8/+3</p></td><td><p>+8</p></td><td><p>+4</p></td><td><p>+4</p></td><td><p>Improved warleader</p></td><td><p>13</p></td><td><p>8</p></td><td><p>5</p></td></tr><tr><td><p>14th</p></td><td><p>+14/+9/+4</p></td><td><p>+9</p></td><td><p>+4</p></td><td><p>+4</p></td><td><p>Bonus feat</p></td><td><p>13</p></td><td><p>9</p></td><td><p>5</p></td></tr><tr><td><p>15th</p></td><td><p>+15/+10/+5</p></td><td><p>+9</p></td><td><p>+5</p></td><td><p>+5</p></td><td><p>Warlord's presence</p></td><td><p>14</p></td><td><p>9</p></td><td><p>6</p></td></tr><tr><td><p>16th</p></td><td><p>+16/+11/+6/+1</p></td><td><p>+10</p></td><td><p>+5</p></td><td><p>+5</p></td><td><p>Gambit</p></td><td><p>14</p></td><td><p>9</p></td><td><p>6</p></td></tr><tr><td><p>17th</p></td><td><p>+17/+12/+7/+2</p></td><td><p>+10</p></td><td><p>+5</p></td><td><p>+5</p></td><td><p>Master warleader</p></td><td><p>15</p></td><td><p>10</p></td><td><p>6</p></td></tr><tr><td><p>18th</p></td><td><p>+18/+13/+8/+3</p></td><td><p>+11</p></td><td><p>+6</p></td><td><p>+6</p></td><td><p>Bonus feat, dual boost 3/day</p></td><td><p>16</p></td><td><p>10</p></td><td><p>7</p></td></tr><tr><td><p>19th</p></td><td><p>+19/+14/+9/+4</p></td><td><p>+11</p></td><td><p>+6</p></td><td><p>+6</p></td><td><p>Battle prowess +3</p></td><td><p>17</p></td><td><p>10</p></td><td><p>7</p></td></tr><tr><td><p>20th</p></td><td><p>+20/+15/+10/+5</p></td><td><p>+12</p></td><td><p>+6</p></td><td><p>+6</p></td><td><p>Dual stance, gambit</p></td><td><p>18</p></td><td><p>11</p></td><td><p>7</p></td></tr></tbody></table>",
+      "instructions": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "classAssociations": [
+        {
+          "name": "Warlord’s Gambit",
+          "uuid": "Compendium.pf1-pow.classes.Item.AHbyWgkN00ToxkCM",
+          "level": 1
+        },
+        {
+          "name": "Bonus Feat (Warlord)",
+          "uuid": "Compendium.pf1-pow.classes.Item.jFLge5NYO40fyB4S",
+          "level": 1
+        },
+        {
+          "name": "Maneuvers",
+          "uuid": "Compendium.pf1-pow.classes.Item.dhYzUg0S4LabVUmD",
+          "level": 1
+        },
+        {
+          "name": "Maneuvers Readied",
+          "uuid": "Compendium.pf1-pow.classes.Item.kA0iI8TulNQyN0xP",
+          "level": 1
+        },
+        {
+          "name": "Stances Known",
+          "uuid": "Compendium.pf1-pow.classes.Item.gge7RlYFzVDKxqDL",
+          "level": 1
+        },
+        {
+          "name": "Tactical Presence",
+          "uuid": "Compendium.pf1-pow.classes.Item.1hcXKJ1x2Amqi8XW",
+          "level": 2
+        },
+        {
+          "name": "Force of Personality",
+          "uuid": "Compendium.pf1-pow.classes.Item.4eOL1yRYRSBztWI3",
+          "level": 3
+        },
+        {
+          "name": "Warleader",
+          "uuid": "Compendium.pf1-pow.classes.Item.Ch5etrkKigij6RXm",
+          "level": 3
+        },
+        {
+          "name": "Tactical Flanker",
+          "uuid": "Compendium.pf1-pow.classes.Item.KqaqTv1hsX5AvNT7",
+          "level": 4
+        },
+        {
+          "name": "Battle Prowess",
+          "uuid": "Compendium.pf1-pow.classes.Item.dRTsEBuPwEinQDEy",
+          "level": 5
+        },
+        {
+          "name": "Dual Boost",
+          "uuid": "Compendium.pf1-pow.classes.Item.rnNBhN8zi98dzzC1",
+          "level": 6
+        },
+        {
+          "name": "Tactical Assistance",
+          "uuid": "Compendium.pf1-pow.classes.Item.cwrCOCvKzYLxqD0H",
+          "level": 8
+        },
+        {
+          "name": "Improved Warleader",
+          "uuid": "Compendium.pf1-pow.classes.Item.8CSxpxGj5zzHJJ02",
+          "level": 13
+        },
+        {
+          "name": "Warlord's Presence",
+          "uuid": "Compendium.pf1-pow.classes.Item.kAHOdPA321QyXdnX",
+          "level": 15
+        },
+        {
+          "name": "Master Warleader",
+          "uuid": "Compendium.pf1-pow.classes.Item.Kdyr5rSp9tDBBhfh",
+          "level": 17
+        },
+        {
+          "name": "Dual Stance",
+          "uuid": "Compendium.pf1-pow.classes.Item.Egt2NhXQkKuZzL5b",
+          "level": 20
+        }
+      ]
+    },
+    "tag": "",
+    "armorProf": [
+      "lgt",
+      "med",
+      "shl",
+      "twr"
+    ],
+    "weaponProf": [
+      "simple",
+      "martial"
+    ],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "base",
+    "level": 1,
+    "hd": 10,
+    "hp": 10,
+    "bab": "high",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "high"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "low"
+      }
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "wealth": "5d6 * 10",
+    "alignment": "",
+    "classSkills": {
+      "acr": true,
+      "apr": false,
+      "art": false,
+      "ahp": false,
+      "blf": false,
+      "clm": true,
+      "crf": true,
+      "dip": true,
+      "dev": false,
+      "dis": false,
+      "esc": false,
+      "fly": false,
+      "han": true,
+      "hea": false,
+      "int": true,
+      "kar": false,
+      "kdu": false,
+      "ken": true,
+      "kge": false,
+      "khi": true,
+      "klo": false,
+      "kmt": true,
+      "kna": false,
+      "kno": false,
+      "kpl": false,
+      "kre": false,
+      "lin": false,
+      "lor": false,
+      "per": true,
+      "prf": false,
+      "pro": true,
+      "rid": true,
+      "sen": true,
+      "slt": false,
+      "spl": false,
+      "ste": false,
+      "sur": true,
+      "swm": true,
+      "umd": false
+    },
+    "customHD": "",
+    "maneuverProgression": {
+      "classType": "class",
+      "type": "regular"
+    },
+    "casting": {
+      "type": ""
+    }
+  },
+  "_id": "oPSasRfJj7n4wZwd",
+  "img": "icons/weapons/swords/sword-broad-serrated-blue.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757765594843,
+    "modifiedTime": 1757766204745,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "_key": "!items!oPSasRfJj7n4wZwd"
+}

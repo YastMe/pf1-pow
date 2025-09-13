@@ -1,0 +1,62 @@
+{
+  "name": "Heaven's Fury",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: Three Sagitta Stellaris maneuvers<br /><strong>Range</strong>: medium (100 ft. + 10 ft./level)<br /><strong>Target</strong>: see text<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>You fire a flurry of ranged attacks into the sky, and they rain down with a vengeance upon the battlefield like meteors. Make a full attack with a ranged weapon. You may use your initiator level in place of your base attack bonus for this full attack. Instead of choosing targets or using the normal rules for drawing trails, you instead create a 15-foot-radius burst at any point within range for each attack you could have made. For each burst, roll the attack once and compare it to the AC of all creatures within the area, dealing the attack's damage normally to each creature hit. All spaces included in the areas of your bursts become a trail. When an enemy enters this trail, a flare of energy erupts from it to strike them. They must make a Fortitude save (DC 17 + your initiation modifier, affects objects) or take [[10d6]] force damage and receive negative levels equal to half their total hit dice, halving the damage and avoiding the negative levels on success. Negative levels received this way last until the end of the creature's next turn, and do not reduce a creature's current or maximum hit points. Negative levels from multiple instances of this maneuver do not stack. All bursts are considered part of the same trail, so as usual each enemy can only be affected once by this extra damage even if they move through multiple burst areas. You do not need line of effect to the origin point of each burst, as long as there is any possible winding path of effect to them.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "full",
+      "value": 1
+    },
+    "level": 7,
+    "saveEffect": "Half",
+    "saveType": "Fortitude",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Strike",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "MIIAMCXokAbp94yq",
+  "_id": "uSJ3fYNxbOTybBFm",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!uSJ3fYNxbOTybBFm"
+}

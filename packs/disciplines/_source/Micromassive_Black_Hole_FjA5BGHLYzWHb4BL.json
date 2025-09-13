@@ -1,0 +1,62 @@
+{
+  "name": "Micromassive Black Hole",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Sagitta Stellaris maneuver<br /><strong>Range</strong>: medium (100 ft. + 10 ft./level)<br /><strong>Target</strong>: None<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>Area: Up to a 20-ft. burst You will gravity to condense for a moment, pulling all mass towards it. When you initiate this boost, choose a point within medium range (100 ft. + 10 ft./level). Make a single Knowledge (geography) check against the Combat Maneuver Defense of each creature within 20 feet of that point. Creatures you beat the CMD of are immediately pulled as close to that point as possible, in the order you choose, as are all unattended objects in range. If this would pull a creature into an inherently dangerous space, they get a +6 bonus to their CMD. You may choose to affect a smaller radius when you use this boost; if the radius is 10 feet or less, you gain a +4 bonus to your Knowledge (geography) check. If creatures released from this boost's pull would fall, they do not take fall damage for the first 20 feet fallen.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 3,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "Slk2MpdR36wXvg3f",
+  "_id": "FjA5BGHLYzWHb4BL",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!FjA5BGHLYzWHb4BL"
+}

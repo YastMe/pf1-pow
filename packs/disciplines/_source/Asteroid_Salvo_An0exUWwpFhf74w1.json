@@ -1,0 +1,62 @@
+{
+  "name": "Asteroid Salvo",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "type": "pf1-pow.maneuver",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite(s)</strong>: One Sagitta Stellaris maneuver<br /><strong>Range</strong>: 100 ft.<br /><strong>Target</strong>: see text<br /><strong>Duration</strong>: instantaneous</p><h2>Description</h2><p>With a flourish, you produce and fire a barrage of swerving energy missiles that seek out enemies and detonate violently. You make four ranged touch attacks against targets within 100 feet - you can pick the same target multiple times. On hit, each attack deals force damage equal to half your initiation modifier (minimum 1) and pushes the target 5 feet in any direction. Targets pushed do not fall until you allow them to, or when the turn ends. These missiles cannot critically hit or gain additional damage from any other source, and do not count as attacks for triggering beneficial abilities that occur when you make or hit with an attack (such as the missiles from celestial hurricane stance). For each time this turn a target has been hit by another one of your attacks (not including from this maneuver), you may have one of these fired missiles automatically hit them without an attack roll, and instead deal damage equal to your full initiation modifier (minimum 2). [Rain] strikes made as a full-round action count as three attacks for this purpose. You fire an additional missile at 11th initiator level and every 4 initiator levels after.</p>"
+    },
+    "discipline": "Sagitta Stellaris",
+    "initTime": {
+      "units": "swift",
+      "value": 1
+    },
+    "level": 4,
+    "saveEffect": "See text",
+    "saveType": "None",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "changes": [],
+    "contextNotes": [],
+    "sources": [],
+    "maneuverType": "Boost",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false
+  },
+  "folder": "c3XW0mERvKayv04x",
+  "_id": "An0exUWwpFhf74w1",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf1",
+    "systemVersion": "11.8",
+    "createdTime": 1757763957690,
+    "modifiedTime": 1757763957690,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "_key": "!items!An0exUWwpFhf74w1"
+}
