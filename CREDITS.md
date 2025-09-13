@@ -10,3 +10,5 @@ The goal of this file is to thank and recognize those who helped me with the dev
 - Tubbz, for showing me how to work with Browsers through their modules.
 - claudekennilol, for helping me understand input injection into the character sheet.
 - Kristal, for their amazing way of granting permissions and their help on procuring permission to use Codex of Blood
+- Austin, for helping me stat out the classes
+- MachaSpell, for granting permission to use Sagitta Stellaris as well as its feats and archetypes.
