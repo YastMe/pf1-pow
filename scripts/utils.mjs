@@ -21,7 +21,9 @@ export function injectManeuverButton(html) {
 	} else {
 		footer = $("section.action-buttons")[0];
 	}
-	if (!footer) return; // Prevent errors if footer is not found
+	
+	if (!footer || footer.querySelector('button[data-category="maneuver"]')) return;
+	
 	const button = document.createElement("button");
 	button.type = "button";
 	button.dataset.category = "maneuver";
