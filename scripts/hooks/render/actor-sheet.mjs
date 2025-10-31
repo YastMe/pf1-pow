@@ -40,7 +40,7 @@ export function renderActorHook(data, app, html) {
 		addControlHandlers(app, html, data);
 		if (app._forceShowManeuverTab) {
 			app.activateTab("pf1-pow", "primary");
-			setTimeout(() => delete app?._forceShowManeuverTab, 200);
+			setTimeout(() => delete app?._forceShowManeuverTab, 1000);
 		}
 	}
 }

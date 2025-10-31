@@ -119,7 +119,7 @@ export class ManeuverItem extends pf1.documents.item.ItemPF {
 		}).render(true);
 	}
 
-	executeManeuver(html, staminaPool = null, secondaryStaminaPool = null) {
+	async executeManeuver(html, staminaPool = null, secondaryStaminaPool = null) {
 		const extraDC = parseInt(html.find('[name="extraDC"]').val()) || 0;
 		const hasWeaponGroup = html.find('[name="weaponGroup"]')[0]?.checked;
 		let dc = 10 + this.system.level + extraDC + this.actor._rollData.maneuverAttr;
@@ -130,6 +130,10 @@ export class ManeuverItem extends pf1.documents.item.ItemPF {
 		const saveType = saveTypeMap[this.system.saveType] || undefined;
 
 		const msgData = this.generateManeuverChatMessage(this, dc, saveType);
+
+		const token = game.canvas.tokens.controlled[0];
+		if (game.modules.get("autoanimations")?.active)
+			AutomatedAnimations.playAnimation(token, this.toObject());
 
 		if (this.system.maneuverType !== "Strike") {
 			ChatMessage.create(msgData);
@@ -291,7 +295,18 @@ export class ManeuverItem extends pf1.documents.item.ItemPF {
 				);
 				stances.forEach(stance => stance.update({ "system.stanceActive": false }));
 			}
+			if (game.modules.get("autoanimations")?.active) {
+				const token = canvas.tokens.controlled[0];
+				AutomatedAnimations.playAnimation(token, this.toObject());
+				this.currentAnimation = Sequencer.EffectManager.getEffects().find(e => e.data.source.contains(token.id));
+			}
 		}
+		else {
+			Sequencer.EffectManager.endEffects({ source: this.currentAnimation?.id });
+			this.currentAnimation = null;
+		}
+		setTimeout(() => { }, 10)
+		this.actor.sheet._forceShowManeuverTab = true;
 	}
 
 	async grantSilent() {
