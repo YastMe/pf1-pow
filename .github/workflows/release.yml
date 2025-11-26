@@ -1,0 +1,76 @@
+name: Release to FoundryVTT
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract version from tag
+        id: get_version
+        run: |
+          # Remove 'v' prefix if present
+          VERSION=${GITHUB_REF#refs/tags/}
+          VERSION=${VERSION#v}
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Get release notes URL
+        id: release_notes
+        run: |
+          echo "notes_url=${{ github.event.release.html_url }}" >> $GITHUB_OUTPUT
+
+      - name: Get manifest URL
+        id: manifest
+        run: |
+          # Construct the manifest URL pointing to this specific release
+          echo "manifest_url=https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/module.json" >> $GITHUB_OUTPUT
+
+      - name: Publish to FoundryVTT
+        run: |
+          response=$(curl -X POST "https://foundryvtt.com/_api/packages/release_version/" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: ${{ secrets.FOUNDRY_RELEASE_TOKEN }}" \
+            -d '{
+              "id": "pf1-pow",
+              "release": {
+                "version": "${{ steps.get_version.outputs.version }}",
+                "manifest": "${{ steps.manifest.outputs.manifest_url }}",
+                "notes": "${{ steps.release_notes.outputs.notes_url }}",
+                "compatibility": {
+                  "minimum": "13",
+                  "verified": "13",
+                  "maximum": ""
+                }
+              }
+            }' \
+            -w "\n%{http_code}" \
+            -s)
+          
+          http_code=$(echo "$response" | tail -n1)
+          body=$(echo "$response" | sed '$d')
+          
+          echo "Response body: $body"
+          echo "HTTP status code: $http_code"
+          
+          if [ "$http_code" -ne 200 ]; then
+            echo "Failed to publish to FoundryVTT"
+            echo "$body"
+            exit 1
+          fi
+          
+          echo "Successfully published to FoundryVTT!"
+
+      - name: Upload module.json as release asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./module.json
+          asset_name: module.json
+          asset_content_type: application/json
