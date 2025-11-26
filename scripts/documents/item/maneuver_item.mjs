@@ -144,7 +144,7 @@ export class ManeuverItem extends pf1.documents.item.ItemPF {
 			this.update({ "system.uses.value": this.system.uses.value - 1 });
 		else if (this.actor.flags[MODULE_ID]?.duoPartner) {
 			this.update({ "system.uses.value": this.system.uses.value - 1 });
-			const duoPartnerManeuver = this.actor._rollData.duoPartner.items.find(item => item.name === this.name);
+			const duoPartnerManeuver = this.actor._rollData.pow.duoPartner.items.find(item => item.name === this.name);
 			if (duoPartnerManeuver) {
 				duoPartnerManeuver.update({ "system.uses.value": duoPartnerManeuver.system.uses.value - 1 });
 			}
@@ -250,7 +250,7 @@ export class ManeuverItem extends pf1.documents.item.ItemPF {
 			this.update({ "system.uses.value": uses.value + 1 });
 			this.actor.sheet._forceShowManeuverTab = true;
 			if (this.actor.flags[MODULE_ID]?.duoPartner) {
-				const duoPartnerManeuver = this.actor._rollData.duoPartner.items.find(item => item.name === this.name);
+				const duoPartnerManeuver = this.actor._rollData.pow.duoPartner.items.find(item => item.name === this.name);
 				if (duoPartnerManeuver) {
 					duoPartnerManeuver.update({ "system.uses.value": duoPartnerManeuver.system.uses.value + 1 });
 				}
@@ -264,7 +264,7 @@ export class ManeuverItem extends pf1.documents.item.ItemPF {
 			this.update({ "system.uses.value": uses.value + 1 });
 			ui.notifications.info(`${game.i18n.localize("PF1-PathOfWar.Maneuvers.RecoverSuccess")} ${this.name}`);
 			if (this.actor.flags[MODULE_ID]?.duoPartner) {
-				const duoPartnerManeuver = this.actor._rollData.duoPartner.items.find(item => item.name === this.name);
+				const duoPartnerManeuver = this.actor._rollData.pow.duoPartner.items.find(item => item.name === this.name);
 				if (duoPartnerManeuver) {
 					duoPartnerManeuver.update({ "system.uses.value": duoPartnerManeuver.system.uses.value + 1 });
 				}

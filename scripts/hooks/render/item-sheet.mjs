@@ -108,6 +108,29 @@ function injectProgressionSelector(html, app) {
 		formFieldsManeuver.append(selectManeuverTypes);
 		divClassTypeManeuver.append(formFieldsManeuver);
 		divClassTypeManeuver.insertAfter(divClassType);
+		
+		// Add initiator attribute selector for initiator classes
+		let selectInitAttr = $(`<select name="system.maneuverProgression.initiatorAttr"></select>`);
+		const abilities = {
+			'str': 'PF1.AbilityStr',
+			'dex': 'PF1.AbilityDex',
+			'con': 'PF1.AbilityCon',
+			'int': 'PF1.AbilityInt',
+			'wis': 'PF1.AbilityWis',
+			'cha': 'PF1.AbilityCha'
+		};
+		for (const [key, value] of Object.entries(abilities)) {
+			let option = $(`<option value="${key}">${game.i18n.localize(value)}</option>`);
+			if (key === classItem.system?.maneuverProgression?.initiatorAttr)
+				option.attr("selected", "selected");
+			selectInitAttr.append(option);
+		}
+		let formFieldsInitAttr = $("<div class='form-fields'></div>");
+		let divInitAttr = $(`<div class="form-group initiator-attr"></div>`);
+		divInitAttr.append($(`<label for='system.maneuverProgression.initiatorAttr'>${game.i18n.localize("PF1-PathOfWar.Attributes.maneuverAttr")}</label>`));
+		formFieldsInitAttr.append(selectInitAttr);
+		divInitAttr.append(formFieldsInitAttr);
+		divInitAttr.insertAfter(divClassTypeManeuver);
 	}
 }
 

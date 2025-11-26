@@ -8,6 +8,7 @@ import { setupHook } from "./hooks/setup.mjs";
 import { injectManeuverButton, onGetRollData, handleJumpingToSummary } from "./utils.mjs";
 import { startCombatHook, turnHook } from "./hooks/combat.mjs";
 import { registerConditions } from "./hooks/conditions.mjs";
+import { setManeuverClassOnDrop } from "./hooks/preCreate.mjs";
 
 export const TEMPLATES = {
 	"pf1-pow": "modules/pf1-pow/templates/actor/pf1-pow.hbs", // Path of War tab template
@@ -102,5 +103,11 @@ Hooks.on("combatTurnChange", (combat, prior, current) => {
 
 Hooks.on("pf1RegisterConditions", (registry, _model) => {
   registerConditions(registry);
+});
+
+Hooks.on("preCreateItem", (document, data, options, userId) => {
+	// Capture the currently active Path of War subtab name, if any
+	// This handles items dropped from compendium or other sources
+	setManeuverClassOnDrop(document);
 });
 

@@ -4,22 +4,11 @@ import { ManeuverItem } from "../../documents/_module.mjs";
 import { createTemplate } from "../../documents/actor/actor-sheet.mjs";
 import { grantDialogue } from "../../utils.mjs";
 
-const MARTIAL_TRAINING_IDS = [
-	"Compendium.pf1-pow.feats.Item.0F1Y26AhFPtjmtRs",
-	"Compendium.pf1-pow.feats.Item.GH0DPCS1opKc8Cwq",
-	"Compendium.pf1-pow.feats.Item.Sp3szYhmXlojaRMh",
-	"Compendium.pf1-pow.feats.Item.UhbWUsItUjaoWDWW",
-	"Compendium.pf1-pow.feats.Item.csVlOkXed702Do0C",
-	"Compendium.pf1-pow.feats.Item.39qFM9kVc5B7qhrE"
-]
-
-const COMBAT_TRAINING_TRAIT = "Compendium.pf1-pow.traits.Item.jTkem5O4Xu0MdirH"
-
-const ADVANCED_STUDY_FEAT = "Compendium.pf1-pow.feats.Item.3qsj6IGc9IS2WY95"
+import { MARTIAL_TRAINING_IDS, COMBAT_TRAINING_TRAIT, ADVANCED_STUDY_FEAT } from "../../constants.js";
 
 export function renderActorHook(data, app, html) {
 	const actor = data.actor;
-	if (actor.flags?.core?.sheetClass !== "pf1alt.AltActorSheetPFCharacter") {
+	if (actor.flags?.core?.sheetClass !== "pf1alt.AltActorSheetPFCharacter" && actor.type === "character") {
 		updateMartialTrainingLevel(actor);
 
 		injectPoWDiv(app, html);
@@ -314,7 +303,7 @@ function injectBypassFatigueCheckbox(app, html, currentActor) {
 function injectPathofWarTab(app, html, currentActor) {
 	const { actor } = app;
 
-	if (actor._rollData?.initLevel > 0 || actor.flags[MODULE_ID]?.sparker) {
+	if ((actor._rollData?.pow?.initLevel > 0 || actor._rollData?.initLevel > 0) || actor.flags[MODULE_ID]?.sparker) {
 		const tabSelector = html.find("a[data-tab=skills]");
 		const artsTab = document.createElement("a");
 		artsTab.classList.add("item");
@@ -337,12 +326,69 @@ function injectPathofWarTab(app, html, currentActor) {
 function addControlHandlers(app, html) {
 	const { actor } = app;
 	const items = html.find(".maneuver-control");
+	const nav = html.find("nav.sheet-navigation.tabs.maneuvers a.item");
+
+	// Restore the last active subtab or default to the first one
+	if (nav.length > 0) {
+		let targetNav = nav[0];
+		let targetTab = targetNav.dataset.tab;
+		
+		// Check if there's a stored active subtab
+		if (app._lastManeuverSubtab) {
+			const storedNav = html.find(`nav.sheet-navigation.tabs.maneuvers a.item[data-tab="${app._lastManeuverSubtab}"]`)[0];
+			if (storedNav) {
+				targetNav = storedNav;
+				targetTab = app._lastManeuverSubtab;
+			}
+		} else {
+			// Store the first tab as the default active subtab
+			app._lastManeuverSubtab = targetTab;
+			app._lastManeuverSubtabName = targetNav.textContent.trim();
+		}
+		
+		targetNav.classList.add("active");
+		const group = targetNav.dataset.group;
+		html.find(`div.tab[data-group="${group}"][data-tab="${targetTab}"]`).addClass("active");
+	}
+
+	// Add click handlers for navigation tabs
+	nav.each((_, el) => {
+		el.addEventListener("click", (event) => {
+			event.preventDefault();
+			const clickedTab = event.currentTarget;
+			const targetTab = clickedTab.dataset.tab;
+			const group = clickedTab.dataset.group;
+
+			// Store the active subtab id and name
+			app._lastManeuverSubtab = targetTab;
+			app._lastManeuverSubtabName = clickedTab.textContent.trim();
+
+			// Remove active class from all nav items in this group
+			nav.each((_, item) => item.classList.remove("active"));
+
+			// Add active class to clicked nav item
+			clickedTab.classList.add("active");
+
+			// Remove active class from all corresponding divs
+			html.find(`div.tab[data-group="${group}"]`).each((_, div) => div.classList.remove("active"));
+
+			// Add active class to the corresponding div
+			html.find(`div.tab[data-group="${group}"][data-tab="${targetTab}"]`).addClass("active");
+
+			forceTab();
+		});
+	});
 
 	const forceTab = () => app._forceShowManeuverTab = true;
 	const createNewManeuver = () => {
 		const baseName = game.i18n.localize("PF1-PathOfWar.Maneuvers.NewManeuver");
 		const n = actor.items.filter(i => i.type === "pf1-pow.maneuver" && i.name.startsWith(baseName)).length;
 		const name = n ? `${baseName} (${n})` : baseName;
+
+		// Get the class name and level from the stored values
+		const className = app._lastManeuverSubtabName || "";
+		const levelString = app._lastManeuverLevel || "1";
+		const level = levelString === "overmax" ? 0 : parseInt(levelString, 10) || 1;
 
 		actor.createEmbeddedDocuments("Item", [new Item({
 			name,
@@ -352,8 +398,14 @@ function addControlHandlers(app, html) {
 				saveType: "None",
 				saveEffect: "Text",
 				description: { value: "" },
+				class: className,
+				level: level,
 			}
 		})]);
+		
+		// Clear the stored level after use
+		delete app._lastManeuverLevel;
+		
 		forceTab();
 	};
 
@@ -362,7 +414,18 @@ function addControlHandlers(app, html) {
 		const maneuver = actor.items.get(item.id);
 		const action = item.name;
 
-		item.addEventListener("click", () => {
+		item.addEventListener("click", (event) => {
+			// If this is a create button, capture the level from the button's id
+			if (action === "create") {
+				const buttonId = event.currentTarget.id;
+				const levelMatch = buttonId.match(/maneuver-create-(.+)/);
+				if (levelMatch) {
+					const level = levelMatch[1];
+					// Store the level so it can be accessed in preCreateItem hook
+					app._lastManeuverLevel = level;
+				}
+			}
+			
 			const actionMap = {
 				delete: () => (maneuver.delete(), forceTab()),
 				edit: () => maneuver.sheet.render(true),
