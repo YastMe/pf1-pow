@@ -38,11 +38,11 @@ export class ManeuverItem extends pf1.documents.item.ItemPF {
 		messageContent += `</footer></div>`;
 		messageContent = messageContent.replaceAll("[[", "[[/roll ");
 
-		const selected = document.querySelector('#roll-privacy button[aria-pressed="true"]').dataset;
+		const rollType = game.settings.get("core", "rollMode");
 
 		let whisper;
 
-		if (selected["rollMode"] !== "publicroll")
+		if (rollType !== "publicroll")
 			whisper = game.users.filter(u => u.isGM).map(u => u._id)
 		else
 			whisper = [];
@@ -80,11 +80,11 @@ export class ManeuverItem extends pf1.documents.item.ItemPF {
 
 		content = content.replaceAll("[[", "[[/roll ");
 
-		const selected = document.querySelector('#roll-privacy button[aria-pressed="true"]').dataset;
+		const rollType = game.settings.get("core", "rollMode");
 
 		let whisper;
 
-		if (selected["rollMode"] !== "publicroll")
+		if (rollType !== "publicroll")
 			whisper = game.users.filter(u => u.isGM).map(u => u._id)
 		else
 			whisper = [];
