@@ -9,7 +9,7 @@ export function setManeuverClassOnDrop(document) {
 
 			// Only update the class if it's empty (e.g., from compendium drop)
 			// Local creation via createNewManeuver already sets the class
-			if (activePoWSubtab && !document.system?.class) {
+			if (activePoWSubtab && (!document.system?.class || document.system.class !== activePoWSubtab)) {
 				document.updateSource({ 'system.class': activePoWSubtab });
 			}
 		}

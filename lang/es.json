@@ -154,7 +154,7 @@
             "Single": "Nivel de iniciador",
             "Total": "Nivel total de iniciador"
         },
-        "TabName": "Sendero de Guerra",
+        "TabName": "Path of War",
         "Sparker": "Dote Chispa de Inspiración",
         "MartiallyTrained": "Dote Entrenamiento Marcial",
         "MaxManeuverLevel": "Nivel más alto de maniobra conocida",
@@ -185,9 +185,43 @@
             "claimed": "Reclamado",
             "cursed": "Maldito",
             "locked": "Bloqueado",
+            "marked": "Marcado",
             "offBalanced": "Desequilibrado",
             "tricked": "Engañado"
         },
-        "IgnoreNonInitiatorClasses": "Ignorar clases no iniciadoras"
+        "IgnoreNonInitiatorClasses": "Ignorar clases no iniciadoras",
+        "BuffCategories": {
+            "pow": "Path of War"
+        },
+        "BuffTargets": {
+            "powInitiatorLevel": "Nivel de Iniciador",
+            "powInitiatorModifier": "Modificador de Iniciador",
+            "powDisciplineDC": {
+                "blackSeraph": "CD de Black Seraph",
+                "brokenBlade": "CD de Broken Blade",
+                "cursedRazor": "CD de Cursed Razor",
+                "elementalFlux": "CD de Elemental Flux",
+                "eternalGuardian": "CD de Eternal Guardian",
+                "foolsErrand": "CD de Fool's Errand",
+                "goldenLion": "CD de Golden Lion",
+                "ironTortoise": "CD de Iron Tortoise",
+                "mithralCurrent": "CD de Mithral Current",
+                "piercingThunder": "CD de Piercing Thunder",
+                "primalFury": "CD de Primal Fury",
+                "radiantDawn": "CD de Radiant Dawn",
+                "rivenHourglass": "CD de Riven Hourglass",
+                "sagittaStellaris": "CD de Sagitta Stellaris",
+                "scarletThrone": "CD de Scarlet Throne",
+                "shatteredMirror": "CD de Shattered Mirror",
+                "silverCrane": "CD de Silver Crane",
+                "sleepingGoddess": "CD de Sleeping Goddess",
+                "solarWind": "CD de Solar Wind",
+                "steelSerpent": "CD de Steel Serpent",
+                "tempestGale": "CD de Tempest Gale",
+                "thrashingDragon": "CD de Thrashing Dragon",
+                "unquietGrave": "CD de Unquiet Grave",
+                "veiledMoon": "CD de Veiled Moon"
+            }
+        }
     }
 }

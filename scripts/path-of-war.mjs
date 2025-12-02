@@ -5,10 +5,12 @@ import { readyHook } from "./hooks/ready.mjs";
 import { i18nHook } from "./hooks/i18n.mjs";
 import { initHook } from "./hooks/init.mjs";
 import { setupHook } from "./hooks/setup.mjs";
-import { injectManeuverButton, onGetRollData, handleJumpingToSummary } from "./utils.mjs";
+import { injectManeuverButton, handleJumpingToSummary } from "./utils.mjs";
 import { startCombatHook, turnHook } from "./hooks/combat.mjs";
 import { registerConditions } from "./hooks/conditions.mjs";
 import { setManeuverClassOnDrop } from "./hooks/preCreate.mjs";
+import { getChangeFlat } from "./hooks/changes.mjs";
+import { onGetRollData } from "./hooks/onGetRollData.mjs";
 
 export const TEMPLATES = {
 	"pf1-pow": "modules/pf1-pow/templates/actor/pf1-pow.hbs", // Path of War tab template
@@ -111,3 +113,4 @@ Hooks.on("preCreateItem", (document, data, options, userId) => {
 	setManeuverClassOnDrop(document);
 });
 
+Hooks.on("pf1GetChangeFlat", getChangeFlat);

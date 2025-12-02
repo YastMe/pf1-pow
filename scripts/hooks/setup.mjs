@@ -123,11 +123,23 @@ export function setupHook() {
 		if (!actor) return [];
 		const classes = actor.items.filter(i => i.type === "class" && (i.system?.maneuverProgression?.classType === "class" || i.system?.maneuverProgression?.classType === "archetype"));
 		const martialTrainingFeats = actor.items.filter((item) => MARTIAL_TRAINING_IDS.includes(item._source._stats.compendiumSource))
-		const classNames = classes.map(c => ({name: c.name, nameId: c.name.replace(/\s+/g, '-').toLowerCase().replace(" ", "-"), id: c.id }));
+		const classNames = classes.map(c => ({name: c.name, nameId: c.name.replace(/\s+/g, '-').toLowerCase().replace(" ", "-"), id: c._id }));
 		if (martialTrainingFeats.length > 0) {
 			classNames.push({name: "Martial Training", nameId: "martial-training", id: "martialTraining"});
 		}
 		return classNames;
+	});
+	Handlebars.registerHelper('getClassManeuverAttr', function (classInitiatorLevels, classId) {
+		if (classInitiatorLevels && classInitiatorLevels[classId]) {
+			return classInitiatorLevels[classId].maneuverAttr || 0;
+		}
+		return 0;
+	});
+	Handlebars.registerHelper('getClassManeuversGranted', function (classInitiatorLevels, classId) {
+		if (classInitiatorLevels && classInitiatorLevels[classId]) {
+			return classInitiatorLevels[classId].maneuversGranted || false;
+		}
+		return false;
 	});
 	Handlebars.registerHelper('ifEquals', function (arg1, arg2, options) {
 		return (arg1 == arg2) ? options.fn(this) : options.inverse(this);

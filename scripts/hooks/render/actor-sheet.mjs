@@ -8,7 +8,7 @@ import { MARTIAL_TRAINING_IDS, COMBAT_TRAINING_TRAIT, ADVANCED_STUDY_FEAT } from
 
 export function renderActorHook(data, app, html) {
 	const actor = data.actor;
-	if (actor.flags?.core?.sheetClass !== "pf1alt.AltActorSheetPFCharacter" && actor.type === "character") {
+	if (actor.flags?.core?.sheetClass !== "pf1alt.AltActorSheetPFCharacter" && (actor.type === "character" || actor.type === "npc")) {
 		updateMartialTrainingLevel(actor);
 
 		injectPoWDiv(app, html);

@@ -16,7 +16,7 @@
 				</div>
 				<div class="info-box initmodifier">
 					<h5><a disabled>{{localize 'PF1-PathOfWar.Attributes.maneuverAttr'}}</a></h5>
-					<span class="value">+{{@root.actor._rollData.pow.maneuverAttr}}</span>
+					<span class="value">{{numberFormat (getClassManeuverAttr @root.actor._rollData.pow.classInitiatorLevels classItem.id)}}</span>
 				</div>
 				<div class="info-box maxmaneuver-level">
 					<h5><a disabled>{{localize 'PF1-PathOfWar.MaxManeuverLevel'}}</a></h5>
@@ -134,7 +134,7 @@
 								</h4>
 							</a>
 							{{#if item.system.ready}}
-							{{#if @root.actor._rollData.pow.maneuversGranted}}
+							{{#if (getClassManeuversGranted @root.actor._rollData.pow.classInitiatorLevels classItem.id)}}
 							<a class="maneuver-control item-control item-granted"
 								data-tooltip="{{localize 'PF1-PathOfWar.Maneuvers.Granted'}}" name="grant"
 								id="{{item.id}}">
@@ -186,8 +186,8 @@
 							{{#unless (eq item.system.maneuverType "Stance")}}
 							<div class="item-action">
 								<a class="item-control item-action action roll maneuver-control" name="use"
-									id="{{item.id}}" {{#unless (eq item.system.saveType "None" )}} data-tooltip='{{localize "PF1-PathOfWar.Maneuvers.DC.Base"}}: {{sum 10 @root.actor._rollData.maneuverAttr lvl}}
-						<br> {{localize "PF1-PathOfWar.Maneuvers.DC.Discipline"}}: {{sum 10 @root.actor._rollData.maneuverAttr lvl 2}}
+									id="{{item.id}}" {{#unless (eq item.system.saveType "None" )}} data-tooltip='{{localize "PF1-PathOfWar.Maneuvers.DC.Base"}}: {{sum 10 (getClassManeuverAttr @root.actor._rollData.pow.classInitiatorLevels classItem.id) lvl}}
+						<br> {{localize "PF1-PathOfWar.Maneuvers.DC.Discipline"}}: {{sum 10 (getClassManeuverAttr @root.actor._rollData.pow.classInitiatorLevels classItem.id) lvl 2}}
 						<br> {{item.system.saveType}} {{item.system.saveEffect}}' {{/unless}}>
 									<i class="fa-solid fa-dice-d20" inert=""></i>
 								</a>

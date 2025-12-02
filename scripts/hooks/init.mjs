@@ -127,6 +127,29 @@ function registerConfig() {
 		"granted": "PF1-PathOfWar.Maneuvers.GrantTypes.granted",
 	}
 
+	// Add buff categories to config
+	pf1.config.buffTargetCategories.pow = {
+		label: "PF1-PathOfWar.BuffCategories.pow",
+		filters: {}
+	}
+
+	pf1.config.buffTargets.powinitiatorLevelBonus = {
+		label: "PF1-PathOfWar.BuffTargets.powInitiatorLevel",
+		category: "pow",
+	}
+
+	pf1.config.buffTargets.powinitiatorModifierBonus = {
+		label: "PF1-PathOfWar.BuffTargets.powInitiatorModifier",
+		category: "pow",
+	}
+
+	for (let disciplineKey of Object.keys(pf1.config.disciplines)) {
+		pf1.config.buffTargets[`pow${disciplineKey}`] = {
+			label: `PF1-PathOfWar.BuffTargets.powDisciplineDC.${disciplineKey}`,
+			category: "pow",
+		};
+	}
+
 	// Add Martial Discipline as feat subtype
 	CONFIG.PF1.featTypes["martialDiscipline"] = "PF1-PathOfWar.FeatTypes.martialDiscipline.Single";
 	pf1.config.sheetSections.features.martialDiscipline = {

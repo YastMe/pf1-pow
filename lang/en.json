@@ -185,9 +185,43 @@
 			"claimed": "Claimed",
 			"cursed": "Cursed",
 			"locked": "Locked",
+			"marked": "Marked",
 			"offBalanced": "Off-balance",
 			"tricked": "Tricked"
 		},
-		"IgnoreNonInitiatorClasses": "Ignore non-initiator classes"
+		"IgnoreNonInitiatorClasses": "Ignore non-initiator classes",
+		"BuffCategories": {
+			"pow": "Path of War"
+		},
+		"BuffTargets": {
+			"powInitiatorLevel": "Initiator Level",
+			"powInitiatorModifier": "Initiator Modifier",
+			"powDisciplineDC": {
+				"blackSeraph": "Black Seraph DC",
+				"brokenBlade": "Broken Blade DC",
+				"cursedRazor": "Cursed Razor DC",
+				"elementalFlux": "Elemental Flux DC",
+				"eternalGuardian": "Eternal Guardian DC",
+				"foolsErrand": "Fool's Errand DC",
+				"goldenLion": "Golden Lion DC",
+				"ironTortoise": "Iron Tortoise DC",
+				"mithralCurrent": "Mithral Current DC",
+				"piercingThunder": "Piercing Thunder DC",
+				"primalFury": "Primal Fury DC",
+				"radiantDawn": "Radiant Dawn DC",
+				"rivenHourglass": "Riven Hourglass DC",
+				"sagittaStellaris": "Sagitta Stellaris DC",
+				"scarletThrone": "Scarlet Throne DC",
+				"shatteredMirror": "Shattered Mirror DC",
+				"silverCrane": "Silver Crane DC",
+				"sleepingGoddess": "Sleeping Goddess DC",
+				"solarWind": "Solar Wind DC",
+				"steelSerpent": "Steel Serpent DC",
+				"tempestGale": "Tempest Gale DC",
+				"thrashingDragon": "Thrashing Dragon DC",
+				"unquietGrave": "Unquiet Grave DC",
+				"veiledMoon": "Veiled Moon DC"
+			}
+		}
 	}
 }

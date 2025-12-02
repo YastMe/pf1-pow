@@ -38,11 +38,21 @@ export class ManeuverItem extends pf1.documents.item.ItemPF {
 		messageContent += `</footer></div>`;
 		messageContent = messageContent.replaceAll("[[", "[[/roll ");
 
+		const selected = document.querySelector('#roll-privacy button[aria-pressed="true"]').dataset;
+
+		let whisper;
+
+		if (selected["rollMode"] !== "publicroll")
+			whisper = game.users.filter(u => u.isGM).map(u => u._id)
+		else
+			whisper = [];
+
 		ChatMessage.create({
-			user: game.user._id,
+			author: game.user._id,
 			speaker: ChatMessage.getSpeaker(),
 			content: messageContent,
-			type: 0
+			type: 0,
+			whisper: whisper
 		});
 	}
 
@@ -70,11 +80,22 @@ export class ManeuverItem extends pf1.documents.item.ItemPF {
 
 		content = content.replaceAll("[[", "[[/roll ");
 
+		const selected = document.querySelector('#roll-privacy button[aria-pressed="true"]').dataset;
+
+		let whisper;
+
+		if (selected["rollMode"] !== "publicroll")
+			whisper = game.users.filter(u => u.isGM).map(u => u._id)
+		else
+			whisper = [];
+
+
 		return {
-			user: game.user._id,
+			author: game.user._id,
 			speaker: ChatMessage.getSpeaker(),
 			content: content,
-			type: 0
+			type: 0,
+			whisper: whisper
 		};
 	}
 
@@ -122,7 +143,21 @@ export class ManeuverItem extends pf1.documents.item.ItemPF {
 	async executeManeuver(html, staminaPool = null, secondaryStaminaPool = null) {
 		const extraDC = parseInt(html.find('[name="extraDC"]').val()) || 0;
 		const hasWeaponGroup = html.find('[name="weaponGroup"]')[0]?.checked;
-		let dc = 10 + this.system.level + extraDC + this.actor._rollData.maneuverAttr;
+
+		const classId = this.actor.items.find(i => i.type === "class" && i.name === this.system.class)?.id;
+
+		let dc = 10 + this.system.level + extraDC + this.actor._rollData?.pow?.classInitiatorLevels?.[classId]?.maneuverAttr || 0;
+
+		if (this.actor._rollData?.pow?.initiatorModifierBonus)
+			dc += this.actor._rollData.pow.initiatorModifierBonus;
+
+
+		const disciplineKey = Object.entries(pf1.config.disciplines).find(([key, label]) => label === this.system.discipline)?.[0];
+
+		if (disciplineKey) {
+			const disciplineBonus = this.actor._rollData?.pow?.[`${disciplineKey}`] || 0;
+			dc += disciplineBonus;
+		}
 
 		if (hasWeaponGroup) dc += 2;
 
