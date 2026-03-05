@@ -1,7 +1,7 @@
 {
   "id": "pf1-pow",
   "title": "Path of War for PF1e",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "relationships": {
     "systems": [
       {
@@ -9,7 +9,7 @@
         "type": "system",
         "compatibility": {
           "minimum": "10",
-          "verified": "11.8"
+          "verified": "11.9"
         }
       }
     ],
