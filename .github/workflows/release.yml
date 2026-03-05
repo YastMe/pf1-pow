@@ -38,7 +38,8 @@ jobs:
           zip -r "$VERSION.zip" . \
             --exclude ".git/*" \
             --exclude ".github/*" \
-            --exclude "*.zip"
+            --exclude "*.zip" \
+            --exclude "packs/*/_source/*"
 
       - name: Upload release assets
         env:
