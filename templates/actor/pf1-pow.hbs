@@ -186,8 +186,8 @@
 							{{#unless (eq item.system.maneuverType "Stance")}}
 							<div class="item-action">
 								<a class="item-control item-action action roll maneuver-control" name="use"
-									id="{{item.id}}" {{#unless (eq item.system.saveType "None" )}} data-tooltip='{{localize "PF1-PathOfWar.Maneuvers.DC.Base"}}: {{sum 10 (getClassManeuverAttr @root.actor._rollData.pow.classInitiatorLevels classItem.id) lvl}}
-						<br> {{localize "PF1-PathOfWar.Maneuvers.DC.Discipline"}}: {{sum 10 (getClassManeuverAttr @root.actor._rollData.pow.classInitiatorLevels classItem.id) lvl 2}}
+									id="{{item.id}}" {{#unless (eq item.system.saveType "None" )}} data-tooltip='{{localize "PF1-PathOfWar.Maneuvers.DC.Base"}}: {{sum 10 (getClassManeuverAttr @root.actor._rollData.pow.classInitiatorLevels classItem.id) lvl (getExtraDC @root.actor item)}}
+						<br> {{localize "PF1-PathOfWar.Maneuvers.DC.Discipline"}}: {{sum 10 (getClassManeuverAttr @root.actor._rollData.pow.classInitiatorLevels classItem.id) lvl 2 (getExtraDC @root.actor item)}}
 						<br> {{item.system.saveType}} {{item.system.saveEffect}}' {{/unless}}>
 									<i class="fa-solid fa-dice-d20" inert=""></i>
 								</a>

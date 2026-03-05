@@ -80,7 +80,7 @@ function injectInitiatingModifierSelector(app, html, actor) {
 	Object.entries(pf1.config.abilities).forEach(([key, value]) => {
 		options.push({ value: key, label: value });
 	});
-	if (!actor.flags[MODULE_ID] || !actor.flags[MODULE_ID].maneuverAttr)
+	if (!actor.flags[MODULE_ID] || !actor.flags[MODULE_ID]?.maneuverAttr)
 		actor.setFlag(MODULE_ID, "maneuverAttr", "wis");
 	let hasContent = false;
 	for (const prop in actor.flags) {
@@ -91,7 +91,7 @@ function injectInitiatingModifierSelector(app, html, actor) {
 		const opt = document.createElement("option");
 		opt.value = option.value;
 		opt.innerText = option.label;
-		if (hasContent && option.value === actor.flags[MODULE_ID].maneuverAttr) {
+		if (hasContent && option.value === actor.flags[MODULE_ID]?.maneuverAttr) {
 			opt.selected = true;
 		}
 		select.append(opt);
@@ -125,7 +125,7 @@ function injectDuoPartnerSelector(app, html, currentActor) {
 			.filter(actor => actor.id !== currentActor.id)
 			.forEach(actor => actorChoices[actor.uuid] = `${actor.name} [${actor.id}]`);
 	}
-	if (!currentActor.flags[MODULE_ID] || !currentActor.flags[MODULE_ID].duoPartner)
+	if (!currentActor.flags[MODULE_ID] || !currentActor.flags[MODULE_ID]?.duoPartner)
 		currentActor.setFlag(MODULE_ID, "duoPartner", '');
 	let hasContent = false;
 	for (const prop in currentActor.flags) {
@@ -136,7 +136,7 @@ function injectDuoPartnerSelector(app, html, currentActor) {
 		const opt = document.createElement("option");
 		opt.value = key;
 		opt.innerText = value;
-		if (hasContent && key === currentActor.flags[MODULE_ID].duoPartner) {
+		if (hasContent && key === currentActor.flags[MODULE_ID]?.duoPartner) {
 			opt.selected = true;
 		}
 		select.append(opt);
@@ -239,9 +239,9 @@ function injectSparkingCheckbox(app, html, currentActor) {
 	label.append(checkbox);
 	label.append(game.i18n.localize("PF1-PathOfWar.Sparker"));
 	label.classList.add("checkbox");
-	if (!currentActor.flags[MODULE_ID] || !currentActor.flags[MODULE_ID].sparker)
+	if (!currentActor.flags[MODULE_ID] || !currentActor.flags[MODULE_ID]?.sparker)
 		currentActor.setFlag(MODULE_ID, "sparker", false);
-	if (currentActor.flags[MODULE_ID].sparker) {
+	if (currentActor.flags[MODULE_ID]?.sparker) {
 		checkbox.checked = true;
 	}
 	controls.append(label);
@@ -257,9 +257,9 @@ function injectStanceLimitCheckbox(app, html, currentActor) {
 	label.append(checkbox);
 	label.append(game.i18n.localize("PF1-PathOfWar.Stances.StanceLimit"));
 	label.classList.add("checkbox");
-	if (!currentActor.flags[MODULE_ID] || !currentActor.flags[MODULE_ID].stanceLimit)
+	if (!currentActor.flags[MODULE_ID] || !currentActor.flags[MODULE_ID]?.stanceLimit)
 		currentActor.setFlag(MODULE_ID, "stanceLimit", false);
-	if (currentActor.flags[MODULE_ID].stanceLimit) {
+	if (currentActor.flags[MODULE_ID]?.stanceLimit) {
 		checkbox.checked = true;
 	}
 	controls.append(label);
@@ -275,9 +275,9 @@ function injectIgnoreNonInitiatorClassesCheckbox(app, html, currentActor) {
 	label.append(checkbox);
 	label.append(game.i18n.localize("PF1-PathOfWar.IgnoreNonInitiatorClasses"));
 	label.classList.add("checkbox");
-	if (!currentActor.flags[MODULE_ID] || !currentActor.flags[MODULE_ID].ignoreNonInitiatorClasses)
+	if (!currentActor.flags[MODULE_ID] || !currentActor.flags[MODULE_ID]?.ignoreNonInitiatorClasses)
 		currentActor.setFlag(MODULE_ID, "ignoreNonInitiatorClasses", false);
-	if (currentActor.flags[MODULE_ID].ignoreNonInitiatorClasses)
+	if (currentActor.flags[MODULE_ID]?.ignoreNonInitiatorClasses)
 		checkbox.checked = true;
 	controls.append(label);
 }
@@ -292,9 +292,9 @@ function injectBypassFatigueCheckbox(app, html, currentActor) {
 	label.append(checkbox);
 	label.append(game.i18n.localize("PF1-PathOfWar.Stamina.BypassFatigue"));
 	label.classList.add("checkbox");
-	if (!currentActor.flags[MODULE_ID] || !currentActor.flags[MODULE_ID].bypassFatigue)
+	if (!currentActor.flags[MODULE_ID] || !currentActor.flags[MODULE_ID]?.bypassFatigue)
 		currentActor.setFlag(MODULE_ID, "bypassFatigue", false);
-	if (currentActor.flags[MODULE_ID].bypassFatigue) {
+	if (currentActor.flags[MODULE_ID]?.bypassFatigue) {
 		checkbox.checked = true;
 	}
 	controls.append(label);
@@ -303,7 +303,7 @@ function injectBypassFatigueCheckbox(app, html, currentActor) {
 function injectPathofWarTab(app, html, currentActor) {
 	const { actor } = app;
 
-	if ((actor._rollData?.pow?.initLevel > 0 || actor._rollData?.initLevel > 0) || actor.flags[MODULE_ID]?.sparker) {
+	if ((actor.getRollData()?.pow?.initLevel > 0 || actor.getRollData()?.initLevel > 0) || actor.flags[MODULE_ID]?.sparker) {
 		const tabSelector = html.find("a[data-tab=skills]");
 		const artsTab = document.createElement("a");
 		artsTab.classList.add("item");
@@ -332,7 +332,7 @@ function addControlHandlers(app, html) {
 	if (nav.length > 0) {
 		let targetNav = nav[0];
 		let targetTab = targetNav.dataset.tab;
-		
+
 		// Check if there's a stored active subtab
 		if (app._lastManeuverSubtab) {
 			const storedNav = html.find(`nav.sheet-navigation.tabs.maneuvers a.item[data-tab="${app._lastManeuverSubtab}"]`)[0];
@@ -345,7 +345,7 @@ function addControlHandlers(app, html) {
 			app._lastManeuverSubtab = targetTab;
 			app._lastManeuverSubtabName = targetNav.textContent.trim();
 		}
-		
+
 		targetNav.classList.add("active");
 		const group = targetNav.dataset.group;
 		html.find(`div.tab[data-group="${group}"][data-tab="${targetTab}"]`).addClass("active");
@@ -402,10 +402,10 @@ function addControlHandlers(app, html) {
 				level: level,
 			}
 		})]);
-		
+
 		// Clear the stored level after use
 		delete app._lastManeuverLevel;
-		
+
 		forceTab();
 	};
 
@@ -425,7 +425,7 @@ function addControlHandlers(app, html) {
 					app._lastManeuverLevel = level;
 				}
 			}
-			
+
 			const actionMap = {
 				delete: () => (maneuver.delete(), forceTab()),
 				edit: () => maneuver.sheet.render(true),
@@ -464,9 +464,10 @@ function addControlHandlers(app, html) {
 		});
 
 		item.parentElement.parentElement.addEventListener("mousedown", (event) => {
-			if (event.button === 2) {
+			if (event.button === 2 && maneuver) {
 				event.preventDefault();
 				maneuver.sheet.render(true);
+
 			}
 		});
 	});

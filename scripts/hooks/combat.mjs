@@ -1,13 +1,13 @@
 import { grantDialogue } from "../utils.mjs";
 
 export function startCombatHook() {
-	const actors = game.actors.filter(actor => actor._rollData?.initLevel > 0 && actor.type === "character");
+	const actors = game.actors.filter(actor => actor.getRollData()?.initLevel > 0 && actor.type === "character");
 	for (const actor of actors) {
 		const maneuvers = actor.items.filter(item => item.type === "pf1-pow.maneuver" && item.system.ready);
 		for (const maneuver of maneuvers) {
 			if (maneuver.system.ready)
 				maneuver.recoverManeuverSilent();
-			if (actor._rollData?.maneuversGranted)
+			if (actor.getRollData()?.pow.maneuversGranted)
 				maneuver.ungrantSilent();
 		}
 	}
@@ -16,11 +16,12 @@ export function startCombatHook() {
 export function turnHook(combat, prior, current) {
 	if (game.user.isGM) return;
 	const currentCombatant = game.actors.get(combat.combatants.get(current.combatantId).actorId);
-	const priorCombatant = game.actors.get(combat.combatants.get(prior.combatantId).actorId);
-	if (currentCombatant.isOwner && currentCombatant?._rollData?.maneuversGranted && combat.round === 1) {
+	const priorCombatant = game.actors.get(combat.combatants.get(prior.combatantId)?.actorId);
+	if (currentCombatant.isOwner && currentCombatant?.getRollData()?.pow.maneuversGranted && combat.round === 1) {
 		grantDialogue(currentCombatant);
+		return;
 	}
-	if (priorCombatant.isOwner && priorCombatant?._rollData?.maneuversGranted) {
+	if (priorCombatant?.isOwner && priorCombatant?.getRollData()?.pow.maneuversGranted) {
 		const maneuvers = priorCombatant.items.filter(item => item.type === "pf1-pow.maneuver" && item.system.ready && !item.system.granted);
 		if (maneuvers.length === 0)
 			grantDialogue(priorCombatant);

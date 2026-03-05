@@ -8,6 +8,7 @@ export function registerConditions(registry) {
 	registerMarked(registry);
 	registerOffBalanced(registry);
 	registerTricked(registry);
+	registerSprouted(registry);
 }
 
 function registerLocked(registry) {
@@ -56,5 +57,12 @@ function registerMarked(registry) {
 	registry.register(MODULE_ID, "marked", {
 		name: "PF1-PathOfWar.Conditions.marked",
 		texture: "modules/pf1-pow/assets/icons/marked.png",
+	});
+}
+
+function registerSprouted(registry) {
+	registry.register(MODULE_ID, "sprouted", {
+		name: "PF1-PathOfWar.Conditions.sprouted",
+		texture: "modules/pf1-pow/assets/icons/sprouted.png",
 	});
 }

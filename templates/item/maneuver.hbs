@@ -55,6 +55,9 @@
   <nav class="sheet-navigation tabs" data-group="primary">
     <a class="item" data-tab="description">{{localize "PF1.Description"}}</a>
     <a class="item" data-tab="details">{{localize "PF1.Details"}}</a>
+    {{#if (eq system.maneuverType "Stance")}}
+    <a class="item" data-tab="changes">{{localize "PF1.Changes"}}</a>
+    {{/if}}
   </nav>
 
   {{!-- Item Sheet Body --}}
@@ -127,5 +130,13 @@
           </select>
         </div>
       </div>
+
+      {{!-- Changes Tab --}}
+    </div>
+    {{#if (eq system.maneuverType "Stance")}}
+    <div class="tab changes" data-group="primary" data-tab="changes">
+      {{> "systems/pf1/templates/items/parts/item-changes.hbs"}}
+    </div>
+    {{/if}}
   </section>
 </form>

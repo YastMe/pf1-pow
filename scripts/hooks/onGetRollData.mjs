@@ -25,7 +25,24 @@ function getClassManeuverAttr(actor, classItem, settings) {
 	// If class has a specific initiator attribute set, use that
 	if (classItem?.system?.maneuverProgression?.initiatorAttr) {
 		const attr = classItem.system.maneuverProgression.initiatorAttr;
-		return actor.system.abilities[attr]?.mod ?? 0;
+		
+		//Check if there is a change for this class' specific attribute from changes
+		let value = actor.system.abilities[attr]?.mod ?? 0;
+		const modifierChange = actor.changes.find(change => change.target === 'powinitiatorModifierBonus');
+		if (modifierChange?.value && modifierChange.operator !== "set") {
+			const bonusValue = modifierChange.value;
+			const selectedClassId = modifierChange.parent.system?.pow?.powinitiatorModifierBonus?.selectedClass;
+			if (selectedClassId === classItem.id || selectedClassId === "")
+				value += bonusValue;
+		}
+		else if (modifierChange?.value && modifierChange.operator === "set") {
+			const selectedClassId = modifierChange.parent.system?.pow?.powinitiatorModifierBonus?.selectedClass;
+			if (selectedClassId === classItem.id) {
+				value = modifierChange.value;
+			}
+		}
+
+		return value;
 	}
 	// Otherwise fall back to global setting
 	return settings.globalManeuverAttr;
@@ -70,12 +87,12 @@ function calculateInitiatorLevel(actor, settings) {
 	}
 
 	const archetypeInitiator = maxLevelInitClass?.system?.maneuverProgression?.classType === "archetype";
-	const characterLevel = actor.system.attributes.hd.total;
+	const characterLevel = actor?.system?.attributes?.hd?.total;
 	let globalInitLevel = 0;
 
 	// Sparker rule: initiator level = BAB (applies globally)
 	if (settings.sparker) {
-		globalInitLevel = actor.system.attributes.bab.total + (actor._rollData?.pow?.initiatorLevel || 0);
+		globalInitLevel = actor.system.attributes.bab.total + (actor.getRollData()?.pow?.initiatorLevel || 0);
 		for (const c of classes) {
 			const maneuversGranted = c.system?.maneuverProgression?.type === "granted";
 			classInitiatorLevels.set(c.id, {
@@ -135,6 +152,38 @@ function calculateInitiatorLevel(actor, settings) {
 		globalInitLevel = Math.floor(characterLevel / 2);
 	}
 
+	// Specific class with added level via changes
+	if (actor.changes.some(change => change.target === "powinitiatorLevelBonus")) {
+		const change = actor.changes.find(change => change.target === "powinitiatorLevelBonus");
+		const classId = change.parent.system?.pow?.powinitiatorLevelBonus?.selectedClass;
+		if (classId) {
+			const bonusLevels = change.value || 0;
+			const classData = classInitiatorLevels.get(classId);
+			if (classData && change.operator !== "set") {
+				classData.initLevel += bonusLevels;
+				globalInitLevel = Math.max(globalInitLevel, classData.initLevel);
+			}
+			else if (classData && change.operator === "set") {
+				classData.initLevel = change.value || 0;
+				globalInitLevel = Math.max(globalInitLevel, classData.initLevel);
+			}
+		}
+		else if (classId == "") {
+			// If no class selected, apply bonus to all classes
+			const bonusLevels = change.value || 0;
+			for (const classData of classInitiatorLevels.values()) {
+				if (change.operator !== "set") {
+					classData.initLevel += bonusLevels;
+					globalInitLevel = Math.max(globalInitLevel, classData.initLevel);
+				}
+				else if (change.operator === "set") {
+					classData.initLevel = change.value || 0;
+					globalInitLevel = Math.max(globalInitLevel, classData.initLevel);
+				}
+			}
+		}
+	}
+
 	// Martial Training feat: adds an additional "class" entry for feat-granted maneuvers
 	if (settings.martiallyTrained) {
 		const martialTrainingInitLevel = Math.floor(characterLevel / 2) + (actor.system.abilities[settings.attr]?.mod || 0);
@@ -169,12 +218,12 @@ function calculateMaxManeuverLevel(initLevel, classLevel, settings, isArchetype 
 	} else if (settings.advancedStudyFeat) {
 		return Math.min(9, Math.ceil(initLevel / 2));
 	} else if (isArchetype) {
-		if (classLevel < 7)
-			return (Math.max(1, Math.ceil(classLevel / 3)));
+		if (initLevel < 7)
+			return (Math.max(1, Math.ceil(initLevel / 3)));
 		else
-			return Math.min(6, Math.floor((classLevel - 1) / 2));
+			return Math.min(6, Math.floor((initLevel - 1) / 2));
 	} else {
-		return Math.min(9, Math.ceil(classLevel / 2));
+		return Math.min(9, Math.ceil(initLevel / 2));
 	}
 }
 
@@ -345,6 +394,7 @@ export function onGetRollData(doc, rollData) {
 	try {
 		if (doc instanceof pf1.documents.actor.ActorPF) {
 			const actor = doc;
+			if (actor.type !== "character" && actor.type !== "npc") return;
 
 			// Initialize Path of War namespace in rollData
 			rollData.pow = rollData.pow || {};
@@ -357,7 +407,7 @@ export function onGetRollData(doc, rollData) {
 			// Calculate initiator level (per-class and global)
 			const { initLevel, archetypeInitiator, classInitiatorLevels } = calculateInitiatorLevel(actor, settings);
 			rollData.pow.initLevel = initLevel;
-			
+
 			// Calculate global maneuversGranted for backward compatibility
 			let globalManeuversGranted = false;
 			for (const classData of classInitiatorLevels.values()) {
@@ -381,17 +431,17 @@ export function onGetRollData(doc, rollData) {
 			// Store per-class initiator levels and maneuver counts
 			rollData.pow.classInitiatorLevels = {};
 			for (const [classId, classData] of classInitiatorLevels) {
-			rollData.pow.classInitiatorLevels[classId] = {
-				initLevel: classData.initLevel,
-				className: classData.className,
-				maxManeuverLevel: calculateMaxManeuverLevel(classData.initLevel, classData.classLevel, settings, classData.isArchetype),
-				maneuversPrepared: perClassCounts[classId]?.prepared || 0,
-				maneuversKnown: perClassCounts[classId]?.known || 0,
-				maxManeuversPrepared: perClassMax[classId]?.maxPrepared || 0,
-				maxManeuversKnown: perClassMax[classId]?.maxKnown || 0,
-				maneuverAttr: perClassMax[classId]?.maneuverAttr || 0,
-				maneuversGranted: classData.maneuversGranted || false
-			};
+				rollData.pow.classInitiatorLevels[classId] = {
+					initLevel: classData.initLevel,
+					className: classData.className,
+					maxManeuverLevel: calculateMaxManeuverLevel(classData.initLevel, classData.classLevel, settings, classData.isArchetype),
+					maneuversPrepared: perClassCounts[classId]?.prepared || 0,
+					maneuversKnown: perClassCounts[classId]?.known || 0,
+					maxManeuversPrepared: perClassMax[classId]?.maxPrepared || 0,
+					maxManeuversKnown: perClassMax[classId]?.maxKnown || 0,
+					maneuverAttr: perClassMax[classId]?.maneuverAttr || 0,
+					maneuversGranted: classData.maneuversGranted || false
+				};
 			}
 
 			// Calculate global max maneuver level (highest across all classes)

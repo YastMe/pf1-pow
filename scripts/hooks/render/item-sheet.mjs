@@ -134,6 +134,50 @@ function injectProgressionSelector(html, app) {
 	}
 }
 
+function injectClassSelector(html, app, type) {
+	const item = app.object;
+	let classOptions = item.parent?.items.filter(i => i.type === "class").map(c => {
+		return {
+			id: c.id,
+			name: c.name
+		};
+	}) || [];
+	let previousSelectDiv = html.find("div[class='flags']").first();
+	let previousSelect = type == "level" ? item.system?.pow?.powinitiatorLevelBonus?.selectedClass || "" : type == "modifier" ? item.system?.pow?.powinitiatorModifierBonus?.selectedClass || "" : "";
+	let h3 = $(`<h3 class="form-header">${type === "level" ? game.i18n.localize("PF1-PathOfWar.Bonus.classSelectorLevel"): game.i18n.localize("PF1-PathOfWar.Bonus.classSelectorModifier")}</h3>`);
+	let divClassType = $(`<div class="form-group initiator-type"></div>`);
+	if (classOptions.length === 0) {
+		return;
+	}
+	let selectClassType;
+	if (type === "level")
+		selectClassType = $(`<select name="system.pow.powinitiatorLevelBonus.selectedClass"></select>`)
+	else if (type === "modifier")
+		selectClassType = $(`<select name="system.pow.powinitiatorModifierBonus.selectedClass"></select>`)
+	let optionNone = $(`<option value="">${game.i18n.localize("PF1-PathOfWar.Bonus.classSelectorNone")}</option>`);
+	let optionMartialTraining = $(`<option value="martialTraining">${game.i18n.localize("PF1-PathOfWar.Bonus.classSelectorMartialTraining")}</option>`);
+	selectClassType.append(optionNone);
+	selectClassType.append(optionMartialTraining);
+	for (const option of classOptions) {
+		let optionElement = $(`<option value="${option.id}">${option.name}</option>`);
+		if (option.id === previousSelect)
+			optionElement.attr("selected", "selected");
+		selectClassType.append(optionElement);
+	}
+	divClassType.append(selectClassType);
+	previousSelectDiv.parent().after(h3);
+	divClassType.insertAfter(h3);
+}
+
+function classSelectorForBonus(app, html) {
+	let item = app.object;
+
+	if (item.changes.some(change => change.target === "powinitiatorLevelBonus"))
+		injectClassSelector(html, app, "level");
+	if (item.changes.some(change => change.target === "powinitiatorModifierBonus"))
+		injectClassSelector(html, app, "modifier");
+}
+
 export function renderItemHook(app, html) {
 	let item = app.object;
 
@@ -145,4 +189,5 @@ export function renderItemHook(app, html) {
 	else if (item.type === "class") {
 		injectProgressionSelector(html, app);
 	}
+	classSelectorForBonus(app, html);
 }
