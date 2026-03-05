@@ -187,6 +187,7 @@
 			"locked": "Locked",
 			"marked": "Marked",
 			"offBalanced": "Off-balance",
+			"sprouted": "Sprouted",
 			"tricked": "Tricked"
 		},
 		"IgnoreNonInitiatorClasses": "Ignore non-initiator classes",
