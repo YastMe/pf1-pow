@@ -3,6 +3,11 @@ name: Release to FoundryVTT
 on:
   release:
     types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag (e.g. 1.6.2.1)'
+        required: true
 
 jobs:
   release:
@@ -16,16 +21,22 @@ jobs:
       - name: Extract version from tag
         id: get_version
         run: |
+          # Use manual input tag if workflow_dispatch, otherwise use release tag
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            TAG="${{ github.event.inputs.tag }}"
+          else
+            TAG="${{ github.event.release.tag_name }}"
+          fi
           # Remove 'v' prefix if present
-          VERSION=${GITHUB_REF#refs/tags/}
-          VERSION=${VERSION#v}
+          VERSION=${TAG#v}
           echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
 
       - name: Update module.json
         run: |
           VERSION=${{ steps.get_version.outputs.version }}
+          TAG=${{ steps.get_version.outputs.tag }}
           REPO=${{ github.repository }}
-          TAG=${{ github.event.release.tag_name }}
           jq --arg version "$VERSION" \
              --arg manifest "https://github.com/$REPO/releases/download/$TAG/module.json" \
              --arg download "https://github.com/$REPO/releases/download/$TAG/$VERSION.zip" \
@@ -46,28 +57,32 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           VERSION=${{ steps.get_version.outputs.version }}
-          gh release upload ${{ github.event.release.tag_name }} \
+          TAG=${{ steps.get_version.outputs.tag }}
+          gh release upload $TAG \
             module.json \
             "$VERSION.zip"
 
       - name: Publish to FoundryVTT
         run: |
+          VERSION=${{ steps.get_version.outputs.version }}
+          TAG=${{ steps.get_version.outputs.tag }}
+          NOTES_URL="https://github.com/${{ github.repository }}/releases/tag/$TAG"
           response=$(curl -X POST "https://foundryvtt.com/_api/packages/release_version/" \
             -H "Content-Type: application/json" \
             -H "Authorization: ${{ secrets.FOUNDRY_RELEASE_TOKEN }}" \
-            -d '{
-              "id": "pf1-pow",
-              "release": {
-                "version": "${{ steps.get_version.outputs.version }}",
-                "manifest": "https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/module.json",
-                "notes": "${{ github.event.release.html_url }}",
-                "compatibility": {
-                  "minimum": "13",
-                  "verified": "13",
-                  "maximum": ""
+            -d "{
+              \"id\": \"pf1-pow\",
+              \"release\": {
+                \"version\": \"$VERSION\",
+                \"manifest\": \"https://github.com/${{ github.repository }}/releases/download/$TAG/module.json\",
+                \"notes\": \"$NOTES_URL\",
+                \"compatibility\": {
+                  \"minimum\": \"13\",
+                  \"verified\": \"13\",
+                  \"maximum\": \"\"
                 }
               }
-            }' \
+            }" \
             -w "\n%{http_code}" \
             -s)
           
