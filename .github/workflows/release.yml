@@ -7,6 +7,8 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -19,16 +21,33 @@ jobs:
           VERSION=${VERSION#v}
           echo "version=$VERSION" >> $GITHUB_OUTPUT
 
-      - name: Get release notes URL
-        id: release_notes
+      - name: Update module.json
         run: |
-          echo "notes_url=${{ github.event.release.html_url }}" >> $GITHUB_OUTPUT
+          VERSION=${{ steps.get_version.outputs.version }}
+          REPO=${{ github.repository }}
+          TAG=${{ github.event.release.tag_name }}
+          jq --arg version "$VERSION" \
+             --arg manifest "https://github.com/$REPO/releases/download/$TAG/module.json" \
+             --arg download "https://github.com/$REPO/releases/download/$TAG/$VERSION.zip" \
+             '.version = $version | .manifest = $manifest | .download = $download' \
+             module.json > module.json.tmp && mv module.json.tmp module.json
 
-      - name: Get manifest URL
-        id: manifest
+      - name: Create module zip
         run: |
-          # Construct the manifest URL pointing to this specific release
-          echo "manifest_url=https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/module.json" >> $GITHUB_OUTPUT
+          VERSION=${{ steps.get_version.outputs.version }}
+          zip -r "$VERSION.zip" . \
+            --exclude ".git/*" \
+            --exclude ".github/*" \
+            --exclude "*.zip"
+
+      - name: Upload release assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION=${{ steps.get_version.outputs.version }}
+          gh release upload ${{ github.event.release.tag_name }} \
+            module.json \
+            "$VERSION.zip"
 
       - name: Publish to FoundryVTT
         run: |
@@ -39,8 +58,8 @@ jobs:
               "id": "pf1-pow",
               "release": {
                 "version": "${{ steps.get_version.outputs.version }}",
-                "manifest": "${{ steps.manifest.outputs.manifest_url }}",
-                "notes": "${{ steps.release_notes.outputs.notes_url }}",
+                "manifest": "https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/module.json",
+                "notes": "${{ github.event.release.html_url }}",
                 "compatibility": {
                   "minimum": "13",
                   "verified": "13",
@@ -64,13 +83,3 @@ jobs:
           fi
           
           echo "Successfully published to FoundryVTT!"
-
-      - name: Upload module.json as release asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ github.event.release.upload_url }}
-          asset_path: ./module.json
-          asset_name: module.json
-          asset_content_type: application/json
