@@ -141,6 +141,14 @@ export function setupHook() {
 		}
 		return false;
 	});
+	Handlebars.registerHelper('getExtraDC', function (actor, item) {
+		let extra = actor._rollData?.pow?.initiatorModifierBonus || 0;
+		const disciplineKey = Object.entries(pf1.config.disciplines || {}).find(([key, label]) => label === item.system?.discipline)?.[0];
+		if (disciplineKey) {
+			extra += actor._rollData?.pow?.[disciplineKey] || 0;
+		}
+		return extra;
+	});
 	Handlebars.registerHelper('ifEquals', function (arg1, arg2, options) {
 		return (arg1 == arg2) ? options.fn(this) : options.inverse(this);
 	});
