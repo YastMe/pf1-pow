@@ -384,4 +384,19 @@ export class ManeuverItem extends pf1.documents.item.ItemPF {
 			this.actor.sheet._forceShowManeuverTab = true;
 		}
 	}
+
+	getInitiatorLevel() {
+		const classId = this.actor.items.find(i => i.type === "class" && i.name === this.system.class)?.id;
+		return this.actor.getRollData()?.pow?.classInitiatorLevels?.[classId]?.initLevel || 0;
+	}
+
+	// Compatibility method for Item Piles and other modules that expect items to have a value. Maneuvers assume the cost of a Martial Script,
+	// which work similarly to a scroll.
+	getValue() {
+		let initiatorLevel = this.getInitiatorLevel();
+		// If the actor doesn't have an initiator level, default to the minimum level needed to use the maneuver, similar to spells.
+		if (!initiatorLevel)
+			initiatorLevel = this.system.level * 2 - 1;
+		return initiatorLevel * this.system.level * 50;
+	}
 }
