@@ -20,9 +20,11 @@ export function initHook() {
 function registerConfig() {
 	// Add Knowledge (Martial) skill
 	pf1.config.skills["kmt"] = "PF1-PathOfWar.Skills.kmt";
+	pf1.config.skillCompendiumEntries["kmt"] = "Compendium.pf1-pow.rules.JournalEntry.mRNuAYYcgttFqcTg.JournalEntryPage.UOgJcmgytyPfE4nA";
 
 	// Add Autohypnosis skill
 	pf1.config.skills["ahp"] = "PF1-PathOfWar.Skills.ahp";
+	pf1.config.skillCompendiumEntries["ahp"] = "Compendium.pf1-pow.rules.JournalEntry.mRNuAYYcgttFqcTg.JournalEntryPage.UJB7wMetxEFQLbBY";
 
 	// Add maneuver types to config
 	pf1.config.maneuverTypes = {
@@ -171,6 +173,9 @@ function registerConfig() {
 		browse: { category: "buffs", buffType: ["stance"] },
 		sort: 10000
 	};
+
+	// Add Martial Script as a consumable type
+	CONFIG.PF1.consumableTypes["martialScript"] = "PF1-PathOfWar.MartialScripts.Single";
 }
 
 /**

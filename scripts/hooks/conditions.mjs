@@ -18,6 +18,7 @@ function registerLocked(registry) {
 		mechanics: {
 			changes: [{ formula: 0, target: "allSpeeds", operator: "set", type: "untyped" }],
 		},
+		journal: "Compendium.pf1-pow.rules.JournalEntry.uGLFs7wz4gPuyz1V.JournalEntryPage.q1fW1rZPEZC1Zsh6",
 	});
 }
 
@@ -25,6 +26,7 @@ function registerCursed(registry) {
 	registry.register(MODULE_ID, "cursed", {
 		name: "PF1-PathOfWar.Conditions.cursed",
 		texture: "modules/pf1-pow/assets/icons/cursed.png",
+		journal: "Compendium.pf1-pow.rules.JournalEntry.uGLFs7wz4gPuyz1V.JournalEntryPage.wp2lU2eP1U3aWAtx",
 	});
 }
 
@@ -32,6 +34,7 @@ function registerTricked(registry) {
 	registry.register(MODULE_ID, "tricked", {
 		name: "PF1-PathOfWar.Conditions.tricked",
 		texture: "modules/pf1-pow/assets/icons/tricked.png",
+		journal: "Compendium.pf1-pow.rules.JournalEntry.uGLFs7wz4gPuyz1V.JournalEntryPage.BGaWYWxko24eZlVi",
 	});
 }
 
@@ -43,6 +46,7 @@ function registerOffBalanced(registry) {
 			changes: [{ formula: -2, target: "ac", operator: "add", type: "untyped" }],
 			flags: ["loseDexToAC"]
 		},
+		journal: "Compendium.pf1-pow.rules.JournalEntry.uGLFs7wz4gPuyz1V.JournalEntryPage.oNzCfUTXsLhiiDUO",
 	});
 }
 
@@ -50,6 +54,7 @@ function registerClaimed(registry) {
 	registry.register(MODULE_ID, "claimed", {
 		name: "PF1-PathOfWar.Conditions.claimed",
 		texture: "modules/pf1-pow/assets/icons/claimed.png",
+		journal: "Compendium.pf1-pow.rules.JournalEntry.uGLFs7wz4gPuyz1V.JournalEntryPage.GpDNJBnSxU5uS8EI",
 	});
 }
 
@@ -57,6 +62,7 @@ function registerMarked(registry) {
 	registry.register(MODULE_ID, "marked", {
 		name: "PF1-PathOfWar.Conditions.marked",
 		texture: "modules/pf1-pow/assets/icons/marked.png",
+		journal: "Compendium.pf1-pow.rules.JournalEntry.uGLFs7wz4gPuyz1V.JournalEntryPage.7hYYz133WC6oX1IY"
 	});
 }
 
@@ -64,5 +70,6 @@ function registerSprouted(registry) {
 	registry.register(MODULE_ID, "sprouted", {
 		name: "PF1-PathOfWar.Conditions.sprouted",
 		texture: "modules/pf1-pow/assets/icons/sprouted.png",
+		journal: "Compendium.pf1-pow.rules.JournalEntry.uGLFs7wz4gPuyz1V.JournalEntryPage.m4RnTvYPjZeW0Wcy"
 	});
 }
