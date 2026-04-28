@@ -1,0 +1,63 @@
+{
+  "folder": "EaJTE3ZT3qdqsOsJ",
+  "type": "pf1-pow.maneuver",
+  "name": "Enticing Sundew",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "discipline": "Intoxicating Petal",
+    "level": 6,
+    "initTime": {
+      "value": 1,
+      "units": "immediate"
+    },
+    "maneuverType": "Counter",
+    "saveType": "None",
+    "saveEffect": "Half",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false,
+    "class": "",
+    "uses": {
+      "per": "charges",
+      "value": 0,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "description": {
+      "value": "<p>Draw them in, devour them before they know what happened. When you or an ally within Close range is attacked, you may move up to your speed towards the attacking creature. If your movement ends with the attacker within your reach (if you are wielding a melee weapon) or within your weapon's first range increment (for a ranged weapon), make an attack roll against a DC equal to the foe's attack roll. If successful, you negate the attack and may heal yourself and allies within Close range (25 feet + 5 feet per 2 initiator levels) for an amount equal to three times the number of sprout stacks on the countered creature, divided as you choose between yourself and your allies.</p>"
+    },
+    "changes": [],
+    "contextNotes": [],
+    "sources": []
+  },
+  "_id": "qnfgDcdOeybqEvyC",
+  "img": "icons/magic/nature/elemental-plant-humanoid.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5hV992ZqcBAWMYZs": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": 1777395140181,
+    "modifiedTime": 1777396051703,
+    "lastModifiedBy": "5hV992ZqcBAWMYZs"
+  },
+  "_key": "!items!qnfgDcdOeybqEvyC"
+}

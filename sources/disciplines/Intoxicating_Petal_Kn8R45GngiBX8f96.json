@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Intoxicating Petal",
+  "color": null,
+  "sorting": "a",
+  "_id": "Kn8R45GngiBX8f96",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": 1776358861816,
+    "modifiedTime": 1776358861816,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "_key": "!folders!Kn8R45GngiBX8f96"
+}

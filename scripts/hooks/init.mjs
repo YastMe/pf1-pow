@@ -86,6 +86,7 @@ function registerConfig() {
 		eternalGuardian: "PF1-PathOfWar.Disciplines.eternalGuardian",
 		foolsErrand: "PF1-PathOfWar.Disciplines.foolsErrand",
 		goldenLion: "PF1-PathOfWar.Disciplines.goldenLion",
+		intoxicatingPetal: "PF1-PathOfWar.Disciplines.intoxicatingPetal",
 		ironTortoise: "PF1-PathOfWar.Disciplines.ironTortoise",
 		mithralCurrent: "PF1-PathOfWar.Disciplines.mithralCurrent",
 		piercingThunder: "PF1-PathOfWar.Disciplines.piercingThunder",

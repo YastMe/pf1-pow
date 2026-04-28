@@ -1,0 +1,72 @@
+{
+  "folder": "EaJTE3ZT3qdqsOsJ",
+  "type": "pf1-pow.maneuver",
+  "name": "Stance of the World Tree",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "discipline": "Intoxicating Petal",
+    "level": 6,
+    "initTime": {
+      "value": 1,
+      "units": "swift"
+    },
+    "maneuverType": "Stance",
+    "saveType": "None",
+    "saveEffect": "Half",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false,
+    "class": "",
+    "uses": {
+      "per": "charges",
+      "value": 0,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "description": {
+      "value": "<p>Like the mighty Yggdrasil, your roots reach deep. You gain a bonus to your CMD and saves to resist being moved (such as by the telekinesis spell) equal to your initiator level.</p><p>As a full round action, you may root yourself to the ground and gain DR/- equal to half your initiator level and fast healing equal to your initiation modifier. Moving, involuntarily or not, more than 5 feet per round ends this effect.</p>"
+    },
+    "changes": [],
+    "contextNotes": [
+      {
+        "text": "Add Initiator Level to resist being moved",
+        "target": "cmd"
+      },
+      {
+        "text": "Add Initiator Level to resist being moved",
+        "target": "allSavingThrows"
+      }
+    ],
+    "sources": []
+  },
+  "_id": "AwMzMRYBVzbOnCxH",
+  "img": "icons/magic/nature/elemental-plant-humanoid.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5hV992ZqcBAWMYZs": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": 1777395353312,
+    "modifiedTime": 1777396035626,
+    "lastModifiedBy": "5hV992ZqcBAWMYZs"
+  },
+  "_key": "!items!AwMzMRYBVzbOnCxH"
+}

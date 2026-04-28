@@ -1,0 +1,299 @@
+{
+  "name": "Statuses",
+  "_id": "uGLFs7wz4gPuyz1V",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Claimed",
+      "type": "text",
+      "_id": "GpDNJBnSxU5uS8EI",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Starting at 1st level, a harbinger gains the ability to reach out with her sorcerous malice, marking foes as her own. As a swift action, the harbinger may Claim an opponent that she can see (including with special senses such as blindsense or tremorsense) within close range (25 feet + 5 feet per 2 harbinger levels) for a number of rounds equal to 1/2 her class level (minimum 1 round). A harbinger can have a maximum number of creatures Claimed equal to her harbinger initiation modifier (minimum 1), and may not Claim a creature she has already Claimed until or unless the Claim expires. Claimed creatures using the Withdraw action to leave a square threatened by the harbinger provoke attacks of opportunity from her.</p><p>In addition, the harbinger automatically knows the position of creatures she has Claimed. Any opponent the harbinger cannot see still has total concealment (50% miss chance) against her, and the harbinger still suffers the normal miss chance when attacking creatures that have concealment. The harbinger is still denied her Dexterity bonus to her AC against attacks from Claimed creatures she cannot see.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "jI6iseAymTC0jkXd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf1",
+        "systemVersion": "11.11",
+        "createdTime": 1776341444762,
+        "modifiedTime": 1776341450813,
+        "lastModifiedBy": "jI6iseAymTC0jkXd"
+      },
+      "_key": "!journal.pages!uGLFs7wz4gPuyz1V.GpDNJBnSxU5uS8EI"
+    },
+    {
+      "sort": 200000,
+      "name": "Cursed",
+      "type": "text",
+      "_id": "wp2lU2eP1U3aWAtx",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>By itself, the cursed condition does nothing, but many maneuvers or abilities have an increased effect on cursed creatures, or can only be used on cursed creatures (see individual maneuver descriptions for more information on how they interact with the cursed condition). Spells with the curse descriptor also apply the cursed condition for a duration equal to the spell's duration. Multiple applications of the cursed condition do not overlap; instead the duration of each new application of the condition is added to the remaining duration of the previous application. The successful use of break enchantment, remove curse, or similar effects removes the cursed condition from the target in addition to their normal effects.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "jI6iseAymTC0jkXd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf1",
+        "systemVersion": "11.11",
+        "createdTime": 1776341541730,
+        "modifiedTime": 1776341549311,
+        "lastModifiedBy": "jI6iseAymTC0jkXd"
+      },
+      "_key": "!journal.pages!uGLFs7wz4gPuyz1V.wp2lU2eP1U3aWAtx"
+    },
+    {
+      "sort": 300000,
+      "name": "Locked",
+      "type": "text",
+      "_id": "q1fW1rZPEZC1Zsh6",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Several Fool’s Errand maneuvers and related abilities allow you to lock your target. You may only lock creatures within your melee reach (including that of reach weapons or other effects that extend your reach). Locking a creature does not provoke attacks of opportunity, and even though it is not an attack, it is treated as a melee attack for the purposes of targeting, line of effect, miss chances, and ending an invisibility spell or similar effects. Attempting to lock or drag a creature ends any Stealth you have, though you can still use Stealth after you've locked a creature (if you are otherwise able to do so while observed, such as by having the hide in plain sight ability or making a successful Bluff check). Similarly, locked creatures can use Stealth against you if they have a means to do so, through successfully hiding from you using Stealth does not end the lock.</p><p>A creature targeted by a character’s lock must succeed at a Reflex save (DC 12 + 1/2 your highest initiator level + your Strength modifier or highest initiation modifier, whichever is higher) or become locked. Locking counts as a Fool's Errand maneuver for the purposes of abilities or effects that increase a maneuver's save DC, and the bonus for using a discipline weapon as part of the attempt is already included in the DC. If you can substitute another ability modifier for melee attack rolls or CMB checks (such as through the Weapon Finesse or Agile Maneuvers feats, or the soulknife’s Focused Offense blade skill), you may use that ability instead of your Strength or initiation modifier for determining your lock save DC.</p><p>Once you’ve locked a creature, they cannot voluntarily move from their space without escaping the lock (see below). If you lock another creature that is flying or otherwise midair, they remain in the air and do not fall. As this is an ability that hinders movement, creatures under the effects of a freedom of movement spell or slip the bonds power cannot be locked. You can end the lock as a free action, and it automatically ends if the locked creature is no longer within your reach.</p><p>You can move freely as long as each creature you’ve locked remains within your reach, or can drag creatures when you move by moving at half speed. If your movement takes place during a maneuver, you can drag creatures by halving the distance you would normally move (to a minimum of 5 feet, even if halving it would result in a lower distance). You must still follow all the restrictions of your movement (such as where you can move, or where you must end your movement).</p><p>When dragging a creature, they move in the same direction as you, relative to your spaces (even if that movement takes them to a harmful location). If you would drag them into a space they cannot enter (such as a wall or that of another creature), you must either relinquish your lock on them, change direction, or stop moving. Otherwise, you can freely drag them along with you, regardless of your relative sizes or location. The movement of dragged creatures does not provoke attacks of opportunity, and your movement does not provoke attacks of opportunity from creatures you’re dragging. If you would drag a creature into a space that can’t support them or a hazardous location (such as the air for a nonflying creature or a pit of lava), they may make a saving throw to escape the lock (see below). If they succeed, they are not dragged, escape the lock, and fall prone in their space.</p><p>On its turn, a creature can attempt to escape your lock whenever it tries to move. In order to do so, the creature must succeed at a Reflex save with the same DC as when they were locked. A creature can use their Strength instead of their Dexterity on this saving throw (but not the one to evade the initial lock). Success indicates that the locked creature escapes and can move freely; failure means they remain locked, though their action is still spent (and are treated as having moved, for the purposes of taking 5-foot steps). Teleportation effects allow a creature to automatically escape your lock, as do effects that cause you to no longer have the creature within your reach. A creature that does not attempt to move during their turn can make a Reflex save against the lock as a free action at the end of that turn. You cannot lock a creature in the same turn that it escaped your lock.</p><p>If you become helpless, all of your locked creatures are released.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "jI6iseAymTC0jkXd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf1",
+        "systemVersion": "11.11",
+        "createdTime": 1776341740233,
+        "modifiedTime": 1776356964612,
+        "lastModifiedBy": "jI6iseAymTC0jkXd"
+      },
+      "_key": "!journal.pages!uGLFs7wz4gPuyz1V.q1fW1rZPEZC1Zsh6"
+    },
+    {
+      "sort": 400000,
+      "name": "Off-Balance",
+      "type": "text",
+      "_id": "oNzCfUTXsLhiiDUO",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>A creature that is off-balance loses its Dexterity bonus to AC, and opponents gain a +2 bonus to attacks against it. In order to regain balance, the creature must make a Swim check as a move action, as shown on the following table:</p><div class=\"content-table-wrapper\"><div class=\"content-table\"><table class=\"wikitable\" border=\"1\"><tbody><tr><th><p>Water</p></th><th><p>Swim DC</p></th></tr><tr><td><p>Calm water</p></td><td><p>15</p></td></tr><tr><td><p>Rough water</p></td><td><p>20</p></td></tr><tr><td><p>Stormy water</p></td><td><p>25*</p></td></tr></tbody></table></div></div><p>* You can’t take 10 on a Swim check in stormy water, even if you aren’t otherwise being threatened or distracted.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "jI6iseAymTC0jkXd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf1",
+        "systemVersion": "11.11",
+        "createdTime": 1776341803583,
+        "modifiedTime": 1776341815374,
+        "lastModifiedBy": "jI6iseAymTC0jkXd"
+      },
+      "_key": "!journal.pages!uGLFs7wz4gPuyz1V.oNzCfUTXsLhiiDUO"
+    },
+    {
+      "sort": 500000,
+      "name": "Sprouted",
+      "type": "text",
+      "_id": "m4RnTvYPjZeW0Wcy",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Sprout is a stacking condition that starts at [sprout 1] and gets more severe with repeated applications. Each numerical instance of the condition is known as a \"stack\". Sprout stacks may be represented in shorthand within brackets, so a creature with 3 sprout stacks is said to have [sprout 3]. Likewise, a maneuver that inflicts 1 sprout stack upon a creature would be represented as inflicting [sprout 1], and an effect that only triggers when a creature has at least 5 sprout stacks would be represented as requiring [sprout 5]. Sprout stacks applied by an individual initiator are additive; a creature with [sprout 3] being inflicted with [sprout 2] would then have [sprout 5]. However, sprout stacks inflicted by multiple initiators on the same creature are tracked separately and do not stack with each other: apply only the effects of the highest severity. Maneuvers and abilities that remove sprout from enemies remove that many stacks for each creature that inflicted them, but only inflict damage for a single instance.</p><p>An initiator can inflict sprout with certain Intoxicating Petal maneuvers, as well as through certain class features, feats, and other methods. A creature may only gain sprout from a specific initiator once per round, regardless of the method used. A creature may have a maximum number of sprout stacks equal to the initiator level + 1/2 the initiation modifier of the initiator who inflicted the sprout. If a single action would cause a creature to be inflicted with multiple stacks of sprout originating from a single initiator simultaneously, those stacks of sprout are combined and are treated as a single application of sprout. For example; A 10th-level initiator maintaining the Relentless Floral Procession stance, using the Fertile Flow boost, and then hitting with the Clinging Creeper strike would apply a single combined stack of [sprout 4].</p><p>A creature can tear all sprout off themselves or a willing ally within their reach. A standard action halves the total sprout on a creature (rounded up, a creature with [sprout 3] would be reduced to [sprout 1]), and a full-round action removes all sprout; for each sprout stack removed in this way, they take 1d6 piercing and slashing damage (if the creature is affected by multiple sprout stacks from different initiators, each stack is reduced as part of the same action and they only take damage from the stack which had the highest number of sprout removed). Some Intoxicating Petal maneuvers may also state that they tear off a particular number of sprout stacks; sprout removed in this way deals damage of the same type as the attack and is considered to simply be additional damage on top of that attack (so damage reduction is only calculated once for an attack that deals 1d6 damage and tears off one sprout stack).</p><p>Otherwise, all sprout fades harmlessly after the affected creature has been outside of combat for more than one minute, or if the initiator who applied the sprout dies, is destroyed, or is rendered unconscious.</p><p>Sprout is a curse effect a creature immune to curses is immune to sprout, and the successful use of break enchantment, remove curse, or similar effects removes the sprout condition from the target in addition to their normal effects. Despite their appearance, sprout effects do not create real plants and do not interact specifically with abilities that affect plants. Throughout this discipline, a creature with the sprout condition may be referred to as a \"creature inflicted with sprout\" or a \"sprouted creature\". Regardless of the wording, these all refer to the same condition. </p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "jI6iseAymTC0jkXd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf1",
+        "systemVersion": "11.11",
+        "createdTime": 1776341869029,
+        "modifiedTime": 1776341874819,
+        "lastModifiedBy": "jI6iseAymTC0jkXd"
+      },
+      "_key": "!journal.pages!uGLFs7wz4gPuyz1V.m4RnTvYPjZeW0Wcy"
+    },
+    {
+      "sort": 600000,
+      "name": "Tricked",
+      "type": "text",
+      "_id": "BGaWYWxko24eZlVi",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Many Roaring Mouse maneuvers impart a new condition called “tricked”. A tricked creature is slightly off-balance, whether in mind or body, and is easy prey. Once tricked, the creature can be exploited, as marked by the “Exploit” section of the maneuver’s description. Exploits allow you to remove the tricked condition from a creature in exchange for added effects. Unless otherwise stated, you may only perform an exploit if the maneuver was successful. A creature is not tricked until the maneuver used against them is complete, meaning that you cannot exploit a creature with the same use of the maneuver that tricked them. Likewise, you cannot trick a creature with the same action that exploited them. Spells augmented by the Trick Spell feat also apply the tricked condition for a duration equal to the spell’s duration. Removing the tricked condition for an exploit does not dispel a trick spell currently affecting them. Multiple applications of the tricked condition do not overlap; instead the duration of each new application of the condition is added to the remaining duration of the previous application. If an exploit states that the creature becomes immune to it for a certain amount of time, it is immune to any application of that exploit, regardless of the source.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "jI6iseAymTC0jkXd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf1",
+        "systemVersion": "11.11",
+        "createdTime": 1776341904113,
+        "modifiedTime": 1776341909950,
+        "lastModifiedBy": "jI6iseAymTC0jkXd"
+      },
+      "_key": "!journal.pages!uGLFs7wz4gPuyz1V.BGaWYWxko24eZlVi"
+    },
+    {
+      "sort": 250000,
+      "name": "Marked",
+      "type": "text",
+      "_id": "7hYYz133WC6oX1IY",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Whenever the warder attacks a foe in combat and inflict at least 1 point of damage, as a free action she may mark them as her foe (he may even mark a foe during an attack of opportunity and may make the free action to do so, even though it is not her turn) and attempt to continue to force them to engage the warder only. The target is aware of being marked, and the mark remains for a number of rounds equal to her warder initiation modifier (minimum of 1). Marked targets suffer a -4 penalty to attack rolls against foes that are not the warder, and arcane spellcasters suffer an increase in arcane spell failure of 10% + 1% per two warder levels until the mark expires.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "jI6iseAymTC0jkXd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf1",
+        "systemVersion": "11.11",
+        "createdTime": 1776357217360,
+        "modifiedTime": 1776357230772,
+        "lastModifiedBy": "jI6iseAymTC0jkXd"
+      },
+      "_key": "!journal.pages!uGLFs7wz4gPuyz1V.7hYYz133WC6oX1IY"
+    }
+  ],
+  "folder": null,
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": 1776341407431,
+    "modifiedTime": 1776341916608,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "_key": "!journal!uGLFs7wz4gPuyz1V"
+}

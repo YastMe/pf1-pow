@@ -1,0 +1,63 @@
+{
+  "folder": "1r6ZkcSMEQzfzQzM",
+  "type": "pf1-pow.maneuver",
+  "name": "Harvesting Strike",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "discipline": "Intoxicating Petal",
+    "level": 8,
+    "initTime": {
+      "value": 1,
+      "units": "standard"
+    },
+    "maneuverType": "Strike",
+    "saveType": "None",
+    "saveEffect": "Half",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false,
+    "class": "",
+    "uses": {
+      "per": "charges",
+      "value": 0,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "description": {
+      "value": "<p>With the harvest done, the work begins anew. Make an attack. If it hits, the target is inflicted with [sprout 8] and takes an additional [[/roll 12d6]] damage. If it is already sprouted, this additional damage increases to [[/roll 16d6]] and you may tear off up to 4 stacks of sprout from the target (before the sprout from this strike is inflicted).</p>"
+    },
+    "changes": [],
+    "contextNotes": [],
+    "sources": []
+  },
+  "_id": "P7tmKxfOuhfRPfkj",
+  "img": "icons/magic/nature/elemental-plant-humanoid.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5hV992ZqcBAWMYZs": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": 1777395687044,
+    "modifiedTime": 1777396013610,
+    "lastModifiedBy": "5hV992ZqcBAWMYZs"
+  },
+  "_key": "!items!P7tmKxfOuhfRPfkj"
+}

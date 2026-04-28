@@ -1,0 +1,63 @@
+{
+  "folder": "LXtQCktL1UKeJuFa",
+  "type": "pf1-pow.maneuver",
+  "name": "Touch of Hemlock",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "discipline": "Intoxicating Petal",
+    "level": 4,
+    "initTime": {
+      "value": 1,
+      "units": "standard"
+    },
+    "maneuverType": "Strike",
+    "saveType": "Fortitude",
+    "saveEffect": "Partial",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false,
+    "class": "",
+    "uses": {
+      "per": "charges",
+      "value": 0,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "description": {
+      "value": "<p>It is said this maneuver was once used to execute a guru of some repute. Make an attack. If it hits, it deals an additional 2d6 damage. The target must then make a Fortitude save (DC 14 + your initiation modifier) or become stunned for 1 round. If you have at least 12 initiator levels, you may instead make them paralyzed for 1 round. A creature that is sprouted takes a -4 penalty on their saving throw against this strike.</p>"
+    },
+    "changes": [],
+    "contextNotes": [],
+    "sources": []
+  },
+  "_id": "VX1wARI9qES6pYFF",
+  "img": "icons/magic/nature/elemental-plant-humanoid.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5hV992ZqcBAWMYZs": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": 1777393129567,
+    "modifiedTime": 1777396072286,
+    "lastModifiedBy": "5hV992ZqcBAWMYZs"
+  },
+  "_key": "!items!VX1wARI9qES6pYFF"
+}

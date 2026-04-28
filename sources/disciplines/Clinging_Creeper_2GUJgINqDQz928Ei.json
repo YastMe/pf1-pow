@@ -1,0 +1,63 @@
+{
+  "folder": "XwBtFhWFU9dSZ27y",
+  "type": "pf1-pow.maneuver",
+  "name": "Clinging Creeper",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "discipline": "Intoxicating Petal",
+    "level": 1,
+    "initTime": {
+      "value": 1,
+      "units": "standard"
+    },
+    "maneuverType": "Strike",
+    "saveType": "None",
+    "saveEffect": "Half",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false,
+    "class": "",
+    "uses": {
+      "per": "charges",
+      "value": 0,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "description": {
+      "value": "<p>Your attack carries a winding vine that grasps at your foe. Make a single attack. If it hits, it deals damage as normal and inflicts [sprout 1] on the struck creature. Additionally, the creature's speed is reduced by 5 feet, plus an additional 5 feet for every 4 initiator levels you possess, until the end of your next turn.</p>"
+    },
+    "changes": [],
+    "contextNotes": [],
+    "sources": []
+  },
+  "_id": "2GUJgINqDQz928Ei",
+  "img": "icons/magic/nature/elemental-plant-humanoid.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": 1776359041562,
+    "modifiedTime": 1776359077234,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "_key": "!items!2GUJgINqDQz928Ei"
+}

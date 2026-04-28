@@ -1,0 +1,63 @@
+{
+  "folder": "XwBtFhWFU9dSZ27y",
+  "type": "pf1-pow.maneuver",
+  "name": "Growth Spurt",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "discipline": "Intoxicating Petal",
+    "level": 1,
+    "initTime": {
+      "value": 1,
+      "units": "swift"
+    },
+    "maneuverType": "Boost",
+    "saveType": "None",
+    "saveEffect": "Half",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false,
+    "class": "",
+    "uses": {
+      "per": "charges",
+      "value": 0,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "description": {
+      "value": "<p>You pour verdant energy into your next blow. The first time you successfully hit a creature before the beginning of your next turn, your attack inflicts [sprout 1]. The sprout dealt by this attack increases by additional +1 for every 10 initiator levels you possess.</p>"
+    },
+    "changes": [],
+    "contextNotes": [],
+    "sources": []
+  },
+  "_id": "YJDYtNVYv5ysABLO",
+  "img": "icons/magic/nature/elemental-plant-humanoid.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": 1776359159237,
+    "modifiedTime": 1776359182157,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "_key": "!items!YJDYtNVYv5ysABLO"
+}

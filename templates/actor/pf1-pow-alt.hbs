@@ -1,0 +1,550 @@
+{{!-- Path of War maneuvers tab container --}}
+<div class="tab flexcol maneuvers" data-group="primary" data-tab="maneuvers">
+    {{!-- Navigation tabs for each maneuver-granting class --}}
+    <nav class="sheet-navigation tabs maneuvers" data-group="maneuvers">
+        {{!-- Creates one class selector tab per maneuver-granting class --}}
+        {{#each (getClasses this) as |classItem|}}
+        <a class="item class-selector" data-tab="{{classItem.nameId}}" data-group="maneuvers">{{classItem.name}}</a>
+        {{/each}}
+    </nav>
+
+    {{!-- Main maneuver tab content area --}}
+    <section class="maneuvers-body">
+        {{!-- Builds one maneuver panel per class --}}
+        {{#each (getClasses this) as |classItem|}}
+        <div class="tab maneuvers-group flexcol" data-tab="{{classItem.nameId}}" data-group="maneuvers"
+            style="height: auto !important;">
+            {{!-- Class initiator statistics summary --}}
+            <div class="inventory-filters maneuver-configuration-alt">
+                <div class="flexrow spell-range" style="">
+                    {{!-- Displays the class-specific initiator level --}}
+                    <div class="flexrow" data-tooltip="{{localize 'PF1-PathOfWar.InitLevel.Total'}}">
+                        <label>{{localize "PF1-PathOfWar.InitLevel.Single"}}</label>
+                        <span>{{getClassInitLevel @root.actor._rollData.pow.classInitiatorLevels
+                            classItem.id @root.actor._rollData.pow.initLevel}}</span>
+                    </div>
+
+                    {{!-- Displays the class-specific maneuver ability modifier --}}
+                    <div class="flexrow">
+                        <label>{{localize 'PF1-PathOfWar.Attributes.maneuverAttr'}}</label>
+                        <span>{{numberFormat (getClassManeuverAttr
+                            @root.actor._rollData.pow.classInitiatorLevels classItem.id)}}</span>
+                    </div>
+
+                    {{!-- Displays the maximum maneuver level available to this class --}}
+                    <div class="flexrow">
+                        <label>{{localize 'PF1-PathOfWar.MaxManeuverLevel'}}</label>
+                        <span>{{getClassMaxManeuverLevel @root.actor._rollData.pow.classInitiatorLevels
+                            classItem.id @root.actor._rollData.pow.maxManeuverLevel}}</span>
+                    </div>
+                </div>
+            </div>
+
+            {{!-- Sparker stamina pool summary, shown only for sparker actors --}}
+            {{#if @root.actor.flags.pf1-pow.sparker}}
+            <div class="inventory-filters maneuver-configuration-alt">
+                <div class="flexrow spell-range" style="">
+                    {{!-- Primary stamina pool remaining value --}}
+                    <div class="flexrow"
+                        data-tooltip="{{localize 'PF1-PathOfWar.Stamina.From'}}{{get @root.actor.items @root.actor.flags.pf1-pow.staminaPool 'name'}}">
+                        <label>{{localize "PF1-PathOfWar.Stamina.Remaining"}}</label>
+                        <span>{{get @root.actor.items @root.actor.flags.pf1-pow.staminaPool
+                            "value"}}</span>
+                    </div>
+
+                    {{!-- Primary stamina pool maximum value --}}
+                    <div class="flexrow">
+                        <label>{{localize 'PF1-PathOfWar.Stamina.Total'}}</label>
+                        <span>{{get @root.actor.items @root.actor.flags.pf1-pow.staminaPool
+                            "max"}}</span>
+                    </div>
+
+                    {{!-- Secondary stamina pool display for fatigue-bypassing sparkers --}}
+                    {{#if @root.actor.flags.pf1-pow.bypassFatigue}}
+                    {{!-- Secondary stamina pool remaining value --}}
+                    <div class="flexrow"
+                        data-tooltip="{{localize 'PF1-PathOfWar.Stamina.From'}}{{get @root.actor.items @root.actor.flags.pf1-pow.secondaryStaminaPool 'name'}}">
+                        <label>{{localize 'PF1-PathOfWar.Stamina.SecondaryPool'}}</label>
+                        <span>{{get @root.actor.items @root.actor.flags.pf1-pow.secondaryStaminaPool
+                            "value"}}</span>
+                    </div>
+
+                    {{!-- Secondary stamina pool maximum value --}}
+                    <div class="flexrow">
+                        <label>{{localize 'PF1-PathOfWar.Stamina.SecondaryTotal'}}</label>
+                        <span>{{get @root.actor.items @root.actor.flags.pf1-pow.secondaryStaminaPool
+                            "max"}}</span>
+                    </div>
+                    {{/if}}
+                </div>
+            </div>
+            {{/if}}
+
+            {{!-- Martial Training-specific prepared and known maneuver limits --}}
+            {{#ifEquals classItem.nameId "martial-training"}}
+            <div class="inventory-filters maneuver-configuration-alt">
+                <div class="flexrow spell-range" style="">
+                    {{!-- Martial Training prepared maneuver count, highlighted when over maximum --}}
+                    <div class="flexrow" {{#if (gt (getClassManeuversPrepared
+                        @root.actor._rollData.pow.classInitiatorLevels "martialTraining"
+                        @root.actor._rollData.pow.maneuversPrepared) (getClassMaxManeuversPrepared
+                        @root.actor._rollData.pow.classInitiatorLevels "martialTraining"
+                        @root.actor._rollData.pow.maxManeuversPrepared))}}
+                        data-tooltip="{{localize 'PF1-PathOfWar.Stamina.MaxManeuverPrepared.Over'}}"
+                        style="border: 1px solid var(--color-shadow-primary); color: var(--color-shadow-primary);"
+                        {{/if}}>
+                        <label>{{localize 'PF1-PathOfWar.Stamina.MaxManeuverPrepared.Text'}}</label>
+                        <span>{{getClassManeuversPrepared @root.actor._rollData.pow.classInitiatorLevels
+                            "martialTraining"
+                            @root.actor._rollData.pow.maneuversPrepared}}/{{getClassMaxManeuversPrepared
+                            @root.actor._rollData.pow.classInitiatorLevels "martialTraining"
+                            @root.actor._rollData.pow.maxManeuversPrepared}}</span>
+                    </div>
+
+                    {{!-- Martial Training known maneuver count, highlighted when over maximum --}}
+                    <div class="flexrow" {{#if (gt (getClassManeuversKnown
+                        @root.actor._rollData.pow.classInitiatorLevels "martialTraining"
+                        @root.actor._rollData.pow.maneuversKnown) (getClassMaxManeuversKnown
+                        @root.actor._rollData.pow.classInitiatorLevels "martialTraining"
+                        @root.actor._rollData.pow.maxManeuversKnown))}}
+                        data-tooltip="{{localize 'PF1-PathOfWar.Stamina.MaxManeuverKnown.Over'}}"
+                        style="border: 1px solid var(--color-shadow-primary); color: var(--color-shadow-primary);"
+                        {{/if}}>
+                        <label>{{localize 'PF1-PathOfWar.Stamina.MaxManeuverKnown.Text'}}</label>
+                        <span>{{getClassManeuversKnown @root.actor._rollData.pow.classInitiatorLevels
+                            "martialTraining" @root.actor._rollData.pow.maneuversKnown}}/{{getClassMaxManeuversKnown
+                            @root.actor._rollData.pow.classInitiatorLevels "martialTraining"
+                            @root.actor._rollData.pow.maxManeuversKnown}}</span>
+                    </div>
+                </div>
+            </div>
+            {{/ifEquals}}
+
+            {{!-- Maneuver lists limited by this class's maximum maneuver level --}}
+            {{#with (getClassMaxManeuverLevel @root.actor._rollData.pow.classInitiatorLevels classItem.id
+            @root.actor._rollData.pow.maxManeuverLevel) as |classMaxLevel|}}
+            {{!-- Creates a maneuver level section for each available level --}}
+            {{#each (filteredLevelsArray classMaxLevel) as |lvl|}}
+
+            {{!-- Container for one maneuver level group --}}
+            <div class="inventory-group flexcol">
+                <ol class="item-list" data-level="{{lvl}}">
+                    {{!-- Header row for this maneuver level --}}
+                    <li class="flexrow item-list-header " data-level="{{lvl}}">
+                        <div class="item-name flexrow">
+                            <h3>{{localize (concat "PF1-PathOfWar.Maneuvers.Levels." lvl)}}</h3>
+
+                            {{!-- Displays the base DC for maneuvers at this level --}}
+                            <span style="flex: 0 0 25px" data-tooltip="{{localize
+                            'PF1-PathOfWar.Maneuvers.DC.Base'}}: {{sum 10 (getClassManeuverAttr
+                                @root.actor._rollData.pow.classInitiatorLevels classItem.id) lvl}}">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            </span>
+                        </div>
+
+                        {{!-- Actions column header --}}
+                        <div class="item-detail item-actions"><i class="icon-pf icon-gears large"
+                                data-tooltip="PF1.ActionPlural"></i></div>
+
+                        {{!-- Uses, charges, or stamina-cost column header --}}
+                        <div class="item-detail maneuver-uses">
+                            {{#if @root.actor.flags.pf1-pow.sparker}}
+                            <i class="fa-solid fa-bolt" data-tooltip='{{localize "PF1-PathOfWar.Charges.Cost"}}'></i>
+                            {{else}}
+                            <i class="icon-pf icon-battery-pack"
+                                data-tooltip='{{localize "PF1-PathOfWar.Charges.Current"}}'></i>
+                            {{/if}}
+                        </div>
+
+                        {{!-- Activation type column header --}}
+                        <div class="item-detail maneuver-activation">
+                            <i class="icon-pf icon-hand" data-tooltip="PF1.Usage"></i>
+                        </div>
+
+                        {{!-- Discipline column header --}}
+                        <div class="item-detail maneuver-type" style="flex-basis:15%">
+                            <i class="icon-pf icon-battle-gear"
+                                data-tooltip='{{localize "PF1-PathOfWar.Disciplines.Single"}}'></i>
+                        </div>
+
+                        {{!-- Create maneuver control for this level --}}
+                        <div class="item-controls maneuver-controls" style="flex-basis: 7%;">
+                            <a class="maneuver-control item-control item-create" data-tooltip="PF1.CreateItem"
+                                name="create" id="maneuver-create-{{lvl}}"><i class="fa-solid fa-plus"></i></a>
+                            <a class="maneuver-control item-control item-search" data-tooltip="PF1-PathOfWar.Browse"
+                                data-actor-id="{{@root.actor.id}}" data-category="maneuver" data-level="{{lvl}}"><i class="fas fa-folder-plus"></i></a>
+                        </div>
+                    </li>
+
+                    {{!-- Iterates through sorted maneuvers to find rows for this level and class --}}
+                    {{#each (sortManeuvers @root.actor.items) as |item|}}
+                    {{#if (and (and (eq item.type "pf1-pow.maneuver") (eq item.system.level lvl)) (eq item.system.class
+                    classItem.name))}}
+                    {{!-- Individual maneuver item row --}}
+                    <li class="item flexrow" id="{{item.id}}" data-item-id="{{item.id}}" draggable="true">
+                        {{!-- Maneuver image, name, readiness styling, and granted toggle --}}
+                        <div class="item-name flexrow rollable maneuver-control" name="viewDetails" id="{{item.id}}">
+                            <div class="item-image" style="background-image: url({{item.img}});"
+                                data-tooltip="PF1.DisplayInChat"></div>
+                            <a class="maneuver-control" name="maneuverName" id="{{item.id}}"
+                                dataset-pack="{{item.pack}}">
+                                <h4 class="item-name-text {{#unless item.system.ready}} {{#unless (eq item.system.maneuverType 'Stance')}}
+					maneuvernotready {{/unless}}{{/unless}}">{{item.name}}</h4>
+                            </a>
+
+                            {{!-- Granted maneuver toggle, shown only when the maneuver is ready and the class supports granted maneuvers --}}
+                            {{#if item.system.ready}}
+                            {{#if (getClassManeuversGranted @root.actor._rollData.pow.classInitiatorLevels
+                            classItem.id)}}
+                            <a class="maneuver-control item-control item-granted"
+                                data-tooltip="{{localize 'PF1-PathOfWar.Maneuvers.Granted'}}" name="grant"
+                                id="{{item.id}}">
+                                {{#if item.system.granted}}
+                                <i class="fa-solid fa-lightbulb"
+                                    data-tooltip="{{localize 'PF1-PathOfWar.Maneuvers.Granted'}}"></i>
+                                {{else}}
+                                <i class="fa-regular fa-lightbulb"
+                                    data-tooltip="{{localize 'PF1-PathOfWar.Maneuvers.NotGranted'}}"></i>
+                                {{/if}}
+                            </a>
+                            {{/if}}
+                            {{/if}}
+                        </div>
+
+                        {{!-- Non-sparker preparation and recovery controls --}}
+                        {{#unless @root.actor.flags.pf1-pow.sparker}}
+                        <div class="item-detail maneuver-uses flexrow">
+                            {{#unless (eq item.system.maneuverType "Stance")}}
+                            {{!-- Shows recovery control when a ready maneuver has no remaining uses --}}
+                            {{#if item.system.ready}}
+                            {{#unless (gt item.system.uses.value 0)}}
+                            <a id="{{item.id}}" class="maneuver-control item-control item-display"
+                                data-tooltip="PF1-PathOfWar.Maneuvers.Recover" name="recover"><i
+                                    class="fa-solid fa-bookmark"></i>
+                            </a>
+                            {{/unless}}
+                            {{/if}}
+
+                            {{!-- Prepared/unprepared toggle for non-stance maneuvers --}}
+                            <a id="{{item.id}}"
+                                class="item-control maneuver-control item-toggle-prepared {{#unless item.system.ready}}unprepared{{/unless}}"
+                                name="prepare" data-tooltip={{#if item.system.ready}}"PF1.Prepared"{{/if}}{{#unless
+                                item.system.ready}}"PF1.Unprepared"{{/unless}}>
+                                <i class="fa-solid fa-cog maneuver-icon prepared" inert=""></i>
+                            </a>
+                            {{/unless}}
+                        </div>
+                        {{else}}
+                        {{!-- Sparker preparation controls --}}
+                        <div class="item-detail maneuver-uses flexrow">
+                            {{#unless (eq item.system.maneuverType "Stance")}}
+                            {{!-- Prepared/unprepared toggle for sparker non-stance maneuvers --}}
+                            <a id="{{item.id}}"
+                                class="item-control maneuver-control item-toggle-prepared {{#unless item.system.ready}}unprepared{{/unless}}"
+                                name="prepare" data-tooltip={{#if item.system.ready}}"PF1.Prepared"{{/if}}{{#unless
+                                item.system.ready}}"PF1.Unprepared"{{/unless}}>
+                                <i class="fa-solid fa-cog maneuver-icon prepared" inert=""></i>
+                            </a>
+                            {{/unless}}
+                        </div>
+                        {{/unless}}
+
+                        {{!-- Maneuver use action or stance activation control --}}
+                        <div class="item-detail item-actions">
+                            {{#unless (eq item.system.maneuverType "Stance")}}
+                            {{!-- Roll/use control for non-stance maneuvers, including save DC tooltip when applicable --}}
+                            <div class="item-action">
+                                <a class="item-control item-action action roll maneuver-control" name="use"
+                                    id="{{item.id}}" {{#unless (eq item.system.saveType "None" )}} data-tooltip='{{localize "PF1-PathOfWar.Maneuvers.DC.Base"}}: {{sum 10 (getClassManeuverAttr @root.actor._rollData.pow.classInitiatorLevels classItem.id) lvl (getExtraDC @root.actor item)}}
+						<br> {{localize "PF1-PathOfWar.Maneuvers.DC.Discipline"}}: {{sum 10 (getClassManeuverAttr @root.actor._rollData.pow.classInitiatorLevels classItem.id) lvl 2 (getExtraDC @root.actor item)}}
+						<br> {{item.system.saveType}} {{item.system.saveEffect}}' {{/unless}}>
+                                    <i class="fa-solid fa-dice-d20" inert=""></i>
+                                </a>
+                            </div>
+                            {{/unless}}
+
+                            {{!-- Active/inactive toggle for stance maneuvers --}}
+                            {{#if (eq item.system.maneuverType "Stance")}}
+                            <input type="checkbox" class="item-control maneuver-control item-toggle-prepared"
+                                name="activate" id="{{item.id}}" {{#if item.system.stanceActive}}checked{{/if}}
+                                data-tooltip={{#if
+                                item.system.stanceActive}}"PF1-PathOfWar.Stances.StanceActive"{{/if}}{{#unless
+                                item.system.stanceActive}}"PF1-PathOfWar.Stances.StanceInactive"{{/unless}}>
+                            {{/if}}
+                        </div>
+
+                        {{!-- Maneuver use count, stance infinity marker, or sparker cost display --}}
+                        <div class="item-detail maneuver-uses flexrow">
+                            {{#unless item.parent.flags.pf1-pow.sparker}}
+                            {{#unless (eq item.system.maneuverType "Stance")}}
+                            {{!-- Current and maximum uses for non-sparker non-stance maneuvers --}}
+                            <div><span class="text-box" data-type="amount"
+                                    data-dtype="Number">{{item.system.uses.value}}</span>
+                            </div>
+                            <span class="sep"> / </span>
+                            <div><span class="text-box" data-type="max"
+                                    data-dtype="Number">{{item.system.uses.max}}</span>
+                            </div>
+                            {{else}}
+                            {{!-- Font Awesome infinity icon fallback kept for reference; SVG is used to avoid missing-glyph rendering --}}
+                            {{!-- <i class="fa-solid fa-infinity pow-stance-infinity" data-tooltip="{{localize "
+                                PF1-PathOfWar.Stances.Single"}}"></i> --}}
+                            {{!-- Stance marker using the Font Awesome infinity SVG path --}}
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"
+                                style="width: 1em; height: 1em;"
+                                data-tooltip="{{localize 'PF1-PathOfWar.Stances.Single'}}">
+                                <path
+                                    d="M0 320C0 231.6 71.6 160 160 160C210.4 160 257.8 183.7 288 224L320 266.7L352 224C382.2 183.7 429.6 160 480 160C568.4 160 640 231.6 640 320C640 408.4 568.4 480 480 480C429.6 480 382.2 456.3 352 416L320 373.3L288 416C257.8 456.3 210.4 480 160 480C71.6 480 0 408.4 0 320zM280 320L236.8 262.4C218.7 238.2 190.2 224 160 224C107 224 64 267 64 320C64 373 107 416 160 416C190.2 416 218.7 401.8 236.8 377.6L280 320zM360 320L403.2 377.6C421.3 401.8 449.8 416 480 416C533 416 576 373 576 320C576 267 533 224 480 224C449.8 224 421.3 238.2 403.2 262.4L360 320z" />
+                            </svg>
+                            {{/unless}}
+                            {{else}}
+                            {{#unless (eq item.system.maneuverType "Stance")}}
+                            {{!-- Sparker cost display uses the maneuver level --}}
+                            <div><span class="text-box" data-type="amount"
+                                    data-dtype="Number">{{item.system.level}}</span>
+                            </div>
+                            {{/unless}}
+                            {{/unless}}
+                        </div>
+
+                        {{!-- Maneuver activation type display --}}
+                        <div class="item-detail maneuver-activation"><span
+                                data-tooltip='{{capitalize item.system.initTime.units}}'>{{capitalize
+                                item.system.maneuverType}}</span>
+                        </div>
+
+                        {{!-- Maneuver discipline display --}}
+                        <div class="item-detail maneuver-discipline tooltip" data-tooltip="{{item.system.discipline}}"
+                            style="flex-basis:15%">
+                            <span>{{item.system.discipline}}</span>
+                        </div>
+
+                        {{!-- Edit and delete controls for this maneuver --}}
+                        <div class="item-controls" style="flex-basis: 7%;">
+                            <a class="maneuver-control item-control item-edit" data-tooltip="PF1.EditItem" name="edit"
+                                id="{{item.id}}"><i class="fa-solid fa-edit"></i></a>
+                            <a class="maneuver-control item-control item-delete" data-tooltip="PF1.DeleteItem"
+                                name="delete" id="{{item.id}}"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+
+                        {{!-- Expandable maneuver summary and description --}}
+                        <div class="identified item-summary accordion" id="maneuver-summary-{{item.id}}">
+                            <div class="description identified">
+                                {{!-- Compact maneuver metadata summary --}}
+                                <div class="spell-description">
+                                    <p>
+                                        <strong>{{localize
+                                            "PF1-PathOfWar.Disciplines.Single"}}</strong> {{item.system.discipline}}
+                                        <strong>{{localize
+                                            "PF1-PathOfWar.Maneuvers.Levels.Single"}}</strong> {{item.system.level}}
+                                        <br>
+                                        <strong>{{localize
+                                            "PF1-PathOfWar.initTime"}}</strong> {{item.system.initTime.value}}
+                                        {{capitalize
+                                        item.system.initTime.units}}
+                                    </p>
+                                </div>
+
+                                {{!-- Full maneuver description body --}}
+                                <div class="description-body">
+                                    {{{cleanDice item.system.description.value}}}
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    {{/if}}
+                    {{/each}}
+                </ol>
+            </div>
+            {{/each}}
+
+            {{!-- Section for maneuvers above the class maximum maneuver level --}}
+            {{#if (hasOverMaxManeuvers @root.actor.items classItem.name classMaxLevel)}}
+            <div class="inventory-group flexcol">
+                <ol class="item-list">
+                    {{!-- Header row for mismatched or over-maximum maneuver levels --}}
+                    <li class="flexrow item-list-header">
+                        <div class="item-name flexrow">
+                            <h3>{{localize "PF1-PathOfWar.Maneuvers.Levels.Mismatch"}}</h3>
+
+                            {{!-- Displays the base DC reference for the mismatch section --}}
+                            <span style="flex: 0 0 25px" data-tooltip="{{localize
+                            'PF1-PathOfWar.Maneuvers.DC.Base'}}: {{sum 10 (getClassManeuverAttr
+                                @root.actor._rollData.pow.classInitiatorLevels classItem.id) lvl}}">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            </span>
+                        </div>
+
+                        {{!-- Maneuver level column header for over-maximum rows --}}
+                        <div class="item-detail item-level">
+                            <i class="icon-pf icon-upgrade" data-tooltip="PF1-PathOfWar.Maneuvers.Level"></i>
+                        </div>
+
+                        {{!-- Actions column header --}}
+                        <div class="item-detail item-actions"><i class="icon-pf icon-gears large"
+                                data-tooltip="PF1.ActionPlural"></i></div>
+
+                        {{!-- Uses, charges, or stamina-cost column header --}}
+                        <div class="item-detail maneuver-uses">
+                            {{#if @root.actor.flags.pf1-pow.sparker}}
+                            <i class="fa-solid fa-bolt" data-tooltip='{{localize "PF1-PathOfWar.Charges.Cost"}}'></i>
+                            {{else}}
+                            <i class="icon-pf icon-battery-pack"
+                                data-tooltip='{{localize "PF1-PathOfWar.Charges.Current"}}'></i>
+                            {{/if}}
+                        </div>
+
+                        {{!-- Activation type column header --}}
+                        <div class="item-detail maneuver-activation">
+                            <i class="icon-pf icon-hand" data-tooltip="PF1.Usage"></i>
+                        </div>
+
+                        {{!-- Discipline column header --}}
+                        <div class="item-detail maneuver-type" style="flex-basis:15%">
+                            <i class="icon-pf icon-battle-gear"
+                                data-tooltip='{{localize "PF1-PathOfWar.Disciplines.Single"}}'></i>
+                        </div>
+
+                        {{!-- Create maneuver control from the mismatch section --}}
+                        <div class="item-controls maneuver-controls" style="flex-basis: 7%;">
+                            <a class="maneuver-control item-control item-create" data-tooltip="PF1.CreateItem"
+                                name="create" id="maneuver-create-{{lvl}}"><i class="fa-solid fa-plus"></i></a>
+                            <a class="maneuver-control item-control item-search" data-tooltip="PF1-PathOfWar.Browse"
+                                data-actor-id="{{@root.actor.id}}" data-category="maneuver" data-level="{{lvl}}"><i class="fas fa-folder-plus"></i></a>
+                        </div>
+                    </li>
+
+                    {{!-- Iterates through sorted maneuvers to find rows above this class's maximum maneuver level --}}
+                    {{#each (sortManeuvers @root.actor.items) as |item|}}
+                    {{#if (and (and (eq item.type "pf1-pow.maneuver") (gt item.system.level
+                    classMaxLevel)) (eq item.system.class classItem.name))}}
+                    {{!-- Over-maximum maneuver item row --}}
+                    <li class="item flexrow" id="{{item.id}}" data-item-id="{{item.id}}" draggable="true">
+                        {{!-- Over-maximum maneuver image and name --}}
+                        <div class="item-name flexrow rollable maneuver-control" name="viewDetails" id="{{item.id}}">
+                            <div class="item-image" style="background-image: url({{item.img}});"
+                                data-tooltip="PF1.DisplayInChat"></div>
+                            <a class="maneuver-control" name="maneuverName" id="{{item.id}}"
+                                dataset-pack="{{item.pack}}">
+                                <h4 class="item-name-text maneuvernotready">{{item.name}}</h4>
+                            </a>
+                        </div>
+
+                        {{!-- Over-maximum maneuver level display --}}
+                        <div class="item-detail item-level">
+                            <span>{{item.system.level}}</span>
+                        </div>
+
+                        {{!-- Maneuver use action or stance activation control --}}
+                        <div class="item-detail item-actions">
+                            {{#unless (eq item.system.maneuverType "Stance")}}
+                            {{!-- Roll/use control for over-maximum non-stance maneuvers --}}
+                            <div class="item-action">
+                                <a class="item-control item-action action roll maneuver-control" name="use"
+                                    id="{{item.id}}" {{#unless (eq item.system.saveType "None" )}} data-tooltip='{{localize "PF1-PathOfWar.Maneuvers.DC.Base"}}: {{sum 10 (getClassManeuverAttr @root.actor._rollData.pow.classInitiatorLevels classItem.id) lvl (getExtraDC @root.actor item)}}
+						<br> {{localize "PF1-PathOfWar.Maneuvers.DC.Discipline"}}: {{sum 10 (getClassManeuverAttr @root.actor._rollData.pow.classInitiatorLevels classItem.id) lvl 2 (getExtraDC @root.actor item)}}
+						<br> {{item.system.saveType}} {{item.system.saveEffect}}' {{/unless}}>
+                                    <i class="fa-solid fa-dice-d20" inert=""></i>
+                                </a>
+                            </div>
+                            {{/unless}}
+
+                            {{!-- Active/inactive toggle for over-maximum stance maneuvers --}}
+                            {{#if (eq item.system.maneuverType "Stance")}}
+                            <input type="checkbox" class="item-control maneuver-control item-toggle-prepared"
+                                name="activate" id="{{item.id}}" {{#if item.system.stanceActive}}checked{{/if}}
+                                data-tooltip={{#if
+                                item.system.stanceActive}}"PF1-PathOfWar.Stances.StanceActive"{{/if}}{{#unless
+                                item.system.stanceActive}}"PF1-PathOfWar.Stances.StanceInactive"{{/unless}}>
+                            {{/if}}
+                        </div>
+
+                        {{!-- Maneuver use count, stance infinity marker, or sparker cost display --}}
+                        <div class="item-detail maneuver-uses flexrow">
+                            {{#unless item.parent.flags.pf1-pow.sparker}}
+                            {{#unless (eq item.system.maneuverType "Stance")}}
+                            {{!-- Current and maximum uses for over-maximum non-sparker non-stance maneuvers --}}
+                            <div><span class="text-box" data-type="amount"
+                                    data-dtype="Number">{{item.system.uses.value}}</span>
+                            </div>
+                            <span class="sep"> / </span>
+                            <div><span class="text-box" data-type="max"
+                                    data-dtype="Number">{{item.system.uses.max}}</span>
+                            </div>
+                            {{else}}
+                            {{!-- Font Awesome infinity icon fallback kept for reference; SVG is used to avoid missing-glyph rendering --}}
+                            {{!-- <i class="fa-solid fa-infinity pow-stance-infinity" data-tooltip="{{localize "
+                                PF1-PathOfWar.Stances.Single"}}"></i> --}}
+                            {{!-- Stance marker using the Font Awesome infinity SVG path --}}
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"
+                                style="width: 1em; height: 1em;"
+                                data-tooltip="{{localize 'PF1-PathOfWar.Stances.Single'}}">
+                                <path
+                                    d="M0 320C0 231.6 71.6 160 160 160C210.4 160 257.8 183.7 288 224L320 266.7L352 224C382.2 183.7 429.6 160 480 160C568.4 160 640 231.6 640 320C640 408.4 568.4 480 480 480C429.6 480 382.2 456.3 352 416L320 373.3L288 416C257.8 456.3 210.4 480 160 480C71.6 480 0 408.4 0 320zM280 320L236.8 262.4C218.7 238.2 190.2 224 160 224C107 224 64 267 64 320C64 373 107 416 160 416C190.2 416 218.7 401.8 236.8 377.6L280 320zM360 320L403.2 377.6C421.3 401.8 449.8 416 480 416C533 416 576 373 576 320C576 267 533 224 480 224C449.8 224 421.3 238.2 403.2 262.4L360 320z" />
+                            </svg>
+                            {{/unless}}
+                            {{else}}
+                            {{#unless (eq item.system.maneuverType "Stance")}}
+                            {{!-- Sparker cost display uses the maneuver level --}}
+                            <div><span class="text-box" data-type="amount"
+                                    data-dtype="Number">{{item.system.level}}</span>
+                            </div>
+                            {{/unless}}
+                            {{/unless}}
+                        </div>
+
+                        {{!-- Maneuver activation type display --}}
+                        <div class="item-detail maneuver-activation"><span
+                                data-tooltip='{{capitalize item.system.initTime.units}}'>{{capitalize
+                                item.system.maneuverType}}</span>
+                        </div>
+
+                        {{!-- Maneuver discipline display --}}
+                        <div class="item-detail maneuver-discipline tooltip" data-tooltip="{{item.system.discipline}}"
+                            style="flex-basis:15%">
+                            <span>{{item.system.discipline}}</span>
+                        </div>
+
+                        {{!-- Edit and delete controls for this maneuver --}}
+                        <div class="item-controls" style="flex-basis: 7%;">
+                            <a class="maneuver-control item-control item-edit" data-tooltip="PF1.EditItem" name="edit"
+                                id="{{item.id}}"><i class="fa-solid fa-edit"></i></a>
+                            <a class="maneuver-control item-control item-delete" data-tooltip="PF1.DeleteItem"
+                                name="delete" id="{{item.id}}"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+
+                        {{!-- Expandable maneuver summary and description --}}
+                        <div class="identified item-summary accordion" id="maneuver-summary-{{item.id}}">
+                            <div class="description identified">
+                                {{!-- Compact maneuver metadata summary --}}
+                                <div class="spell-description">
+                                    <p>
+                                        <strong>{{localize
+                                            "PF1-PathOfWar.Disciplines.Single"}}</strong> {{item.system.discipline}}
+                                        <strong>{{localize
+                                            "PF1-PathOfWar.Maneuvers.Levels.Single"}}</strong> {{item.system.level}}
+                                        <br>
+                                        <strong>{{localize
+                                            "PF1-PathOfWar.initTime"}}</strong> {{item.system.initTime.value}}
+                                        {{capitalize
+                                        item.system.initTime.units}}
+                                    </p>
+                                </div>
+
+                                {{!-- Full maneuver description body --}}
+                                <div class="description-body">
+                                    {{{cleanDice item.system.description.value}}}
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    {{/if}}
+                    {{/each}}
+                </ol>
+            </div>
+            {{/if}}
+            {{/with}}
+        </div>
+        {{/each}}
+    </section>
+</div>

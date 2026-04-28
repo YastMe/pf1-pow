@@ -1,0 +1,63 @@
+{
+  "folder": "XwBtFhWFU9dSZ27y",
+  "type": "pf1-pow.maneuver",
+  "name": "Strangling Witchweed",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "discipline": "Intoxicating Petal",
+    "level": 1,
+    "initTime": {
+      "value": 1,
+      "units": "standard"
+    },
+    "maneuverType": "Strike",
+    "saveType": "None",
+    "saveEffect": "Half",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false,
+    "class": "",
+    "uses": {
+      "per": "charges",
+      "value": 0,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "description": {
+      "value": "<p>You draw sustenance from your sprouts. Make an attack. If it hits, it deals damage as normal. You may heal yourself and any allies within Close range of the struck creature for a number of hit points equal to 1d6 + your initiation modifier, divided as you choose between you and your allies. If the target is sprouted, this maneuver heals an additional d6 per sprout stack the target has, to a maximum of 3d6.</p>"
+    },
+    "changes": [],
+    "contextNotes": [],
+    "sources": []
+  },
+  "_id": "3pt8TKEnA5G716GS",
+  "img": "icons/magic/nature/elemental-plant-humanoid.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": 1776359435538,
+    "modifiedTime": 1776359453031,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "_key": "!items!3pt8TKEnA5G716GS"
+}

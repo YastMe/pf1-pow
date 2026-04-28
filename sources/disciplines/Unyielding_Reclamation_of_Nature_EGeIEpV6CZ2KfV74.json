@@ -1,0 +1,63 @@
+{
+  "folder": "m7RX17YarXucKaW0",
+  "type": "pf1-pow.maneuver",
+  "name": "Unyielding Reclamation of Nature",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "discipline": "Intoxicating Petal",
+    "level": 9,
+    "initTime": {
+      "value": 1,
+      "units": "standard"
+    },
+    "maneuverType": "Strike",
+    "saveType": "None",
+    "saveEffect": "Half",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false,
+    "class": "",
+    "uses": {
+      "per": "charges",
+      "value": 0,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "description": {
+      "value": "<p>The ever-expanding font of life originates at your fingertips, and you release that life in a single strike. Make a single attack. If it hits, inflict [sprout 1] on the creature. If the target was already sprouted, the attack deals double damage to that creature and you may compare the original attack roll against the AC of a number of targets within 15 feet of the initial target up to your initiation modifier. If the compared roll would hit the secondary target's AC, they are affected as per the primary target of this strike; potentially repeating and spreading to additional secondary targets. You may only ever target a single creature once per use of this strike, whether as a primary or secondary target, and this effect continues spreading between valid targets until you choose not to continue this loop, or until you run out of valid targets. If the attack against the strike's primary target was a critical hit, only the primary target takes critical damage.</p>"
+    },
+    "changes": [],
+    "contextNotes": [],
+    "sources": []
+  },
+  "_id": "EGeIEpV6CZ2KfV74",
+  "img": "icons/magic/nature/elemental-plant-humanoid.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5hV992ZqcBAWMYZs": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": 1777395869654,
+    "modifiedTime": 1777396002994,
+    "lastModifiedBy": "5hV992ZqcBAWMYZs"
+  },
+  "_key": "!items!EGeIEpV6CZ2KfV74"
+}

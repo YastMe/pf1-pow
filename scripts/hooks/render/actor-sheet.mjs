@@ -3,50 +3,47 @@ import { maneuverBrowser } from "../../compendiumBrowser/maneuver-browser.mjs";
 import { ManeuverItem } from "../../documents/_module.mjs";
 import { createTemplate } from "../../documents/actor/actor-sheet.mjs";
 import { grantDialogue } from "../../utils.mjs";
+import { renderAltActorHook } from "./alt-sheet/compat.mjs";
 
 import { MARTIAL_TRAINING_IDS, COMBAT_TRAINING_TRAIT, ADVANCED_STUDY_FEAT } from "../../constants.js";
 
 export function renderActorHook(data, app, html) {
 	const actor = data.actor;
-	if (actor.flags?.core?.sheetClass !== "pf1alt.AltActorSheetPFCharacter" && (actor.type === "character" || actor.type === "npc")) {
-		updateMartialTrainingLevel(actor);
+	if (data.actor.type !== "character" && data.actor.type !== "npc") return;
+	if (data.actor.type === "npc" && data.actor.getFlag("core", "sheetClass") !== "pf1.ActorSheetPFNPC") return;
+	updateMartialTrainingLevel(actor);
+	if (data.actor.flags?.core?.sheetClass === "pf1alt.AltActorSheetPFCharacter") {
+		renderAltActorHook(data, app, html);
+		return;
+	}
 
-		injectPoWDiv(app, html);
-		injectInitiatingModifierSelector(app, html, actor);
-		injectDuoPartnerSelector(app, html, actor);
-		injectSparkingCheckbox(app, html, actor);
-		if (actor.flags[MODULE_ID]?.sparker) {
-			injectStaminaPoolSelector(app, html, actor);
-			injectBypassFatigueCheckbox(app, html, actor);
-			if (actor.flags[MODULE_ID]?.bypassFatigue) {
-				injectSecondaryStaminaPoolSelector(app, html, actor);
-			}
+	injectPoWDiv(app, html);
+	injectInitiatingModifierSelector(app, html, actor);
+	injectDuoPartnerSelector(app, html, actor);
+	injectSparkingCheckbox(app, html, actor);
+	if (actor.flags[MODULE_ID]?.sparker) {
+		injectStaminaPoolSelector(app, html, actor);
+		injectBypassFatigueCheckbox(app, html, actor);
+		if (actor.flags[MODULE_ID]?.bypassFatigue) {
+			injectSecondaryStaminaPoolSelector(app, html, actor);
 		}
-		injectStanceLimitCheckbox(app, html, actor);
-		injectIgnoreNonInitiatorClassesCheckbox(app, html, actor);
-		injectPathofWarTab(app, html, actor);
-		injectManeuverBrowserButton(app, html);
-		addControlHandlers(app, html, data);
-		if (app._forceShowManeuverTab) {
-			app.activateTab("pf1-pow", "primary");
-			setTimeout(() => delete app?._forceShowManeuverTab, 1000);
-		}
+	}
+	injectStanceLimitCheckbox(app, html, actor);
+	injectIgnoreNonInitiatorClassesCheckbox(app, html, actor);
+	injectPathofWarTab(app, html, actor);
+	addControlHandlers(app, html, data);
+	attachManeuverBrowserHandlers(html);
+	if (app._forceShowManeuverTab) {
+		app.activateTab("pf1-pow", "primary");
+		setTimeout(() => delete app?._forceShowManeuverTab, 1000);
 	}
 }
 
-/**
- * Injects a custom "Browse" button for maneuvers into the Combat tab of the Actor sheet.
- * The button is styled and configured to trigger the `maneuverBrowser` function when clicked.
- */
-function injectManeuverBrowserButton(app, html) {
-	let controls = html.find(".maneuver-controls");
-	for (const control of controls) {
-		const searchManeuvers = document.createElement("a");
-		searchManeuvers.classList.add("item-control", "item-search");
-		searchManeuvers.innerHTML = '<i class="fas fa-folder-plus"></i> ';
-		searchManeuvers.addEventListener("click", maneuverBrowser);
-		control.append(searchManeuvers);
-	}
+function attachManeuverBrowserHandlers(html) {
+	const searchButtons = html.find(".item-search");
+	searchButtons.each((_, button) => {
+		button.addEventListener("click", maneuverBrowser);
+	});
 }
 
 function injectPoWDiv(app, html) {

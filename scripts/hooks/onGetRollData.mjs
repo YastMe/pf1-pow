@@ -213,7 +213,7 @@ function calculateInitiatorLevel(actor, settings) {
  * Calculates the maximum maneuver level for the actor or a specific class
  */
 function calculateMaxManeuverLevel(initLevel, classLevel, settings, isArchetype = false) {
-	if (settings.martiallyTrained) {
+	if (settings.martiallyTrained && !isArchetype && !classLevel) {
 		return Math.min(6, Math.ceil(initLevel / 2));
 	} else if (settings.advancedStudyFeat) {
 		return Math.min(9, Math.ceil(initLevel / 2));

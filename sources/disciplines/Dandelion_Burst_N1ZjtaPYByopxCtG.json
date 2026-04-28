@@ -1,0 +1,63 @@
+{
+  "folder": "OV84nCDmBRuGQGyA",
+  "type": "pf1-pow.maneuver",
+  "name": "Dandelion Burst",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "discipline": "Intoxicating Petal",
+    "level": 2,
+    "initTime": {
+      "value": 1,
+      "units": "swift"
+    },
+    "maneuverType": "Boost",
+    "saveType": "None",
+    "saveEffect": "Half",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false,
+    "class": "",
+    "uses": {
+      "per": "charges",
+      "value": 0,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "description": {
+      "value": "<p>Like an exploding seed pod, your sprouts spread on the wind. The next successful strike you make before the beginning of your next turn that inflicts sprout also inflicts [sprout 1] on every opponent within 10 feet of the target, other than the initial target. This sprout dealt by this burst increases by +1 for every 10 initiator levels you possess. If the strike has multiple targets, only one creates a burst and none of its additional targets are affected by this boost beyond the first. </p>"
+    },
+    "changes": [],
+    "contextNotes": [],
+    "sources": []
+  },
+  "_id": "N1ZjtaPYByopxCtG",
+  "img": "icons/magic/nature/elemental-plant-humanoid.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5hV992ZqcBAWMYZs": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": 1777391274457,
+    "modifiedTime": 1777396116493,
+    "lastModifiedBy": "5hV992ZqcBAWMYZs"
+  },
+  "_key": "!items!N1ZjtaPYByopxCtG"
+}

@@ -103,9 +103,9 @@ export function setupHook() {
 		if (Map.prototype.isPrototypeOf(maneuvers)) {
 			maneuvers = Array.from(maneuvers.values());
 		}
-		return maneuvers.some(m => 
-			m.type === 'pf1-pow.maneuver' && 
-			m.system.class === className && 
+		return maneuvers.some(m =>
+			m.type === 'pf1-pow.maneuver' &&
+			m.system.class === className &&
 			m.system.level > maxLevel
 		);
 	});
@@ -123,9 +123,9 @@ export function setupHook() {
 		if (!actor) return [];
 		const classes = actor.items.filter(i => i.type === "class" && (i.system?.maneuverProgression?.classType === "class" || i.system?.maneuverProgression?.classType === "archetype"));
 		const martialTrainingFeats = actor.items.filter((item) => MARTIAL_TRAINING_IDS.includes(item._source._stats.compendiumSource))
-		const classNames = classes.map(c => ({name: c.name, nameId: c.name.replace(/\s+/g, '-').toLowerCase().replace(" ", "-"), id: c._id }));
+		const classNames = classes.map(c => ({ name: c.name, nameId: c.name.replace(/\s+/g, '-').toLowerCase().replace(" ", "-"), id: c._id }));
 		if (martialTrainingFeats.length > 0) {
-			classNames.push({name: "Martial Training", nameId: "martial-training", id: "martialTraining"});
+			classNames.push({ name: "Martial Training", nameId: "martial-training", id: "martialTraining" });
 		}
 		return classNames;
 	});
@@ -148,6 +148,11 @@ export function setupHook() {
 			extra += actor._rollData?.pow?.[disciplineKey] || 0;
 		}
 		return extra;
+	});
+	Handlebars.registerHelper('isPrimaryClass', function (classArray, classItem) {
+		if (!classArray || !classItem) return false;
+		if (classArray[0] === classItem) return true;
+		return false;
 	});
 	Handlebars.registerHelper('ifEquals', function (arg1, arg2, options) {
 		return (arg1 == arg2) ? options.fn(this) : options.inverse(this);

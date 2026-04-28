@@ -11,9 +11,11 @@ import { registerConditions } from "./hooks/conditions.mjs";
 import { setManeuverClassOnDrop } from "./hooks/preCreate.mjs";
 import { getChangeFlat } from "./hooks/changes.mjs";
 import { onGetRollData } from "./hooks/onGetRollData.mjs";
+import { injectAltPoWDiv } from "./hooks/render/alt-sheet/compat.mjs";
 
 export const TEMPLATES = {
 	"pf1-pow": "modules/pf1-pow/templates/actor/pf1-pow.hbs", // Path of War tab template
+	"pf1-pow-alt": "modules/pf1-pow/templates/actor/pf1-pow-alt.hbs" // Path of War tab template for Alt Sheet Compatibility
 }
 
 /**
@@ -114,3 +116,16 @@ Hooks.on("preCreateItem", (document, data, options, userId) => {
 });
 
 Hooks.on("pf1GetChangeFlat", getChangeFlat);
+
+/**
+ * Alt Sheet Compatibility hooks
+ */
+Hooks.on("renderSettingsEditor", (app, html, data) => {
+    console.log("Alt Sheet SettingsEditor just rendered!");
+    // 'app' is the SettingsEditor instance
+    // 'html' is the jQuery object of the window
+    // 'data' is the context object passed to the Handlebars template
+    
+    // Example: Add a custom button to the sheet
+    injectAltPoWDiv(app, html, data);
+});

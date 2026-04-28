@@ -1,0 +1,102 @@
+{
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": 1776340860111,
+    "modifiedTime": 1776340860111,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "name": "Skills",
+  "pages": [
+    {
+      "_id": "UJB7wMetxEFQLbBY",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf1",
+        "systemVersion": "11.11",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "flags": {},
+      "image": {},
+      "name": "Autohypnosis",
+      "ownership": {
+        "N8Qq94zyfscJUwL4": 3,
+        "default": -1
+      },
+      "sort": 100000,
+      "src": null,
+      "system": {},
+      "text": {
+        "content": "<p><em>You have trained your mind to gain mastery over your body and the mind’s own deepest capabilities.</em></p><p><strong>Check: </strong>The DC and the effect of a successful check depend on the task you attempt.</p><p></p><table><tbody><tr><td><p>Task</p></td><td><p>DC</p></td></tr><tr><td><p>Ignore caltrop wound</p></td><td><p>18</p></td></tr><tr><td><p>Memorize</p></td><td><p>15</p></td></tr><tr><td><p>Resist dying</p></td><td><p>15</p></td></tr><tr><td><p>Resist fear</p></td><td><p>Fear effect DC</p></td></tr><tr><td><p>Tolerate poison</p></td><td><p>Poison's DC</p></td></tr><tr><td><p>Willpower</p></td><td><p>20</p></td></tr></tbody></table><p><strong>Ignore Caltrop Wound</strong><em>: </em>If you are wounded by stepping on a caltrop, your speed is reduced to one-half normal. A successful Autohypnosis check removes this movement penalty. The wound doesn’t go away—it is just ignored through self-persuasion.</p><p><strong>Memorize:</strong><em> </em>You can attempt to memorize a long string of numbers, a long passage of verse, or some other particularly difficult piece of information (but you can’t memorize magical writing or similarly exotic scripts). Each successful check allows you to memorize a single page of text (up to 800 words), numbers, diagrams, or sigils (even if you don’t recognize their meaning). If a document is longer than one page, you can make additional checks for each additional page. You always retain this information; however, you can recall it only with another successful Autohypnosis check.</p><p><strong>Resist Dying:</strong> You can attempt to subconsciously prevent yourself from dying. If you have negative hit points and are losing hit points (at 1 per round, 1 per hour), you can substitute a DC 15 Autohypnosis check for your Constitution check to see if you become stable. If the check is successful, you stop losing hit points (you do not gain any hit points, however, as a result of the check). You can substitute this check for the Constitution check in later rounds if you are initially unsuccessful.</p><p><strong>Resist Fear:</strong><em> </em>In response to any fear effect, you make a saving throw normally. If you fail the saving throw, you can make an Autohypnosis check on your next round even while overcome by fear. If your Autohypnosis check meets or beats the DC for the fear effect, you may make an additional Will save with a +4 competence bonus to shrug off the fear. On a failed check, the fear affects you normally, and you gain no further attempts to shrug off that particular fear effect.</p><p><strong>Tolerate Poison:</strong><em> </em>You can attempt to resist the effect of any standard poison. Every time you make a saving throw against the poison, you make an Autohypnosis check. If your Autohypnosis check exceeds the DC of the poison, you receive a +4 competence bonus on your saving throw against the poison. This skill has no effect on the initial saving throw against poison.</p><p><strong>Willpower:</strong> If reduced to 0 hit points (disabled), you can make an Autohypnosis check. If successful, you can take a standard action while at 0 hit points without taking 1 point of damage (or any other action the DM deems strenuous, including some free actions such as casting a quickened spell). You must make a check for each strenuous action you want to take. A failed Autohypnosis check in this circumstance carries no direct penalty— you can choose not to take the strenuous action and thus avoid the hit point loss. If you do so anyway, you drop to -1 hit points, as normal when disabled.</p><p><strong>Action: </strong>Typically none. Making an Autohypnosis check usually doesn’t require an action; it is either a free action (when attempted reactively) or part of another action (when attempted actively).</p><p><strong>Try Again: </strong>Yes, for memorize and willpower uses, though a success doesn’t cancel the effects of a previous failure. No for the other uses.</p>",
+        "format": 1
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "_key": "!journal.pages!mRNuAYYcgttFqcTg.UJB7wMetxEFQLbBY"
+    },
+    {
+      "sort": 200000,
+      "name": "Knowledge (Martial)",
+      "type": "text",
+      "_id": "UOgJcmgytyPfE4nA",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Presented below is a new category of the Knowledge skill focusing on martial knowledge. The skill description here follows the standard format for skills.</p><p>You can use this skill to identify martial maneuvers as soon as they are initiated, or recall tactics used in historic battles, as well as identifying warriors or generals in those battles or identifying heroes or villains in history and modern times.</p><p><strong>Check</strong>: You can identify maneuvers and disciplines used by a combatant. The DCs for Knowledge (martial) checks relating to various tasks are summarized below.</p><div class=\"table-wrapper\"><table><thead><tr><td class=\"text\">Skill DC</td><td class=\"text\">Task</td></tr></thead><tbody><tr><td class=\"text\">10 + maneuver level</td><td class=\"text\">Identify a maneuver being initiated by someone you can see. No action required. No retry.</td></tr><tr><td class=\"text\">20 + target’s initiator level</td><td class=\"text\">Determine all disciplines known by a particular creature by watching it initiate at least one maneuver. No action required. Retry only if the subject initiates another maneuver.</td></tr><tr><td class=\"text\">15 + variable amount, +2 for every 50 years ago the battle occurred</td><td class=\"text\">Recall important facts about historic battles and tactics used.</td></tr><tr><td class=\"number\">20</td><td class=\"text\">Recall facts about prominent martial disciples in the region.</td></tr></tbody></table></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "jI6iseAymTC0jkXd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf1",
+        "systemVersion": "11.11",
+        "createdTime": 1776340897011,
+        "modifiedTime": 1776341095392,
+        "lastModifiedBy": "jI6iseAymTC0jkXd"
+      },
+      "_key": "!journal.pages!mRNuAYYcgttFqcTg.UOgJcmgytyPfE4nA"
+    }
+  ],
+  "categories": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {},
+  "_id": "mRNuAYYcgttFqcTg",
+  "sort": 0,
+  "_key": "!journal!mRNuAYYcgttFqcTg"
+}

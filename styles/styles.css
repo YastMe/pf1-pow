@@ -4,6 +4,12 @@
 	gap: 3px;
 }
 
+.maneuver-configuration-alt {
+	border-top: 2px groove var(--pf1alt-border-color);
+	border-bottom: 2px groove var(--pf1alt-border-color);
+	height: auto !important;
+}
+
 .over {
 	border: 1px solid var(--color-shadow-primary);
 	color: var(--color-shadow-primary);
@@ -15,25 +21,29 @@
 }
 
 .accordion {
-    width: 100%;
-    border: none;
-    outline: none;
-    transition: max-height 0.4s ease;
-    overflow: hidden;
-    max-height: 0px;
+	width: 100%;
+	border: none;
+	outline: none;
+	transition: max-height 0.4s ease;
+	overflow: hidden;
+	max-height: 0px;
 	padding: 0 !important;
 	border-top: 0 !important;
-    gap: 3px;
+	gap: 3px;
 }
 
 .accordion.open {
-      flex: 0 0 100%;
-      font-size: var(--font-size-12);
-      line-height: 1.5;
-	  gap: 3px;
+	flex: 0 0 100%;
+	font-size: var(--font-size-12);
+	line-height: 1.5;
+	gap: 3px;
 }
 
 .buttons-trigger {
 	position: absolute;
 	bottom: 3px;
+}
+
+.item-control.item-control.maneuver-control.item-toggle-prepared.unprepared {
+	opacity: 0.5;
 }

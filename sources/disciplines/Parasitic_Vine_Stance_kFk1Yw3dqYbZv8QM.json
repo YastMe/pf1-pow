@@ -1,0 +1,63 @@
+{
+  "folder": "XwBtFhWFU9dSZ27y",
+  "type": "pf1-pow.maneuver",
+  "name": "Parasitic Vine Stance",
+  "system": {
+    "htmlFields": [
+      "description.value"
+    ],
+    "filePathFields": {
+      "img": [
+        "IMAGE"
+      ]
+    },
+    "discipline": "Intoxicating Petal",
+    "level": 1,
+    "initTime": {
+      "value": 1,
+      "units": "swift"
+    },
+    "maneuverType": "Stance",
+    "saveType": "Will",
+    "saveEffect": "Negates",
+    "ready": false,
+    "granted": false,
+    "stanceActive": false,
+    "class": "",
+    "uses": {
+      "per": "charges",
+      "value": 1,
+      "maxFormula": "1",
+      "autoDeductChargesCost": "",
+      "rechargeFormula": ""
+    },
+    "actions": [],
+    "description": {
+      "value": "<p>Vital energy flows from your foes and into you, as your sprouts drain them of all life. While you maintain this stance, any time a sprouted enemy within Close range of you gains hit points, you may choose to steal half their healing (rounded up) and distribute it to any creature you choose within Close range of you (including yourself). The sprouted creature may choose to make a Will saving throw (DC 11 + initiation modifier), preventing you from stealing the healing on a successful save.</p>"
+    },
+    "changes": [],
+    "contextNotes": [],
+    "sources": []
+  },
+  "_id": "kFk1Yw3dqYbZv8QM",
+  "img": "icons/magic/nature/elemental-plant-humanoid.webp",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jI6iseAymTC0jkXd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf1",
+    "systemVersion": "11.11",
+    "createdTime": 1776359247250,
+    "modifiedTime": 1776359287794,
+    "lastModifiedBy": "jI6iseAymTC0jkXd"
+  },
+  "_key": "!items!kFk1Yw3dqYbZv8QM"
+}
