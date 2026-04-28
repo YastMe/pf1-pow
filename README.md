@@ -60,6 +60,8 @@ For the full license, see the [LICENSE](https://github.com/YastMe/pf1-pow/blob/m
 	- [Codex of Blood: Parasites and Paragons](https://www.drivethrurpg.com/en/product/318476/codex-of-blood-parasites-paragons)
 4. Legendary Games
 	- [Legendary Classes: Sagitta Stellaris](https://www.drivethrurpg.com/en/product/390618/legendary-classes-sagitta-stellaris)
+5. Studio M—
+	- [Apocryphal Disciplines — Intoxicating Petal](https://www.drivethrurpg.com/product/541707/)
 6. General Sources
 	 - [d20PFSRD](https://www.d20pfsrd.com)
 	 - [Library of Metzofitz](https://metzo.miraheze.org)
