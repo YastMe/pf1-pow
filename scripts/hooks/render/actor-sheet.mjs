@@ -10,9 +10,16 @@ import { MARTIAL_TRAINING_IDS, COMBAT_TRAINING_TRAIT, ADVANCED_STUDY_FEAT } from
 export function renderActorHook(data, app, html) {
 	const actor = data.actor;
 	if (data.actor.type !== "character" && data.actor.type !== "npc") return;
-	if (data.actor.type === "npc" && data.actor.getFlag("core", "sheetClass") !== "pf1.ActorSheetPFNPC") return;
+	if (data.actor.type === "npc" && !pf1.applications.actor.ActorSheetPFNPC.prototype.isPrototypeOf(app)) return;
 	updateMartialTrainingLevel(actor);
-	if (data.actor.flags?.core?.sheetClass === "pf1alt.AltActorSheetPFCharacter") {
+	const sheetClass = actor.getFlag("core", "sheetClass");
+	const altActorSheetClasses = ["pf1alt.AltActorSheetPFNPC", "pf1alt.AltActorSheetPFCharacter"];
+	const defaultSheet = CONFIG.Actor.sheetClasses.character;
+	let isAltSheet = false;
+	if ((defaultSheet["pf1alt.AltActorSheetPFCharacter"]?.default || defaultSheet["pf1alt.AltActorSheetPFNPC"]?.default)
+		&& (!sheetClass || altActorSheetClasses.includes(sheetClass)))
+		isAltSheet = true;
+	if (isAltSheet || altActorSheetClasses.includes(sheetClass)) {
 		renderAltActorHook(data, app, html);
 		return;
 	}
