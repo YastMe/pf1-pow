@@ -77,11 +77,14 @@ export class ManeuverBrowser extends pf1.applications.compendiumBrowser.Compendi
 
 export function maneuverBrowser(event) {
 	event.preventDefault();
+
+	const browser = pf1.applications.compendiums.maneuver;
 	
 	// If the click was on an icon, get the parent button element
 	const button = event.target.closest(".item-search");
 	if (!button) {
 		console.error("Click event not on maneuver browser button");
+		browser.render(true, { focus: true });
 		return;
 	}
 	
@@ -94,7 +97,6 @@ export function maneuverBrowser(event) {
 	if (level) filters.level = [level];
 	if (actorDisciplines.length) filters.discipline = actorDisciplines;
 
-	const browser = pf1.applications.compendiums.maneuver;
 	if (!browser) {
 		console.error("ManeuverBrowser not initialized");
 		return;

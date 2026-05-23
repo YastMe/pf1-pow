@@ -18,6 +18,7 @@
 			"Plural": "Disciplines",
 			"blackSeraph": "Black Seraph",
 			"brokenBlade": "Broken Blade",
+			"brutalCrocodile": "Brutal Crocodile",
 			"cursedRazor": "Cursed Razor",
 			"elementalFlux": "Elemental Flux",
 			"eternalGuardian": "Eternal Guardian",
@@ -201,6 +202,7 @@
 			"powDisciplineDC": {
 				"blackSeraph": "Black Seraph DC",
 				"brokenBlade": "Broken Blade DC",
+				"brutalCrocodile": "Brutal Crocodile DC",
 				"cursedRazor": "Cursed Razor DC",
 				"elementalFlux": "Elemental Flux DC",
 				"eternalGuardian": "Eternal Guardian DC",
