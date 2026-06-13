@@ -123,7 +123,7 @@ export function setupHook() {
 		if (!actor) return [];
 		const classes = actor.items.filter(i => i.type === "class" && (i.system?.maneuverProgression?.classType === "class" || i.system?.maneuverProgression?.classType === "archetype"));
 		const martialTrainingFeats = actor.items.filter((item) => MARTIAL_TRAINING_IDS.includes(item._source._stats.compendiumSource))
-		const classNames = classes.map(c => ({ name: c.name, nameId: c.name.replace(/\s+/g, '-').toLowerCase().replace(" ", "-"), id: c._id }));
+		const classNames = classes.map(c => ({ name: c.name, nameId: c.system.tag, id: c._id }));
 		if (martialTrainingFeats.length > 0) {
 			classNames.push({ name: "Martial Training", nameId: "martial-training", id: "martialTraining" });
 		}

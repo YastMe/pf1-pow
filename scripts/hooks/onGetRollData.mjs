@@ -297,7 +297,7 @@ function calculateMaxManeuvers(actor, settings, classInitiatorLevels) {
 
 		// All classes share the same limits for sparkers
 		for (const [classId, classData] of classInitiatorLevels) {
-			perClassMax[classData.id] = {
+			perClassMax[classData.classId] = {
 				maxPrepared: globalMaxPrepared,
 				maxKnown: globalMaxKnown,
 				maneuverAttr: maneuverAttr
@@ -310,14 +310,14 @@ function calculateMaxManeuvers(actor, settings, classInitiatorLevels) {
 		// Process each martial disciple class (set values to 0 since they don't have hard limits)
 		for (const [classId, classData] of classInitiatorLevels) {
 			// Skip Martial Training entry, handle it separately below
-			if (classData.id === 'martialTraining') continue;
+			if (classId === 'martialTraining') continue;
 
 			const classItem = actor.items.get(classData.classId);
 			const maneuverAttr = getClassManeuverAttr(actor, classItem, settings);
 
 			// Regular classes don't have hard limits on prepared/known
 			// They learn maneuvers through class progression tables
-			perClassMax[classData.id] = {
+			perClassMax[classId] = {
 				maxPrepared: 0,
 				maxKnown: 0,
 				maneuverAttr: maneuverAttr
