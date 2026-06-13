@@ -125,7 +125,7 @@ export function setupHook() {
 		const martialTrainingFeats = actor.items.filter((item) => MARTIAL_TRAINING_IDS.includes(item._source._stats.compendiumSource))
 		const classNames = classes.map(c => ({ name: c.name, nameId: c.system.tag, id: c._id }));
 		if (martialTrainingFeats.length > 0) {
-			classNames.push({ name: "Martial Training", nameId: "martial-training", id: "martialTraining" });
+			classNames.push({ name: "Martial Training", nameId: "martialTraining", id: "martialTraining" });
 		}
 		return classNames;
 	});
