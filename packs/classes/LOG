@@ -1,3 +1,8 @@
-2026/04/28-19:23:21.778378 7f21577fe6c0 Recovering log #812
-2026/04/28-19:23:21.782781 7f21577fe6c0 Delete type=0 #812
-2026/04/28-19:23:21.782804 7f21577fe6c0 Delete type=3 #810
+2026/06/27-09:33:09.387 113c Recovering log #823
+2026/06/27-09:33:09.393 113c Delete type=0 #823
+2026/06/27-09:33:09.393 113c Delete type=3 #821
+2026/06/27-10:01:14.068 aac Level-0 table #828: started
+2026/06/27-10:01:14.068 aac Level-0 table #828: 0 bytes OK
+2026/06/27-10:01:14.070 aac Delete type=0 #826
+2026/06/27-10:01:14.076 aac Manual compaction at level-0 from '!folders!1HjWEg0AH3wNng0J' @ 72057594037927935 : 1 .. '!items!yPNjLtxuhrKFJXdE' @ 0 : 0; will stop at (end)
+2026/06/27-10:01:14.076 aac Manual compaction at level-1 from '!folders!1HjWEg0AH3wNng0J' @ 72057594037927935 : 1 .. '!items!yPNjLtxuhrKFJXdE' @ 0 : 0; will stop at (end)

@@ -38,38 +38,51 @@ export function injectManeuverButton(html) {
 
 export function handleJumpingToSummary() {
 	libWrapper.register(MODULE_ID, 'pf1.applications.actor.ActorSheetPF.prototype._focusTabByItem', function (wrapped, item) {
-		wrapped(item);
+		try {
+			const result = wrapped(item);
 
-		if (item.type === "pf1-pow.maneuver") {
-			this._forceShowManeuverTab = true;
+			if (item.type === `${MODULE_ID}.maneuver`) {
+				this._forceShowManeuverTab = true;
+			}
+
+			return result;
+		} catch (err) {
+			console.error("Error in _focusTabByItem wrapper:", err);
 		}
 	}, 'WRAPPER');
 
 	libWrapper.register(MODULE_ID, 'pf1.applications.actor.ActorSheetPF.prototype._onItemCreate', function (wrapped, event) {
-		wrapped(event);
+		try {
+			const result = wrapped(event);
 
-		const el = event.currentTarget;
+			const el = event.currentTarget;
+			const [categoryId, sectionId] = el.dataset.create?.split('.') ?? [];
+			const createData = foundry.utils.deepClone(pf1.config.sheetSections[categoryId]?.[sectionId]?.create);
+			if (!createData) throw new Error(`No create data found for category ${categoryId} and section ${sectionId}`);
 
-		const [categoryId, sectionId] = el.dataset.create?.split('.') ?? [];
-		const createData = foundry.utils.deepClone(pf1.config.sheetSections[categoryId]?.[sectionId]?.create);
-		if (!createData) throw new Error(`No create data found for category ${categoryId} and section ${sectionId}`);
-		if (type === "pf1-pow.maneuver") {
-			this._forceShowManeuverTab = true;
+			const type = createData.type;
+			if (type === `${MODULE_ID}.maneuver`) {
+				this._forceShowManeuverTab = true;
+			}
+
+			return result;
+		} catch (err) {
+			console.error("Error in _onItemCreate wrapper:", err);
 		}
 	}, 'WRAPPER');
 
-	libWrapper.register(MODULE_ID, 'pf1.applications.item.ItemSheetPF.prototype._onSubmit', function (wrapped, event) {
-		wrapped(event);
-		const el = event.currentTarget;
+	libWrapper.register(MODULE_ID, 'pf1.documents.item.ItemPF.prototype.update', function (wrapped, e, t) {
+		try {
+			const result = wrapped(e, t);
 
-		if (!el) return;
+			if (this.type === `${MODULE_ID}.maneuver`) {
+				if (!this.actor?.sheet) return result;
+				this.actor.sheet._forceShowManeuverTab = true;
+			}
 
-		const offsetParent = el.offsetParent;
-		if (!offsetParent) return;
-		if (offsetParent.id.includes("Maneuver")) {
-			const actorId = offsetParent.id.split("-")[2];
-			const actor = game.actors.get(actorId);
-			actor.sheet._forceShowManeuverTab = true;
+			return result;
+		} catch (err) {
+			console.error("Error in Item update wrapper:", err);
 		}
 	}, 'WRAPPER');
 }

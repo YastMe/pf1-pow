@@ -94,6 +94,7 @@ function registerConfig() {
 		primalFury: "PF1-PathOfWar.Disciplines.primalFury",
 		radiantDawn: "PF1-PathOfWar.Disciplines.radiantDawn",
 		rivenHourglass: "PF1-PathOfWar.Disciplines.rivenHourglass",
+		roaringMouse: "PF1-PathOfWar.Disciplines.roaringMouse",
 		sagittaStellaris: "PF1-PathOfWar.Disciplines.sagittaStellaris",
 		scarletThrone: "PF1-PathOfWar.Disciplines.scarletThrone",
 		shatteredMirror: "PF1-PathOfWar.Disciplines.shatteredMirror",

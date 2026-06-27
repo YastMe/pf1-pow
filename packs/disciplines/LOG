@@ -1,3 +1,15 @@
-2026/04/28-19:23:31.876445 7f16b3fff6c0 Recovering log #450
-2026/04/28-19:23:31.880652 7f16b3fff6c0 Delete type=3 #448
-2026/04/28-19:23:31.880685 7f16b3fff6c0 Delete type=0 #450
+2026/06/27-09:33:09.324 113c Recovering log #462
+2026/06/27-09:33:09.330 113c Delete type=0 #462
+2026/06/27-09:33:09.330 113c Delete type=3 #460
+2026/06/27-10:01:13.950 aac Level-0 table #467: started
+2026/06/27-10:01:14.021 aac Level-0 table #467: 5654 bytes OK
+2026/06/27-10:01:14.023 aac Delete type=0 #465
+2026/06/27-10:01:14.028 aac Manual compaction at level-0 from '!folders!03otfa7Kw8fy50S6' @ 72057594037927935 : 1 .. '!items!zssGt8EF1DFcvJNX' @ 0 : 0; will stop at (end)
+2026/06/27-10:01:14.028 aac Manual compaction at level-1 from '!folders!03otfa7Kw8fy50S6' @ 72057594037927935 : 1 .. '!items!zssGt8EF1DFcvJNX' @ 0 : 0; will stop at '!items!zNQZlIoVbc6Gr92u' @ 3301 : 1
+2026/06/27-10:01:14.028 aac Compacting 1@1 + 1@2 files
+2026/06/27-10:01:14.064 aac Generated table #468@1: 1367 keys, 1020995 bytes
+2026/06/27-10:01:14.064 aac Compacted 1@1 + 1@2 files => 1020995 bytes
+2026/06/27-10:01:14.065 aac compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/27-10:01:14.066 aac Delete type=2 #459
+2026/06/27-10:01:14.067 aac Delete type=2 #467
+2026/06/27-10:01:14.067 aac Manual compaction at level-1 from '!items!zNQZlIoVbc6Gr92u' @ 3301 : 1 .. '!items!zssGt8EF1DFcvJNX' @ 0 : 0; will stop at (end)

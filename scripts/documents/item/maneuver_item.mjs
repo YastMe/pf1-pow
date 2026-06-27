@@ -144,7 +144,7 @@ export class ManeuverItem extends pf1.documents.item.ItemPF {
 		const extraDC = parseInt(html.find('[name="extraDC"]').val()) || 0;
 		const hasWeaponGroup = html.find('[name="weaponGroup"]')[0]?.checked;
 
-		const classId = this.actor.items.find(i => i.type === "class" && i.name === this.system.class)?.id;
+		const classId = this.actor.items.find(i => i.type === "class" && i.name === this.system.class)?.system.tag;
 
 		let dc = 10 + this.system.level + extraDC + this.actor._rollData?.pow?.classInitiatorLevels?.[classId]?.maneuverAttr || 0;
 
@@ -398,5 +398,13 @@ export class ManeuverItem extends pf1.documents.item.ItemPF {
 		if (!initiatorLevel)
 			initiatorLevel = this.system.level * 2 - 1;
 		return initiatorLevel * this.system.level * 50;
+	}
+
+	/** @override */
+	get isActive() {
+		if (this.system.maneuverType === "Stance") {
+			return this.system.stanceActive;
+		}
+		return this.system.ready;
 	}
 }
