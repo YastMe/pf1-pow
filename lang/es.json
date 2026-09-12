@@ -1,0 +1,14 @@
+{
+    "TYPES": {
+        "Item": {
+            "pf1-pow": {
+                "maneuver": "Maniobra"
+            }
+        }
+    },
+    "PF1-POW": {
+        "Labels": {
+            "maneuver": "Maniobra"
+        }
+    }
+}

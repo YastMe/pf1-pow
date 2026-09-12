@@ -1,37 +1,62 @@
 {
-  "id": "pf1-pow",
-  "title": "Path of War for Pathfinder 1e",
-  "version": "2.0.0",
-  "compatibility": {
-    "minimum": "14",
-    "verified": "14"
-  },
-  "authors": [
-    {
-      "name": "YastMe",
-      "url": "https://github.com/YastMe/",
-      "discord": "YastMe",
-      "flags": {}
-    }
-  ],
-  "flags": {
-    "canUpload": true
-  },
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf1",
-        "type": "system",
-        "compatibility": {}
-      }
+    "id": "pf1-pow",
+    "title": "Path of War for Pathfinder 1e",
+    "version": "2.0.0",
+    "compatibility": {
+        "minimum": "14",
+        "verified": "14"
+    },
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json",
+            "flags": {}
+        },
+        {
+            "lang": "es",
+            "name": "Español",
+            "path": "lang/es.json",
+            "flags": {}
+        }
     ],
-    "requires": [
-      {
-        "id": "lib-wrapper",
-        "type": "module",
-        "compatibility": {}
-      }
-    ]
-  },
-  "description": ""
+    "esmodules": ["scripts/main.mjs"],
+    "documentTypes": {
+        "Item": {
+            "maneuver": {
+                "htmlFields": ["description.value"],
+                "filePathFields": {
+                    "img": ["IMAGE"]
+                }
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "YastMe",
+            "url": "https://github.com/YastMe/",
+            "discord": "YastMe",
+            "flags": {}
+        }
+    ],
+    "flags": {
+        "canUpload": true
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "pf1",
+                "type": "system",
+                "compatibility": {}
+            }
+        ],
+        "requires": [
+            {
+                "id": "lib-wrapper",
+                "type": "module",
+                "compatibility": {}
+            }
+        ]
+    },
+    "description": ""
 }
